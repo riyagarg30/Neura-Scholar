@@ -6,22 +6,6 @@
 
 ### Contributors
 
-<!-- Table of contributors and their roles. 
-First row: define responsibilities that are shared by the team. 
-Then, each row after that is: name of contributor, their role, and in the third column, 
-you will link to their contributions. If your project involves multiple repos, you will 
-link to their contributions in all repos here. -->
-
-| Name                            | Responsible for | Link to their commits in this repo |
-|---------------------------------|-----------------|------------------------------------|
-| All team members                | The overall Project | |
-| Preetham Rakshith Prakash | DevOps | |
-| Pranav Bhatt | Model Serving | |
-| Riya Gargh | Data Pipeline | |
-| Yugesh Panta | Training at Scale | |
-
-###Contributors
-
 | Name                            | Responsible for | Link to their commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
 | Preetham Rakshith Prakash    |                 |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
