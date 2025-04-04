@@ -10,7 +10,7 @@
 |---------------------------------|-----------------|------------------------------------|
 | Preetham Rakshith Prakash    |                 |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
 | Riya Garg                  |                 |                                    |
-| Pranav Bhatt                  |                 |                                    |
+| Pranav Bhatt                 |                 |                                    |
 | Yugesh Panta |                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
 
 
