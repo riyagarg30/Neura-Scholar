@@ -32,7 +32,7 @@ The business metric to judge non ML systems with our ML system are click through
 
 ## Unit 4:
 # Train and Re-train:
-.    Embedding Model:
+1.    Embedding Model:
    Trained on arxiv meta data and abstracts for semantic similarity
 Retrained with updated queries.
 2.     Summarization Model:
