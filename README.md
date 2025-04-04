@@ -7,11 +7,10 @@ The business metric to judge non ML systems with our ML system are click through
 
 | Name                            | Responsible for | Link to their commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
-| All team members                |                 |                                    |
-| Preetham Rakshith Prakash                 |                 |                                    |
+| Preetham Rakshith Prakash    |                 |                                    |
 | Riya Garg                  |                 |                                    |
 | Pranav Bhatt                  |                 |                                    |
-| Yugesh Panta |                 |                                    |
+| Yugesh Panta |                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
 
 
 ### System diagram
