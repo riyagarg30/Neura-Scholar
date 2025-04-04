@@ -40,6 +40,14 @@ The business metric to judge non ML systems with our ML system are click through
    -Trained on top-k paper summaries
    -Retrained with better hyperparameters or more diverse examples
 
+1. **Embedding Model**  
+   - Trained on arxiv meta data and abstracts for semantic similarity  
+   - Retrained with updated queries  
+
+2. **Summarization Model**  
+   - Trained on top-k paper summaries  
+   - Retrained with better hyperparameters or more diverse examples  
+
 
  
 ### Models:
