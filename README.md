@@ -17,19 +17,12 @@ propose a system for a science problem, for example.)
 
 ### Contributors
 
-<!-- Table of contributors and their roles.
-First row: define responsibilities that are shared by the team.
-Then, each row after that is: name of contributor, their role, and in the third column,
-you will link to their contributions. If your project involves multiple repos, you will
-link to their contributions in all repos here. -->
-
-| Name                            | Responsible for | Link to their commits in this repo |
+| Name                            | Responsible for | Link to team members' commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
-| All team members | The overall Project | |
-| Preetham Rakshith | DevOps | |
-| Pranav Bhatt | Model Serving | |
-| Riya Garg | Data Pipeline | |
-| Yugesh Panta | Training at Scale | |
+| Preetham Rakshith Prakash    |   Continuous X              |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
+| Riya Garg                  |    Data pipeline             |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=riyagarg30                                |
+| Pranav Bhatt                 | Model serving and monitoring platforms                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=pranav-bhatt                                |
+| Yugesh Panta |     Model training and training platforms            |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
 
 
 
