@@ -30,8 +30,8 @@ The business metric to judge non ML systems with our ML system are click through
 
 ### Detailed design plan
 
-Unit 4:
- Train and Re-train:
+## Unit 4:
+# Train and Re-train:
 .    Embedding Model:
    Trained on arxiv meta data and abstracts for semantic similarity
 Retrained with updated queries.
@@ -41,15 +41,18 @@ Retrained with updated queries.
 
 
  
-Models:
+# Models:
 Embedding Model: MiniLM(sentence-transformers/all-MiniLM-L6-v2)
 Summary Model: Bart(bart-large-cnn-samsum)
  
-Extra Difficulty points we will try:
+# Extra Difficulty points we will try:
 1.Training strategies for large models
 2. Use distributed training to increase velocity
-Unit5:
-Experiment Tracking:
+
+
+## Unit5:
+
+# Experiment Tracking:
 We will dedicate 1 m1.medium for MLflow and log:
   Model architecture, version
    Hyperparamters
@@ -57,10 +60,10 @@ We will dedicate 1 m1.medium for MLflow and log:
     GPU and memory usage
     Checkpoint paths
  
-Ray cluster for Scheduling Jobs:
+# Ray cluster for Scheduling Jobs:
 Schedule, launch jobs, and configure Ray worker's nodes to execute training jobs.
  
-Extra Difficulty points we will try:
+# Extra Difficulty points we will try:
 1. Using Ray Train
 2. Scheduling hyperparameter tuning jobs
 
