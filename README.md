@@ -8,10 +8,10 @@
 
 | Name                            | Responsible for | Link to their commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
-| Preetham Rakshith Prakash    |                 |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
-| Riya Garg                  |                 |                                    |
-| Pranav Bhatt                 |                 |                                    |
-| Yugesh Panta |                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
+| Preetham Rakshith Prakash    |   Continuous X              |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
+| Riya Garg                  |    Data pipeline             |                                    |
+| Pranav Bhatt                 | Model serving and monitoring platforms                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=pranav-bhatt                                |
+| Yugesh Panta |     Model training and training platforms            |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
 
 
 ### System diagram
