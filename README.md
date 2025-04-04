@@ -14,5 +14,6 @@ The business metric to judge non ML systems with our ML system are click through
 | Name | How it was Created | Conditions of Use |
 |----------|----------|----------|
 | arXiv Dataset | From arxiv-public-datasets. Derived from arXiv.org metadata and fulltext. Includes paper titles, abstracts, and fulltext. Link: https://github.com/mattbierbaum/arxiv-public-datasets | It is publicly available under arXiv’s terms of use. Free for academic/research purposes. |
-| Row2 C1  | Row2 C2  | Row2 C3  |
+| MiniLM (all-MiniLM-L6-v2)  | Trained by Microsoft using distillation of larger BERT models on general sentence-pair tasks. Available via Hugging Face. Link: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 | Apache 2.0 License. Free for commercial and academic use.  |
+|BART (facebook/bart-large-cnn or philschmid/bart-large-cnn-samsum) |Pretrained by Facebook on CNN/DailyMail and/or SAMSum datasets. Large language model with encoder-decoder structure. Link: https://huggingface.co/facebook/bart-large |MIT License (Samsum variant) or Fairseq license for BART. Free for research use. |
 
