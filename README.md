@@ -6,7 +6,7 @@
 
 ### Contributors
 
-| Name                            | Responsible for | Link to their commits in this repo |
+| Name                            | Responsible for | Link to team members' commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
 | Preetham Rakshith Prakash    |   Continuous X              |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
 | Riya Garg                  |    Data pipeline             |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=riyagarg30                                |
