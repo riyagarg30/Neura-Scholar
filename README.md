@@ -1,4 +1,4 @@
-## Neura-Scholar
+# Neura-Scholar
 
 [1] Our business or service is to provide an easier way for users to find relevant research papers from a vast corpus using semantic search.
 [2] The existing Non-ML status quo is arXiv's keywords based search over title, author names and abstract.
@@ -9,7 +9,7 @@
 | Name                            | Responsible for | Link to their commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
 | Preetham Rakshith Prakash    |   Continuous X              |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
-| Riya Garg                  |    Data pipeline             |                                    |
+| Riya Garg                  |    Data pipeline             |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=riyagarg30                                |
 | Pranav Bhatt                 | Model serving and monitoring platforms                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=pranav-bhatt                                |
 | Yugesh Panta |     Model training and training platforms            |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
 
