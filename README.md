@@ -32,20 +32,22 @@ The business metric to judge non ML systems with our ML system are click through
 
 Unit 4:
  Train and Re-train:
-1)     Embedding Model:
+.    Embedding Model:
    Trained on arxiv meta data and abstracts for semantic similarity
 Retrained with updated queries.
-2)     Summarization Model:
+2.     Summarization Model:
  Trained on top-k paper summaries
  Retrained with better hyperparameters or more diverse examples
+
+
  
 Models:
 Embedding Model: MiniLM(sentence-transformers/all-MiniLM-L6-v2)
 Summary Model: Bart(bart-large-cnn-samsum)
  
 Extra Difficulty points we will try:
-1)Training strategies for large models
-2) Use distributed training to increase velocity
+1.Training strategies for large models
+2. Use distributed training to increase velocity
 Unit5:
 Experiment Tracking:
 We will dedicate 1 m1.medium for MLflow and log:
@@ -59,6 +61,6 @@ Ray cluster for Scheduling Jobs:
 Schedule, launch jobs, and configure Ray worker's nodes to execute training jobs.
  
 Extra Difficulty points we will try:
-1) Using Ray Train
-2) Scheduling hyperparameter tuning jobs
+1. Using Ray Train
+2. Scheduling hyperparameter tuning jobs
 
