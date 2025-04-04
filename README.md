@@ -7,7 +7,7 @@ The business metric to judge non ML systems with our ML system are click through
 ### System diagram
 
 
-![System Diagram](system%20diagram.png)
+![System Diagram](System%20Diagram.png)
 
 
 ### Summary of outside materials
