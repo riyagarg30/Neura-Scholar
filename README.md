@@ -14,7 +14,6 @@ The business metric to judge non ML systems with our ML system are click through
 | Name | How it was Created | Conditions of Use |
 |----------|----------|----------|
 | arXiv Dataset | From arxiv-public-datasets. Derived from arXiv.org metadata and fulltext. Includes paper titles, abstracts, and fulltext.
-https://github.com/mattbierbaum/arxiv-public-datasets
-  | It is publicly available under arXiv’s terms of use. Free for academic/research purposes. |
+https://github.com/mattbierbaum/arxiv-public-datasets | It is publicly available under arXiv’s terms of use. Free for academic/research purposes. |
 | Row2 C1  | Row2 C2  | Row2 C3  |
 
