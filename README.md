@@ -24,7 +24,7 @@ link to their contributions in all repos here. -->
 
 | Name                            | Responsible for | Link to their commits in this repo |
 |---------------------------------|-----------------|------------------------------------|
-| Preetham Rakshith Prakash    |                 |                                    |
+| Preetham Rakshith Prakash    |                 |   https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=th-blitz                                 |
 | Riya Garg                  |                 |                                    |
 | Pranav Bhatt                  |                 |                                    |
 | Yugesh Panta |                 |    https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620             |
