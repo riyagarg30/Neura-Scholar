@@ -28,4 +28,37 @@ The business metric to judge non ML systems with our ML system are click through
 | **Persistent Storage** | 120 GB for project duration                                                                                                                                                   | Needed to persist datasets, models, metrics, etc.                                                                                |
 | **Floating IP**       | 2 until presentation                                                                                                                                                          | - VM 1: Ray Head Node + Ray Dashboard <br> - VM 2: MLflow (or wandb) Tracking Server                                        |
 
-| Row2 C1  | Row2 C2  | Row2 C3  |
+### Detailed design plan
+
+Unit 4:
+ Train and Re-train:
+1)     Embedding Model:
+   Trained on arxiv meta data and abstracts for semantic similarity
+Retrained with updated queries.
+2)     Summarization Model:
+ Trained on top-k paper summaries
+ Retrained with better hyperparameters or more diverse examples
+ 
+Models:
+Embedding Model: MiniLM(sentence-transformers/all-MiniLM-L6-v2)
+Summary Model: Bart(bart-large-cnn-samsum)
+ 
+Extra Difficulty points we will try:
+1)Training strategies for large models
+2) Use distributed training to increase velocity
+Unit5:
+Experiment Tracking:
+We will dedicate 1 m1.medium for MLflow and log:
+  Model architecture, version
+   Hyperparamters
+   Training loss, validation loss
+    GPU and memory usage
+    Checkpoint paths
+ 
+Ray cluster for Scheduling Jobs:
+Schedule, launch jobs, and configure Ray worker's nodes to execute training jobs.
+ 
+Extra Difficulty points we will try:
+1) Using Ray Train
+2) Scheduling hyperparameter tuning jobs
+
