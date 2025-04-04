@@ -32,19 +32,18 @@ The business metric to judge non ML systems with our ML system are click through
 
 ## Unit 4:
 ### Train and Re-train:
-1.Embedding Model:
+1.**Embedding Model**:
    Trained on arxiv meta data and abstracts for semantic similarity
 Retrained with updated queries.
-
-2. Summarization Model:
+2. **Summarization Model**:
  Trained on top-k paper summaries
  Retrained with better hyperparameters or more diverse examples
 
 
  
 ### Models:
-Embedding Model: MiniLM(sentence-transformers/all-MiniLM-L6-v2)
-Summary Model: Bart(bart-large-cnn-samsum)
+**Embedding Model**: MiniLM(sentence-transformers/all-MiniLM-L6-v2)
+**Summary Model**: Bart(bart-large-cnn-samsum)
  
 ### Extra Difficulty points we will try:
 1.Training strategies for large models
