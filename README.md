@@ -1,4 +1,4 @@
-# Neura-Scholar
+## Neura-Scholar
 
 [1] Our business or service is to provide an easier way for users to find relevant research papers from a vast corpus using semantic search.
 [2] The existing Non-ML status quo is arXiv's keywords based search over title, author names and abstract.
