@@ -1,7 +1,24 @@
 # Neura-Scholar
 
-There are traditional search engines for papers like google Scholar which use indexing and word pair matching. While, our Machine Learning system ranks papers based on user query by using embedding model and Vector DB and also provides summaries.
-The business metric to judge non ML systems with our ML system are click through rate and time taken to find desired result. 
+[1] Our business or service is to provide an easier way for users to find relevant research papers from a vast corpus using semantic search.
+[2] The existing Non-ML status quo is arXiv's keywords based search over title, author names and abstract.
+[3] Business metric would be to Minimize the click through rate over entries from search results, click through rate through to the paper text from these results. Overall, improving search efficiency that is to reduc the time spent on search and serve highly relevant papers based on the search query.
+
+### Contributors
+
+<!-- Table of contributors and their roles. 
+First row: define responsibilities that are shared by the team. 
+Then, each row after that is: name of contributor, their role, and in the third column, 
+you will link to their contributions. If your project involves multiple repos, you will 
+link to their contributions in all repos here. -->
+
+| Name                            | Responsible for | Link to their commits in this repo |
+|---------------------------------|-----------------|------------------------------------|
+| All team members                | The overall Project | |
+| Preetham Rakshith Prakash | DevOps | |
+| Pranav Bhatt | Model Serving | |
+| Riya Gargh | Data Pipeline | |
+| Yugesh Panta | Training at Scale | |
 
 ###Contributors
 
@@ -20,22 +37,44 @@ The business metric to judge non ML systems with our ML system are click through
 
 
 ### Summary of outside materials
-| Name | How it was Created | Conditions of Use |
-|----------|----------|----------|
-| **arXiv Dataset** | From arxiv-public-datasets. Derived from arXiv.org metadata and fulltext. Includes paper titles, abstracts, and fulltext. Link: https://github.com/mattbierbaum/arxiv-public-datasets | It is publicly available under arXiv’s terms of use. Free for academic/research purposes. |
-| **MiniLM (all-MiniLM-L6-v2)**  | Trained by Microsoft using distillation of larger BERT models on general sentence-pair tasks. Available via Hugging Face. Link: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 | Apache 2.0 License. Free for commercial and academic use.  |
-|**BART (facebook/bart-large-cnn or philschmid/bart-large-cnn-samsum)** |Pretrained by Facebook on CNN/DailyMail and/or SAMSum datasets. Large language model with encoder-decoder structure. Link: https://huggingface.co/facebook/bart-large |MIT License (Samsum variant) or Fairseq license for BART. Free for research use. |
+
+<!-- In a table, a row for each dataset, foundation model. 
+Name of data/model, conditions under which it was created (ideally with links/references), 
+conditions under which it may be used. -->
+
+|              | How it was created | Conditions of use |
+|--------------|--------------------|-------------------|
+<!-- | ArXiv | [ArXiv Corpus Metadata](gs://arxiv-dataset/) | Creative Commons CC0 1.0 Universal Public Domain Dedication | -->
+| arXiv Dataset (PDFs) | [From arXiv's bulk access API](https://info.arxiv.org/help/bulk_data/index.html) | [arxiv's nonexclusive-distrib/1.0 license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html) for individual papers
+| arXiv Dataset (Metadata) | [From arXiv's kaggle dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv) | [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0) for the metadata
+| Script to generate utf-8 encoded plain Text from arXiv PDFs | A third party script called [mattbierbaum/arxiv-public-datasets](https://github.com/mattbierbaum/arxiv-public-datasets) to pull in arXiv Dataset in bulk from arXiv's bulk access API or Google bucket or AWS bucket and to generate plain text | [MIT License](https://github.com/mattbierbaum/arxiv-public-datasets/blob/master/LICENSE) |
+| Base model 1 | [Linq-AI-Research/Linq-Embed-Mistral](https://huggingface.co/Linq-AI-Research/Linq-Embed-Mistral) | Creative Commons Attribution Non Commercial 4.0 |
+| BART (facebook/bart-large-cnn or philschmid/bart-large-cnn-samsum) | Pretrained by Facebook on CNN/DailyMail and/or SAMSum datasets, a Large language model with encoder-decoder structure. Hosted on [huggingface](https://huggingface.co/facebook/bart-large
+). | MIT License (Samsum variant) or Fairseq license for BART. Free for research use. |
+| etc          | | |
+
 
 ### Summary of infrastructure requirements
 
-### 🧠 Infrastructure Requirements
+<!-- Itemize all your anticipated requirements: What (`m1.medium` VM, `gpu_mi100`), 
+how much/when, justification. Include compute, floating IPs, persistent storage. 
+The table below shows an example, it is not a recommendation. -->
 
-| **Requirement**     | **How Many / When**                                                                                                                                                          | **Justification**                                                                                                               |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **m1.medium VMs**    | 2 till project presentation                                                                                                                                                   | One for Ray head node and one for experiment tracking (MLflow or wandb server)                                              |
-| **gpu_mi100**        | - Session 1: MiniLM Train → 4 hours  <br> - Session 2: MiniLM Retrain → 4 hours  <br> - Session 3: BART Train → 4 hours  <br> - Session 4: BART Retrain → 4 hours  <br> - Session 5: Distributed Training Experiments → 6 hours  <br> - Session 6: Ray Tune → 4 hours  <br> - Session 7: Final run → 4 hours | Train and Retrain embedding model (MiniLM) and Summarization model (BART). <br> Also Distributed Training Experiments (DDP, FSDP, etc) <br> And Ray Tune <br> Final attempt to test everything |
-| **Persistent Storage** | 120 GB for project duration                                                                                                                                                   | Needed to persist datasets, models, metrics, etc.                                                                                |
-| **Floating IP**       | 2 until presentation                                                                                                                                                          | - VM 1: Ray Head Node + Ray Dashboard <br> - VM 2: MLflow (or wandb) Tracking Server                                        |
+| Requirement     | How many/when                                     | Justification |
+|-----------------|---------------------------------------------------|---------------|
+| `m1.medium` VMs | 1 for the entire project duration, 2 more during final setup | For hosting 1 conventional DB, 1 vector DB and 1 as a proxy |
+| `compute_liqid` node with 2 GPUs OR `gpu_mi100` node with 2 GPUs | 1 node with 2 a100s for 20 hours a week ( 2x 4 hour blocks and 2x 6 hour blocks a week ) | For training and serving models |
+| `compute_liqid` or `gpu_mi100` node with 1 GPU | For the entire project duration | For training and serving models | 
+| Persistent Storage | 120 GB for entire project duration | Needed to persist models, database, training datasets, metrics etc |
+| Floating IPs | 2 for entire project duration | 1 for everything ( gateway, dashboards etc ), and 1 as a backup |
+
+<!--
+| `m1.medium` VMs | 3 for entire project duration                     | ...           |
+| `gpu_mi100` GPUs | 4 hour block four times a week |               |
+| Persistent Storage | 120 GB for project duration | Needed to persist datasets, models, metrics, etc. |
+| Floating IPs    | 1 for entire project duration, 1 for sporadic use |               |
+| etc             |                                                   |               |
+-->
 
 ### Detailed design plan
 
@@ -78,4 +117,32 @@ Schedule, launch jobs, and configure Ray worker's nodes to execute training jobs
 ### Extra Difficulty points we will try:
 1. Using Ray Train
 2. Scheduling hyperparameter tuning jobs
+
+### Detailed design plan
+
+<!-- In each section, you should describe (1) your strategy, (2) the relevant parts of the 
+diagram, (3) justification for your strategy, (4) relate back to lecture material, 
+(5) include specific numbers. -->
+
+#### Model training and training platforms
+
+<!-- Make sure to clarify how you will satisfy the Unit 4 and Unit 5 requirements, 
+and which optional "difficulty" points you are attempting. -->
+
+#### Model serving and monitoring platforms
+
+<!-- Make sure to clarify how you will satisfy the Unit 6 and Unit 7 requirements, 
+and which optional "difficulty" points you are attempting. -->
+
+#### Data pipeline
+
+<!-- Make sure to clarify how you will satisfy the Unit 8 requirements,  and which 
+optional "difficulty" points you are attempting. -->
+
+#### Continuous X
+
+<!-- Make sure to clarify how you will satisfy the Unit 3 requirements,  and which 
+optional "difficulty" points you are attempting. -->
+
+
 
