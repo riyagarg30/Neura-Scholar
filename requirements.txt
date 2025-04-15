@@ -1,0 +1,6 @@
+transformers
+fastapi
+pydantic
+sentence_transformers
+uvicorn
+huggingface_hub
