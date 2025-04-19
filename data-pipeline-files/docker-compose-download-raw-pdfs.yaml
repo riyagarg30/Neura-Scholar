@@ -69,7 +69,9 @@ services:
         max_bytes=$((110 * 1024**3))
         total_bytes=0
 
-        while read -r prefix_uri; do
+        while IFS= read -r prefix_uri; do
+          echo " prefix-uri: $prefix_uri"
+
           name=$(basename "$(dirname "$prefix_uri")")
           echo "• Processing $name…"
 
@@ -110,3 +112,76 @@ services:
         done < files_list.txt
 
         echo "✔ All prefixes processed!"
+
+  process-data1:
+    container_name: etl_process_data
+    image: rclone/rclone:latest
+    user: root
+    depends_on:
+      - extract-data
+    environment:
+      - RCLONE_CONTAINER=${RCLONE_CONTAINER}
+    volumes:
+      - project-22-raw-pdfs:/data
+      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
+    working_dir: /data/project-22-pdf-data
+    entrypoint: ["/bin/sh", "-c"]
+    command: |
+      set -e
+
+      # 1) Install gsutil (Cloud SDK)
+      apt-get update \
+        && apt-get install -y curl unzip python3-openssl \
+        && curl -sSL https://sdk.cloud.google.com | bash \
+        && source /root/google-cloud-sdk/path.bash.inc
+
+      # 2) Validate env
+      if [ -z "$RCLONE_CONTAINER" ]; then
+        echo "ERROR: RCLONE_CONTAINER is not set" >&2
+        exit 1
+      fi
+
+      # 3) Show the prefixes we’ll process
+      echo "=== files_list.txt ==="
+      cat files_list.txt
+      echo "======================"
+
+      # 4) Loop with a 110 GiB cap
+      max_bytes=$((110 * 1024**3))
+      total_bytes=0
+
+      while IFS= read -r prefix_uri; do
+        # derive “2107” from “…/pdf/2107/”
+        uri_no_slash=${prefix_uri%/}
+        name=${uri_no_slash##*/}
+
+        echo "• Processing $name (uri=$prefix_uri)…"
+
+        # download all PDFs in that prefix
+        mkdir -p "./$name"
+        gsutil -m cp "${prefix_uri}"*.pdf "./$name/"
+
+        # pack into a plain .tar
+        tar cf "$name".tar "$name"
+        size=$(wc -c < "$name".tar)
+
+        # check cap
+        # if (( total_bytes + size > max_bytes )); then
+        #   echo "⚠️ Hit 110 GiB limit (current $((total_bytes/1024**3)) GiB; next $((size/1024**3)) GiB)." >&2
+        #   rm -rf "$name" "$name".tar
+        #   break
+        # fi
+
+        # total_bytes=$((total_bytes + size))
+        # echo "→ Uploading $name.tar ($((size/1024**3)) GiB)…"
+
+        # # upload and remove local tar
+        # rclone copy "$name".tar \
+        #   chi_tacc:"$RCLONE_CONTAINER/raw-pdf-data" \
+        #   --progress --transfers=16 --checkers=8 --fast-list
+
+        # rm -rf "$name" "$name".tar
+        echo "✔ Done $name. Total uploaded: $((total_bytes/1024**3)) GiB."
+      done < files_list.txt
+
+      echo "🎉 All prefixes processed!"
