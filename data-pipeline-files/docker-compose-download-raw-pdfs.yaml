@@ -49,6 +49,10 @@ services:
       - |
         set -e
 
+        apt-get update && apt-get install -y curl unzip python3-openssl \
+        && curl https://sdk.cloud.google.com | bash
+        source /root/google-cloud-sdk/path.bash.inc
+        
         if [ -z "$RCLONE_CONTAINER" ]; then
           echo "ERROR: RCLONE_CONTAINER is not set"
         exit 1
