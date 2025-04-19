@@ -74,6 +74,13 @@ services:
           echo "• Processing $name…"
 
           # download PDFs
+          echo " Processing $name…"
+          echo " prefix-uri: $prefix_uri"
+          echo "Container $RCLONE_CONTAINER"
+
+          # now you can download, tar, upload, etc.
+          mkdir -p "./$name"
+
           gsutil -m cp -r "${prefix_uri}" ./"$name"/
 
           # create the tarball
