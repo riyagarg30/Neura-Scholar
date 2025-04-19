@@ -17,7 +17,9 @@ services:
       - -c
       - |
         set -e
-
+        apt-get update && apt-get install -y curl unzip python3-openssl \
+        && curl https://sdk.cloud.google.com | bash
+        source /root/google-cloud-sdk/path.bash.inc
         echo "Reset & prepare workspace…"
         rm -rf project-22-pdf-data
         mkdir -p project-22-pdf-data
