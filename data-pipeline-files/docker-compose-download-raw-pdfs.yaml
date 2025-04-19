@@ -74,7 +74,7 @@ services:
           echo "• Processing $name…"
 
           # download PDFs
-          gsutil -m cp -r "${prefix_uri}*.pdf" ./"$name"/
+          gsutil -m cp -r "${prefix_uri}" ./"$name"/
 
           # create the tarball
           tar czf "$name".tar.gz "$name"
