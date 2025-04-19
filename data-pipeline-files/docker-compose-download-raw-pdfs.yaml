@@ -47,99 +47,53 @@ services:
       - |
         set -e
 
+        if [ -z "$RCLONE_CONTAINER" ]; then
+          echo "ERROR: RCLONE_CONTAINER is not set"
+        exit 1
+        fi
+
+        echo "Cleaning up existing contents of container..."
+        rclone delete chi_tacc:$RCLONE_CONTAINER --rmdirs || true
+
         echo "Ensure remote folder exists: raw-pdf-data"
         rclone mkdir -p chi_tacc:"$RCLONE_CONTAINER/raw-pdf-data" || true
 
         echo "Starting per‑prefix ETL…"
+        # set threshold: 110 GiB in bytes
+        max_bytes=$((110 * 1024**3))
+        total_bytes=0
+
         while read -r prefix_uri; do
           name=$(basename "$(dirname "$prefix_uri")")
-          echo "    • Processing $name"
+          echo "• Processing $name…"
 
-          # download
+          # download PDFs
           gsutil -m cp -r "${prefix_uri}/*.pdf" ./"$name"/
 
-          # tar
+          # create the tarball
           tar czf "$name".tar.gz "$name"
 
-          # push into raw-pdf-data folder
-          echo "      → uploading $name.tar.gz → raw-pdf-data/"
-          rclone copy "$name".tar.gz \
-            chi_tacc:"$RCLONE_CONTAINER/raw-pdf-data" \
-            --progress --transfers=16 --checkers=8 --fast-list
+          # measure its size (portable via wc)
+          size=$(wc -c < "$name".tar.gz)
 
-          # cleanup
+          # check if we’d go over the limit
+          if (( total_bytes + size > max_bytes )); then
+            echo "Reached 110 GiB limit (current total: $((total_bytes/1024**3)) GiB, next file: $((size/1024**3)) GiB)."
+            # clean up this prefix and exit
+            rm -rf "$name" "$name".tar.gz
+            break
+          fi
+
+          # update running total
+          total_bytes=$((total_bytes + size))
+          echo " → Uploading $name.tar.gz (size: $((size/1024**3)) GiB)…"
+
+          # push and then delete locally
+          rclone copy "$name".tar.gz chi_tacc:"$RCLONE_CONTAINER/raw-pdf-data" \
+            --progress --transfers=16 --checkers=8 --fast-list
           rm -rf "$name" "$name".tar.gz
-          echo "      ✔ done $name (freed space)"
+
+          echo " ✔ Done $name (freed space). Total uploaded: $((total_bytes/1024**3)) GiB."
         done < files_list.txt
 
         echo "✔ All prefixes processed!"
-
-
-  # transform-and-load-data:
-  #   container_name: etl_transform_data
-  #   image: python:3.11
-  #   volumes:
-  #     - food11:/data
-  #   working_dir: /data/Food-11
-  #   command:
-  #     - bash
-  #     - -c
-  #     - |
-  #       set -e
-
-  #       python3 -c '
-  #       import os
-  #       import shutil
-
-  #       dataset_base_dir = "/data/Food-11"
-  #       subdirs = ["training", "validation", "evaluation"]
-  #       classes = [
-  #           "Bread", "Dairy product", "Dessert", "Egg", "Fried food",
-  #           "Meat", "Noodles/Pasta", "Rice", "Seafood", "Soup", "Vegetable/Fruit"
-  #       ]
-
-  #       for subdir in subdirs:
-  #           dir_path = os.path.join(dataset_base_dir, subdir)
-  #           if not os.path.exists(dir_path):
-  #               continue
-
-  #           for i, class_name in enumerate(classes):
-  #               class_dir = os.path.join(dir_path, f"class_{i:02d}")
-  #               os.makedirs(class_dir, exist_ok=True)
-  #               for f in os.listdir(dir_path):
-  #                   if f.startswith(f"{i}_"):
-  #                       shutil.move(
-  #                           os.path.join(dir_path, f),
-  #                           os.path.join(class_dir, f)
-  #                       )
-  #       '
-
-  #       echo "Listing contents of /data/Food-11 after transform stage:"
-  #       ls -l /data/Food-11
-
-  # load-data:
-  #   container_name: etl_load_data
-  #   image: rclone/rclone:latest
-  #   volumes:
-  #     - food11:/data
-  #     - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
-  #   entrypoint: /bin/sh
-  #   command:
-  #     - -c
-  #     - |
-  #       if [ -z "$RCLONE_CONTAINER" ]; then
-  #         echo "ERROR: RCLONE_CONTAINER is not set"
-  #         exit 1
-  #       fi
-  #       echo "Cleaning up existing contents of container..."
-  #       rclone delete chi_tacc:$RCLONE_CONTAINER --rmdirs || true
-
-  #       rclone copy /data/Food-11 chi_tacc:$RCLONE_CONTAINER \
-  #       --progress \
-  #       --transfers=32 \
-  #       --checkers=16 \
-  #       --multi-thread-streams=4 \
-  #       --fast-list
-
-  #       echo "Listing directories in container after load stage:"
-  #       rclone lsd chi_tacc:$RCLONE_CONTAINER
