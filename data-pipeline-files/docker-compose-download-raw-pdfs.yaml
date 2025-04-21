@@ -33,7 +33,7 @@ services:
   process-data:
   #combines transform and load step for our kind of data
     container_name: etl_process_data
-    image: python:3.11
+    image: rclone/rclone:latest
     user: root
     depends_on:
       - extract-data
