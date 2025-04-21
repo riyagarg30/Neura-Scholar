@@ -43,7 +43,7 @@ services:
       - project-22-raw-pdfs:/data
       - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
     working_dir: /data/project-22-pdf-data
-    entrypoint: bash
+    entrypoint: /bin/sh
     command:
       - -c
       - |
@@ -53,13 +53,10 @@ services:
         && curl https://sdk.cloud.google.com | bash
         source /root/google-cloud-sdk/path.bash.inc
 
-        if [ -z "$RCLONE_CONTAINER" ]; then
-          echo "ERROR: RCLONE_CONTAINER is not set"
-        exit 1
-        fi
-
-        #echo "Cleaning up existing contents of container..."
-        #rclone delete chi_tacc:$RCLONE_CONTAINER --rmdirs || true
+        # if [ -z "$RCLONE_CONTAINER" ]; then
+        #   echo "ERROR: RCLONE_CONTAINER is not set"
+        # exit 1
+        # fi
 
         #echo "Ensure remote folder exists: raw-pdf-data"
         #rclone mkdir -p chi_tacc:"$RCLONE_CONTAINER/raw-data" || true
@@ -73,18 +70,19 @@ services:
 
           echo "$${prefix_uri}"
           prefix=$(basename "$${prefix_uri%/}")
-          echo "${prefix}"
-          # name=$(basename "$(dirname "$$prefix_uri")")
-          # echo "Processing $name…"
+          echo "$${prefix}"
 
           # # download PDFs
-          # gsutil -m cp -r "$${prefix_uri}" .
+          echo "Downloading pdfs at $${prefix_uri}"
+          gsutil -m cp -r "$${prefix_uri}" .
 
-          # # create the tarball
-          # tar cvf "$name".tar "$name"
+          echo "Creating tar file"
+          # create the tarball
+          tar cvf "arxiv_$${prefix}".tar "$${prefix}"
 
           # # measure its size (portable via wc)
-          # size=$(wc -c < "$name".tar)
+          size=$(wc -c < "arxiv_$${prefix}".tar)
+          echo "File size: $${size}"
 
           # # check if we’d go over the limit
           # if (( total_bytes + size > max_bytes )); then
@@ -101,7 +99,7 @@ services:
           # # push and then delete locally
           # rclone copy "$name".tar.gz chi_tacc:"$RCLONE_CONTAINER/raw-data" \
           #   --progress --transfers=16 --checkers=8 --fast-list
-          # rm -rf "$name" "$name".tar.gz
+          rm -rf "arxiv_$${prefix}".tar "$${prefix}"
 
           # echo " ✔ Done $name (freed space). Total uploaded: $((total_bytes/1024**3)) GiB."
         done < files_list.txt
