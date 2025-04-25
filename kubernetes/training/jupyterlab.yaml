@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jupyterlab
+  labels:
+    app: jupyterlab
+spec:
+  containers:
+  - name: jupyterlab
+    image: quay.io/jupyter/base-notebook
+    env:
+    - name: JUPYTER_TOKEN # NOT WORKING FOR NOW !!!
+      value: ""
+    - name: JUPYTER_PASSWORD
+      value: "pass@123"
+    ports:
+    - containerPort: 8888
+    volumeMounts:
+    - name: notebook-storage
+      mountPath: /home/jovyan/work
+  volumes:
+  - name: notebook-storage
+    emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jupyterlab
+spec:
+  selector:
+    app: jupyterlab
+  ports:
+    - protocol: TCP
+      port: 8888
+      targetPort: 8888
+  type: ClusterIP # or NodePort/ClusterIP based on your needs
+

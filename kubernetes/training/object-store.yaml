@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: object-store
+spec:
+  capacity:
+    storage: 2Gi
+  storageClassName: standard
+  accessModes:
+    - ReadWriteMany
+  persistentVolumeReclaimPolicy: Retain
+  hostPath:
+    path: /mnt/object
+    type: DirectoryOrCreate
+
