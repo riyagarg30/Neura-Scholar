@@ -22,13 +22,14 @@ Run the following inside the container :
 
 
 ```sh
-ansible kvm_tacc -i /inventory/mycluster/inventory.yml -m ping
+ansible all -i /inventory/myclusters -m ping
 ```
 
 ```sh
-ansible-playbook -l kvm_tacc -i /inventory/mycluster/inventory.yml /inventory/pre_k8s/pre_k8s_configure.yml
+ansible-playbook -i /inventory/myclusters /inventory/pre_k8s/pre_k8s_configure.yml
 ```
 
 ```sh
-ansible-playbook -l kvm_tacc -i /inventory/mycluster cluster.yml --become --become-user=root --check
+ansible-playbook -i /inventory/myclusters/kvm_tacc cluster.yml --become --become-user=root --check
+ansible-playbook -i /inventory/myclusters/chi_uc cluster.yml --become --become-user=root --check
 ```

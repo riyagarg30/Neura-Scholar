@@ -14,11 +14,16 @@ Then update the credentials in the `clouds.yaml` file:
 ```
 
 ```sh
+source chi_openrc.sh # Download an openrc.sh auth file from chameleon user portal.
 source create_reservation.sh
 ```
 
 ```sh
 create_reservation
+```
+
+```sh
+unset $(set | grep -o "^OS_[A-Za-z0-9_]*") # Optional
 ```
 
 This create a lease and prints the reservation ID; the script waits for the status to turn to `ACTIVE` ...
@@ -37,5 +42,6 @@ Copy and paste the reservations ID.
 
 When DONE WITH, RELEASE RESOURCES BY :
 ```sh
-delete reservation
+source chi_openrc.sh # Download an openrc.sh auth file from chameleon user portal.
+delete_reservation
 ```
