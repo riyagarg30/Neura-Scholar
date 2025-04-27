@@ -1,5 +1,7 @@
 # https://github.com/github/gitignore/blob/main/Terraform.gitignore
 
+*openrc.sh
+
 clouds.yaml
 clouds.yaml.bak
 .terraform.lock.hcl
