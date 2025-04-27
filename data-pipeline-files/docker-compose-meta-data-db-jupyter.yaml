@@ -13,6 +13,7 @@ services:
       - "5432:5432"
     volumes:
       - /mnt/block/volumes:/var/lib/postgresql/data
+      - /mnt/object/metadata:/csvfiles
 
   jupyter:
     image: quay.io/jupyter/pytorch-notebook:pytorch-2.5.1
