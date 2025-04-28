@@ -9,17 +9,11 @@
         name: firewalld
         state: stopped
         enabled: no
-
-    - name: Ensure firewalld service file is removed if blocking masking
-      ansible.builtin.file:
-        path: /etc/systemd/system/firewalld.service
-        state: absent
     
     - name: Mask firewalld service
-      ansible.builtin.systemd:
+      systemd:
         name: firewalld
-        masked: true
-
+        masked: yes
 
 - name: Set up insecure registry for Docker
   hosts: node1,node2,node3
@@ -53,3 +47,15 @@
         group: root
         mode: '0644'
 
+- name: Copy Docker auth .docker/auth.json to hosts.
+  hosts: all
+  become: true 
+  tasks:
+    - name: Copy directory to user's home directory
+      ansible.builtin.copy:
+        src: ../.docker
+        dest: /home/cc/
+    - name: Copy directory to host's root home
+      ansible.builtin.copy:
+        src: ../.docker
+        dest: /root/

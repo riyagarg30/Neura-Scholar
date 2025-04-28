@@ -1,0 +1,3 @@
+
+# ignore .docker/config.json auth token file.
+.docker
