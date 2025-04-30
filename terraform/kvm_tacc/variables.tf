@@ -5,16 +5,17 @@ variable "suffix" {
   default = "project22"
 }
 
-#variable "reservation_id" {
-#    description = "Reservation ID"
-#    type = string
-#    nullable = false
-#}
+variable "volume_id" {
+    description = "The Volume ID to attach node1 to"
+    type = string
+    nullable = false
+    default = "96be5163-ab12-4477-9180-558cedf9f772"
+}
 
 variable "key" {
   description = "Name of key pair"
   type        = string
-  default     = "Preetham Rakshith"
+  default     = "ghost"
 }
 
 variable "nodes" {
