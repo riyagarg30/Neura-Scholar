@@ -8,7 +8,7 @@ function create_reservation() {
     openstack reservation lease create \
       --reservation min=1,max=1,resource_type=physical:host,resource_properties='["=", "$node_type", "gpu_rtx_6000"]' \
       --start-date "$(date -u +"%Y-%m-%d %H:%M")" \
-      --end-date "$(date -u -v+6H +"%Y-%m-%d %H:%M")" \
+      --end-date "$(date -u -v+8H +"%Y-%m-%d %H:%M")" \
       "$RESERVATION"
 
     while true; do

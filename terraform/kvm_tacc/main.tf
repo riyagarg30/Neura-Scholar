@@ -95,6 +95,11 @@ resource "openstack_compute_instance_v2" "nodes" {
 
 }
 
+resource "openstack_compute_volume_attach_v2" "attach_volume" {
+    volume_id = "${var.volume_id}"
+    instance_id = openstack_compute_instance_v2.nodes["node1"].id
+}
+
 resource "openstack_networking_floatingip_v2" "floating_ip" {
   pool        = "public"
   description = "MLOps IP for ${var.suffix}"

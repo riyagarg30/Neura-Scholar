@@ -1,0 +1,26 @@
+kubectl create secret docker-registry docker-registry --from-file ~/.docker/config.json
+kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "docker-registry"}]}'
+
+
+cc@node1:~$ cat init.sql
+-- init.sql
+
+CREATE USER testuser WITH PASSWORD 'testpassword';
+CREATE DATABASE testdb OWNER testuser;
+
+
+kubectl create secret generic pg-init-secret --from-file=init.sql
+
+curl https://rclone.org/install.sh | sudo bash
+sudo sed -i '/^#user_allow_other/s/^#//' /etc/fuse.conf
+mkdir -p ~/.config/rclone
+# Copy rclone.conf file.
+
+kubectl create secret generic rclone-conf --from-file=rclone.conf=.config/rclone/rclone.conf
+
+https://github.com/wunderio/csi-rclone
+
+1. setup csi-rclone drivers and mount minio.
+2. setup postgres and mount on top of block storage local path.
+
+
