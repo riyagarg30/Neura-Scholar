@@ -1,0 +1,5 @@
+
+
+# ignore kubernetes secrets config files.
+*.secrets.yaml
+*.secret.yaml
