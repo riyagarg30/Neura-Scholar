@@ -25,7 +25,7 @@ services:
     environment:
       - META_DATA_DIR=/mnt/meta-data
     volumes:
-      - /mnt/block/misc:/home/jovyan/work/
+      - ~/Neura-Scholar/:/home/jovyan/work/
       - type: bind
         source: /mnt/object
         target: /mnt/meta-data

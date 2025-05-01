@@ -7,8 +7,8 @@ while IFS= read -r file; do
   echo "Dir name: $dirname"
   mkdir "text_$dirname"
   echo "Processing the pdfs in the $dirname folder"
-  python3 pdf-to-text-from-folder2.py /home/cc/Neura-Scholar/data-pipeline-files/$dirname /home/cc/Neura-Scholar/data-pipeline-files/"text_$dirname" 16
+  python3 pdf-to-text-from-folder.py /home/cc/Neura-Scholar/data-pipeline-files/$dirname /home/cc/Neura-Scholar/data-pipeline-files/"text_$dirname" 16
   tar -cvf "text_${dirname}.tar" "text_$dirname"
   rclone copy -vP "text_${dirname}.tar" "chi_tacc:${RCLONE_CONTAINER}/text-files-data"
-  rm -rf arxiv_080* text_*
+  rm -rf arxiv_* text_*
 done < tar_files_list.txt
