@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: postgres-init-script
+  namespace: mlflow
 data:
   init.sql: |
     CREATE ROLE mlflowuser WITH LOGIN PASSWORD 'mlflow@123';
