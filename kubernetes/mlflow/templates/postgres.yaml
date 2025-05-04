@@ -18,7 +18,7 @@ spec:
               values:
                 - node1
   hostPath:
-    path: /mnt/block/postgres
+    path: /mnt/block/volumes
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -44,7 +44,7 @@ spec:
     kubernetes.io/hostname: node1
   containers:
     - name: postgres
-      image: postgres:latest
+      image: postgres:15
       env:
         - name: POSTGRES_USER
           valueFrom:
@@ -61,10 +61,15 @@ spec:
       volumeMounts:
         - name: block-store
           mountPath: /var/lib/postgresql/data 
+        - name: init-script
+          mountPath: /docker-entrypoint-initdb.d
   volumes:
     - name: block-store
       persistentVolumeClaim:
         claimName: postgres
+    - name: init-script 
+      configMap:
+        name: postgres-init-script
 ---
 apiVersion: v1
 kind: Service
@@ -78,4 +83,18 @@ spec:
       port: 5432
       targetPort: 5432
   type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres-nodeport
+spec:
+  selector:
+    app: postgres
+  ports:
+    - name: db
+      port: 5432
+      targetPort: 5432
+      nodePort: 30002
+  type: NodePort
 
