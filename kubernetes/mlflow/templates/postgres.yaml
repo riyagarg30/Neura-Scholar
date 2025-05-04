@@ -2,6 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: postgres
+  namespace: mlflow 
 spec:
   capacity:
     storage: 500Mi
@@ -24,6 +25,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: postgres
+  namespace: mlflow 
 spec:
   accessModes:
     - ReadWriteOnce
@@ -36,9 +38,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: postgres
+  namespace: mlflow 
   labels:
     app: postgres
-    set: training
 spec:
   nodeSelector:
     kubernetes.io/hostname: node1
@@ -75,6 +77,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: postgres
+  namespace: mlflow 
 spec:
   selector:
     app: postgres
@@ -82,19 +85,21 @@ spec:
     - name: db
       port: 5432
       targetPort: 5432
-  type: ClusterIP
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: postgres-nodeport
-spec:
-  selector:
-    app: postgres
-  ports:
-    - name: db
-      port: 5432
-      targetPort: 5432
-      nodePort: 30002
-  type: NodePort
+  externalIPs:
+    - {{ .Values.postgres.externalIP }}
 
+  #---
+  #apiVersion: v1
+  #kind: Service
+  #metadata:
+  #  name: postgres-nodeport
+  #spec:
+  #  selector:
+  #    app: postgres
+  #  ports:
+  #    - name: db
+  #      port: 5432
+  #      targetPort: 5432
+  #      nodePort: 30002
+  #  type: NodePort
+  #
