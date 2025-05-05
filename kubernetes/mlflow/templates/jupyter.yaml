@@ -54,14 +54,23 @@ spec:
       containers:
         - name: jupyter
           image: quay.io/jupyter/pytorch-notebook:pytorch-2.5.1
+
           ports:
             - containerPort: 8888
+
           env:
             - name: JUPYTER_TOKEN
               valueFrom:
                 secretKeyRef:
                   name: jupyter
                   key: JUPYTER_TOKEN
+
+            - name: JUPYTER_PORT
+              value: "8888"
+
+          command: ["bash", "-c"]
+          args:
+            - start-notebook.sh
           volumeMounts:
             - name: block-store
               mountPath: /home/jovyan/work
