@@ -7,7 +7,7 @@ data "openstack_networking_subnet_v2" "sharednet1_subnet" {
 }
 
 data "openstack_networking_secgroup_v2" "allow_ssh" {
-  name = "allow-ssh"
+  name = "Allow SSH"
 }
 
 data "openstack_networking_secgroup_v2" "allow_9001" {
@@ -32,6 +32,10 @@ data "openstack_networking_secgroup_v2" "allow_http_80" {
 
 data "openstack_networking_secgroup_v2" "allow_9090" {
   name = "allow-9090"
+}
+
+data "openstack_networking_secgroup_v2" "allow_30000_32767" {
+  name = "Allow NodePort range 30000-32767"
 }
 
 

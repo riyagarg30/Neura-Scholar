@@ -10,10 +10,10 @@ data "openstack_networking_secgroup_v2" "allow_ssh" {
   name = "allow-ssh"
 }
 
-#data "openstack_networking_secgroup_v2" "allow_9001" {
-#  name = "allow-9001"
-#}
-#
+data "openstack_networking_secgroup_v2" "allow_30000_32767" {
+  name = "nodeport-30000-32767"
+}
+
 #data "openstack_networking_secgroup_v2" "allow_8000" {
 #  name = "allow-8000"
 #}
