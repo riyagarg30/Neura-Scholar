@@ -12,3 +12,6 @@ prometheus:
 
 grafana:
   externalIP: 0.0.0.0
+
+jupyter:
+  externalIP: 0.0.0.0
