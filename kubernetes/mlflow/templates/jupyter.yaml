@@ -65,12 +65,11 @@ spec:
                   name: jupyter
                   key: JUPYTER_TOKEN
 
-            - name: JUPYTER_PORT
-              value: "8888"
-
           command: ["bash", "-c"]
           args:
-            - start-notebook.sh
+            - >
+              unset PORT && unset JUPYTER_PORT &&
+              jupyter lab --port=8888 --ip=0.0.0.0 --no-browser --allow-root
           volumeMounts:
             - name: block-store
               mountPath: /home/jovyan/work
@@ -82,7 +81,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: jupyter
+  name: jupyter-svc
   namespace: mlflow
 spec:
   selector:
