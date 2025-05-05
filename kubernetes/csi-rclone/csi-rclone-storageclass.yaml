@@ -5,7 +5,21 @@ metadata:
 provisioner: csi-rclone
 parameters:
   remote: chi_tacc
-  pathPattern: "${.PVC.annotations.csi-rclone/storage-path}"
-reclaimPolicy: Delete
+  pathPattern: "${.PVC.namespace}/${.PVC.annotations.csi-rclone/storage-path}"
+  container: "object-persist-mlops-project22"
+  mountOptions: "--vfs-cache-mode writes"
+reclaimPolicy: Retain
 volumeBindingMode: Immediate
 
+# apiVersion: storage.k8s.io/v1
+# kind: StorageClass
+# metadata:
+#   name: rclone
+# provisioner: csi-rclone
+# parameters:
+#   remote: chi_tacc
+#   pathPattern: "${.PVC.annotations.csi-rclone/storage-path}"
+# reclaimPolicy: Delete
+# volumeBindingMode: Immediate
+# 
+# 
