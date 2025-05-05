@@ -241,3 +241,16 @@
     - name: Show apply result
       debug:
         var: apply_result.stdout
+
+- name: Mount block storage on primary node.
+  hosts: node1
+  become: yes
+  gather_facts: yes
+  tasks:
+    - name: Mount filesystem
+      ansible.posix.mount:
+        path: /mnt/block
+        src: /dev/vdb1
+        fstype: ext4
+        opts: rw,noauto
+        state: mounted
