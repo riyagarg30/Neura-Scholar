@@ -5,10 +5,13 @@ RESERVATION="MLOps_reservation_project22"
 
 function create_reservation() {
 
+    START_DATE=$(date -u +"%Y-%m-%d %H:%M") 
+    END_DATE=$(date -u -v+6H +"%Y-%m-%d %H:%M") 
+
     openstack reservation lease create \
       --reservation min=1,max=1,resource_type=physical:host,resource_properties='["=", "$node_type", "gpu_rtx_6000"]' \
-      --start-date "$(date -u +"%Y-%m-%d %H:%M")" \
-      --end-date "$(date -u -v+8H +"%Y-%m-%d %H:%M")" \
+      --start-date "$START_DATE" \
+      --end-date "$END_DATE" \
       "$RESERVATION"
 
     while true; do

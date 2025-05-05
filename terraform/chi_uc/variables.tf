@@ -14,7 +14,7 @@ variable "reservation_id" {
 variable "key" {
   description = "Name of key pair"
   type        = string
-  default     = "Preetham Rakshith"
+  default     = "ghost"
 }
 
 variable "nodes" {

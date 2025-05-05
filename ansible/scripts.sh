@@ -17,9 +17,12 @@ function play_build_k8s_cluster() {
 
 function play_post_k8s() {
     ansible-playbook -i "/inventory/myclusters" /inventory/post_k8s/post_k8s_configure.yml
+    ansible-playbook -i "/inventory/myclusters" /inventory/post_k8s/add_secrets.yml
+    ansible-playbook -i "/inventory/myclusters" /inventory/post_k8s/add_drivers.yml
 }
 
-function play_block_mount() {
-    ansible-playbook -i "/inventory/myclusters/kvm_tacc" /inventory/test/mount.yml
+function play_mlflow_setup() {
+    ansible-playbook -i "/inventory/myclusters" /inventory/mlflow/add_mlflow_platform.yml
 }
+
 
