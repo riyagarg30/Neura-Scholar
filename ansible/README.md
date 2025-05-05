@@ -18,7 +18,7 @@ docker run --rm -it --mount type=bind,source="$(pwd)",dst=/inventory \
     -e FLOATING_IP_CHI_TACC=$FLOATING_IP_CHI_TACC \
     -e ANSIBLE_ROLES_PATH=roles \
     -e ANSIBLE_CONFIG=/inventory/ansible.cfg \
-    quay.io/kubespray/kubespray:v2.27.0 /bin/bash -c "source /inventory/scripts.sh; /bin/bash"
+    quay.io/kubespray/kubespray:v2.27.0 /bin/bash -c "source /inventory/scripts.sh; exec /bin/bash"
 ```
 
 Run the following inside the container : 

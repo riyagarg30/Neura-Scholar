@@ -28,14 +28,9 @@ resource "openstack_networking_port_v2" "sharednet1_ports" {
     network_id = data.openstack_networking_network_v2.sharednet1.id
     security_group_ids = [
       data.openstack_networking_secgroup_v2.allow_ssh.id,
-      data.openstack_networking_secgroup_v2.allow_ssh.id,
-      data.openstack_networking_secgroup_v2.allow_9001.id,
-      data.openstack_networking_secgroup_v2.allow_8000.id,
-      data.openstack_networking_secgroup_v2.allow_8080.id,
-      data.openstack_networking_secgroup_v2.allow_8081.id,
       data.openstack_networking_secgroup_v2.allow_http_80.id,
-      data.openstack_networking_secgroup_v2.allow_9090.id,
       data.openstack_networking_secgroup_v2.allow_30000_32767.id,
+      data.openstack_networking_secgroup_v2.allow_services_for_project22.id
     ]
 }
 

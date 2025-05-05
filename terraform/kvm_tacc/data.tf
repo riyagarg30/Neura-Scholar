@@ -34,6 +34,14 @@ data "openstack_networking_secgroup_v2" "allow_9090" {
   name = "allow-9090"
 }
 
+data "openstack_networking_secgroup_v2" "allow_3000" {
+  name = "allow-3000"
+}
+
+data "openstack_networking_secgroup_v2" "allow_services_for_project22" {
+  name = "allow-services-for-project22"
+}
+
 data "openstack_networking_secgroup_v2" "allow_30000_32767" {
   name = "Allow NodePort range 30000-32767"
 }
