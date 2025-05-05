@@ -15,40 +15,49 @@ spec:
       storage: 900Gi
   storageClassName: rclone
 ---
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: minio
   namespace: mlflow
   labels:
     app: minio
 spec:
-  containers:
-    - name: minio
-      image: minio/minio
-      args: ["server", "/data", "--console-address", ":9001"]
-      env:
-        - name: MINIO_ROOT_USER
-          valueFrom:
-            secretKeyRef:
-              name: minio
-              key: MINIO_ROOT_USER
+  selector:
+    matchLabels:
+      app: minio
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: minio
+    spec:
+      containers:
+        - name: minio
+          image: minio/minio
+          args: ["server", "/data", "--console-address", ":9001"]
+          env:
+            - name: MINIO_ROOT_USER
+              valueFrom:
+                secretKeyRef:
+                  name: minio
+                  key: MINIO_ROOT_USER
 
-        - name: MINIO_ROOT_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: minio
-              key: MINIO_ROOT_PASSWORD
-      ports:
-        - containerPort: 9000  # S3 API
-        - containerPort: 9001  # Dashboard
-      volumeMounts:
+            - name: MINIO_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: minio
+                  key: MINIO_ROOT_PASSWORD
+          ports:
+            - containerPort: 9000  # S3 API
+            - containerPort: 9001  # Dashboard
+          volumeMounts:
+            - name: object-store
+              mountPath: /data
+      volumes:
         - name: object-store
-          mountPath: /data
-  volumes:
-    - name: object-store
-      persistentVolumeClaim:
-        claimName: minio
+          persistentVolumeClaim:
+            claimName: minio
 ---
 apiVersion: v1
 kind: Service
