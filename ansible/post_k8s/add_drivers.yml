@@ -5,6 +5,7 @@
   vars:
     repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
     csi_drivers_path: "kubernetes/csi-rclone"
+    gpu_timeslicing_patch_path: "kubernetes/gpu-operator/time-slicing-config-all.yaml"
 
   tasks:
     - name: Clone or update Git repository
@@ -23,7 +24,7 @@
   become: yes
   vars:
     repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
-    gpu_drivers_path: "kubernetes/gpu-operator"
+    gpu_timeslicing_patch_path: "kubernetes/gpu-operator/time-slicing-config-all.yaml"
 
   tasks:
     - name: Ensure gpu-operator namespace exists
@@ -58,9 +59,31 @@
         kubectl get pods -n gpu-operator --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
       register: pod_status_check
       until: pod_status_check.stdout == ""
-      retries: 30
-      delay: 10
-    
-    
+      retries: 20
+      delay: 20
 
+    - name: Clone or update Git repository
+      git:
+        repo: "{{ repo_path }}"
+        dest: "/tmp/neura_scholar"
+        version: main
+        update: yes
+        force: yes
+
+    - name: Apply gpu-timeslicing config
+      command: kubectl apply -n gpu-operator -f /tmp/neura_scholar/{{ gpu_timeslicing_patch_path }}
+    
+    - name: Apply gpu-timeslicing path
+      command: >
+        kubectl patch clusterpolicies.nvidia.com/cluster-policy \
+          -n gpu-operator --type merge \
+          -p '{"spec": {"devicePlugin": {"config": {"name": "time-slicing-config-all", "default": "any"}}}}'
+
+    - name: Wait for gpu-operator pods to be running (again :D)
+      shell: >
+        kubectl get pods -n gpu-operator --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
+      register: pod_status_check
+      until: pod_status_check.stdout == ""
+      retries: 20
+      delay: 20
 
