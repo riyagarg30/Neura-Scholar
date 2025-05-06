@@ -24,7 +24,7 @@
   become: yes
   vars:
     repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
-    gpu_drivers_path: "kubernetes/gpu-operator"
+    gpu_timeslicing_patch_path: "kubernetes/gpu-operator/time-slicing-config-all.yaml"
 
   tasks:
     - name: Ensure gpu-operator namespace exists

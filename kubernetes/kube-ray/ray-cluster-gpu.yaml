@@ -1,0 +1,59 @@
+apiVersion: ray.io/v1
+kind: RayCluster
+metadata:
+  name: ray-gpu-cluster
+spec:
+  rayVersion: "2.9.0" 
+  headGroupSpec:
+    serviceType: ClusterIP
+    rayStartParams:
+      dashboard-host: "0.0.0.0"
+      num-gpus: "0"
+    template:
+      spec:
+        containers:
+        - name: ray-head
+          image: rayproject/ray:2.9.0
+          resources:
+            limits:
+              cpu: "2"
+              memory: "4Gi"
+          ports:
+            - containerPort: 8265
+              name: dashboard
+            - containerPort: 8080
+              name: metrics
+  workerGroupSpecs:
+  - groupName: worker-group
+    replicas: 2
+    rayStartParams:
+      num-gpus: "1"
+    template:
+      spec:
+        containers:
+        - name: ray-worker
+          image: rayproject/ray:2.9.0
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+              cpu: "16"
+              memory: "32Gi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ray-dashboard-metrics
+spec:
+  selector:
+    ray.io/node-type: head
+  type: ClusterIP
+  ports:
+    - name: dashboard
+      port: 8265
+      targetPort: 8265
+    - name: metrics
+      port: 8080
+      targetPort: 8080
+  externalIPs:
+    - 10.140.81.82
+

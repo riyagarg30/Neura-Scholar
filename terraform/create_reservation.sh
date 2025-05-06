@@ -19,13 +19,12 @@ function create_reservation() {
     RESERVATION_ID=$(echo "$output" | grep '"id":' | awk -F'"' '{print $4}' | tail -1)
 
     while true; do
-        output=$(openstack reservation lease show "$RESERVATION")
+        output=$(openstack reservation lease show $RESERVATION_ID)
         printf "\r%s" "$(echo "$output" | grep -i '| status\s*|' | xargs)"
         echo "$output" | grep -i '| status\s*| ACTIVE' && break
         sleep 2
     done
 
-    RESERVATION_ID=$(openstack reservation lease show "$RESERVATION" | grep '"id":' | awk -F'"' '{print $4}' | tail -1)
     printf "RESERVATION_ID : %s\n" "$RESERVATION_ID"
 }
 
