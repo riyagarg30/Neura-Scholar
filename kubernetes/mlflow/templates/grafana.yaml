@@ -58,9 +58,15 @@ spec:
             - containerPort: 3000
           env:
             - name: GF_SECURITY_ADMIN_USER
-              value: "admin"
+              valueFrom:
+                secretKeyRef:
+                  name: grafana
+                  key: GF_SECURITY_ADMIN_USER
             - name: GF_SECURITY_ADMIN_PASSWORD
-              value: "grafanaadmin@123"
+              valueFrom:
+                secretKeyRef:
+                  name: grafana
+                  kay: GF_SECURITY_ADMIN_PASSWORD
           volumeMounts:
             - name: block-store
               mountPath: /var/lib/grafana
