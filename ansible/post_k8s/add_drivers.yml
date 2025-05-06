@@ -59,8 +59,8 @@
         kubectl get pods -n gpu-operator --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
       register: pod_status_check
       until: pod_status_check.stdout == ""
-      retries: 30
-      delay: 10
+      retries: 20
+      delay: 20
 
     - name: Clone or update Git repository
       git:
@@ -70,10 +70,20 @@
         update: yes
         force: yes
 
-    - name: Apply gpu-timeslicing path on gpu-operator 
-      command: kubectl apply -f /tmp/neura_scholar/{{ gpu_timeslicing_patch_path }}
+    - name: Apply gpu-timeslicing config
+      command: kubectl apply -n gpu-operator -f /tmp/neura_scholar/{{ gpu_timeslicing_patch_path }}
     
-    
-    
+    - name: Apply gpu-timeslicing path
+      command: >
+        kubectl patch clusterpolicies.nvidia.com/cluster-policy \
+          -n gpu-operator --type merge \
+          -p '{"spec": {"devicePlugin": {"config": {"name": "time-slicing-config-all", "default": "any"}}}}'
 
+    - name: Wait for gpu-operator pods to be running (again :D)
+      shell: >
+        kubectl get pods -n gpu-operator --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
+      register: pod_status_check
+      until: pod_status_check.stdout == ""
+      retries: 20
+      delay: 20
 
