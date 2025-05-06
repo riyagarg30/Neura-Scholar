@@ -1,0 +1,80 @@
+---
+- name: Deploy csi-rclone drivers
+  hosts: node1,gpunode1
+  become: yes
+  vars:
+    repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
+    csi_drivers_path: "kubernetes/csi-rclone"
+
+  tasks:
+    - name: Clone or update Git repository
+      git:
+        repo: "{{ repo_path }}"
+        dest: "/tmp/neura_scholar"
+        version: main
+        update: yes
+        force: yes
+
+    - name: Apply csi-drivers from the git repo
+      command: kubectl apply -f /tmp/neura_scholar/{{ csi_drivers_path }}
+
+- name: Deploy nvidia gpu-operator drivers
+  hosts: gpunode1
+  become: yes
+  vars:
+    repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
+    gpu_drivers_path: "kubernetes/gpu-operator"
+
+  tasks:
+    - name: Ensure gpu-operator namespace exists
+      command: kubectl get namespace gpu-operator
+      register: ns_check
+      failed_when: false
+      changed_when: false
+
+    - name: Create gpu-operator namespace if missing
+      when: ns_check.rc != 0
+      command: kubectl create namespace gpu-operator 
+
+    - name: Overwrite / enforce pod security privileges on gpu-operator namespace 
+      shell: kubectl label --overwrite ns gpu-operator pod-security.kubernetes.io/enforce=privileged
+
+    - name: Check if NFD is already running ( needs work if it NFD is running )
+      shell: kubectl get nodes -o json | jq '.items[].metadata.labels | keys | any(startswith("feature.node.kubernetes.io"))'
+
+    - name: Add nvidia helm repository
+      shell: helm repo add nvidia https://helm.ngc.nvidia.com/nvidia && helm repo update
+
+    - name: Install gpu-operator
+      shell: >
+        helm install --wait --generate-name \
+        -n gpu-operator --create-namespace \
+        nvidia/gpu-operator \
+        --version=v25.3.0 \
+        --replace
+
+    - name: Wait for gpu-operator pods to be running
+      shell: >
+        kubectl get pods -n gpu-operator --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
+      register: pod_status_check
+      until: pod_status_check.stdout == ""
+      retries: 30
+      delay: 10
+
+    - name: Apply gpu time-slicing path
+      shell: >
+        kubectl create -n gpu-operator -f time-slicing-config-all.yaml && \ 
+        kubectl patch clusterpolicies.nvidia.com/cluster-policy \
+        -n gpu-operator --type merge \
+        -p '{"spec": {"devicePlugin": {"config": {"name": "time-slicing-config-all", "default": "any"}}}}'
+
+    - name: Wait for restarted gpu-operator pods to be running
+      shell: >
+        kubectl get pods -n gpu-operator --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
+      register: pod_status_check
+      until: pod_status_check.stdout == ""
+      retries: 30
+      delay: 10
+
+
+
