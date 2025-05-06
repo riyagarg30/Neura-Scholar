@@ -5,6 +5,7 @@
   vars:
     repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
     csi_drivers_path: "kubernetes/csi-rclone"
+    gpu_timeslicing_patch_path: "kubernetes/gpu-operator/time-slicing-config-all.yaml"
 
   tasks:
     - name: Clone or update Git repository
@@ -60,6 +61,18 @@
       until: pod_status_check.stdout == ""
       retries: 30
       delay: 10
+
+    - name: Clone or update Git repository
+      git:
+        repo: "{{ repo_path }}"
+        dest: "/tmp/neura_scholar"
+        version: main
+        update: yes
+        force: yes
+
+    - name: Apply gpu-timeslicing path on gpu-operator 
+      command: kubectl apply -f /tmp/neura_scholar/{{ gpu_timeslicing_patch_path }}
+    
     
     
 
