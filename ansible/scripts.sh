@@ -25,11 +25,16 @@ function play_mlflow_setup() {
     ansible-playbook -i "/inventory/myclusters" /inventory/mlflow/add_mlflow_platform.yml
 }
 
+function play_ray_cluster() {
+    ansible-playbook -i "/inventory/myclusters" /inventory/ray-cluster/add_ray_operator.yml
+}
+
 function play_all() {
     play_ping;
     play_pre_k8s;
     play_build_k8s_cluster "$1";
     play_post_k8s;
     play_mlflow_setup;
+    play_ray_cluster;
 }
 

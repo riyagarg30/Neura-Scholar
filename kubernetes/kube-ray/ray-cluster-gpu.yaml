@@ -1,3 +1,20 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ray
+  namespace: ray
+  annotations:
+    csi-rclone/storage-path: ray
+    csi-rclone/umask: "022"
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 900Gi
+  storageClassName: rclone
+---
 apiVersion: ray.io/v1
 kind: RayCluster
 metadata:
@@ -34,13 +51,20 @@ spec:
     template:
       spec:
         containers:
-        - name: ray-worker
-          image: rayproject/ray:2.9.0
-          resources:
-            limits:
-              nvidia.com/gpu: 1
-              cpu: "16"
-              memory: "32Gi"
+          - name: ray-worker
+            image: rayproject/ray:2.9.0
+            resources:
+              limits:
+                nvidia.com/gpu: 1
+                cpu: "16"
+                memory: "32Gi"
+            volumeMounts:
+              - name: object-store
+                mountPath: /mnt/object/
+        volumes:
+          - name: object-store
+            persistentVolumeClaim:
+              claimName: ray
 ---
 apiVersion: v1
 kind: Service
