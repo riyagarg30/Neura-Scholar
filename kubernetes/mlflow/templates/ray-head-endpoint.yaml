@@ -31,4 +31,4 @@ spec:
       port: 10001
       targetPort: client
   externalIPs:
-    - 10.56.0.116
+    - {{ .Values.rayhead.externalIP }}

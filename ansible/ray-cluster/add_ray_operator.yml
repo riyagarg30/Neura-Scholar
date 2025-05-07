@@ -74,10 +74,6 @@
         update: yes
         force: yes
 
-    - name: Create an endpoint to ray-head at kvm_tacc private network
-      shell: >
-        kubectl apply -n ray -f /tmp/neura_scholar/{{ ray_head_endpoint_path }}
-
     - name: Create an SSH tunnel to forward ray-head dashboard (8265) and ray-client (10001) ports from chi@uc
       shell: >
         ssh -NL 192.168.1.11:8265:192.168.1.10:8265 -L 192.168.1.11:10001:192.168.1.10:10001 cc@{{ lookup('env', 'FLOATING_IP_CHI_UC') }} &

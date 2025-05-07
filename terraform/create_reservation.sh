@@ -13,18 +13,21 @@ function create_reservation() {
           --reservation min=1,max=1,resource_type=physical:host,resource_properties='["=", "$node_type", "gpu_rtx_6000"]' \
           --start-date "$START_DATE" \
           --end-date "$END_DATE" \
+          --format json \
+          --column reservations \
           "$RESERVATION"
     )
 
-    RESERVATION_ID=$(echo "$output" | grep '"id":' | awk -F'"' '{print $4}' | tail -1)
+    LEASE_ID="$(echo "$output" | jq -r '.reservations | fromjson | .lease_id')"
 
     while true; do
-        output=$(openstack reservation lease show $RESERVATION_ID)
+        output=$(openstack reservation lease show $LEASE_ID)
         printf "\r%s" "$(echo "$output" | grep -i '| status\s*|' | xargs)"
         echo "$output" | grep -i '| status\s*| ACTIVE' && break
         sleep 2
     done
 
+    RESERVATION_ID="$(echo "$output" | jq -r '.reservations | fromjson | .id')"
     printf "RESERVATION_ID : %s\n" "$RESERVATION_ID"
 }
 
