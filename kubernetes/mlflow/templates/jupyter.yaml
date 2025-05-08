@@ -3,6 +3,8 @@ kind: PersistentVolume
 metadata:
   name: jupyter
   namespace: mlflow 
+  labels:
+    app: jupyter
 spec:
   capacity:
     storage: 20Gi
@@ -33,6 +35,9 @@ spec:
     requests:
       storage: 20Gi
   storageClassName: manual
+  selector:
+    matchLabels:
+      app: jupyter
 ---
 apiVersion: apps/v1
 kind: Deployment
