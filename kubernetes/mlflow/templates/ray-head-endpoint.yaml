@@ -7,7 +7,7 @@ subsets:
   - addresses:
       - ip: 192.168.1.11
     ports:
-      - port: 8080
+      - port: 8090
         name: metrics
       - port: 8265
         name: dashboard
@@ -22,7 +22,7 @@ metadata:
 spec:
   ports:
     - name: http
-      port: 8080
+      port: 8090
       targetPort: metrics
     - name: dashboard
       port: 8265
