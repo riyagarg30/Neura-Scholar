@@ -26,6 +26,9 @@ spec:
 
             - name: MLFLOW_S3_ENDPOINT_URL
               value: "http://minio:9000"
+            
+            - name: GUNICORN_CMD_ARGS
+              value: "--timeout 600"
 
             - name: AWS_ACCESS_KEY_ID
               valueFrom:
