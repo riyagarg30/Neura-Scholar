@@ -10,7 +10,7 @@ function create_reservation() {
 
     output=$(
         openstack reservation lease create \
-          --reservation min=1,max=1,resource_type=physical:host,resource_properties='["=", "$node_type", "gpu_rtx_6000"]' \
+          --reservation min=1,max=1,resource_type=physical:host,resource_properties='["=", "$node_type", "gpu_k80"]' \
           --start-date "$START_DATE" \
           --end-date "$END_DATE" \
           --format json \
