@@ -2,7 +2,7 @@
 
 
 function play_ping() {
-    ansible all -i /inventory/myclusters/"${1}" -m ping
+    ansible all -i /inventory/myclusters -m ping
 }
 
 
@@ -30,9 +30,8 @@ function play_ray_cluster() {
 }
 
 function play_all() {
-    play_ping;
-    play_pre_k8s;
-    play_build_k8s_cluster "$1";
+    play_ping; play_pre_k8s;
+    play_build_k8s_cluster kvm_tacc & play_build_k8s_cluster chi_uc & wait;
     play_post_k8s;
     play_mlflow_setup;
     play_ray_cluster;
