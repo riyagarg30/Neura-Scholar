@@ -17,5 +17,5 @@ data:
           - targets: ['minio:9000']
       - job_name: 'ray-head'
         static_configs:
-          - targets: ['ray-head:8090']
+          - targets: ['192.168.1.11:8090']
         
