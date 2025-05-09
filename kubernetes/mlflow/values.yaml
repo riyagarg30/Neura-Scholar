@@ -1,23 +1,2 @@
-minio:
-  externalIP: 0.0.0.0
-
-mlflow:
-  externalIP: 0.0.0.0
-
-postgres:
-  externalIP: 0.0.0.0
-
-prometheus:
-  externalIP: 0.0.0.0
-
-grafana:
-  externalIP: 0.0.0.0
-
-jupyter:
-  externalIP: 0.0.0.0
-  
-labelstudio:
-  externalIP: 0.0.0.0
-
-rayhead:
+global:
   externalIP: 0.0.0.0

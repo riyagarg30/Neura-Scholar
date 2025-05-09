@@ -90,4 +90,4 @@ spec:
       port: 9090
       targetPort: 9090
   externalIPs:
-    - {{ .Values.prometheus.externalIP }}
+    - {{ .Values.global.externalIP }}

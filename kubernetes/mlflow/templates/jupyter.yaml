@@ -96,4 +96,4 @@ spec:
       port: 8888
       targetPort: 8888
   externalIPs:
-    - {{ .Values.jupyter.externalIP }}
+    - {{ .Values.global.externalIP }}

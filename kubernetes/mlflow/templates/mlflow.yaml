@@ -80,7 +80,7 @@ spec:
       port: 8000
       targetPort: 8000
   externalIPs:
-    - {{ .Values.mlflow.externalIP }}
+    - {{ .Values.global.externalIP }}
     #---
     #apiVersion: v1
     #kind: Service

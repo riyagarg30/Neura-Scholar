@@ -100,7 +100,7 @@ spec:
       port: 5432
       targetPort: 5432
   externalIPs:
-    - {{ .Values.postgres.externalIP }}
+    - {{ .Values.global.externalIP }}
 
   #---
   #apiVersion: v1
