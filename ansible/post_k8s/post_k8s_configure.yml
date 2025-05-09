@@ -254,3 +254,18 @@
         fstype: ext4
         opts: rw,noauto
         state: mounted
+
+    - name: Change ownership of /mnt/block to user cc
+      become: true
+      ansible.builtin.file:
+        path: /mnt/block
+        owner: cc
+        group: cc
+        recurse: yes
+
+    - name: Set permissions to read/write/execute for all
+      ansible.builtin.file:
+        path: /mnt/block
+        mode: '0777'
+        recurse: yes
+

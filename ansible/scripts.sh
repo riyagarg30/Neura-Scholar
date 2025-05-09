@@ -2,7 +2,7 @@
 
 
 function play_ping() {
-    ansible all -i /inventory/myclusters -m ping
+    ansible all -i /inventory/myclusters/"${1}" -m ping
 }
 
 
