@@ -7,7 +7,7 @@ metadata:
     app: jupyter
 spec:
   capacity:
-    storage: 20Gi
+    storage: 4Gi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
@@ -33,7 +33,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 20Gi
+      storage: 4Gi
   storageClassName: manual
   selector:
     matchLabels:
