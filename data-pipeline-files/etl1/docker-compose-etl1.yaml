@@ -1,0 +1,96 @@
+name: download-raw-data
+
+volumes:
+  raw-data:
+
+services:
+  extract-data:
+    #container_name: etl_extract_${FILE_URL}
+    environment:
+      - FILE_URL=${FILE_URL:-unset}
+    container_name: etl_extract_data
+    image: python-gsutil:3.11
+    user: root
+    volumes:
+      - raw-data:/data
+    working_dir: /data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+
+        echo "Resetting dataset directory..."
+        mkdir -p raw-data
+        cd raw-data
+        ls
+        echo "Downloading dataset $${FILE_URL}..."
+        base="arxiv_$(basename "$$FILE_URL")"
+
+        echo "base - $${base}"
+        #gsutil ls gs://arxiv-dataset/arxiv/
+        mkdir "$$base"
+        gsutil -m rsync -d -r "$$FILE_URL" "$$base"
+        #tar -cvf "$$base.tar" "$$base"
+        #gsutil -m rsync -d -r "$FILE_URL" "$$base"
+
+
+  transform-data:
+    container_name: etl_transform_data
+    # container_name: etl_transform_${FILE_URL}
+    environment:
+      - FILE_URL=${FILE_URL:-unset}
+    image: python-gsutil:3.11
+    volumes:
+      - raw-data:/data
+    working_dir: /data/raw-data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+
+        #cd raw-data
+
+        echo "Listing contents of /data/raw-data after transform stage:"
+        ls -l /data/raw-data
+        
+        base="arxiv_$(basename "$$FILE_URL")"
+        echo "base - $${base}"
+        tar -cvf $${base}.tar $${base}
+        #rm -rf arxiv_*
+        #cd "$$base"
+        #touch "$${base}.txt"
+
+  load-data:
+    container_name: etl_load_data
+    environment:
+      - FILE_URL=${FILE_URL:-unset}
+    # container_name: etl_load_data
+    image: rclone/rclone:latest
+    volumes:
+      - raw-data:/data
+      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+
+        cd raw-data
+
+        base="arxiv_$(basename "$$FILE_URL")"
+
+        #touch "abc$${base}".py
+
+        rclone copy /data/raw-data/"$${base}.tar" chi_tacc:object-persist-rg5073-test/raw-data \
+        --progress \
+        --transfers=32 \
+        --checkers=16 \
+        --multi-thread-streams=4 \
+        --fast-list
+
+        echo "Listing directories in container after load stage:"
+        #rclone lsd chi_tacc:object-persist-rg5073-test
+        rm -rf $${base}
+        rm $${base}.tar
+

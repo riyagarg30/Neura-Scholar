@@ -1,0 +1,20 @@
+# Use the official Python 3.11 slim image as a base
+FROM python:3.11-slim
+
+# Install system packages and Python dependencies
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        curl \
+        gcc \
+        libmupdf-dev \
+        build-essential \
+        libglib2.0-0 \
+        libgl1 \
+    && pip install --no-cache-dir gsutil pymupdf \
+    && rm -rf /var/lib/apt/lists/*
+
+# Verify installation
+RUN gsutil version
+
+# Default to bash so you can drop into the container interactively
+CMD ["bash"]
