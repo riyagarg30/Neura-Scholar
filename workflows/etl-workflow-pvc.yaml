@@ -5,12 +5,12 @@ metadata:
   namespace: argo
 spec:
   capacity:
-    storage: 5Gi  # Adjust the size as needed
+    storage: 5Gi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
-  storageClassName: manual  # You can use a specific storage class if required
+  storageClassName: manual
   nodeAffinity:
     required:
       nodeSelectorTerms:
@@ -20,7 +20,7 @@ spec:
               values:
                 - node1  
   hostPath:
-    path: /mnt/data/raw-data  # Modify this if you're using a different storage system
+    path: /mnt/data/raw-data
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -32,6 +32,6 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi  # Same size as the PV or adjusted according to your needs
-  storageClassName: manual  # Make sure this matches the PV's storageClassName
+      storage: 5Gi
+  storageClassName: manual 
 
