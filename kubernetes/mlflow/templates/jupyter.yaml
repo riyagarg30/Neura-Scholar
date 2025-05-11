@@ -24,6 +24,31 @@ spec:
     path: /mnt/block/jupyter
 ---
 apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: jupyter-object-store
+  namespace: mlflow 
+  labels:
+    app: jupyter-object-store
+spec:
+  capacity:
+    storage: 300Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node1
+  hostPath:
+    path: /mnt/object
+---
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: jupyter
@@ -38,6 +63,22 @@ spec:
   selector:
     matchLabels:
       app: jupyter
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: jupyter-object-store
+  namespace: mlflow 
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 300Gi
+  storageClassName: manual
+  selector:
+    matchLabels:
+      app: jupyter-object-store
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -78,10 +119,15 @@ spec:
           volumeMounts:
             - name: block-store
               mountPath: /home/jovyan/work
+            - name: object-store
+              mountPath: /home/jovyan/work/object-store
       volumes:
         - name: block-store
           persistentVolumeClaim:
             claimName: jupyter
+        - name: object-store
+          persistentVolumeClaim:
+            claimName: jupyter-object-store
 ---
 apiVersion: v1
 kind: Service

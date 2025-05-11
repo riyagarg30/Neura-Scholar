@@ -9,7 +9,7 @@ variable "volume_id" {
     description = "The Volume ID to attach node1 to"
     type = string
     nullable = false
-    default = "41a94a59-52b7-43bf-865d-a2c16abd0331"
+    default = "d0c861fe-5016-4154-929d-e90bf45bf6df"
 }
 
 variable "key" {

@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: raw-data-pv
+  namespace: argo
+spec:
+  capacity:
+    storage: 5Gi  # Adjust the size as needed
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual  # You can use a specific storage class if required
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node1  
+  hostPath:
+    path: /mnt/data/raw-data  # Modify this if you're using a different storage system
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: raw-data-pvc
+  namespace: argo
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi  # Same size as the PV or adjusted according to your needs
+  storageClassName: manual  # Make sure this matches the PV's storageClassName
+
