@@ -1,0 +1,5 @@
+gsutil ls gs://arxiv-dataset/arxiv/arxiv/pdf/ | head -n 53 > file_list.txt
+
+docker build -t python-gsutil:3.11 .
+
+
