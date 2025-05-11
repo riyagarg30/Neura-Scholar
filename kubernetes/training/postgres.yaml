@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: postgres
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 50Mi
+  #storageClassName: standard
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: postgres
+  labels:
+    app: postgres
+    set: training
+spec:
+  containers:
+    - name: postgres
+      image: postgres:latest
+      env:
+        - name: POSTGRES_USER
+          value: mlflowuser
+        - name: POSTGRES_PASSWORD
+          value: mlflowuser123
+        - name: POSTGRES_DB
+          value: mlflowdb
+      ports:
+        - containerPort: 5432
+      volumeMounts:
+        - name: object-store
+          mountPath: /var/lib/postgresql/data 
+  volumes:
+    - name: object-store
+      persistentVolumeClaim:
+        claimName: postgres
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+spec:
+  selector:
+    app: postgres
+  ports:
+    - name: db
+      port: 5432
+      targetPort: 5432
+  type: ClusterIP
+

@@ -1,0 +1,102 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: minio
+  namespace: mlflow
+  annotations:
+    csi-rclone/storage-path: minio
+    csi-rclone/umask: "022"
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 900Gi
+  storageClassName: rclone
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: minio
+  namespace: mlflow
+  labels:
+    app: minio
+spec:
+  selector:
+    matchLabels:
+      app: minio
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: minio
+    spec:
+      containers:
+        - name: minio
+          image: minio/minio
+          args: ["server", "/data", "--console-address", ":9001"]
+          env:
+            - name: MINIO_ROOT_USER
+              valueFrom:
+                secretKeyRef:
+                  name: minio
+                  key: MINIO_ROOT_USER
+
+            - name: MINIO_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: minio
+                  key: MINIO_ROOT_PASSWORD
+
+            - name: MINIO_PROMETHEUS_AUTH_TYPE
+              value: public
+
+          ports:
+            - containerPort: 9000  # S3 API
+            - containerPort: 9001  # Dashboard
+          volumeMounts:
+            - name: object-store
+              mountPath: /data
+      volumes:
+        - name: object-store
+          persistentVolumeClaim:
+            claimName: minio
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: minio
+  namespace: mlflow
+spec:
+  selector:
+    app: minio
+  ports:
+    - name: s3
+      port: 9000
+      targetPort: 9000
+    - name: console
+      port: 9001
+      targetPort: 9001
+  externalIPs:
+    - {{ .Values.global.externalIP }}
+
+    #---
+    #apiVersion: v1
+    #kind: Service
+    #metadata:
+    #  name: minio-nodeport
+    #spec:
+    #  selector:
+    #    app: minio
+    #  ports:
+    #    - name: s3
+    #      port: 9000
+    #      targetPort: 9000
+    #      nodePort: 30000
+    #    - name: console
+    #      port: 9001
+    #      targetPort: 9001
+    #      nodePort: 30001
+    #  type: NodePort
+    #

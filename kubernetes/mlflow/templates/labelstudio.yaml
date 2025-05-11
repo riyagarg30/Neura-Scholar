@@ -1,0 +1,79 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: labelstudio
+  namespace: mlflow
+  labels:
+    app: labelstudio
+spec:
+  selector:
+    matchLabels:
+      app: labelstudio
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: labelstudio
+    spec:
+      containers:
+        - name: labelstudio
+          image: heartexlabs/label-studio:1.16.0
+          ports:
+            - containerPort: 8080
+          env:
+            - name: LABEL_STUDIO_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: labelstudio
+                  key: LABEL_STUDIO_USERNAME
+
+            - name: LABEL_STUDIO_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: labelstudio
+                  key: LABEL_STUDIO_PASSWORD
+
+            - name: LABEL_STUDIO_USER_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: labelstudio
+                  key: LABEL_STUDIO_USER_TOKEN
+
+            - name: POSTGRES_HOST
+              value: postgres
+
+            - name: POSTGRES_PORT
+              value: "5432"
+
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: labelstudio
+                  key: POSTGRES_USER
+
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: labelstudio
+                  key: POSTGRES_PASSWORD
+
+            - name: POSTGRES_DB
+              valueFrom:
+                secretKeyRef:
+                  name: labelstudio
+                  key: POSTGRES_DB
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: labelstudio
+  namespace: mlflow
+spec:
+  selector:
+    app: labelstudio
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  externalIPs:
+    - {{ .Values.global.externalIP }}

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: triton-sdk
+  namespace: staging
+  labels:
+    app: triton-sdk
+spec:
+  restartPolicy: Never
+  containers:
+    - name: triton-sdk
+      image: nvcr.io/nvidia/tritonserver:23.12-py3-sdk
+      command: ["/bin/bash", "-c"]
+      args: ["sleep infinity"]
+      tty: true
+      stdin: true

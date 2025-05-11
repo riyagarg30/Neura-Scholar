@@ -1,0 +1,6 @@
+
+# ignore .docker/config.json auth token file.
+.docker
+*.play.logs
+*.secrets.yml
+*.secrets.yaml

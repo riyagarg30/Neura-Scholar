@@ -1,0 +1,85 @@
+---
+- name: Deploy kube-ray operator and ray cluster
+  hosts: gpunode1
+  become: yes
+  vars:
+    repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
+    ray_cluster_manifest_path: "kubernetes/kube-ray/ray-cluster-gpu.yaml"
+
+  tasks:
+    - name: Clone or update Git repository
+      git:
+        repo: "{{ repo_path }}"
+        dest: "/tmp/neura_scholar"
+        version: main
+        update: yes
+        force: yes
+
+    - name: Ensure ray namespace exists
+      command: kubectl get namespace ray
+      register: ns_check
+      failed_when: false
+      changed_when: false
+
+    - name: Create ray namespace if missing
+      when: ns_check.rc != 0
+      command: kubectl create namespace ray 
+
+    - name: Add kube-ray helm repo
+      shell: helm repo add kuberay https://ray-project.github.io/kuberay-helm/ && helm repo update
+
+    - name: Install ray CRDs and ray operator
+      shell: helm install kuberay-operator kuberay/kuberay-operator --version 1.3.0 --namespace ray
+      register: helm_result
+      ignore_errors: true
+
+    - name: Skip if already ray installed 
+      ansible.builtin.debug:
+        msg: "Helm release already exists. Skipping install."
+      when: "'cannot re-use a name that is still in use' in helm_result.stderr"
+    
+    - name: Wait for kuberay operator to be running
+      shell: >
+        kubectl get pods -n ray --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
+      register: pod_status_check
+      until: pod_status_check.stdout == ""
+      retries: 10
+      delay: 20
+
+    - name: Create a ray cluster
+      shell: >
+        kubectl apply -n ray -f /tmp/neura_scholar/{{ ray_cluster_manifest_path }}
+
+    - name: Wait for ray-head and worker nodes to be running.
+      shell: >
+        kubectl get pods -n ray --no-headers | awk '{print $3}' | grep -vE 'Running|Completed' || true
+      register: pod_status_check
+      until: pod_status_check.stdout == ""
+      retries: 20
+      delay: 20
+
+- name: Deploy kube-ray operator and ray cluster
+  hosts: node1
+  become: yes
+  vars:
+    repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
+    ray_head_endpoint_path: "kubernetes/kube-ray/ray-head-endpoint.yaml"
+
+  tasks:
+    - name: Clone or update Git repository
+      git:
+        repo: "{{ repo_path }}"
+        dest: "/tmp/neura_scholar"
+        version: main
+        update: yes
+        force: yes
+
+    - name: Create an SSH tunnel to forward ray-head dashboard (8265) and ray-client (10001) ports from chi@uc
+      shell: >
+        ssh -NL 192.168.1.11:8265:192.168.1.10:8265 -L 192.168.1.11:8090:192.168.1.10:8090 cc@{{ lookup('env', 'FLOATING_IP_CHI_UC') }} &
+
+    - name: Test ray-head endpoint connectivity
+      shell: >
+        curl http://192.168.1.11:8265
+
+

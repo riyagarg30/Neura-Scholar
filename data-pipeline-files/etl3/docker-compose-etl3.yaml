@@ -1,0 +1,57 @@
+name: clean-meta-data
+
+volumes:
+  raw-data:
+
+services:
+  extract-data:
+    container_name: etl_3_extract_data
+    image: python-gsutil:3.11
+    user: root
+    volumes:
+      - raw-data:/data
+      - /mnt/object/:/data-obj
+    working_dir: /data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        cp -r /data-obj/meta-data .
+
+  transform-data:
+    container_name: etl_3_transform_data
+    environment:
+      - FILE_URL=${FILE_URL:-unset}
+    image: python-gsutil:3.11
+    volumes:
+      - raw-data:/data
+      - ./:/dir_data
+    working_dir: /data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+
+        python3 ../dir_data/clean_meta_data.py
+
+  load-data:
+    container_name: etl_3_load_data
+    environment:
+      - FILE_URL=${FILE_URL:-unset}
+    image: rclone/rclone:latest
+    volumes:
+      - raw-data:/data
+      - ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro
+    entrypoint: /bin/sh
+    command:
+      - -c
+      - |
+
+        rclone copy ./meta-data/arxiv_cleaned_v1.csv chi_tacc:object-persist-project-22/meta-data \
+        --progress \
+        --transfers=32 \
+        --checkers=16 \
+        --multi-thread-streams=4 \
+        --fast-list

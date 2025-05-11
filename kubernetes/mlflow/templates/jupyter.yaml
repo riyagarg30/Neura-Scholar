@@ -1,0 +1,145 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: jupyter
+  namespace: mlflow 
+  labels:
+    app: jupyter
+spec:
+  capacity:
+    storage: 4Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node1
+  hostPath:
+    path: /mnt/block/jupyter
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: jupyter-object-store
+  namespace: mlflow 
+  labels:
+    app: jupyter-object-store
+spec:
+  capacity:
+    storage: 300Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: manual
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node1
+  hostPath:
+    path: /mnt/object
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: jupyter
+  namespace: mlflow 
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 4Gi
+  storageClassName: manual
+  selector:
+    matchLabels:
+      app: jupyter
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: jupyter-object-store
+  namespace: mlflow 
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 300Gi
+  storageClassName: manual
+  selector:
+    matchLabels:
+      app: jupyter-object-store
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jupyter
+  namespace: mlflow
+  labels:
+    app: jupyter
+spec:
+  selector:
+    matchLabels:
+      app: jupyter
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: jupyter
+    spec:
+      containers:
+        - name: jupyter
+          image: quay.io/jupyter/pytorch-notebook:pytorch-2.5.1
+
+          ports:
+            - containerPort: 8888
+
+          env:
+            - name: JUPYTER_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: jupyter
+                  key: JUPYTER_TOKEN
+
+          command: ["bash", "-c"]
+          args:
+            - >
+              unset PORT && unset JUPYTER_PORT &&
+              jupyter lab --port=8888 --ip=0.0.0.0 --no-browser --allow-root
+          volumeMounts:
+            - name: block-store
+              mountPath: /home/jovyan/work
+            - name: object-store
+              mountPath: /home/jovyan/work/object-store
+      volumes:
+        - name: block-store
+          persistentVolumeClaim:
+            claimName: jupyter
+        - name: object-store
+          persistentVolumeClaim:
+            claimName: jupyter-object-store
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: jupyter-svc
+  namespace: mlflow
+spec:
+  selector:
+    app: jupyter
+  ports:
+    - protocol: TCP
+      port: 8888
+      targetPort: 8888
+  externalIPs:
+    - {{ .Values.global.externalIP }}

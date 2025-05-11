@@ -1,0 +1,4 @@
+#cloud-config
+runcmd:
+  - echo "127.0.1.1 $(hostname)" >> /etc/hosts
+  - su cc -c /usr/local/bin/cc-load-public-keys
