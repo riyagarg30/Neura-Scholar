@@ -10,17 +10,14 @@ docker compose -f docker-compose-meta-data-db-jupyter.yaml up -d
     authors TEXT,
     title TEXT,
     comments TEXT,
-    journal_ref TEXT,
+    journal-ref TEXT,
     doi TEXT,
-    report_no TEXT,
+    report-no TEXT,
     categories TEXT,
-    license TEXT,
     abstract TEXT,
-    update_date DATE,
-    authors_parsed TEXT,
     latest_version TEXT,
-    latest_created DATE,
-    txt_filename TEXT
+    txt_filename TEXT,
+    created_yymm TEXT
 );
 
 CREATE TABLE arxiv_chunks (
@@ -29,6 +26,15 @@ CREATE TABLE arxiv_chunks (
     txt_filename TEXT,
     query TEXT,
     chunk_data TEXT
+);
+
+CREATE TABLE arxiv_chunks_eval_2 (
+    paper_id TEXT,
+    chunk_id TEXT,
+    txt_filename TEXT,
+    query TEXT,
+    chunk_data TEXT,
+    paper_cited TEXT[]
 );
 
 \copy arxiv_metadata(

@@ -26,6 +26,7 @@ services:
       - META_DATA_DIR=/mnt/meta-data
     volumes:
       - ~/Neura-Scholar/:/home/jovyan/work/
+      - /var/lib/docker/volumes/clean-meta-data_raw-data/_data/:/home/jovyan/work/data
       - type: bind
         source: /mnt/object
         target: /mnt/meta-data
