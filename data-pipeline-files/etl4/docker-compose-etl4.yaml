@@ -1,0 +1,41 @@
+name: prepare-postgres-data
+
+volumes:
+  raw-data:
+
+services:
+  extract-data:
+    container_name: etl_4_extract_data
+    image: python-gsutil:3.11
+    user: root
+    volumes:
+      - raw-data:/data
+      - /mnt/object/:/data-obj
+    working_dir: /data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        cp -r /data-obj/meta-data/arxiv_cleaned_v1.csv .
+
+  transform-data:
+    container_name: etl_4_transform_data
+    environment:
+      - FILE_URL=${FILE_URL:-unset}
+    image: python-gsutil:3.11
+    volumes:
+      - raw-data:/data
+      - ./:/dir_data
+      - /mnt/object/:/data-obj
+    working_dir: /data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+
+        ls ../dir_data
+        cd ../dir_data
+        python3 prepare_postgres_data.py
+
