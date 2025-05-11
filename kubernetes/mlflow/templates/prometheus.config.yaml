@@ -9,6 +9,13 @@ data:
       scrape_interval: 15s
     
     scrape_configs:
-      - job_name: 'minio'
+      - job_name: minio-job
+        bearer_token: ""
+        metrics_path: /minio/v2/metrics/cluster
+        scheme: http
         static_configs:
-          - targets: ['minio:9001']   
+          - targets: ['minio:9000']
+      - job_name: 'ray-head'
+        static_configs:
+          - targets: ['192.168.1.11:8090']
+        

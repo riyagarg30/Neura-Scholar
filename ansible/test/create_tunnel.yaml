@@ -1,0 +1,25 @@
+- name: Create ssh tunnel to chi_uc from kvm_tacc
+  hosts: node1
+  become: yes
+  vars:
+    repo_path: "https://github.com/Yugesh1620/Neura-Scholar.git"
+    ray_head_endpoint_path: "kubernetes/kube-ray/ray-head-endpoint.yaml"
+
+  tasks:
+    - name: Clone or update Git repository
+      git:
+        repo: "{{ repo_path }}"
+        dest: "/tmp/neura_scholar"
+        version: main
+        update: yes
+        force: yes
+
+    - name: Create an SSH tunnel to forward ray-head dashboard (8265) and ray-client (10001) ports from chi@uc
+      shell: >
+        ssh -NL 192.168.1.11:8265:192.168.1.10:8265 -L 192.168.1.11:8090:192.168.1.10:8090 cc@{{ lookup('env', 'FLOATING_IP_CHI_UC') }} &
+
+    - name: Test ray-head endpoint connectivity
+      shell: >
+        curl http://192.168.1.11:8265
+
+

@@ -1,0 +1,60 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: ray-job-submit-
+spec:
+  entrypoint: ray-job
+  arguments:
+    parameters:
+      - name: SCRIPT_NAME
+        value: "/Retraining/retrain_with_ray.py"
+
+  templates:
+    - name: ray-job
+      steps:
+        - - name: submit-job
+            template: submit-job
+            arguments:
+              parameters:
+                - name: SCRIPT_NAME
+                  value: "{{workflow.parameters.SCRIPT_NAME}}"
+    
+    - name: submit-job
+      inputs:
+        parameters:
+          - name: SCRIPT_NAME
+      
+      container:
+        name: submit-job
+        image: rayproject/ray:2.2.0
+        env:
+          - name: SCRIPT_NAME
+            value: "{{inputs.parameters.SCRIPT_NAME}}"
+        command: [/bin/bash, -c]
+        args:
+          - |
+            git clone https://github.com/Yugesh1620/Neura-Scholar.git /tmp/repo
+            cd /tmp/repo/
+            ray job submit \
+              --address http://ray-head:8265 \
+              --working-dir . \
+              --runtime-env-json '{
+                "pip": [
+                  "torch>=1.12.0,<2.1",
+                  "sentence-transformers==2.2.2",
+                  "transformers==4.28.1",
+                  "huggingface_hub==0.14.1",
+                  "accelerate==0.20.3",
+                  "mlflow>=2.2.0",
+                  "datasets",
+                  "pandas",
+                  "sqlalchemy",
+                  "psycopg2-binary"
+                ],
+                "excludes": [
+                  "downloaded_model/",
+                  "downloaded_model/model/23/"
+                ]
+              }' \
+              -- python $SCRIPT_NAME
+

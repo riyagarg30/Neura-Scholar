@@ -3,6 +3,8 @@ kind: PersistentVolume
 metadata:
   name: prometheus
   namespace: mlflow 
+  labels:
+    app: prometheus
 spec:
   capacity:
     storage: 2Gi
@@ -33,6 +35,9 @@ spec:
     requests:
       storage: 2Gi
   storageClassName: manual
+  selector:
+    matchLabels:
+      app: prometheus
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -85,4 +90,4 @@ spec:
       port: 9090
       targetPort: 9090
   externalIPs:
-    - {{ .Values.prometheus.externalIP }}
+    - {{ .Values.global.externalIP }}

@@ -5,11 +5,10 @@ variable "suffix" {
   default = "project22"
 }
 
-variable "volume_id" {
-    description = "The Volume ID to attach node1 to"
+variable "reservation_id" {
+    description = "Reservation ID"
     type = string
     nullable = false
-    default = "d0c861fe-5016-4154-929d-e90bf45bf6df"
 }
 
 variable "key" {
@@ -21,9 +20,9 @@ variable "key" {
 variable "nodes" {
   type = map(string)
   default = {
-    "node1" = "192.168.1.11"
-    "node2" = "192.168.1.12"
-    "node3" = "192.168.1.13"
+    "gpu_node" = "192.168.1.10"
+#    "node2" = "192.168.1.12"
+#    "node3" = "192.168.1.13"
   }
 }
 

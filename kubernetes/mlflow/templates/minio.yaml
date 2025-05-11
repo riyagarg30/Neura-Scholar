@@ -48,6 +48,10 @@ spec:
                 secretKeyRef:
                   name: minio
                   key: MINIO_ROOT_PASSWORD
+
+            - name: MINIO_PROMETHEUS_AUTH_TYPE
+              value: public
+
           ports:
             - containerPort: 9000  # S3 API
             - containerPort: 9001  # Dashboard
@@ -75,7 +79,7 @@ spec:
       port: 9001
       targetPort: 9001
   externalIPs:
-    - {{ .Values.minio.externalIP }}
+    - {{ .Values.global.externalIP }}
 
     #---
     #apiVersion: v1

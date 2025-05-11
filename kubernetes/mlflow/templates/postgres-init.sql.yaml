@@ -13,3 +13,11 @@ data:
     GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO mlflowuser;
     ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES TO mlflowuser;
 
+    CREATE ROLE labelstudiouser WITH LOGIN PASSWORD 'labelstudio@123';
+    CREATE DATABASE labelstudiodb OWNER labelstudiouser;
+    GRANT CONNECT ON DATABASE labelstudiodb TO labelstudiouser;
+    \c labelstudiodb;
+    GRANT USAGE ON SCHEMA public TO labelstudiouser;
+    GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO labelstudiouser;
+    ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES TO labelstudiouser;
+

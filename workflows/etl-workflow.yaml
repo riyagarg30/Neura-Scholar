@@ -1,0 +1,139 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: etl-pipeline-
+spec:
+  entrypoint: etl-pipeline
+  arguments:
+    parameters:
+      - name: FILE_URL
+        value: "gs://arxiv-dataset/arxiv/cs/pdf/9912/"
+      - name: DESTINATION
+        value: "chi_tacc:object-persist-rg5073-test/raw-data/"
+  volumes:
+    - name: raw-data
+      persistentVolumeClaim:
+        claimName: raw-data-pvc 
+    - name: rclone-config
+      configMap:
+        name: rclone-config
+  templates:
+    - name: etl-pipeline
+      steps:
+        - - name: extract-data
+            template: extract-data
+            arguments:
+              parameters:
+                - name: FILE_URL
+                  value: "{{workflow.parameters.FILE_URL}}"
+        - - name: transform-data
+            template: transform-data
+            arguments:
+              parameters:
+                - name: FILE_URL
+                  value: "{{workflow.parameters.FILE_URL}}"
+        - - name: load-data
+            template: load-data
+            arguments:
+              parameters:
+                - name: FILE_URL
+                  value: "{{workflow.parameters.FILE_URL}}"
+                - name: DESTINATION
+                  value: "{{workflow.parameters.DESTINATION}}"
+
+    - name: extract-data
+      inputs:
+        parameters:
+          - name: FILE_URL
+      container:
+        name: etl-extract-data
+        image: google/cloud-sdk:alpine
+        env:
+          - name: FILE_URL
+            value: "{{inputs.parameters.FILE_URL}}"
+        command: ["/bin/bash", "-c"]
+        args:
+          - |
+            set -e
+            echo "Resetting dataset directory..."
+            rm -rf /data/raw-data/*
+            mkdir -p /data/raw-data
+            cd /data/raw-data
+            echo "Downloading dataset $FILE_URL..."
+            base="arxiv_$(basename "$FILE_URL")"
+            echo "Base directory - $base"
+            mkdir "$base"
+            gsutil -m rsync -d -r "$FILE_URL" "$base"
+            echo "Data extraction complete."
+
+        volumeMounts:
+          - name: raw-data
+            mountPath: /data/raw-data
+
+    - name: transform-data
+      inputs:
+        parameters:
+          - name: FILE_URL
+      container:
+        name: etl-transform-data
+        image: google/cloud-sdk:alpine
+        env:
+          - name: FILE_URL
+            value: "{{inputs.parameters.FILE_URL}}"
+        command: ["/bin/bash", "-c"]
+        args:
+          - |
+            set -e
+            echo "Checking if /data/raw-data exists..."
+            if [ ! -d "/data/raw-data" ]; then
+              echo "/data/raw-data not found, creating directory."
+              mkdir -p /data/raw-data
+            fi
+            echo "Listing contents of /data/raw-data after transformation:"
+            ls -l /data/raw-data
+            base="arxiv_$(basename "$FILE_URL")"
+            echo "Base directory - $base"
+            tar -cvf /data/raw-data/$base.tar -C /data/raw-data $base
+            echo "Data transformation complete."
+        volumeMounts:
+          - name: raw-data
+            mountPath: /data/raw-data
+
+    - name: load-data
+      inputs:
+        parameters:
+          - name: FILE_URL
+          - name: DESTINATION
+      container:
+        name: etl-load-data
+        image: rclone/rclone:latest
+        env:
+          - name: FILE_URL
+            value: "{{inputs.parameters.FILE_URL}}"
+          - name: DESTINATION
+            value: "{{inputs.parameters.DESTINATION}}"
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            set -e
+            echo "Loading data to remote storage..."
+            base="arxiv_$(basename "$FILE_URL")"
+            ls /data/raw-data/
+            rclone copy /data/raw-data/"$base.tar" $DESTINATION \
+              --config /root/.config/rclone/rclone.conf \
+              --progress \
+              --transfers=32 \
+              --checkers=16 \
+              --multi-thread-streams=4 \
+              --fast-list
+            echo "Data loaded successfully"
+            rm -rf /data/raw-data/$base
+            rm /data/raw-data/$base.tar
+        volumeMounts:
+          - name: raw-data
+            mountPath: /data/raw-data
+          - name: rclone-config
+            mountPath: /root/.config/rclone/rclone.conf
+            subPath: rclone.conf
+            readOnly: true
+

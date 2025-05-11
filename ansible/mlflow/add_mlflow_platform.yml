@@ -52,14 +52,7 @@
         --path {{ app_path }} \
         --dest-server https://kubernetes.default.svc \
         --dest-namespace "" \
-        --helm-set-string minio.externalIP={{ external_ip }} \
-        --helm-set-string mlflow.externalIP={{ external_ip }} \
-        --helm-set-string postgres.externalIP={{ external_ip }} \
-        --helm-set-string grafana.externalIP={{ external_ip }} \
-        --helm-set-string prometheus.externalIP={{ external_ip }} \
-        --helm-set-string jupyter.externalIP={{ external_ip }} \
-        --helm-set-string labelstudio.externalIP={{ external_ip }} \
-        --helm-set-string rayhead.externalIP={{ external_ip }} \
+        --helm-set-string global.externalIP={{ external_ip }} \
         --port-forward --port-forward-namespace=argocd \
         --sync-policy automated --self-heal
       register: app_create
@@ -70,14 +63,18 @@
         argocd app set {{ app_name }} \
         --revision infra \
         --dest-namespace "" \
-        --helm-set-string minio.externalIP={{ external_ip }} \
-        --helm-set-string mlflow.externalIP={{ external_ip }} \
-        --helm-set-string postgres.externalIP={{ external_ip }} \
-        --helm-set-string grafana.externalIP={{ external_ip }} \
-        --helm-set-string prometheus.externalIP={{ external_ip }} \
-        --helm-set-string jupyter.externalIP={{ external_ip }} \
-        --helm-set-string labelstudio.externalIP={{ external_ip }} \
-        --helm-set-string rayhead.externalIP={{ external_ip }} \
+        --helm-set-string global.externalIP={{ external_ip }} \
         --port-forward --port-forward-namespace=argocd
       register: app_update
+
+    - name: Expose ArgoCD dashboard to external IP
+      command: >
+        kubectl patch svc argocd-server -n argocd \
+          -p '{"spec": {"externalIPs": ["{{ external_ip }}"]}}'
+
+    - name: Expose ArgoWorkflows dashboard to external IP
+      command: >
+        kubectl patch svc argo-server -n argo \
+          -p '{"spec": {"externalIPs": ["{{ external_ip }}"]}}'
+
 

@@ -3,6 +3,8 @@ kind: PersistentVolume
 metadata:
   name: postgres
   namespace: mlflow 
+  labels:
+    app: postgres
 spec:
   capacity:
     storage: 20Gi
@@ -33,45 +35,57 @@ spec:
     requests:
       storage: 20Gi
   storageClassName: manual
+  selector:
+    matchLabels:
+      app: postgres
 ---
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: postgres
-  namespace: mlflow 
+  namespace: mlflow
   labels:
-    app: postgres
+    app: mlflow
 spec:
-  nodeSelector:
-    kubernetes.io/hostname: node1
-  containers:
-    - name: postgres
-      image: postgres:15
-      env:
-        - name: POSTGRES_USER
-          valueFrom:
-            secretKeyRef:
-              name: postgres
-              key: POSTGRES_USER
-        - name: POSTGRES_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: postgres
-              key: POSTGRES_PASSWORD
-      ports:
-        - containerPort: 5432
-      volumeMounts:
+  selector:
+    matchLabels:
+      app: postgres
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      nodeSelector:
+        kubernetes.io/hostname: node1
+      containers:
+        - name: postgres
+          image: pgvector/pgvector:pg15
+          env:
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: postgres
+                  key: POSTGRES_USER
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres
+                  key: POSTGRES_PASSWORD
+          ports:
+            - containerPort: 5432
+          volumeMounts:
+            - name: block-store
+              mountPath: /var/lib/postgresql/data 
+            - name: init-script
+              mountPath: /docker-entrypoint-initdb.d
+      volumes:
         - name: block-store
-          mountPath: /var/lib/postgresql/data 
-        - name: init-script
-          mountPath: /docker-entrypoint-initdb.d
-  volumes:
-    - name: block-store
-      persistentVolumeClaim:
-        claimName: postgres
-    - name: init-script 
-      configMap:
-        name: postgres-init-script
+          persistentVolumeClaim:
+            claimName: postgres
+        - name: init-script 
+          configMap:
+            name: postgres-init-script
 ---
 apiVersion: v1
 kind: Service
@@ -86,7 +100,7 @@ spec:
       port: 5432
       targetPort: 5432
   externalIPs:
-    - {{ .Values.postgres.externalIP }}
+    - {{ .Values.global.externalIP }}
 
   #---
   #apiVersion: v1
