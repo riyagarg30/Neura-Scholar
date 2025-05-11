@@ -83,7 +83,7 @@ services:
 
         base="arxiv_$(basename "$$FILE_URL")"
 
-        rclone copy /data/raw-data/"$${base}.tar" chi_tacc:object-persist-rg5073-test/"$${DATA_DIRECTORY}" \
+        rclone copy /data/raw-data/"$${base}.tar" chi_tacc:object-persist-project-22/"$${DATA_DIRECTORY}" \
         --progress \
         --transfers=32 \
         --checkers=16 \
@@ -91,7 +91,7 @@ services:
         --fast-list
 
         echo "Listing directories in container after load stage:"
-        #rclone lsd chi_tacc:object-persist-rg5073-test
+        #rclone lsd chi_tacc:object-persist-project-22
         rm -rf $${base}
         rm $${base}.tar
 
