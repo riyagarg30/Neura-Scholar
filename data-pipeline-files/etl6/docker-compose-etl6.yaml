@@ -6,6 +6,8 @@ volumes:
 services:
   load-prod-staging-data:
     container_name: load_prod_staging_data
+    environment:
+      - DATA_TO_PROCESS=${DATA_TO_PROCESS:-unset}
     image: python-gsutil:3.11
     user: root
     volumes:
@@ -20,5 +22,5 @@ services:
         set -e
         cd /dir_data
         cp -r /data-obj/queries.txt .
-        python3 generate_staging_prod_queries.py
+        python3 online-data-eval.py $${DATA_TO_PROCESS}
 
