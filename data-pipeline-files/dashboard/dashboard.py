@@ -1,4 +1,3 @@
-# optimized_dashboard.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -114,7 +113,7 @@ def filter_dataframe(
     return fd
 
 # ─── Discover files ─────────────────────────────────────
-DATA_DIR = os.path.expanduser("~/Downloads/dashboard_files")
+DATA_DIR = os.path.expanduser("/mnt/object/dashboard-files")
 all_paths = sum((glob.glob(os.path.join(DATA_DIR, ext)) for ext in ("*.csv","*.tsv","*.txt","*.json")), [])
 all_names = [os.path.basename(p) for p in all_paths]
 
