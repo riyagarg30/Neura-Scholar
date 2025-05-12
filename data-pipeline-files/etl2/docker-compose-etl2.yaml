@@ -7,27 +7,31 @@ services:
   extract-data:
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
+      - PDF_DATA_DIRECTORY=${PDF_DATA_DIRECTORY:-unset}
     container_name: etl_extract_data
     image: python-gsutil:3.11
     user: root
     volumes:
       - raw-data:/data
-      - /mnt/object/raw-data:/data-obj
+      - /mnt/object:/data-obj
     working_dir: /data
     command:
       - bash
       - -c
       - |
         set -e
-        cp /data-obj/$${FILE_URL}.tar .
+        cp /data-obj/$${PDF_DATA_DIRECTORY}/$${FILE_URL}.tar .
         ls
         tar -xvf $${FILE_URL}.tar
         rm -rf $${FILE_URL}.tar
 
   transform-data:
-    container_name: etl_2_transform_data
+    container_name: etl_transform_data
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
+      - PDF_DATA_DIRECTORY=${PDF_DATA_DIRECTORY:-unset}
     image: python-gsutil:3.11
     volumes:
       - raw-data:/data
@@ -46,9 +50,11 @@ services:
         rm -rf text_$${FILE_URL}
 
   load-data:
-    container_name: etl_2_load_data
+    container_name: etl_load_data
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
+      - PDF_DATA_DIRECTORY=${PDF_DATA_DIRECTORY:-unset}
     image: rclone/rclone:latest
     volumes:
       - raw-data:/data
@@ -58,7 +64,7 @@ services:
       - -c
       - |
 
-        rclone copy ./"text_$${FILE_URL}.tar" chi_tacc:object-persist-rg5073-test/text-files-data \
+        rclone copy ./"text_$${FILE_URL}.tar" chi_tacc:object-persist-project-22/"$${DATA_DIRECTORY}" \
         --progress \
         --transfers=32 \
         --checkers=16 \

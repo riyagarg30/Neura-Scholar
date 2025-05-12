@@ -1,0 +1,3 @@
+gs://arxiv-dataset/arxiv/arxiv/pdf/1112/
+gs://arxiv-dataset/arxiv/arxiv/pdf/1201/
+gs://arxiv-dataset/arxiv/arxiv/pdf/1202/

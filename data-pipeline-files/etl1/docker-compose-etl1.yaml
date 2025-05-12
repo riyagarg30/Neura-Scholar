@@ -8,6 +8,7 @@ services:
     #container_name: etl_extract_${FILE_URL}
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
     container_name: etl_extract_data
     image: python-gsutil:3.11
     user: root
@@ -40,6 +41,7 @@ services:
     # container_name: etl_transform_${FILE_URL}
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
     image: python-gsutil:3.11
     volumes:
       - raw-data:/data
@@ -66,6 +68,7 @@ services:
     container_name: etl_load_data
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
     # container_name: etl_load_data
     image: rclone/rclone:latest
     volumes:
@@ -80,9 +83,7 @@ services:
 
         base="arxiv_$(basename "$$FILE_URL")"
 
-        #touch "abc$${base}".py
-
-        rclone copy /data/raw-data/"$${base}.tar" chi_tacc:object-persist-rg5073-test/raw-data \
+        rclone copy /data/raw-data/"$${base}.tar" chi_tacc:object-persist-project-22/"$${DATA_DIRECTORY}" \
         --progress \
         --transfers=32 \
         --checkers=16 \
@@ -90,7 +91,7 @@ services:
         --fast-list
 
         echo "Listing directories in container after load stage:"
-        #rclone lsd chi_tacc:object-persist-rg5073-test
+        #rclone lsd chi_tacc:object-persist-project-22
         rm -rf $${base}
         rm $${base}.tar
 
