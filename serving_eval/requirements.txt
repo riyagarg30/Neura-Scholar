@@ -1,7 +1,6 @@
 fastapi
 uvicorn[standard]
 onnxruntime-gpu
-onnxruntime
 onnx
 transformers
 mlflow

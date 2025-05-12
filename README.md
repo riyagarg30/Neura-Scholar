@@ -24,7 +24,8 @@ propose a system for a science problem, for example.)
 | Pranav Bhatt | Model serving and monitoring platforms | https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=pranav-bhatt |
 | Yugesh Panta | Model training and training platforms | https://github.com/Yugesh1620/Neura-Scholar/commits/main/?author=Yugesh1620 |
 
-
+### Per Responsibility README Sections
+- [Model Serving, Monitoring & Eval README](serving_eval/README.md)
 
 ### System diagram
 

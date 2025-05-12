@@ -8,8 +8,6 @@ import numpy as np
 import onnxruntime as ort
 import mlflow
 import mlflow.onnx
-import mlflow.pyfunc
-from mlflow.models import Model
 from fastapi import FastAPI
 from fastapi.responses import Response
 from pydantic import BaseModel
@@ -30,7 +28,11 @@ logger = logging.getLogger(__name__)
 
 # ─────────── MLflow & Config ───────────
 PORT = int(os.getenv("PORT", 8000))
-mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://129.114.27.112:8000"))
+# os.environ["MLFLOW_TRACKING_INSECURE_TLS"] = "1"
+# os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
+mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "mlflow.mlflow.svc.cluster.local"))
 
 EMBED_MODEL_URI     = os.getenv("EMBEDDING_MODEL_URI",     "models:/distilbert-embedding-onnx/1")
 SUMMARIZE_MODEL_URI = os.getenv("SUMMARIZATION_MODEL_URI", "models:/facebook-bart-large/1")
@@ -42,49 +44,30 @@ USE_MLFLOW = os.getenv("USE_MLFLOW", "false").lower() in ("1", "true", "yes")
 
 # ─────────── Prometheus Metrics ───────────
 registry = CollectorRegistry()
-MODEL_LOAD_SUCCESS = Counter("model_load_success_total", "Number of times each model was loaded", ["model_type"], registry=registry)
-MODEL_FILE_SIZE    = Gauge("model_file_size_bytes",       "Size in bytes of the ONNX model file", ["model_type"], registry=registry)
-API_REQUESTS       = Counter("api_requests_total",        "Total API requests", ["endpoint", "method", "http_status"], registry=registry)
-INFERENCE_DURATION = Histogram("model_inference_seconds",  "Inference latency in seconds", ["model_type"], registry=registry)
-INPUT_SIZE         = Histogram("model_input_size",         "Number of items in each request", ["model_type"], registry=registry)
-OUTPUT_SIZE        = Histogram("model_output_size",        "Number of items in each response", ["model_type"], registry=registry)
+MODEL_LOAD_SUCCESS = Counter("model_load_success_total","…",["model_type"],registry=registry)
+MODEL_FILE_SIZE    = Gauge(  "model_file_size_bytes","…",["model_type"],registry=registry)
+API_REQUESTS       = Counter("api_requests_total","…",["endpoint","method","http_status"],registry=registry)
+INFERENCE_DURATION = Histogram("model_inference_seconds","…",["model_type"],registry=registry)
+INPUT_SIZE         = Histogram("model_input_size","…",["model_type"],registry=registry)
+OUTPUT_SIZE        = Histogram("model_output_size","…",["model_type"],registry=registry)
 
-# ─────────── Load models ───────────
+# ─────────── Load ONNX models ───────────
 if USE_MLFLOW:
-    # Embedding ONNX
     embed_onnx_path = mlflow.onnx.load_model(EMBED_MODEL_URI)
-
-    # Summarization: detect flavor
-    tmp_dir = "tmp_summ_meta"
-    os.makedirs(tmp_dir, exist_ok=True)
-    local_meta = mlflow.artifacts.download_artifacts(artifact_uri=SUMMARIZE_MODEL_URI, dst_path=tmp_dir)
-    meta_conf = Model.load(f"{local_meta}/MLmodel")
-    if "onnx" in meta_conf.flavors:
-        summarize_onnx_path = mlflow.onnx.load_model(SUMMARIZE_MODEL_URI)
-        use_onnx_summary = True
-    else:
-        summarize_pyfunc = mlflow.pyfunc.load_model(SUMMARIZE_MODEL_URI)
-        summarize_onnx_path = None
-        use_onnx_summary = False
+    summarize_onnx_path = mlflow.onnx.load_model(SUMMARIZE_MODEL_URI)
 else:
     embed_onnx_path = LOCAL_EMBED_PATH
     summarize_onnx_path = LOCAL_SUMMARIZE_PATH
-    use_onnx_summary = True  # assume local summarize_path is ONNX
 
-# ─────────── ONNX Runtime sessions ───────────
-providers = ["CUDAExecutionProvider", "CPUExecutionProvider"]
-embed_sess = ort.InferenceSession(embed_onnx_path, providers=providers)
-if use_onnx_summary:
-    summarize_sess = ort.InferenceSession(summarize_onnx_path, providers=providers)
-else:
-    summarize_sess = None
+providers = ["CUDAExecutionProvider","CPUExecutionProvider"]
+embed_sess     = ort.InferenceSession(embed_onnx_path,     providers=providers)
+summarize_sess = ort.InferenceSession(summarize_onnx_path, providers=providers)
 
-# record model‐load metrics
+# record model-load metrics
 MODEL_FILE_SIZE.labels("embed").set(os.path.getsize(embed_onnx_path))
 MODEL_LOAD_SUCCESS.labels("embed").inc()
-if use_onnx_summary:
-    MODEL_FILE_SIZE.labels("summarization").set(os.path.getsize(summarize_onnx_path))
-    MODEL_LOAD_SUCCESS.labels("summarization").inc()
+MODEL_FILE_SIZE.labels("summarization").set(os.path.getsize(summarize_onnx_path))
+MODEL_LOAD_SUCCESS.labels("summarization").inc()
 
 # ─────────── Tokenizers ───────────
 EMBED_TOKENIZER     = os.getenv("EMBEDDING_TOKENIZER_NAME",     "distilbert-base-uncased")
@@ -108,7 +91,7 @@ class SummarizeResponse(BaseModel):
 # ─────────── Batcher ───────────
 class EmbedBatcher:
     def __init__(self, sess: ort.InferenceSession, tok: AutoTokenizer,
-                 max_batch_size: int = 32, max_wait_time: float = 0.01):
+                 max_batch_size=32, max_wait_time=0.01):
         self.sess = sess
         self.tok = tok
         self.max_batch = max_batch_size
@@ -122,6 +105,7 @@ class EmbedBatcher:
         while True:
             await self.trigger.wait()
             await asyncio.sleep(self.wait_time)
+
             async with self.lock:
                 batch = self.queue
                 self.queue = []
@@ -131,6 +115,8 @@ class EmbedBatcher:
 
             texts_list, futures = zip(*batch)
             all_texts = list(chain.from_iterable(texts_list))
+
+            # tokenize (DistilBERT max length = 512)
             enc = self.tok(
                 all_texts,
                 padding=True,
@@ -138,18 +124,19 @@ class EmbedBatcher:
                 max_length=512,
                 return_tensors="np"
             )
+
             # run ONNX
             output_names = [o.name for o in self.sess.get_outputs()]
-            input_feed = {
-                "input_ids": enc["input_ids"],
-                "attention_mask": enc["attention_mask"]
-            }
-            raw_outs = self.sess.run(output_names, input_feed)[0]  # (batch, seq, hidden)
-            mask = enc["attention_mask"][..., None]
-            summed = (raw_outs * mask).sum(axis=1)
-            counts = mask.sum(axis=1).clip(min=1e-9)
-            all_embs = (summed / counts).tolist()
+            input_feed = {"input_ids": enc["input_ids"], "attention_mask": enc["attention_mask"]}
+            raw_outs = self.sess.run(output_names, input_feed)[0]  # shape: (batch, seq, hidden)
 
+            # mean-pool over seq dimension
+            mask = enc["attention_mask"][..., None]                # (batch, seq, 1)
+            summed = (raw_outs * mask).sum(axis=1)                 # (batch, hidden)
+            counts = mask.sum(axis=1).clip(min=1e-9)               # (batch, 1)
+            all_embs = (summed / counts).tolist()                 # List[List[float]]
+
+            # split back to each original request
             idx = 0
             for texts, fut in batch:
                 n = len(texts)
@@ -163,7 +150,9 @@ class EmbedBatcher:
             self.trigger.set()
         return await fut
 
+# instantiate & start on app startup
 embed_batcher = EmbedBatcher(embed_sess, embed_tokenizer, max_batch_size=64, max_wait_time=0.02)
+
 @app.on_event("startup")
 async def start_worker():
     asyncio.create_task(embed_batcher._worker())
@@ -185,6 +174,7 @@ def run_embedding(texts: List[str]) -> List[List[float]]:
         [o.name for o in embed_sess.get_outputs()],
         {"input_ids": enc["input_ids"], "attention_mask": enc["attention_mask"]}
     )[0]
+    # pool
     mask   = enc["attention_mask"][..., None]
     summed = (raw_outs * mask).sum(axis=1)
     counts = mask.sum(axis=1).clip(min=1e-9)
@@ -200,37 +190,27 @@ def run_summary(text: str) -> str:
     API_REQUESTS.labels("/summarize","POST","200").inc()
     INPUT_SIZE.labels("summarization").observe(1)
 
-    if use_onnx_summary:
-        toks = summarize_tokenizer(
-            text,
-            padding=True,
-            truncation=True,
-            max_length=summarize_tokenizer.model_max_length or 1024,
-            return_tensors="np"
-        )
-        output_ids = [[summarize_tokenizer.pad_token_id]]
-        inputs = dict(toks)
-        for _ in range(128):
-            inputs["input_ids"] = np.array(output_ids)
-            logits = summarize_sess.run(None, inputs)[0]
-            nxt = int(logits[0, -1].argmax())
-            if nxt == summarize_tokenizer.eos_token_id:
-                break
-            output_ids[0].append(nxt)
-        summary = summarize_tokenizer.decode(output_ids[0], skip_special_tokens=True)
-    else:
-        # pyfunc-transformers flavor
-        # expects a dict or DataFrame input
-        result = summarize_pyfunc.predict({"text": [text]})
-        # extract single string
-        if hasattr(result, "iloc"):
-            summary = result.iloc[0]
-        else:
-            summary = result[0]
+    toks = summarize_tokenizer(
+        text,
+        padding=True,
+        truncation=True,
+        max_length=summarize_tokenizer.model_max_length or 1024,
+        return_tensors="np"
+    )
+    output_ids = [[summarize_tokenizer.pad_token_id]]
+    inputs = {k: v for k, v in toks.items()}
+    for _ in range(128):
+        inputs["input_ids"] = np.array(output_ids)
+        logits = summarize_sess.run(None, inputs)[0]
+        nxt = int(logits[0, -1].argmax())
+        if nxt == summarize_tokenizer.eos_token_id:
+            break
+        output_ids[0].append(nxt)
 
+    summary = summarize_tokenizer.decode(output_ids[0], skip_special_tokens=True)
     dur = time.time() - start
     INFERENCE_DURATION.labels("summarization").observe(dur)
-    OUTPUT_SIZE.labels("summarization").observe(len(summary.split()))
+    OUTPUT_SIZE.labels("summarization").observe(len(output_ids[0]))
     return summary
 
 # ─────────── Endpoints ───────────
@@ -239,7 +219,9 @@ async def batch_embed(req: EmbedRequest):
     start = time.time()
     API_REQUESTS.labels("/batch-embed","POST","200").inc()
     INPUT_SIZE.labels("embed").observe(len(req.texts))
+
     embs = await embed_batcher.predict(req.texts)
+
     dur = time.time() - start
     INFERENCE_DURATION.labels("embed").observe(dur)
     OUTPUT_SIZE.labels("embed").observe(len(embs))
