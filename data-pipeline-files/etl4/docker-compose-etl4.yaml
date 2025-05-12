@@ -43,6 +43,6 @@ services:
         cp -r /data-obj/$${DATA_TO_PROCESS}/* /req-data
 
         cd ../dir_data
-        python3 prepare_postgres_data.py $${DATA_TO_PROCESS} $${CHUNKS_DATA_TABLE}
+        python3 prepare_postgres_data.py $${META_DATA_TABLE} $${CHUNKS_DATA_TABLE}
         # python3 prepare_postgres_data.py
 
