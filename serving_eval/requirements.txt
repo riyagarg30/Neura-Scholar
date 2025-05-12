@@ -1,9 +1,9 @@
-fastapi>=0.95.0,<1.0.0
-uvicorn[standard]>=0.18.0,<1.0.0
-onnxruntime-gpu>=1.15.0
+fastapi
+uvicorn[standard]
+onnxruntime-gpu
 onnxruntime
 onnx
-transformers>=4.51.3
-mlflow>=2.22.0
-prometheus_client>=0.16.0
-numpy>=2.0.2
+transformers
+mlflow
+prometheus_client
+numpy
