@@ -27,32 +27,9 @@ log = logging.getLogger(__name__)
 # ─────────────── env / config ───────────────
 PORT = int(os.getenv("PORT", 8000))
 
-MODEL_DETAILS = [
-    {
-        "column": "chunk_embedding_768",
-        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert.onnx",
-    },
-    {
-        "column": "chunk_embedding_768_dyn",
-        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_dyn.onnx",
-    },
-    {
-        "column": "chunk_embedding_768_graph",
-        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_opt.onnx",
-    },
-    # {
-    #     "column": "chunk_embedding_768_static_h",
-    #     "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_heavy.onnx",
-    # },
-    # {
-    #     "column": "chunk_embedding_768_static_m",
-    #     "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_moderate.onnx",
-    # },
-]
-
-os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
-os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
+# os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
 mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI"))
 
 EMBED_URI   = os.getenv("EMBEDDING_MODEL_URI",
@@ -60,7 +37,7 @@ EMBED_URI   = os.getenv("EMBEDDING_MODEL_URI",
 SUMM_URI    = os.getenv("SUMMARIZATION_MODEL_URI",
                         "models:/facebook-bart-large/1")
 LOCAL_EMBED = os.getenv("EMBEDDING_MODEL_PATH",
-                        f"{MODEL_DETAILS[0]["model_path"]}")
+                        "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_opt.onnx")
 LOCAL_SUMM  = os.getenv("SUMMARIZATION_MODEL_PATH",
                         "/home/pb/projects/course/sem2/mlops/project/mlops/models/bart_summarize.onnx")
 USE_MLFLOW_EMBED  = os.getenv("USE_MLFLOW_EMBED", "false").lower() in ("1","true","yes")
