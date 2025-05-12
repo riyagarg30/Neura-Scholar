@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: endpoint
-  namespace: testing
+  namespace: canary
   labels:
     app: endpoint
 spec:
@@ -22,7 +22,7 @@ spec:
             - containerPort: 8000
           env:
             - name: EMBEDDING_MODEL_PATH
-              value: "scratch/distilbert_dyn.onnx"
+              value: "scratch/distilbert_static_heavy.onnx"
             - name: SUMMARIZATION_MODEL_PATH
               value: "scratch/models/bart_summarize.onnx"
             - name: KVM_TACC_ENDPOINT
@@ -54,13 +54,13 @@ apiVersion: v1
 kind: Service
 metadata:
   name: endpoint
-  namespace: testing
+  namespace: canary
 spec:
   selector:
     app: endpoint
   ports:
     - protocol: TCP
-      port: 8001
+      port: 8003
       targetPort: 8000
   externalIPs:
     - {{ .Values.global.externalIP }}
