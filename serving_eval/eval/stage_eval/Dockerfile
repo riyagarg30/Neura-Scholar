@@ -9,7 +9,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 # MLflow settings (override at runtime with -e)
 ENV MLFLOW_TRACKING_URI="http://localhost:5000" \
     MLFLOW_MODEL_STAGE="Production" \
-    EVAL_DIR="/eval"
+    EVAL_DIR="/eval" \
+    MLFLOW_MODEL_URI="models:/distilbert-embedding-onnx-graph-opt/1"
 
 # ───────── Install Python & pip ─────────────────────────────────────────────
 RUN apt-get update \

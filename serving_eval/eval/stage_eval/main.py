@@ -21,6 +21,7 @@ from sqlalchemy import create_engine
 # MLflow settings (via env or defaults)
 MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://localhost:5000")
 MLFLOW_MODEL_STAGE  = os.getenv("MLFLOW_MODEL_STAGE", "Staging")
+MLFLOW_MODEL_URI  = os.getenv("MLFLOW_MODEL_URI", "models:/distilbert-embedding-onnx-graph-opt/1")
 
 mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
@@ -36,7 +37,7 @@ EMBED_TOKENIZER = "distilbert/distilbert-base-uncased"
 MODEL_DETAILS = [
     {
         "column":   "chunk_embedding_768_graph",
-        "model_uri":"models:/distilbert_chunks_graph/{}".format(MLFLOW_MODEL_STAGE),
+        "model_uri": MLFLOW_MODEL_STAGE,
     },
 ]
 
