@@ -1,5 +1,5 @@
 numpy
-pandas as pd
+pandas
 faiss
 mlflow
 onnxruntime-gpu
