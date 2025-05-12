@@ -2,6 +2,7 @@
 import sys
 import time
 import random
+import uuid
 from sqlalchemy import create_engine, text, inspect
 
 DB_URL        = 'postgresql+psycopg2://rg5073:rg5073pass@129.114.27.112:5432/cleaned_meta_data_db'
@@ -10,7 +11,7 @@ TOP_K_COUNT   = 5
 
 TABLE_SCHEMA = """
 CREATE TABLE IF NOT EXISTS {table_name} (
-    query_id          INT,
+    query_id          TEXT PRIMARY KEY,
     query             TEXT,
     summary_generated TEXT,
     top_k_papers      TEXT[],
@@ -75,13 +76,14 @@ print(f"[{env.upper()}] Will process {len(queries)} rows.")
 for idx, qry in enumerate(queries, start=1):
     print(f"\n[{env.upper()}] #{idx} → {qry!r}")
     data = mock_backend(qry, env)
+    qid = str(uuid.uuid4())
 
     # one transaction per insert
     with engine.begin() as conn:
         result = conn.execute(
             insert_sql,
             {
-                "qid": idx,
+                "qid": qid,
                 "qry": qry,
                 "summary": data["summary_generated"],
                 "top_k": data["top_k_papers"],
