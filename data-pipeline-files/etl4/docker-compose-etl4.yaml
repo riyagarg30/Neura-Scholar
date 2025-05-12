@@ -22,12 +22,13 @@ services:
   transform-data:
     container_name: etl_4_transform_data
     environment:
-      - FILE_URL=${FILE_URL:-unset}
+      - DATA_TO_PROCESS=${DATA_TO_PROCESS:-unset}
     image: python-gsutil:3.11
     volumes:
       - raw-data:/data
       - ./:/dir_data
       - /mnt/object/:/data-obj
+      - /mnt/object/$${DATA_TO_PROCESS}:/req-data
     working_dir: /data
     command:
       - bash
