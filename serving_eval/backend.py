@@ -27,9 +27,11 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # ─────────── MLflow & Config ───────────
-# os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
-# os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
-# os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
+PORT = int(os.getenv("PORT", 8000))
+os.environ["MLFLOW_TRACKING_INSECURE_TLS"] = "1"
+os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
 mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "mlflow.mlflow.svc.cluster.local"))
 
 EMBED_MODEL_URI     = os.getenv("EMBEDDING_MODEL_URI",     "models:/distilbert-embedding-onnx/1")
@@ -253,4 +255,4 @@ async def log_requests(request, call_next):
 # ─────────── Run via Uvicorn ───────────
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("backend:app", host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run("backend:app", host="0.0.0.0", port=PORT, reload=False)
