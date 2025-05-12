@@ -15,7 +15,7 @@ import psycopg2
 from sqlalchemy import inspect
 
 engine = create_engine(
-    'postgresql+psycopg2://rg5073:rg5073pass@129.114.27.112:5432/meta_data_chunks',
+    'postgresql+psycopg2://rg5073:rg5073pass@129.114.27.112:5432/cleaned_meta_data_db',
     pool_size=12,
     max_overflow=0,
     pool_timeout=30,
@@ -55,26 +55,50 @@ CREATE TABLE IF NOT EXISTS arxiv_chunks (
 with engine.begin() as conn:
     conn.execute(text(create_chunks_table_sql))
 
+with engine.connect() as conn:
+    result = conn.execute("SELECT COUNT(*) FROM arxiv_metadata;")
+    row_count = result.scalar()
+
 csv_path = os.path.join('/data-obj/meta-data', 'arxiv_cleaned_v1.csv')
 
-df = pd.read_csv(csv_path)
-print("Our metadata contains: ",len(df), " records")
+if row_count == 0:
+    df = pd.read_csv(csv_path)
+    print("Our metadata contains: ", len(df), " records")
 
-raw_conn = engine.raw_connection()
-cur = raw_conn.cursor()
+    raw_conn = engine.raw_connection()
+    cur = raw_conn.cursor()
+    with open(csv_path, 'r') as f:
+        cur.copy_expert("""
+            COPY arxiv_metadata
+            FROM STDIN
+            WITH CSV HEADER
+        """, f)
+    raw_conn.commit()
+    cur.close()
+    raw_conn.close()
+    print("Data loaded into arxiv_metadata.")
+else:
+    print("Table arxiv_metadata is not empty — skipping CSV load.")
 
-with open(csv_path, 'r') as f:
-    cur.copy_expert(f"""
-        COPY arxiv_metadata
-        FROM STDIN
-        WITH CSV HEADER
-    """, f)
+# df = pd.read_csv(csv_path)
+# print("Our metadata contains: ",len(df), " records")
 
-raw_conn.commit()
-cur.close()
+# raw_conn = engine.raw_connection()
+# cur = raw_conn.cursor()
+
+# with open(csv_path, 'r') as f:
+#     cur.copy_expert(f"""
+#         COPY arxiv_metadata
+#         FROM STDIN
+#         WITH CSV HEADER
+#     """, f)
+
+# raw_conn.commit()
+# cur.close()
 
 workspace_dir = '/data'
-text_files_data_path = os.path.join('/data-obj', "text-files-data")
+# text_files_data_path = os.path.join('/data-obj', "text-files-data")
+text_files_data_path = '/req-data'
 tar_files_list = os.listdir(text_files_data_path)
 print("Text tar files list",tar_files_list)
 
