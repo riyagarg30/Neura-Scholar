@@ -6,3 +6,6 @@ ssh -i ~/.ssh/id_rsa_chameleon \
     cc@129.114.27.68
 
 board on: http://127.0.0.1:8501/
+
+lsof -iTCP:8501 -sTCP:LISTEN
+kill -9 pid
