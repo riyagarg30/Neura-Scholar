@@ -1,14 +1,34 @@
-# Use the official Python 3.11 slim image as a base
 FROM python:3.11-slim
 
-# Ensure system packages are up to date, install curl (for pulling GS SDK key), then install gsutil via pip
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends curl \
-    && pip install --no-cache-dir gsutil \
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    gcc \
+    libmupdf-dev \
+    build-essential \
+    libglib2.0-0 \
+    libgl1 \
+    libpq-dev \
+    libffi-dev \
+    git \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Verify installation
+# Install Python packages
+RUN pip install --no-cache-dir \
+    gsutil \
+    pymupdf \
+    numpy \
+    pandas \
+    sqlalchemy \
+    langdetect \
+    tqdm \
+    psycopg2-binary \
+    jupyterlab \
+    ipykernel \
+    ipywidgets
+
+# Check gsutil version
 RUN gsutil version
 
-# Default to bash so you can drop into the container interactively
 CMD ["bash"]
