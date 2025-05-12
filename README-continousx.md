@@ -18,7 +18,7 @@
     - Bringing up ArgoCD applications.
     - Create a ssh tunnel from the gpu node at CHI_UC to node1 at KVM_TACC in order to access the Ray Cluster endpoint and metrics at KVM_TACC.
 
-- Using Argo Workflows to register workflows.
+- Using Argo Workflows for automation.
 
 # Kubernetes deployments
 
@@ -45,6 +45,10 @@
     - ray head node ( 4 cpus 8 GiB )
     - ray worker 1 ( 1 GPU, 8 CPUs and 16 GiB )
     - ray worker 2 ( 1 GPU, 8 CPUs and 16 GiB )
+- Block store at KVM@TACC of 50 GB.
+- Object store at CHI@UC :
+    - ~100 GB of Block store backups, Model checkpoints from the Ray worker nodes, Caching models & pip packages for faster deployment of stages like - testing, staging, canary and production.
+    - ~300 GB of raw arxiv pdfs, and processed text files.
 
 
 
