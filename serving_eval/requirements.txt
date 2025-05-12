@@ -6,3 +6,6 @@ transformers
 mlflow
 prometheus_client
 numpy
+torch
+tokenizers
+pydantic

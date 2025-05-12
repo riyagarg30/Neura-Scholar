@@ -1,13 +1,9 @@
 # Mac issues
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 .DS_Store
 =======
 *.DS_Store
->>>>>>> Stashed changes
-=======
-*.DS_Store
->>>>>>> Stashed changes
+
+serving_eval/indexes
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
