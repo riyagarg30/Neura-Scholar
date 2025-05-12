@@ -1,258 +1,194 @@
-import os
-import asyncio
-import time
+#!/usr/bin/env python3
+# ─────────────────────────────────────────────────────────────────────────────
+# Neura‑Scholar batched ONNX FastAPI service with terminal + Prometheus timing
+# ─────────────────────────────────────────────────────────────────────────────
+import os, time, asyncio, logging
 from itertools import chain
-from typing import List, Tuple
+from typing import List, Tuple, Callable
 
 import numpy as np
+import torch
 import onnxruntime as ort
-import mlflow
-import mlflow.onnx
-from fastapi import FastAPI
+import mlflow, mlflow.onnx
+from fastapi import FastAPI, Request
 from fastapi.responses import Response
 from pydantic import BaseModel
-from transformers import AutoTokenizer
+from tokenizers import Tokenizer
 from prometheus_client import (
-    CollectorRegistry,
-    Counter,
-    Histogram,
-    Gauge,
-    generate_latest,
-    CONTENT_TYPE_LATEST,
+    CollectorRegistry, Counter, Histogram, Gauge,
+    generate_latest, CONTENT_TYPE_LATEST
 )
-import logging
 
-# ─────────── Logging ───────────
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
+# ─────────────── logging ───────────────
+logging.basicConfig(level=logging.DEBUG,
+                    format="%(asctime)s %(levelname)s %(message)s")
+log = logging.getLogger(__name__)
 
-# ─────────── MLflow & Config ───────────
+# ─────────────── env / config ───────────────
 PORT = int(os.getenv("PORT", 8000))
-# os.environ["MLFLOW_TRACKING_INSECURE_TLS"] = "1"
-# os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
-# os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
-# os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
-mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "mlflow.mlflow.svc.cluster.local"))
 
-EMBED_MODEL_URI     = os.getenv("EMBEDDING_MODEL_URI",     "models:/distilbert-embedding-onnx/1")
-SUMMARIZE_MODEL_URI = os.getenv("SUMMARIZATION_MODEL_URI", "models:/facebook-bart-large/1")
+os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
+mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI"))
 
-LOCAL_EMBED_PATH     = os.getenv("EMBEDDING_MODEL_PATH",     "models/distilbert.onnx")
-LOCAL_SUMMARIZE_PATH = os.getenv("SUMMARIZATION_MODEL_PATH", "models/bart_summarize.onnx")
+EMBED_URI   = os.getenv("EMBEDDING_MODEL_URI",
+                        "models:/distilbert-embedding-onnx/1")
+SUMM_URI    = os.getenv("SUMMARIZATION_MODEL_URI",
+                        "models:/facebook-bart-large/1")
+LOCAL_EMBED = os.getenv("EMBEDDING_MODEL_PATH",
+                        "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_graph_opt.onnx")
+LOCAL_SUMM  = os.getenv("SUMMARIZATION_MODEL_PATH",
+                        "/home/pb/projects/course/sem2/mlops/project/mlops/models/bart_summarize.onnx")
+USE_MLFLOW_EMBED  = os.getenv("USE_MLFLOW_EMBED", "false").lower() in ("1","true","yes")
+USE_MLFLOW_SUMM  = os.getenv("USE_MLFLOW_SUMM", "false").lower() in ("1","true","yes")
 
-USE_MLFLOW = os.getenv("USE_MLFLOW", "false").lower() in ("1", "true", "yes")
 
-# ─────────── Prometheus Metrics ───────────
-registry = CollectorRegistry()
-MODEL_LOAD_SUCCESS = Counter("model_load_success_total","…",["model_type"],registry=registry)
-MODEL_FILE_SIZE    = Gauge(  "model_file_size_bytes","…",["model_type"],registry=registry)
-API_REQUESTS       = Counter("api_requests_total","…",["endpoint","method","http_status"],registry=registry)
-INFERENCE_DURATION = Histogram("model_inference_seconds","…",["model_type"],registry=registry)
-INPUT_SIZE         = Histogram("model_input_size","…",["model_type"],registry=registry)
-OUTPUT_SIZE        = Histogram("model_output_size","…",["model_type"],registry=registry)
+# ─────────────── load ONNX models ───────────────
+try:
+    embed_path = mlflow.onnx.load_model(EMBED_URI) if USE_MLFLOW_EMBED else LOCAL_EMBED
+except:
+    log.warning("Failed to load embedding model from MLflow, using local path")
+    embed_path = LOCAL_EMBED
+summ_path  = mlflow.onnx.load_model(SUMM_URI) if USE_MLFLOW_SUMM else LOCAL_SUMM
 
-# ─────────── Load ONNX models ───────────
-if USE_MLFLOW:
-    embed_onnx_path = mlflow.onnx.load_model(EMBED_MODEL_URI)
-    summarize_onnx_path = mlflow.onnx.load_model(SUMMARIZE_MODEL_URI)
-else:
-    embed_onnx_path = LOCAL_EMBED_PATH
-    summarize_onnx_path = LOCAL_SUMMARIZE_PATH
+providers = ["CUDAExecutionProvider", "CPUExecutionProvider"]
+embed_sess = ort.InferenceSession(embed_path, providers=providers)
+summ_sess  = ort.InferenceSession(summ_path,  providers=providers)
 
-providers = ["CUDAExecutionProvider","CPUExecutionProvider"]
-embed_sess     = ort.InferenceSession(embed_onnx_path,     providers=providers)
-summarize_sess = ort.InferenceSession(summarize_onnx_path, providers=providers)
+log.info("Providers in use → %s", embed_sess.get_providers())
 
-# record model-load metrics
-MODEL_FILE_SIZE.labels("embed").set(os.path.getsize(embed_onnx_path))
-MODEL_LOAD_SUCCESS.labels("embed").inc()
-MODEL_FILE_SIZE.labels("summarization").set(os.path.getsize(summarize_onnx_path))
-MODEL_LOAD_SUCCESS.labels("summarization").inc()
+# ─────────────── tokenizers ───────────────
+EMBED_TOK = os.getenv("EMBEDDING_TOKENIZER_NAME",
+                      "distilbert/distilbert-base-uncased")
+embed_tok = Tokenizer.from_pretrained(EMBED_TOK)
 
-# ─────────── Tokenizers ───────────
-EMBED_TOKENIZER     = os.getenv("EMBEDDING_TOKENIZER_NAME",     "distilbert-base-uncased")
-SUMMARIZE_TOKENIZER = os.getenv("SUMMARIZATION_TOKENIZER_NAME", "facebook/bart-large")
+# ─────────────── Prometheus metrics ───────────────
+REG     = CollectorRegistry()
+REQS    = Counter("api_requests_total", "", ["ep","method","status"], registry=REG)
+LAT     = Histogram("request_seconds", "", ["ep"], registry=REG)
+BATCH   = Histogram("batch_size", "", ["model"], registry=REG)
+STAGES  = Histogram("stage_seconds", "", ["stage","model"], registry=REG)
+MODEL_SZ= Gauge("model_bytes", "", ["model"], registry=REG)
 
-embed_tokenizer     = AutoTokenizer.from_pretrained(EMBED_TOKENIZER)
-summarize_tokenizer = AutoTokenizer.from_pretrained(SUMMARIZE_TOKENIZER)
+MODEL_SZ.labels("embed").set(os.path.getsize(embed_path))
 
-# ─────────── FastAPI setup ───────────
-app = FastAPI()
+# ─────────────── profiling decorator ───────────────
+def profile(stage:str, model:str):
+    def deco(fn:Callable):
+        def wrap(*a, **kw):
+            t0=time.perf_counter()
+            try: return fn(*a, **kw)
+            finally:
+                torch.cuda.synchronize() if torch.cuda.is_available() else None
+                d=time.perf_counter()-t0
+                STAGES.labels(stage,model).observe(d)
+                log.debug("Stage %-12s | %s | %.3f ms", stage, model, d*1000)
+        return wrap
+    return deco
 
-class EmbedRequest(BaseModel):
-    texts: List[str]
-class EmbedResponse(BaseModel):
-    embeddings: List[List[float]]
-class SummarizeRequest(BaseModel):
-    text: str
-class SummarizeResponse(BaseModel):
-    summary: str
+# ─────────────── batching worker ───────────────
+EMBED_OUT = embed_sess.get_outputs()[0].name     # usually "last_hidden_state"
+IDS_NAME  = embed_sess.get_inputs()[0].name      # "input_ids"
+ATT_NAME  = embed_sess.get_inputs()[1].name      # "attention_mask"
 
-# ─────────── Batcher ───────────
 class EmbedBatcher:
-    def __init__(self, sess: ort.InferenceSession, tok: AutoTokenizer,
-                 max_batch_size=32, max_wait_time=0.01):
-        self.sess = sess
-        self.tok = tok
-        self.max_batch = max_batch_size
-        self.wait_time = max_wait_time
+    def __init__(self, max_batch:int=256, max_wait:float=0.015):
+        self.max_batch, self.max_wait = max_batch, max_wait
+        self.q : List[Tuple[List[str], asyncio.Future]] = []
+        self.lock  , self.event = asyncio.Lock(), asyncio.Event()
+        self.dev = "cuda" if torch.cuda.is_available() else "cpu"
 
-        self.queue: List[Tuple[List[str], asyncio.Future]] = []
-        self.lock = asyncio.Lock()
-        self.trigger = asyncio.Event()
-
-    async def _worker(self):
+    async def loop(self):
         while True:
-            await self.trigger.wait()
-            await asyncio.sleep(self.wait_time)
-
+            await self.event.wait()
+            await asyncio.sleep(self.max_wait)
             async with self.lock:
-                batch = self.queue
-                self.queue = []
-                self.trigger.clear()
-            if not batch:
-                continue
+                batch, self.q = self.q, []
+                self.event.clear()
+            if not batch: continue
 
-            texts_list, futures = zip(*batch)
-            all_texts = list(chain.from_iterable(texts_list))
+            texts,futs = zip(*batch)
+            flat=list(chain.from_iterable(texts))
+            BATCH.labels("embed").observe(len(flat))
 
-            # tokenize (DistilBERT max length = 512)
-            enc = self.tok(
-                all_texts,
-                padding=True,
-                truncation=True,
-                max_length=512,
-                return_tensors="np"
-            )
+            # 1‑tokenize -------------------------------------------------------
+            @profile("tokenize","embed")
+            def _tok():
+                encs = embed_tok.encode_batch(flat, add_special_tokens=True)
+                L=512
+                ids = np.zeros((len(flat),L), dtype=np.int64)   # MUST be int64
+                att = np.zeros_like(ids)
+                for i,e in enumerate(encs):
+                    l=min(len(e.ids),L)
+                    ids[i,:l]=e.ids[:l]; att[i,:l]=1
+                return ids,att
+            ids,att=_tok()
 
-            # run ONNX
-            output_names = [o.name for o in self.sess.get_outputs()]
-            input_feed = {"input_ids": enc["input_ids"], "attention_mask": enc["attention_mask"]}
-            raw_outs = self.sess.run(output_names, input_feed)[0]  # shape: (batch, seq, hidden)
+            # 2‑onnx infer + pool ----------------------------------------------
+            @profile("onnx_infer","embed")
+            def _infer(inp_ids, inp_att):
+                return embed_sess.run([EMBED_OUT],
+                        {IDS_NAME:inp_ids, ATT_NAME:inp_att})[0]
+            outs=_infer(ids,att)
 
-            # mean-pool over seq dimension
-            mask = enc["attention_mask"][..., None]                # (batch, seq, 1)
-            summed = (raw_outs * mask).sum(axis=1)                 # (batch, hidden)
-            counts = mask.sum(axis=1).clip(min=1e-9)               # (batch, 1)
-            all_embs = (summed / counts).tolist()                 # List[List[float]]
+            @profile("gpu_pool","embed")
+            def _pool(h, m):
+                with torch.no_grad():
+                    h=torch.from_numpy(h).to(self.dev)
+                    m=torch.from_numpy(m).to(self.dev).unsqueeze(-1)
+                    emb=(h*m).sum(1)/m.sum(1).clamp(min=1)
+                    return emb.cpu().numpy().tolist()
+            embs=_pool(outs,att)
 
-            # split back to each original request
-            idx = 0
-            for texts, fut in batch:
-                n = len(texts)
-                fut.set_result(all_embs[idx:idx+n])
-                idx += n
+            # 3‑fan‑out ---------------------------------------------------------
+            idx=0
+            for t,f in batch:
+                f.set_result(embs[idx:idx+len(t)])
+                idx+=len(t)
 
-    async def predict(self, texts: List[str]) -> List[List[float]]:
-        fut = asyncio.get_running_loop().create_future()
+    async def dispatch(self, txts:List[str]):
+        fut=asyncio.get_running_loop().create_future()
         async with self.lock:
-            self.queue.append((texts, fut))
-            self.trigger.set()
+            self.q.append((txts,fut))
+            if len(self.q)>=self.max_batch: self.event.set()
+            else: self.event.set()
         return await fut
 
-# instantiate & start on app startup
-embed_batcher = EmbedBatcher(embed_sess, embed_tokenizer, max_batch_size=64, max_wait_time=0.02)
+batcher=EmbedBatcher()
+
+# ─────────────── FastAPI app ───────────────
+app=FastAPI()
+
+class Req(BaseModel):  texts:List[str]
+class Resp(BaseModel): embeddings:List[List[float]]
 
 @app.on_event("startup")
-async def start_worker():
-    asyncio.create_task(embed_batcher._worker())
+async def _start():
+    asyncio.create_task(batcher.loop())
+    log.info("Embed worker on %s ready", batcher.dev)
 
-# ─────────── Helpers ───────────
-def run_embedding(texts: List[str]) -> List[List[float]]:
-    start = time.time()
-    API_REQUESTS.labels("/embed","POST","200").inc()
-    INPUT_SIZE.labels("embed").observe(len(texts))
+@app.middleware("http")
+async def _timer(req:Request,cnext):
+    t=time.perf_counter(); r=await cnext(req)
+    LAT.labels(req.url.path).observe(time.perf_counter()-t); return r
 
-    enc = embed_tokenizer(
-        texts,
-        padding=True,
-        truncation=True,
-        max_length=512,
-        return_tensors="np"
-    )
-    raw_outs = embed_sess.run(
-        [o.name for o in embed_sess.get_outputs()],
-        {"input_ids": enc["input_ids"], "attention_mask": enc["attention_mask"]}
-    )[0]
-    # pool
-    mask   = enc["attention_mask"][..., None]
-    summed = (raw_outs * mask).sum(axis=1)
-    counts = mask.sum(axis=1).clip(min=1e-9)
-    embs   = (summed / counts).tolist()
-
-    dur = time.time() - start
-    INFERENCE_DURATION.labels("embed").observe(dur)
-    OUTPUT_SIZE.labels("embed").observe(len(embs))
-    return embs
-
-def run_summary(text: str) -> str:
-    start = time.time()
-    API_REQUESTS.labels("/summarize","POST","200").inc()
-    INPUT_SIZE.labels("summarization").observe(1)
-
-    toks = summarize_tokenizer(
-        text,
-        padding=True,
-        truncation=True,
-        max_length=summarize_tokenizer.model_max_length or 1024,
-        return_tensors="np"
-    )
-    output_ids = [[summarize_tokenizer.pad_token_id]]
-    inputs = {k: v for k, v in toks.items()}
-    for _ in range(128):
-        inputs["input_ids"] = np.array(output_ids)
-        logits = summarize_sess.run(None, inputs)[0]
-        nxt = int(logits[0, -1].argmax())
-        if nxt == summarize_tokenizer.eos_token_id:
-            break
-        output_ids[0].append(nxt)
-
-    summary = summarize_tokenizer.decode(output_ids[0], skip_special_tokens=True)
-    dur = time.time() - start
-    INFERENCE_DURATION.labels("summarization").observe(dur)
-    OUTPUT_SIZE.labels("summarization").observe(len(output_ids[0]))
-    return summary
-
-# ─────────── Endpoints ───────────
-@app.post("/batch-embed", response_model=EmbedResponse)
-async def batch_embed(req: EmbedRequest):
-    start = time.time()
-    API_REQUESTS.labels("/batch-embed","POST","200").inc()
-    INPUT_SIZE.labels("embed").observe(len(req.texts))
-
-    embs = await embed_batcher.predict(req.texts)
-
-    dur = time.time() - start
-    INFERENCE_DURATION.labels("embed").observe(dur)
-    OUTPUT_SIZE.labels("embed").observe(len(embs))
-    return {"embeddings": embs}
-
-@app.post("/embed", response_model=EmbedResponse)
-def embed(req: EmbedRequest):
-    return {"embeddings": run_embedding(req.texts)}
-
-@app.post("/summarize", response_model=SummarizeResponse)
-def summarize(req: SummarizeRequest):
-    return {"summary": run_summary(req.text)}
-
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+@app.post("/embed",response_model=Resp)
+async def embed(req:Req):
+    REQS.labels("/embed","POST","200").inc()
+    t0=time.perf_counter()
+    embs=await batcher.dispatch(req.texts)
+    log.info("Request /embed batch=%d → %.3f ms",
+             len(req.texts),(time.perf_counter()-t0)*1000)
+    return {"embeddings":embs}
 
 @app.get("/metrics")
-def metrics():
-    return Response(generate_latest(registry), media_type=CONTENT_TYPE_LATEST)
+def metrics(): return Response(generate_latest(REG),media_type=CONTENT_TYPE_LATEST)
 
-# ─────────── Logging Middleware ───────────
-@app.middleware("http")
-async def log_requests(request, call_next):
-    t0 = time.time()
-    resp = await call_next(request)
-    elapsed = (time.time() - t0) * 1000
-    print(f"{request.method} {request.url.path} completed_in={elapsed:.1f}ms status={resp.status_code}")
-    return resp
+@app.get("/health")
+def health(): return {"status":"ok"}
 
-# ─────────── Run via Uvicorn ───────────
-if __name__ == "__main__":
+# ─────────────── run ───────────────
+if __name__=="__main__":
     import uvicorn
-    uvicorn.run("backend:app", host="0.0.0.0", port=PORT, reload=False)
+    uvicorn.run("backend:app",host="0.0.0.0",port=PORT,log_level="info")
