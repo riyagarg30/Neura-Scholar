@@ -1,7 +1,8 @@
-transformers
 fastapi
-prometheus-fastapi-instrumentator
-pydantic-settings
-sentence_transformers
-uvicorn
-huggingface_hub
+uvicorn[standard]
+onnxruntime-gpu
+onnx
+transformers
+mlflow
+prometheus_client
+numpy
