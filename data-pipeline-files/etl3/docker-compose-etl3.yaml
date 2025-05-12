@@ -40,6 +40,7 @@ services:
     container_name: etl_3_load_data
     environment:
       - FILE_URL=${FILE_URL:-unset}
+      - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
     image: rclone/rclone:latest
     volumes:
       - raw-data:/data
@@ -49,7 +50,7 @@ services:
       - -c
       - |
 
-        rclone copy ./meta-data/arxiv_cleaned_v1.csv chi_tacc:object-persist-project-22/meta-data \
+        rclone copy ./meta-data/arxiv_cleaned_v1.csv chi_tacc:object-persist-project-22/$${DATA_DIRECTORY} \
         --progress \
         --transfers=32 \
         --checkers=16 \
