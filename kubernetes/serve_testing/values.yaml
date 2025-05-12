@@ -1,0 +1,4 @@
+global:
+  externalIP: 0.0.0.0
+external:
+  endpoint: 0.0.0.0

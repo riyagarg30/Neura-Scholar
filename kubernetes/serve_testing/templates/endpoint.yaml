@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: endpoint
+  namespace: testing
+  labels:
+    app: endpoint
+spec:
+  selector:
+    matchLabels:
+      app: endpoint
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: endpoint
+    spec:
+      containers:
+        - name: endpoint
+          image: registry.kube-system.svc.cluster.local:5000/serving:testing-1.0.0
+          ports:
+            - containerPort: 8000
+          env:
+            - name: EMBEDDING_MODEL_URI
+              value: "scratch/distilbert_dyn.onnx"
+            - name: SUMMARIZATION_MODEL_URI
+              value: "scratch/models/bart_summarize.onnx"
+
+          command: ["/bin/bash", "-c"]
+          args:
+            - >
+              git clone https://github.com/Yugesh1620/Neura-Scholar.git &&
+              cd Neura-Scholar/serving-eval/ &&
+              export PATH=/root/bin/miniconda3:$PATH &&
+              pip3 install -r requirements.txt &&
+              mc alias set local minio.mlflow.svc.cluster.local:9000 admin minioadmin@123 &&
+              mc cp local/$EMBEDDING_MODEL_URI . &&
+              mc cp local/$SUMMARIZATION_MODEL_URI . &&
+              uvicorn backend:app --host 0.0.0.0 --port 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: endpoint
+  namespace: testing
+spec:
+  selector:
+    app: endpoint
+  ports:
+    - protocol: TCP
+      port: 8001
+      targetPort: 8000
+  externalIPs:
+    - {{ .Values.global.externalIP }}
