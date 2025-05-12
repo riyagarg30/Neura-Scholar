@@ -1,0 +1,72 @@
+Main->
+
+folder main
+Ray used
+code->longformer_final_run.py
+jupyter notebook used to submit ray job->longformer_final_run
+version '1' of model 'final'
+experiment->final
+run->clumsy-yak-807
+
+
+
+experiments:
+
+openchat3.5 test:
+
+folder openchat3.5
+folder1:
+1)mlflow  without ray
+jupyter notebook ->Train_mlflow
+version '1' of model 'arxiv-bi-encoder-distilbert'
+experiment->arxiv-bi-encoder-distilbert
+run->carefree-wren-174
+
+
+2)
+mlflow  without ray
+
+a)mlflow  without ray
+jupyter notebook ->Train_mlflow_2
+version '1' of model 'distilbert-arxiv-bi-encoder1'
+experiment->distilbert-arxiv-bi-encoder1
+run->carefree-wren-174
+
+
+b)mlflow  without ray
+jupyter notebook ->Train_mlflow_2
+version '2' of model 'distilbert-arxiv-bi-encoder1'
+experiment->distilbert-arxiv-bi-encoder1
+run->vaunted-shark-785
+
+folder2:
+1)Ray used
+code->check1.py
+jupyter notebook used to submit ray job->run_ray_longformer_experiment_2
+(small data to test code, it did not register properly as i was logging arttifacts twice)
+version '1' of model 'check'
+experiment->arxiv-bi-encoder-longformer-ray
+run->efficient-finch-1
+2)
+Ray used
+code->final.py
+jupyter notebook used to submit ray job->run_ray_longformer_experiment_2
+(complet data, 3 epochs but doubted it will register properly as i was logging arttifacts twice, so stopped midway)
+version '2' of model 'check'
+experiment->final
+run->amazing-sloth-18
+
+
+t5-small:
+data got deleted from mlflow
+
+
+
+Ray_tune folder:
+
+Ray used
+code->train_tune_2.py
+jupyter notebook used to submit ray job->train_tune_2
+version '2' and '3' of model 'final'
+experiment->ray_tune
+run->enchanting-pug-21(lr=3e-05)('3)'   and  upbeat-boar-917(1e-05)('2') for different lr

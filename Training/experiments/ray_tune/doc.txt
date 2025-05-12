@@ -1,0 +1,9 @@
+
+
+Ray used
+code->train_tune_2.py
+jupyter notebook used to submit ray job->train_tune_2
+version '2' and '3' of model 'final'
+experiment->ray_tune
+run->enchanting-pug-21(lr=3e-05)('3)'   and  upbeat-boar-917(1e-05)('2') for different lr
+

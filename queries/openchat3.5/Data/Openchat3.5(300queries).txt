@@ -1,0 +1,2100 @@
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_10
+Queries:
+  1. What are the effects of resummation in the prediction of physical QT distributions in production?
+  2. How does the NLO cross section become unstable in the presence of initial state radiation?
+  3. What estimates can be made on the effects of experimental data on the distribution of initial and final state singularities?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_11
+Queries:
+  1. What is the role of photon production within hadron jets in enhancing the inclusive rate?
+  2. How does the isolation constraint affect the comparison of cross sections before data?
+  3. What are the challenges in reconstructing the effects of isolation on fragmentation contributions?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_12
+Queries:
+  1. What is the role of auxiliary regulator in the approach to simulate experimental isolation?
+  2. How does application of the condition to NLO cross section P Q, QT, y maintain the collinear finiteness?
+  3. How does the integrated fragmentation rate in the region R < R2 compare to the differential fragmentation rate?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_13
+Queries:
+  1. What are the two resummation schemes in the academic chunk?
+  2. What are the main features of the alleviation in the academic chunk?
+  3. What are the two production processes mentioned in the academic chunk?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_14
+Queries:
+  1. How are singular logarithmic contributions from initial-state radiation subtracted from the NLO cross section P in the context of NLO rate calculations for t-channel quark-gluon processes?
+  2. What are the two prescriptions considered for the auxiliary regulator subtraction and smooth isolation inside the photon isolation one?
+  3. How are Tevatron and LHC predictions affected by the singular spin slip contribution that acts as a correction in the Collins Soper reference frame?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_15
+Queries:
+  1. Kinematic constraints for Tevatron Run 2 at 0.96 TeV
+  2. Isolation conditions and their effect on Tevatron Run 2 results
+  3. Comparison of event distributions between Tevatron Run 2 and CDF Collaboration 35
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_16
+Queries:
+  1. What is the role of soft gluon resummation in the evaluation of photon pairs at O s a ura y and O 3 s a ura y in the gg gqS hannel?
+  2. How do the mass distributions of photon pairs in p p X at .96 T e V with QCD on tributions compare between the resummated and NLO calculations?
+  3. How do the transverse momentum distributions of photon pairs influence the shape of d dQ at small Q?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_17
+Queries:
+  1. Compare the CDF data with the fixed order prediction P dashed and its asymptotic approximation A dots, at low QT.
+  2. Analyze the resummed WY distribution and its effect on W + Y final state fractions at different regions of QT.
+  3. Investigate the influence of resummation on the transverse momentum distribution and the azimuthal angle distribution of photons.
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_18
+Queries:
+  1. "Radiative contributions in fragmentation"
+  2. "Experimental isolation and fragmentation photons"
+  3. "Small Q fragmentation and theoretical uncertainties"
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_19
+Queries:
+  1. Diphoton fragmentation function D z1, z2 explanation
+  2. Comparison of predictions with CDF data for invarian t mass and transverse momentum distributions
+  3. Photon fragmentation function normalization
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_2
+Queries:
+  1. QCD contributions to diphoton production with LO and NLO accuracy.
+  2. Analysis of fragmentation contributions in transverse momentum distribution of diphotons.
+  3. Comparison of theoretical predictions with Fermilab Tevatron data and LHC energy.
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_20
+Queries:
+  1. Predicted cross sections for diphoton production in pp collisions at 0.96 TeV as a function of QT and the azimuthal angle difference of the two photons.
+  2. Resummation formalism effect on the transverse momentum distribution with the diphoton invariant mass.
+  3. Comparison of diphoton data with resummed predictions in the region of small and shoulder regions in the QT distribution.
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_21
+Queries:
+  1. What is the relationship between dQT and larger QT values?
+  2. How does the shift of the peak in the data depend on the chosen lower cuts on pT?
+  3. How does the interplay of Sudakov broadening of the QT distribution and kinematic suppression by the phot
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_22
+Queries:
+  1. How do the isolated photon pair transverse momentum distributions and resummation affect Higgs boson searches at the LHC?
+  2. What are the effects of varying the photon transverse momentum cuts on the detection of Higgs boson events at LHC?
+  3. How does the asymmetry between harder and softer photon transverse momentum cuts influence the stability of perturbative QCD calculations at fixed order?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_23
+Queries:
+  1. "nal state fragmentation and omp arison with DIPHO X"
+  2. "transv erse momen tum and in v arian t mass distributions in the q q qg hannel"
+  3. "comparing our results with DIPHO X pred ic tions"
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_24
+Queries:
+  1. DIFFERENTIAL DISTRIBUTIONS IN DIPHOX
+  2. INTEGRATED RATE IN DIPHOX vs VARIATIONS IN EISO T
+  3. COMPARISON OF RESUMMED AND DIPHOX DISTRIBUTIONS IN TRANSVERSE MOMENTUM QT
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_25
+Queries:
+  1. Does the photon fragmentation contribution enhance the X cross section?
+  2. How does the energy of the TEvevron affect the certainties of the theory at small angles?
+  3. How are the QT photon fragmentation contributions suppressed as angles stray away from 0 or?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_26
+Queries:
+  1. How does the Higgs boson production difference between 39 and 40 impact the background computation in the range of 132 GeV?
+  2. What is the influence of imposing the kinematic selection on the Higgs boson signal and the QCD background at large values of diphoton mass?
+  3. How do the cross section times branching ratio for the Higgs boson signal and the QCD background compare in terms of their relative rates?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_27
+Queries:
+  1. What is the impact of the background on the signal events in the variable T4T?
+  2. How does the Collins Soper frame help in understanding the azimuthal angle distribution of the photons?
+  3. What is the difference in rapidities T between the signal and background events in the lab frame?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_28
+Queries:
+  1. "Cos distributions as discriminators between Higgs boson signal and background"
+  2. "Theoretical study of onium diphoton production in hadron collisions"
+  3. "Opproximations of differential cross section for onium diphoton production"
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_29
+Queries:
+  1. What is the effect of varying Eiso T on the DIPHO X cross section?
+  2. How do the isolation criteria in DIPHO X affect the photon fragmentation contributions at NLO?
+  3. Does the olinear subtraction prescription for defining an isolated photon agree well with experimental data in the diphoton production?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_3
+Queries:
+  1. "Perturbative QCD explanation of high energy scattering"
+  2. "Longitudinal factorization in perturbative parton distribution functions"
+  3. "Transverse momentum QT distribution of color-neutral objects"
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_30
+Queries:
+  1. How do uts affect the fragmentation and enhancement at low and intermediate QT in the shoulder region?
+  2. Can you provide a summary of perturbative coefficients in the context of diphoton data analysis?
+  3. Are additional logarithmic singularities and fragmentations observed in the region QT Q?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_31
+Queries:
+  1. Get expressions for anonymals in terms of a certain value.
+  2. Find relationships between the expressions for F_n and F_n,c.
+  3. Identify formulas for the euler constant and splitting functions.
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_32
+Queries:
+  1. "QT approximations" "NLO cross sections" "asymptotic behavior"
+  2. "splitting functions" "helicity amplitude formalism"
+  3. "spin IP function" "gluon polarizations" "CDF collaboration"
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_34
+Queries:
+  1. What is the relationship between Z. Bern, L. J. Dixon, D. C. Dunbar, and D. A. Kosowsky's work in the fields of particle physics and nuclear physics?
+  2. Compare and contrast the contributions of Z. Bern, L. J. Dixon, D. C. Dunbar, and D. A. Kosowsky in different volumes of Nuclear Physics.
+  3. Discuss the key findings of Z. Bern, L. J. Dixon, and D. A. Kosowsky in their collaborative and individual research in the journals Nuclear Physics B425 and Nuclear Physics B437.
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_4
+Queries:
+  1. What is the fragmentation radiation in the context of photon isolation?
+  2. How does isolation energy, Eiso T, affect the fragmentation distribution?
+  3. How does the approximation of collinear fragmentation radiation impact the photon fragmentation function Dz?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_5
+Queries:
+  1. How does your theoretical framework summarize the all-orders resummation?
+  2. How is resummation important for the successful description of physical QCD distributions?
+  3. How do your results compare with the Diphoton Algorithm 14 in terms of initial state fragmentation contributions and reduction associated with isolation?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_6
+Queries:
+  1. Parton distribution function in q q qg asymptotic cross section
+  2. Prefactor dependence on polar angle in gg gqS asymptotic cross section
+  3. Non-resonating cross section on factorized scales for single parton distribution extraction
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_7
+Queries:
+  1. What is the Collins Soper frame and how does it relate to the azimuthal angle distribution of photons?
+  2. What are the small QT representations in Eqs. and how are they used in computing fixed-order parton distributions using the phase-space sliding method?
+  3. How is the lowest bin of the QT distribution approximated in the NLO prediction and what is the purpose of the variable b in the study?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_8
+Queries:
+  1. How is the function ha calculated at orders of s, s, and s in the NNLL resummation?
+  2. What model is used to include the subleading nonperturbative contribution from the nonperturbative region?
+  3. What is the ansatz for the factorization scale in the study?
+
+ Paper ID: 0704.0001v2
+ Chunk ID: 0704.0001v2_9
+Queries:
+  1. What is the role of WY cross section in the QT comparable scenario?
+  2. How does the hard vertex contribution affect the resummation methods?
+  3. What is the relationship between the NLO and CSS resummation schemes?
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_1
+Queries:
+  1. What are k,l pebbles and how are they related to sparse graphs?
+  2. What is the connection between the pebble game with colors and the previous results of Lee and Streinu?
+  3. How do pebble game algorithms relate to the previously mentioned sparse graph algorithms by Gabow, Gabow and Westermann, and Hendrickson?
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_10
+Queries:
+  1. What is the relationship between pebble game graphs and maps and trees?
+  2. How can one identify tight pebble game graphs with maps and trees and lTk graphs?
+  3. What is the main theorem stated in the text with regards to the lower and upper ranges of pebble game graphs?
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_11
+Queries:
+  1. What is the time complexity of Algorithm 17?
+  2. What pebble game construction is presented in Algorithm 18?
+  3. What is the main result shown by
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_12
+Queries:
+  1. What is the relationship between pebble games with colors and sparse graphs?
+  2. What is the time complexity of the algorithm for finding decompositions of sparse graphs into edge disjoint trees?
+  3. How can the pebble game with colors be used to describe a new sparsity certifying decomposition for the entire matroidal range of sparse graphs?
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_13
+Queries:
+  1. Pebble game constructions: relationship with maps and trees, proper lTk decomposition and Tutte Nash Williams arboricity theorem.
+  2. Canonical pebble game: l1 pebble condition and matroid union augmenting paths in the upper range.
+  3. Algorithmic problems: developing l1 pebble game algorithm for the lower range and extending batch scanning for the upper range in practical terms.
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_2
+Queries:
+  1. What is the relationship between the tight graph and sparse graph concepts in the paper?
+  2. What types of subgraphs can be found in sparse graphs?
+  3. What are the
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_3
+Queries:
+  1. Decomposition terminology in sparse graphs
+  2. Tutte and Nash-Williams theorems on k,k tight graphs
+  3. Equivalence of maps, trees and
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_4
+Queries:
+  1. How is the pebble game initialization process defined?
+  2. What are the two main moves in the pebble game?
+  3. What is an example output of the pebble
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_5
+Queries:
+  1. Define the pebble game with colors and explain its relation with sparse graphs.
+  2. Describe the pebble game decomposition and how it is a generalization of proper lTk decompositions.
+  3. Explain the role of canonical pebble game constructions in generating map graphs and proper lTk graphs.
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_6
+Queries:
+  1. What are the key differences between proper lTk decompositions and other methods of certifying sparsity?
+  2. How does the main theorem for the upper range demonstrate the relationship between proper lTk graphs and pebble game graphs?
+  3. What improvements were made to the pebble game algorithm in order to efficiently find canonical pebble game constructions?
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_7
+Queries:
+  1. Define "pebble game" and explain its relation to sparse graphs.
+  2. Explain the concept of "monochromatic tree pieces" in the context of pebble game graphs.
+  3. Elaborate on the concept of graph "decompositions" in the context of pebble games.
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_8
+Queries:
+  1. How can the pebble game decomposition in a Laman graph be read out from the bipartite matching in Hendrickson's Laman graph extraction algorithm?
+  2. Can you provide more details on the case where a minimum number of monochromatic cycles are created in canonical pebble game constructions?
+  3. What are the main differences between the canonical pebble game constructions and the pebble game moves mentioned in the text?
+
+ Paper ID: 0704.0002v2
+ Chunk ID: 0704.0002v2_9
+Queries:
+  1. Can you provide examples of type M1 and M2 map graph creation moves in the 2,0 pebble game construction?
+  2. What are the two constructions that implement the canonical add edge and canonical pebble slide moves?
+  3. How is it possible to collect l 1 pebbles on the ends of an edge to be added, without creating any monochromatic cycles with the canonical pebble slide move?
+
+ Paper ID: 0704.0003v3
+ Chunk ID: 0704.0003v3_1
+Queries:
+  1. How does the dark matter field fluid model explain the Earth Moon system's evolution?
+  2. What evidence supports the theory that the Earth Moon system's closest distance was around 259,000 km at 4.5 billion years ago?
+  3. What is the prediction of the dark matter field fluid model for the Martian rotation?
+
+ Paper ID: 0704.0003v3
+ Chunk ID: 0704.0003v3_2
+Queries:
+  1. What is the role of tidal friction in the evolution of the Earth-Moon system?
+  2. What does dark matter consist of in modern cosmology?
+  3. How does the dark matter field fluid model explain the Earth-Moon system's evolution?
+
+ Paper ID: 0704.0003v3
+ Chunk ID: 0704.0003v3_3
+Queries:
+  1. What is the relationship between the dark matter field fluid and baryonic matter?
+  2. How does the repulsive force of the dark matter field fluid affect the motion of celestial bodies?
+  3. What is the assumed form of the force exerted on a sphere by the dark matter field fluid based on the combined effects of fluid and field?
+
+ Paper ID: 0704.0003v3
+ Chunk ID: 0704.0003v3_4
+Queries:
+  1. How does the repulsive force of the dark matter field contribute to the increase of orbital energy in receding celestial spheres?
+  2. How does the recession acceleration depend on the distance to the gravitational center, and why does it increase with distance?
+  3. How does the torque exerted by the dark matter field fluid affect the angular velocity of celestial spheres, and how does this affect its rotation?
+
+ Paper ID: 0704.0004v1
+ Chunk ID: 0704.0004v1_1
+Queries:
+  1. "Stirling cycle numbers and unlabeled acyclic single source automata determinant relation"
+  2. "Bijection between unlabeled acyclic single source automata and marked lattice paths"
+  3. "Determinant evaluation of Stirling cycle number matrices using sign reversing involution"
+
+ Paper ID: 0704.0004v1
+ Chunk ID: 0704.0004v1_2
+Queries:
+  1. What is the formula for the number ak n of acyclic automata of size n on a k letter input alphabet?
+  2. How are SAF automata characterized in the given text?
+  3. How is the set Bk n defined for a k letter input alphabet?
+
+ Paper ID: 0704.0004v1
+ Chunk ID: 0704.0004v1_3
+Queries:
+  1. "unlabeled automaton identification using canonical representative"
+  2. "constructing automaton in Bkn with last occurrences increasing property relabeling"
+  3. "subdiagonal and marked subdiagonal path sets in unlabeled automata"
+
+ Paper ID: 0704.0004v1
+ Chunk ID: 0704.0004v1_4
+Queries:
+  1. What is the bijection between C k n, n and Ck 1 n?
+  2. What is the process to construct two line representation from C k n, n?
+  3. How to fill in the blanks in the second row of the two line representation?
+
+ Paper ID: 0704.0004v1
+ Chunk ID: 0704.0004v1_5
+Queries:
+  1. What is the relationship between the total weight n and the lists of permutations with weight 1?
+  2. How does a weight reversing involution reduce the problem of counting the total weight?
+  3. How are surviving lists in C1n related to paths in C1n, p?
+
+ Paper ID: 0704.0004v1
+ Chunk ID: 0704.0004v1_6
+Queries:
+  1. What is the process to transform case I to case II in the described permutation?
+  2. What is the inverse process to transform case II back to case I?
+  3. How does the map alter the number of cycles in the permutation and does it have any restrictions or exceptions?
+
+ Paper ID: 0704.0005v1
+ Chunk ID: 0704.0005v1_1
+Queries:
+  1. Dyadic grid method for computing the norm of a BMO function
+  2. Approximation of functions in Hardy space H1 R^N by Haar system
+  3. Lipschitz classes and their approximation using the dyadic grid in R^N
+
+ Paper ID: 0704.0005v1
+ Chunk ID: 0704.0005v1_2
+Queries:
+  1. Define dyadic subcubes of Q n,k and provide an example.
+  2. Explain the process of constructing family S of piecewise polynomial splines in L2 Q0.
+  3. What is A in the context of this academic chunk and how is it related to L2 Q0?
+
+ Paper ID: 0704.0005v1
+ Chunk ID: 0704.0005v1_3
+Queries:
+  1. dyadic Hp space and equivalence of quasinorms
+  2. piecewise polynomial splines and Hp S space
+  3. Hp atoms as superposition of dyadic and special atoms
+
+ Paper ID: 0704.0005v1
+ Chunk ID: 0704.0005v1_4
+Queries:
+  1. What is the decomposition of j in terms of dyadic and special atoms?
+  2. How is the channel information transmitted in Hp?
+  3. What is the relationship between Hp D and Hp S in the Banach space X?
+
+ Paper ID: 0704.0005v1
+ Chunk ID: 0704.0005v1_5
+Queries:
+  1. What is the relationship between linear operator, quasinormed space, and BMO
+  2. How does the averaging process of the translates work in quasinormed space?
+  3. What is the significance of the Lipschitz class in a shifted dyadic grid?
+
+ Paper ID: 0704.0006v1
+ Chunk ID: 0704.0006v1_1
+Queries:
+  1. Feshbach resonance in fermionic atoms
+  2. Cooper pair wave function bosonic character in Fermi gases
+  3. Bosonic characters of atomic Cooper pairs across resonance
+
+ Paper ID: 0704.0006v1
+ Chunk ID: 0704.0006v1_2
+Queries:
+  1. "Eigenvector in a two particle density matrix"
+  2. "Cooper pair wave function vs BCS state wave function"
+  3. "Bosonic mode in a Fermi gas"
+
+ Paper ID: 0704.0006v1
+ Chunk ID: 0704.0006v1_3
+Queries:
+  1. Define Cooper pair wave function with natural orbits and mode function in the text.
+  2. Summarize the derivation of C operator in the context of Cooper pair wave functions.
+  3. Explain how Leggett and Salasnich relate the condensate fraction to the Cooper pair wave function definition.
+
+ Paper ID: 0704.0006v1
+ Chunk ID: 0704.0006v1_4
+Queries:
+  1. What are the natural orbits in a homogeneous BCS gas?
+  2. How are occupation amplitudes related to the pairing gap, the chemical potential, and the scattering length in a BCS gas?
+  3. How doatom densities affect the fraction of condensate particles in a homogeneous BCS gas?
+
+ Paper ID: 0704.0006v1
+ Chunk ID: 0704.0006v1_5
+Queries:
+  1. What is the primary difference between the definitions of a Cooper pair as a bosonic particle (n vn un) and (n u n vn)?
+  2. How does the Cooper pair's bosonic character change in the BCS and BEC limits depending on the definition used?
+  3. What observables can be used to probe the quantum statistics of Cooper pairs and how does the trapping potential affect their bosonic properties?
+
+ Paper ID: 0704.0006v1
+ Chunk ID: 0704.0006v1_6
+Queries:
+  1. What is Pn, the Legendre function of the first kind of degree n?
+  2. How is Z 0 x2dx 1 connected to Ex 1?
+  3. What are the factors that make up the integral, Z 0 x2dx bE2x q
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_1
+Queries:
+  1. "Polymer Quantum Mechanics and Continuum Limit"
+  2. "relationship between Polymer Quantum Mechanics and Loop Quantum Cosmology"
+  3. "Examples of Polymer Quantum Mechanics: Harmonic Oscillator, Free Particle, and Cosmological Model"
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_10
+Queries:
+  1. What are different ways to approximate a non-existing term in the Hamiltonian polymer representation?
+  2. How do different choices of discrete variables affect approximation methods in the Hamiltonian polymer representation?
+  3. What are examples of literature considerations in regards to the choice of discrete variables in the Hamiltonian polymer representation?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_11
+Queries:
+  1. How to approximate kinetic term p2 using trigonometric functions and functions of the form eip?
+  2. What are translation operators and how are they used in approximating polynomial functions of p?
+  3. What is the connection between regulating the operator p2 and the shift operator?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_12
+Queries:
+  1. What is the significance of working with functions of p that preserve a regular graph 0?
+  2. How is the inner product on periodic functions 0 p of p related to the inner product on the circle?
+  3. What are the limitations and benefits of describing mechanical systems in terms of compactified phase space variables p?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_13
+Queries:
+  1. What is the motivation for a precise notion of the continuum limit of the polymeric representation?
+  2. How is the Hamiltonian and the physical Hilbert space constructed as a continuum limit of effective theories using Wilson's renormalization group ideas?
+  3. What is the relation between the Schrödinger state q and a state in the polymer Hilbert space Hpoly,x?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_14
+Queries:
+  1. Intuitive recovery of the original function q using refined lattice
+  2. Overcoming difficulties in polymer theory: best approximation by wave function over a graph
+  3. Embedding Hs into Hpoly: effective theories and continuum limit in polymer represntation
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_15
+Queries:
+  1. Define and explain the concept of coarse-graining map between dual Hilbert spaces in the context of the given academic chunk.
+  2. Discuss the importance of rescaling the inner product and how it guarantees the convergence of the renormalized theory.
+  3. Explain the role of effective Hamiltonians with purely discrete spectra in the renormalization process.
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_16
+Queries:
+  1. What is the role of a shadow in the context of the effective theory in relation to the continuum theory?
+  2. How is the physical Hilbert space defined in relation to the renormalized inner product and the kernel?
+  3. What is the nature of the dynamics of the system under consideration that determines the continuum limit?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_17
+Queries:
+  1. What is the relationship between mGL, pGL, and an in the approximated simple harmonic oscillator (SHO) system?
+  2. How does the number of oscillating states in a pendulum system change as the scale is refined?
+  3. How does the convergence of eigenvalues and eigenfunctions in a discrete system relate to the existence of the continuum limit in a SHO system?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_18
+Queries:
+  1. Explain polymer quantum cosmology and its relation to the polymer representation in quantum mechanics.
+  2. Discuss the time-dependent Schrödinger equation in the context of polymer representation and its implications for energy levels and proper vectors.
+  3. Compare different approaches to choosing fundamental variables in polymer quantum cosmology, focusing on the isotropic, homogeneous FRW cosmology model.
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_19
+Queries:
+  1. How does choosing pa to be quantized affect the standard choice of variables in polymer representation?
+  2. What is the difference between the standard choice of polarization and the opposite polarization adopted in this case?
+  3. How does the effective classical Hamiltonian constraint change between the standard choice and the adopted choice of polarization?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_2
+Queries:
+  1. What is the relationship between the continuum and polymer representation in quantum mechanics?
+  2. How does the minimum area gap A0 influence the lattice spacing in loop quantum cosmology?
+  3. Can the limit between polymer and standard Schrödinger quantum mechanics be arbitrarily approximated by choosing a sufficiently small length scale?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_20
+Queries:
+  1. What is the difference between the classical description, the original and the corrected descriptions in the context of quantum theories?
+  2. How can one approach the problem of the continuum limit in a constrained system with a constraint operator?
+  3. Can the continuum limit of the polymeric and Wheeler-DeWitt theories be related in a non-trivial way, and what implications does this have for the interpretation of the quantum constraint?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_21
+Queries:
+  1. How does the polymer description relate to the ordinary Schrödinger representation?
+  2. What is the role of quantum cosmological models in understanding the relationship between polymer description and Schrödinger representation?
+  3. Can polymer regularization at different scales provide a qualitatively different description from the original dynamics?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_3
+Queries:
+  1. What is the correlation between the kinematics of quantum theory and Hilbert spaces?
+  2. How does the Weyl algebra approach compare to the standard Schrödinger representation?
+  3. Can the standard Schrödinger representation be alternatively constructed using the Weyl algebra, and if so, how?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_4
+Queries:
+  1. Define complex coordinates in phase space and discuss their relevance to constructing the Fock space and Schrödinger representation.
+  2. Explain the Gel'fand-Naimark-Segal (GNS) construction and its relation to the measure in the Schrödinger representation.
+  3. Compare the standard Schrödinger representation with the d representation, and explain the isometric isomorphism K between them.
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_5
+Queries:
+  1. Define GNS Hilbert space waves
+  2. Describe the two limiting cases for parameter d
+  3. Explain the role of the polymer representation in Schrödinger Fock representations
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_6
+Queries:
+  1. What is the relation between the GNS construction and the linear function?
+  2. How does the limit affect the inner product and state representation?
+  3. What role do half densities play in obtaining the expected inner product?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_7
+Queries:
+  1. Define A and B polymer representations in the context of polymer quantum mechanics.
+  2. Explain the significance of the discrete counting measure on R in fixing the problem with the inner product.
+  3. Discuss the significance of choosing between the A and B polymer representations in a given problem.
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_8
+Queries:
+  1. How is the label operator represented in the momentum polarization?
+  2. What is the relationship between the operator q and the abstract operator ?
+  3. How does one define the inner product in the momentum polarization?
+
+ Paper ID: 0704.0007v2
+ Chunk ID: 0704.0007v2_9
+Queries:
+  1. What is the characterization of the A version of the polymer representation in the p polarization?
+  2. What is the form of the wave functions in the q polarization?
+  3. How is the inner product in the B type polymer representation defined?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_1
+Queries:
+  1. How does the general material formulation developed in arXiv 0704.0008v3 help in applications of dynamic loading?
+  2. What are the numerical methods applied in arXiv 0704.0008v3 for calculating shock and ramp compression response and their key features?
+  3. How were material dynamics experiments replicated using the numerical methods in arXiv 0704.0008v3?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_10
+Queries:
+  1. Under what conditions does a plastic shock travel faster than the elastic wave?
+  2. How does the speed of a single plastic shock compare to the case with no strength?
+  3. What is the effect of plastic flow on the temperature of the material during compression?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_11
+Queries:
+  1. What are some examples of wave interactions in materials when subjected to shock and ramp compression?
+  2. How is the projectile's impact on a stationary composite target calculated with shock and release states incorporated?
+  3. How can the underlying time dependence of deformation be taken into account during shock and ramp compression simulations?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_12
+Queries:
+  1. Consistency between direct solution of shock and ramp loading conditions and hydrocode simulations
+  2. Multi-model material properties software: Ian Gray and material properties libraries evolution
+  3. National Nuclear Security Agency's Inertial Confinement Fusion program and Laboratory Directed Research and Development project 06 SI 004 funding
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_2
+Queries:
+  1. What are the advancements in material property measurement using laser driven inertial confinement fusion?
+  2. How can we predict the Equation of State (EOS) accuracy with theoretical techniques?
+  3. What are the challenges in treating heat conduction in condensed matter on sub-microsecond time scales?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_3
+Queries:
+  1. What are the advantages of separating continuum dynamics and material properties in modeling complex material behaviors?
+  2. How can object-oriented programming techniques be used to create more efficient material models in continuum dynamics simulations?
+  3. What is the concept of polymorphism in object-oriented programming and how does it apply to material modeling in continuum dynamics?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_4
+Queries:
+  1. ramp compression in materials described by generalized material models
+  2. shock and ramp loading for materials with dissipative processes
+  3. operator splitting for internal evolution in ramp compression calculations
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_5
+Queries:
+  1. What is the process of ramp compression in material science?
+  2. How does shock compression differ from ramp compression in terms of entropy and temperature?
+  3. What are the limitations of discontinuous shocks in continuum dynamics, and how can these be addressed?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_6
+Queries:
+  1. How do artificial viscosity and neglecting plastic flow affect numerical simulations in thermodynamic space?
+  2. What numerical methods have been used to solve the Rankine-Hugoniot equations with EOS for materials representation?
+  3. What is the process of finding a solution to the general RH equations for given shock compression and how does it vary for general material models with specific internal energy?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_7
+Queries:
+  1. What are the error bounds of the Hugoniot when compared to the baseline isentrope compression increment values?
+  2. How can temperature be included in a mechanical EOS, and what is the effect of temperature on various constitutive responses?
+  3. How does the calculation of temperature in the scalar EOS differ between the SESAME form and temperature-based EOS.
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_8
+Queries:
+  1. How is temperature calculated from a compression curve in the augmented EOS?
+  2. What is the cold curve and how is it used in the augmented EOS?
+  3. How are strength and elastic plastic contributions considered in EOS calibration and predictions?
+
+ Paper ID: 0704.0008v3
+ Chunk ID: 0704.0008v3_9
+Queries:
+  1. Discrepancy between hypoelastic and hyperelastic calculations in Be and Steinberg Guinan strength model.
+  2. Strain-to-unload values in hypoelastic and hyperelastic models.
+  3. Time-dependence of plasticity in beryllium and the Steinberg Guinan strength model.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_1
+Queries:
+  1. "Serpens YSO Population Observations with Spitzer IRAC and MIPS"
+  2. "Young Stellar Object Candidates from Spitzer and 2MASS Photometry"
+  3. "Circumstellar Disk Properties in Serpens Young Stellar Objects"
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_10
+Queries:
+  1. YSO Luminosity Function in Serpens
+  2. Luminosity distribution and its relation to the hydrogen burning limit
+  3. Selection effects on the luminosity distribution in YSO samples
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_11
+Queries:
+  1. What is the function peak around few 10^2 L and its significance?
+  2. How are completeness estimates of IR excess sources down to luminosities of 10^3 L affected by the Paper I suggestion?
+  3. What are the differences between low 10^2 L and high 10^2 L luminosity YSO distributions in Serpens in terms of spatial distribution and extinction?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_12
+Queries:
+  1. What is the correlation between young stellar object distributions in a cluster and their source density?
+  2. How does the surface density of young stellar objects in Cluster A and Cluster B compare with the rest of the cloud?
+  3. How do the properties of circumstellar dust in young stars relate to the evolution of dust from interstellar dust to grains believed involved in planetary system formation?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_13
+Queries:
+  1. "Serpens YSOs color-color diagrams"
+  2. "Spitzer observations circumstellar disks and envelopes"
+  3. "Robitaille et al.'s grid of models young stars"
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_14
+Queries:
+  1. Correlation between luminosity and infrared excess: search for studies or data on possible correlation between observed luminosity and infrared excess in young stellar objects.
+  2. Lack of correlation between luminosity and spectral slope: search for information on the absence of any correlation between the luminosity of YSOs and their spectral slope.
+  3. SED modeling of star-plus-disk objects: search for resources or methods for modeling the spectral energy distribution (SED) of stellar objects with disks.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_15
+Queries:
+  1. What is the impact of neglecting an excess flux in the J band on the Ldisk Lstar ratio and the disk emission SED of Class II objects?
+  2. How does the presence of strong H emission indicative of active accretion among Serpens YSOs affect overall disk emission statistics?
+  3. What do the different object labels T, L, and H represent, and how can they be interpreted in terms of disk evolution?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_16
+Queries:
+  1. What are the stellar and disk flux ratios in Serpens?
+  2. How do T-type SEDs compare to the full Class II and III sample in Serpens?
+  3. What are the evolutionary paths and phases observed among circumstellar disks in Serpens?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_17
+Queries:
+  1. Class II and III sources in the sample
+  2. Coldest Objects Table 9
+  3. Outflow Sources Table 10
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_18
+Queries:
+  1. SED of CTTS in Taurus and debris disks comparison
+  2. Serpens and class II object inner disk morphologies
+  3. Disappearance of near-infrared source in Serpens and Spitzer observations
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_19
+Queries:
+  1. What are the primary characteristics of Class II and Class III objects in the Serpens YSO set?
+  2. How do the clusters and non-cluster YSOs differ in terms of their phase distribution, and what might this suggest about their age and stages of star formation?
+  3. What is the estimated luminosity range of YSOs in Serpens and how does it compare to the detection limit due to background galaxies?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_2
+Queries:
+  1. "Serpens Cloud star formation evidence"
+  2. "Spitzer sensitivity for dust temperature range"
+  3. "Comparison of Serpens cloud studies IRAS, ISO, ground-based surveys"
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_21
+Queries:
+  1. What is the average of the second column of numbers?
+  2. What is the sum of the third column of numbers?
+  3. What is the median of the 13th, 14th, and 15th columns combined?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_22
+Queries:
+  1. Search for the mean value in the academic chunk.
+  2. Search for the median value in the academic chunk.
+  3. Search for the mode value in the academic chunk.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_24
+Queries:
+  1. Find data on Table 2 continued from academic chunk.
+  2. Identify IRAS 18273 0034 position values.
+  3. Locate SSTc2dJ... mJy values in scientific data.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_25
+Queries:
+  1. What are the EC values for 205 and 206?
+  2. Find the 200 value near the 18300047 and 18300070.
+  3. What is the percentage increase between 11.4 and 13.0?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_26
+Queries:
+  1. "IRAS 18251 Observations in Different Wavelengths"
+  2. "Comparison of ID and Prev. Name in Academic Chunk"
+  3. "SSTc2dJ... mJy mJy mJy in Table 3"
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_27
+Queries:
+  1. How many data points are provided between D019 and D029?
+  2. What are the average, median, and mode of the numbers in D022?
+  3. Compare the values of 3.35 and 3.05 in D022 and D035, respectively.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_28
+Queries:
+  1. What is the significance of the D064 code in the given chunk?
+  2. Compare the values of the codes D074 and D077 in the chunk.
+  3. How can we calculate the environmental impact of the values given in the chunk?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_29
+Queries:
+  1. "D100 academic performance"
+  2. "Chunk analysis of academic data"
+  3. "Comparison of academic performance between D100 and D102"
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_3
+Queries:
+  1. Examine the low end of the YSO luminosity function in Serpens.
+  2. Analyze the spatial distribution of star formation in the surveyed area, compared to dust extinction.
+  3. Investigate specific groups of objects, including the coldest YSOs and a disappearing YSO.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_30
+Queries:
+  1. "Spitzer 3.6 m 4.5 m 5.8 m 8.0 m 24 m 70 m SSTc2dJ... mJy mJy mJy mJy mJy mJy": Analyze the correlation between these measurements
+  2. "Spitzer 3.6 m 4.5 m 5.8 m 8.0 m 24 m 70 m SSTc2dJ... mJy mJy mJy mJy mJy mJy": Identify the factors influencing these measurements
+  3. "Spitzer 3.6 m 4.5 m 5.8 m 8.0 m 24 m 70 m SSTc2dJ. . . mJy mJy mJy mJy mJy mJy": Study the change in measurements over time
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_31
+Queries:
+  1. "Spitzer 3.6 m 4.5 m 5.8 m 8.0 m 24 m 70 m" + "D175 18293551 0024262 0.37 0.02 0.25 0.02 0.14 0. . .94"
+  2. "D176 18293561 0035038 30.5 2.0 24.1 1.4 17.0 1.0 12.8 0.7 74.2 6.9 57.6 13.1" + "SSTc2dJ... mJy"
+  3. "D182 18293686
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_32
+Queries:
+  1. What are the K250 values and their related data for rows 28.4 and 1.4?
+  2. What are the K258 values and their related data for rows 42.5 and 95.8?
+  3. What are the K252 values and their related data for rows 29.5 and 28.4?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_34
+Queries:
+  1. Search for "Spitzer 3.6 m" data in academic articles.
+  2. Investigate "4.5 m" findings in scientific research.
+  3. Explore "5.8 m" results
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_37
+Queries:
+  1. What are the probable high-velocity outflows in Serpens YSO ID RA J2000 Dec J2000?
+  2. Compare the matching names of HH 106A,B,E, HH 107A, HH 455A,B, HH 459A,B, and HH 460A,B,C,D in the data.
+  3. Identify the jets and their directions in SMM 1 Jets to NW and SE and SMM 5 Jets to NW and SE.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_4
+Queries:
+  1. Compare Serpens and SWIRE Surface et al. 2004 survey data
+  2. Analyze the classification criteria for reddened stellar photospheres in the Serpens dataset
+  3. Investigate the additional step of band-filling catalog to obtain upper limits or low S/N detections of objects in the Serpens dataset. **Note**: Make sure to address concerns about poorly subtracted wings of nearby bright sources causing false positives in band-filled flux estimates.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_5
+Queries:
+  1. How is the reddening effect simulated on SWIRE sources based on the extinction profile of Serpens?
+  2. How is the sensitivity of the reddened SWIRE photometry degraded to match that of Serpens observations?
+  3. What is the process of reclassifying sources in the resampled SWIRE catalog, and how does it make magnitudes, colors, and classifications comparable to those in the Serpens catalog?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_6
+Queries:
+  1. What are the criteria for classifying YSOs and extragalactic objects using the SWIRE catalog and color magnitude diagrams?
+  2. How are the cutoffs in color magnitude space determined for YSO and extragalactic object separation in the SWIRE catalog?
+  3. What factors influence the probability threshold for classifying objects as YSOs or extragalactic objects in the Serpens and SWIRE observations?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_7
+Queries:
+  1. How many YSO candidates were discarded due to poor photometry quality or image appearance in the Serpens Cloud study?
+  2. In the Serpens Cloud study, what was the percentage of discarded YSO candidates with contamination issues at 24 m?
+  3. What is the expected number of AGB stars contaminating the YSO candidate list in the Serpens cloud, based on the ratio of areas mapped in Serpens versus the off cloud observations?
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_8
+Queries:
+  1. Compare the results of Serpens YSO search with previous studies.
+  2. Analyze color magnitude and color-color diagrams for the Serpens Cloud region.
+  3. Examine the number of sources versus background contamination for YSOs and extra galactic candidates.
+
+ Paper ID: 0704.0009v1
+ Chunk ID: 0704.0009v1_9
+Queries:
+  1. Compare the YSO classification percentages based on MIPS, IRAC, and combined data.
+  2. Estimate the impact of adding IRAC data to the MIPS classification in terms of missed YSOs and false positives.
+  3. Investigate variability in 3.6 and 4.5 micron bands over a 6-hour timescale using multi-epoch observations.
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_1
+Queries:
+  1. What is the significance of partial cubes in the field of graph theory and their connection to hypercubes?
+  2. What are the roles of semicubes, Djokovi c and Winkler relations in the study of partial cubes and how are they used to characterize bipartite graphs and partial cubes?
+  3. What are some constructions and operations used in the paper to create new partial cubes from existing ones, and how are their isometric and lattice dimensions calculated?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_10
+Queries:
+  1. What is the relationship between finite partial cubes and graph dimensions?
+  2. How can the semicube graph Sc G be separated using Cartesian products of two partial cubes V1, E1 and V2, E2?
+  3. How does pasting of graphs along subgraphs change the structure of the resulting graph?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_11
+Queries:
+  1. explain the bijection defining an isomorphism from H1 onto H2
+  2. prove that pasting of two partial cubes G1 and G2 along two isomorphic subgraphs H1 and H2 does not produce a partial cube
+  3. describe the process of vertex pasting and edge pasting to produce partial cubes from partial cubes
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_12
+Queries:
+  1. What is the relationship between vertex pasting and obtaining connected graphs from blocks?
+  2. How is the isometric dimension affected by vertex pasting in a partial cube?
+  3. In the context of lattice dimension, what difference exists between Theorems 7.2 and 7.3 for a partial cube?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_13
+Queries:
+  1. What are the dimensions of a graph obtained by edge pasting together partial cubes G1 and G2?
+  2. How do the semicubes in graph G behave compared to the semicubes in G1 and G2?
+  3. What is the relationship between the Djokovic relations on E, E1, and E2 in a graph obtained by edge pasting together finite partial cubes G1 and G2?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_14
+Queries:
+  1. What is the process of edge pasting in partial cubes?
+  2. How do semicubes relate to partial cubes?
+  3. Explain the process of creating matchings between partial cubes and the resulting matching in the combined graph.
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_15
+Queries:
+  1. What is the procedure for expanding and contracting partial cubes?
+  2. What is the result of edge pasting two graphs of lattice dimension 2 into a star?
+  3. What is the relationship between the dimension of a graph and the dimensions of its components?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_16
+Queries:
+  1. Explain the derivation of the triangle inequality equation from the shortest path equation in the context of graph theory.
+  2. What is the function of the unique edge x1x2 in the given shortest path proof?
+  3. Describe the relationship between expansion, semi-cubes, and contraction processes in a connected graph.
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_17
+Queries:
+  1. What is the definition of isometric expansion in graph theory?
+  2. Is the converse of Lemma 8.1 true in finite partial cubes?
+  3. Proof of Corollary 8.1: Can it be done based on the information provided in Lemma 8.1?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_18
+Queries:
+  1. Prove x 2 and y 2 by using the results of Lemma 8.1.
+  2. Explain how the class of connected bipartite graphs is closed under expansion and contraction operations.
+  3. Elucidate the geometric interpretation of the process of contraction in partial cubes.
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_19
+Queries:
+  1. What is the proof for showing that F is a well-graded family of finite subsets of X?
+  2. Explain how Lemma 5.1 relates to finding the semicubes WP Q and WQP in a partial cube.
+  3. In a partial cube induced by a well-graded family F of finite subsets of a set X, what is the graph G induced by the family F?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_2
+Queries:
+  1. Isometric subgraph definition
+  2. Convex graph definition
+  3. Hypercube definition in set theory context
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_20
+Queries:
+  1. What are partial cubes in graph theory?
+  2. How are partial cubes related to hypercubes?
+  3. What are the three main structures in the theory of partial cubes?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_3
+Queries:
+  1. "wg families of sets in lattices"
+  2. "well graded families of sets and betweenness relations"
+  3. "examples of infinite partial cubes with shortest paths"
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_4
+Queries:
+  1. Semicubes and opposite semicubes in bipartite graphs
+  2. Characterization of bipartite graphs using semicubes
+  3. Relations and partitions in bipartite graphs
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_5
+Queries:
+  1. What is the relation between the semicubes in a bipartite graph?
+  2. How does Lemma 3.4 describe the relation between two edges in a bipartite graph with convex semicubes?
+  3. What property of a relation is given by Lemma 3.6 in a bipartite graph?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_6
+Queries:
+  1. Djokovi c and Winkler theorem on partial cubes and semicubes
+  2. Define partial cubes and provide the four characterizations mentioned
+  3. Understand isometry and its connection to partial cubes and semicubes
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_7
+Queries:
+  1. What is the relationship between semicubes Wab and Wba in a partial cube?
+  2. How does the concept of a hyperplane separating half spaces apply to sets Fab in a partial cube?
+  3. In the context of hyperplane arrangements, how is the analogy between sets Fab and hyperplanes formalized?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_8
+Queries:
+  1. What is the isometric dimension of a partial cube G and how is it related to a hypercube H X?
+  2. What are the conditions and characteristics of a wg family of finite subsets of a set X?
+  3. How is the isometric dimension of a partial cube connected to its vertex set and isometric subgraph in a hypercube?
+
+ Paper ID: 0704.0010v1
+ Chunk ID: 0704.0010v1_9
+Queries:
+  1. What are examples of infinite partial cubes isometrically embeddable into a finite-dimensional integer lattice?
+  2. How can the lattice dimension of a partial cube be expressed in terms of maximum matchings in semicube graphs?
+  3. Can a cycle with an even number of vertices be considered an integer lattice?
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_1
+Queries:
+  1. How to compute genus 2 Hilbert Siegel modular forms over Q using the Jacquet Langlands correspondence?
+  2. What is the algorithm for computing Hecke eigensystems of Hilbert Siegel cusp forms over real quadratic fields of narrow class number one?
+  3. What is the role of Brandt matrices and Satake parameters in the algorithm for computing genus 2 Hilbert Siegel modular forms?
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_2
+Queries:
+  1. What are the basic properties of Hilbert Siegel modular forms and algebraic automorphic forms?
+  2. What is the Jacquet Langlands correspondence in relation to Hilbert Siegel modular forms?
+  3. How is the algorithm described for computing Hilbert Siegel modular forms?
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_3
+Queries:
+  1. Isomorphism between GebZ and OK
+  2. Splitting of quaternion algebra B at prime ideal p in F
+  3. Hilbert Siegel modular forms of weight k
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_4
+Queries:
+  1. What are some properties of the representation Lk for GSp4(C) of highest weight k?
+  2. How is the space of algebraic Hilbert Siegel modular forms of weight k and level N defined?
+  3. What is the relationship between the Hecke algebras Tk N and TB k N according to the Jacquet Langlands Correspondence?
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_5
+Queries:
+  1. Hecke modules MB k N and f H2 0 N Vk
+  2. algorithm provided by Theorem 2.2.1 and quotient H2 0 N
+  3. cardinality of H2 0 pep and Lagrange variety over finite field
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_6
+Queries:
+  1. Define the subspace of invariants and explain its significance in the given chunk.
+  2. Explain the actions of the Hecke operators Ts p, , 2, and their relation to Brandt matrices.
+  3. Describe the algorithm for computing the sets 1 p and 2 p in the context of the given chunk.
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_7
+Queries:
+  1. What are the systems of Hecke eigenvalues of Hilbert Siegel cusp forms of weight 3 and level N defined over real quadratic fields?
+  2. How are the Hecke operators computed for the Hilbert Siegel cusp forms of weight 3 and level N?
+  3. What is the algorithm used for determining the Hilbert cusp forms of parallel weight 4 and level N defined over real quadratic fields?
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_8
+Queries:
+  1. What are the Hilbert Siegel eigenforms of weight 3?
+  2. What are the dimensions of Modular forms based on dim M B 3 N 3?
+  3. What are the values of Lift? f1 25 3 41 40 15 41 30 6 41 24 36 41 9 0?
+
+ Paper ID: 0704.0011v3
+ Chunk ID: 0704.0011v3_9
+Queries:
+  1. Hilbert eigenforms and weight 4.
+  2. Algorithm implementation for congruence subgroups of Siegel type.
+  3. Inclusion of more additional level structures such as the Klingen type.
+
+ Paper ID: 0704.0012v1
+ Chunk ID: 0704.0012v1_1
+Queries:
+  1. Rankin Cohen Bracket in modular forms of half integral weight
+  2. Distribution property of traces of singular moduli modulo primes p 5
+  3. Newman's conjecture and overpartitions in modular forms of half integral weight
+
+ Paper ID: 0704.0012v1
+ Chunk ID: 0704.0012v1_2
+Queries:
+  1. What is the relation between Hecke trace, singular moduli, and weight zero Hecke operator in the context of distribution of integral Fourier coefficients modulo primes?
+  2. What is the divisibility property of traces and Hecke traces of singular moduli in terms of the factorization of primes in imaginary quadratic fields?
+  3. How is the 2nd theorem related to the distribution of Hurwitz class number modulo primes p 5, and what is the distribution of Hurwitz class number modulo primes p 5?
+
+ Paper ID: 0704.0012v1
+ Chunk ID: 0704.0012v1_3
+Queries:
+  1. Define distribution property in the context of P n modulo odd primes p.
+  2. Explain the importance of Theorem 4 in understanding distribution property.
+  3. How can Theorem 2.1 aid in proving the distribution property of integral Fourier coefficients modulo primes?
+
+ Paper ID: 0704.0012v1
+ Chunk ID: 0704.0012v1_4
+Queries:
+  1. What is the significance of Lemma 2.3 in relation to Chapter 3 of the mentioned text?
+  2. How can the distribution of integral Fourier coefficients of Hecke operators be defined and related to the proof of Theorem 1?
+  3. In the context of the proof of Theorem 1, what is the significance of the Euler's totient function and its relation to ideal norms?
+
+ Paper ID: 0704.0012v1
+ Chunk ID: 0704.0012v1_5
+Queries:
+  1. What are the implications of Proposition 3.1 on the existence of a cusp form G z S 1 2 0 N Z q such that G z g z mod p?
+  2. What is the significance of Theorem 1 and Proposition 3.1 in providing the proof of Theorem 2?
+  3. What does Lemma 2.2 and Proposition 3.1 imply about the existence of f1,p z and its modular properties?
+
+ Paper ID: 0704.0012v1
+ Chunk ID: 0704.0012v1_6
+Queries:
+  1. What is the relationship between G_z and F_p in the context of holomorphic modular forms?
+  2. What conditions must be satisfied by integer k_v when 16k_v ≡ 15(mod p) for F_p z to be a holomorphic modular form?
+  3. How are the Fourier coefficients of W_z related to g_p in the context of W_z and G_z?
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_1
+Queries:
+  1. What are the p-adic limits of the integral Fourier coefficients of modular forms on SL2Z for 2, 3, 5, 7?
+  2. How are weakly holomorphic modular forms of half integral weight related to linear relations among Fourier coefficients of modular forms of half integral weight?
+  3. What are some applications of the main result in D. Choi and Y. Choi's paper?
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_10
+Queries:
+  1. What is the connection between Bernoulli numbers and Theorem 6.1?
+  2. How is the quadratic space over Fp defined in relation to the bilinear form?
+  3. What is the difference between the cases when sp is odd and even in the polynomial Hn,p?
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_2
+Queries:
+  1. What is the relation between p-integral and modular forms?
+  2. What conditions must be met for a positive integer b such that f Up b z 0 mod pj for each j N?
+  3. What is the significance of p-adic limits in proving congruences for modular objects?
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_3
+Queries:
+  1. What are the congruences for the coefficients of quotients of elliptic Eisenstein series?
+  2. How are the Maass space and the image of the Ikeda lifting related for genus 2g and weight g k?
+  3. How are the congruences for the Fourier coefficients of F Z given in the Maass space different depending on whether k is congruent to 2 or 3 modulo p for some prime p?
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_4
+Queries:
+  1. Linear relation among Fourier coefficients of modular forms of half integral weight PDF
+  2. Orthogonal complement of subspaces generated by modular forms coefficients
+  3. Extension of Siegel's work on modular forms to groups of genus zero
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_5
+Queries:
+  1. What is the Theorem 3.1 proof about?
+  2. Define the equation of the residue of G at each cusp t C4N in G 2 i.
+  3. Explain how holomorphic function on H relates to the isotropy group.
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_6
+Queries:
+  1. What are the meromorphic modular functions with a pole only at?
+  2. What is the q-expansion of j4N z with integral coefficients?
+  3. What is the basis of M1204N and how is it chosen
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_7
+Queries:
+  1. Search: Proof of Theorem 4.4 in the context of p adic limits of weakly holomorphic modular forms.
+  2. Search: Role of Proposition 4.5 and Proposition 4.6 in the proof of Theorem 4.4.
+  3. Search: Etale quotients and their relation to eta quotients in the context of p adic limits of modular forms.
+
+ Paper ID: 0704.0013v2
+ Chunk ID: 0704.0013v2_8
+Queries:
+  1. What does Theorem 4.4 imply regarding positive integer b and modulo p conditions?
+  2. How can Theorem 3.1 be derived from Theorem 2 to prove Theorem 2?
+  3. How does the Residue Theorem help in proving Theorem 2?
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_1
+Queries:
+  1. "Chen's iterated integrals and loop product explanation"
+  2. "Merkulov's iterated integral model and loop product"
+  3. "Chas and Sullivan's loop product definition"
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_2
+Queries:
+  1. What is the definition of the bar complex of an arbitrary differential graded algebra A?
+  2. How is the coproduct H of the bar complex B A defined?
+  3. What filtration F pB A is used to define the subcomplex of Hom B A , A ?**Query 2:** What is the definition of Chen's normalization of the cyclic bar complex?
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_3
+Queries:
+  1. How is isomorphism established between Hom F qB A F q 1B A , A Hom sH A , H A?
+  2. What is the role of proposition 3.2 in proving the theorem 1.1?
+  3. What is the relationship between the cup product of Hom B A , A on E2 level and the loop product according to the proof of theorem 1.1?
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_4
+Queries:
+  1. "Fundamental group smooth manifold M"
+  2. "Chen's augmentation ideal of group ring"
+  3. "Iterated integrals free loop space non simply connected manifold"
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_5
+Queries:
+  1. What are the cases presented in this chunk?
+  2. How are the maps derived in the cases?
+  3. What does the proof of Lemma 5.5 show?
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_6
+Queries:
+  1. Is there an isomorphism between the Goldman bracket and the augmentation ideal of the group ring of the surface group?
+  2. How does the cup product defined in section 3 interact with the Goldman bracket?
+  3. What is the relation between the bracket on H0 Hom B A, A and the Lie algebra structure on lim p R Hom B A, A? ###
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_7
+Queries:
+  1. What is the definition of the bracket and its relation with H0 Hom F pB A, A in the given academic chunk?
+  2. How does the cyclic group Z pZ act on E1 p, p H1 A, R?
+  3. What is the commute diagram E p, p E q, q with respect to Proposition 6.4 in the academic chunk?
+
+ Paper ID: 0704.0014v1
+ Chunk ID: 0704.0014v1_8
+Queries:
+  1. Proof of Theorem 6.1 involving isomorphism of Lie algebras
+  2. Lemma 6.8 and formality of compact Kahler manifolds
+  3. Lemma 6.9 about qusi-isomorphisms in homology
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_1
+Queries:
+  1. What is the pure spinor formalism in superstring theory?
+  2. How does the pure spinor formalism differ from the Green Schwarz GS and Ramond Neveu Schwarz RNS formalisms?
+  3. What advantages does the pure spinor formalism have in computing loop amplitudes?
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_10
+Queries:
+  1. "Superfields contribute fermionic fields" + "symmetrisation"
+  2. "Permutation operator 12 changes sign"
+  3. "Kinematic factor K4F 2 loop"
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_11
+Queries:
+  1. Contact between two loop amplitudes involving Ramond states in RNS formalism and pure spinor formalism
+  2. Evaluation of pure spinor superspace integrals using a computer algebra system
+  3. Implementation of pure spinor calculations in a computational framework adapted to field theory calculations
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_12
+Queries:
+  1. Algorithms for constructing basis for k4 terms
+  2. Fierz identities and Dirac equation simplifications
+  3. Two index tensors and their relations
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_13
+Queries:
+  1. How to construct an algorithm to reduce k2u1u4 scalars into polynomials of spinor and momentum components in gamma matrix representation?
+  2. How to solve Dirac equation using chiral eight component spinors of SO in gamma matrix representation?
+  3. How are combined methods of section 3.3 and the last two sections extended to the mixed case of two bosons and two fermions in A.3 representation?
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_2
+Queries:
+  1. "zero mode integration and pure spinor formalism"
+  2. "methods for computing pure superspace integrals"
+  3. "Lorentz invariance, tensor expression, and parity properties"
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_3
+Queries:
+  1. What is the role of the spinor products 3 and 5 in representation theory?
+  2. What does it mean for the correlator to be uniquely characterised by its symmetry?
+  3. How does the use of the pure spinor constraint impact the derivation of tensorial identities?
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_4
+Queries:
+  1. What is Fierz transformation and how is it relevant in defining correlator expression with open spinor indices?
+  2. What is the role of T , 1... m 1 n 2 p 3 mnp 4 5i 1... 5 in the correlator expression?
+  3. How does the gamma matrix tracelessness relate to the double trace identity in the proposed correlator expression?
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_5
+Queries:
+  1. Evaluate zero mode integrals using component based approach.
+  2. Decompose K4U1U2U3U4 scalars using sparse vectors.
+  3. Determine the complexity of correlators and their application in specific cases.
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_6
+Queries:
+  1. The first query aims to find information on the order of on-shell identities in 2D A m Am, D W 1 4 mn Fmn. It seeks to understand how these identities are used to derive recursive relations and how they might be applicable in other contexts.
+  2. The second query focuses on recursive relations for the fermionic expansion A n 1 n 1 m A n 1 m , A n mW n 1 , W n 1 2n mn mA n 1 n. By searching for more information on these specific relations, one can potentially gain a deeper understanding of the mathematical structure and implications of these expansions.
+  3. The third query seeks to explore the review of four bosons kinematic factor and gauge invariance. It aims to find more information on how these concepts are interrelated, and how understanding them can contribute to the broader field of study.
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_7
+Queries:
+  1. Search: Four fermion kinematic factor
+  2. Search: Four boson kinematic factor
+  3. Search: Cyclic permutations and superfields in two bosons and two fermions calculation
+
+ Paper ID: 0704.0015v2
+ Chunk ID: 0704.0015v2_8
+Queries:
+  1. "Two loop type IIB amplitude and pure spinor formalism"
+  2. "RNS result agreement with pure spinor formalism"
+  3. "Massless states four point amplitude calculation"
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_1
+Queries:
+  1. arXiv 0704.0016v1 hep ph 31 Mar 2007 Lifetime of doubly charmed baryons
+  2. Non spectator contributions at quark level including Cabibbo suppressed diagrams
+  3. Non relativistic harmonic oscillator model for hadronic matrix elements
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_2
+Queries:
+  1. How does evaluating hadronic matrix elements in diquark picture compare to that in the three valence quark picture and can it help better understand the diquark picture?
+  2. What are the advantages of focusing on inclusive processes in terms of the optical theorem when calculating the lifetime of a heavy baryon?
+  3. How does the non relativistic harmonic oscillator model apply to the framework used in this analysis of heavy baryon lifetimes?
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_3
+Queries:
+  1. Decompose the total width of hadrons with at least one charm quark c into spectator and non-spectator contributions.
+  2. Investigate spectator scenario contributions to the total width of ccu and ccc baryon ground state decays.
+  3. Derive non-spectator contributions for decays of cc using relevant effective Lagrangian.
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_4
+Queries:
+  1. What is the non-spectator contribution from Pauli interference of 6 s quark in non-leptonic decays?
+  2. How is the semi-leptonic decay of charm quarks with the s quark in cc suggested by Voloshin et al.?
+  3. What are the CKM suppressed WE non-spectator diagrams in this context?
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_5
+Queries:
+  1. Search query: Sum over spin and valence quark polarizations in doubly charmed baryons
+  2. Search query: W boson exchange and Pauli interference in doubly charmed baryon decays
+  3. Search query: Input parameters for decay amplitudes in doubly charmed baryon studies
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_6
+Queries:
+  1. Search for the relationship between non spectator effects and doubly charmed baryons
+  2. Evaluating lifetimes of doubly charmed baryons with non spectator effects considered
+  3. Comparison of predicted lifetimes with other models and experimental measurements
+
+ Paper ID: 0704.0016v1
+ Chunk ID: 0704.0016v1_7
+Queries:
+  1. "CDF Collaboration A. Abulencia et al. arXiv hep ex 0609021"
+  2. "X.G. He, T. Li, X.Q. Li and Y.M. Wang, Phys. Rev. D74 034026"
+  3. "The SELEX Collaboration, M. Mattson et al., Phys. Rev. Lett. 89 112001"
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_10
+Queries:
+  1. Ex Hya radial distance comparison with Siegel's result
+  2. Factors affecting the emission region's visibility in observations
+  3. Effect of magnetic field on the accretion stream and its relation to the white dwarf
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_11
+Queries:
+  1. What is the compatible motion of a rotating accretion funnel with the phase described by Hellier et al. 1987?
+  2. What is the significance of the corotation radius Rc, and how is it calculated in the context of EX Hya?
+  3. How is the radial distance from the star to the ring of material related to the Keplerian motion, and what is its significance in the context of EX Hya?
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_12
+Queries:
+  1. Explain the cancellation of velocity near the accretion curtains in EX Hya.
+  2. Analyze the spin varying emission from the magnetic poles in EX Hya.
+  3. Examine the degree to which poles cancel their velocities in EX Hya.
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_13
+Queries:
+  1. What is the evidence supporting the models of Belle et al. and Norton et al. for EX Hya and how does it relate to simulations done by Norton et al. 2004a?
+  2. How does the ring structure in EX Hya imply higher accretion rates than previously thought?
+  3. What role does the Roche lobe play in the accretion of material from the ring to the white dwarf in EX Hya?
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_2
+Queries:
+  1. modeling accretion curtains in EX Hya
+  2. asynchronous Polar accretion and EX Hya
+  3. stream and ring accretion in EX Hya
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_3
+Queries:
+  1. What is the orbital frequency of the system and its first harmonic?
+  2. How were the radial velocities determined for the H and H emission lines in the 2001 data?
+  3. How was the data prewhitened and what was its purpose?
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_4
+Queries:
+  1. Ephemeris and mid eclipse
+  2. Radial velocities and spectroscopic phase
+  3. Doppler tomograms and Maximum Entropy Method
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_5
+Queries:
+  1. Emission features in tomograms and their velocity scale.
+  2. Overlap between stream component and disc in 2001 and 1991 tomograms.
+  3. Comparison between MEM and BPM in reconstructing trailed spectra and tomograms.
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_6
+Queries:
+  1. Spin wave in EX Hya optical emission line data detection
+  2. Phase invariant subtraction influence on orbital period variations
+  3. Orbital period variations removal in spectroscopic study of EX Hyae
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_7
+Queries:
+  1. What is the nature of the trailed spectra from 2001 folded on the spin period?
+  2. How is the Doppler Effect manifested in the bottom panels?
+  3. What was the interpretation of the emission near the 3 o clock position in the tomograms of EX Hya?
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_8
+Queries:
+  1. EX Hya - EUV data - King Wynn model - RAS, MNRAS - spectroscopic study
+  2. EX Hya - accretion curtain - Roche lobe - Belle et al. - vertically extended material
+  3. EX Hya - Norton et al. - mass ratio - ring near Roche lobe - accretion curtains
+
+ Paper ID: 0704.0017v1
+ Chunk ID: 0704.0017v1_9
+Queries:
+  1. accretion curtain model in intermediate polar systems
+  2. evidence for overflow stream in EX Hya
+  3. comparison between observations and accretion curtain model in EX Hya
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_1
+Queries:
+  1. Callias index theorem generalization
+  2. Dimension of moduli space self-dual strings
+  3. Regulator function and index problems in even dimensional spaces
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_2
+Queries:
+  1. Callias index theorem in odd dimensions
+  2. Gauge covariant derivatives and Dirac operator D
+  3. Moduli space dimensions and the Callias index
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_3
+Queries:
+  1. How is the index computed when considering the total divergence of Eq?
+  2. Can the index be computed as a limit of Tr e sD2 when considering the total divergence of Eq?
+  3. What is the connection between the signs in the expressions for Ji and the discontinuity as M goes to zero?
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_4
+Queries:
+  1. Wick rotation in dimensional regularization
+  2. Convergence of integrals using Wick rotation
+  3. Bogomolnyi equation in three dimensions
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_5
+Queries:
+  1. far distance charge Q monopole configuration G 2 k 4 1 xk r2 Q
+  2. SU gauge group broken to U with integration over S2
+  3. 2m dimensional integral comparison Callias and other regulators
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_6
+Queries:
+  1. What is the Bogomolnyi equation in the context of self-dual strings?
+  2. How are half SUSY and the Bogomolnyi equation related?
+  3. How does the paper study the non-Abelian extension of the Yang-Mills-Higgs model?
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_7
+Queries:
+  1. Fields with infinitely many components and infinite constraints.
+  2. Defining degree of freedom in non-local theories.
+  3. Non-Abelian generalization of Bogomolnyi equation and invariance conditions.
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_8
+Queries:
+  1. What is the relationship between gauge variation and background gauge condition?
+  2. How does the non-locality of the loop field constrain the zero modes?
+  3. How does the zero mode equation relate to the orthogonality between Ais and is, Ais, it 0?
+
+ Paper ID: 0704.0018v2
+ Chunk ID: 0704.0018v2_9
+Queries:
+  1. Bogomolnyi equation and its effect on chiral anomaly
+  2. Asymptotic U fields and their relation to magnetic charge Z S3 H
+  3. Wick rotation and principal value evaluation in integrals
+
+ Paper ID: 0704.0019v2
+ Chunk ID: 0704.0019v2_1
+Queries:
+  1. Contact process approximation method using Gröbner basis
+  2. Extinction probability for one-dimensional contact process
+  3. Correlation identities in contact process extinction probabilities
+
+ Paper ID: 0704.0019v2
+ Chunk ID: 0704.0019v2_2
+Queries:
+  1. What is the first approximation of the density of the particle (E x) when the invariant measure is 0, and how is it represented in terms of 1, 2, 1, 2?
+  2. How does the second approximation of the density of the particle relate to Corollary 1.2, ideals x, y, z, and the reduced Gröbner basis for I2 with respect to ?
+  3. What are the results for the third approximation of the density of the particle, and how does it relate to x, y, z, w, s, u, and the Gröbner basis for I3 with respect to ys z2, xu yw?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_1
+Queries:
+  1. "Measurement of the Hadronic Form Factor in D0 K e e Decays": What is the significance of the hadronic form factor in D0 K e e decays?
+  2. BABAR experiment: What is the BABAR experiment's role in measuring the hadronic form factor in D0 K e e decays?
+  3. Physics collaborations: Who are the key physics collaborations involved in this research, and what are their contributions?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_10
+Queries:
+  1. What are the key variables used to differentiate signal and background events in the study of D0 production?
+  2. How are these variables combined to form the Fisher discriminant variable Fcc?
+  3. What is the significance of the peak distribution in background events and how does it differ from non-peaking background events?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_12
+Queries:
+  1. Investigate the impact of systematic uncertainties on the fitted parameters for different parameterizations.
+  2. Compare the corrected MC simulation with standard BABAR evaluations and special data control samples.
+  3. Analyze the change in the distribution of the Fisher discriminant after applying corrections and its impact on signal selection.
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_13
+Queries:
+  1. Compare accuracy of D0 direction and missing energy reconstruction for data and simulation in D0 K sample study.
+  2. Examine the influence of q2 reconstruction accuracy on D0 K e e analysis using simulated data.
+  3. Investigate particle identification effects and differences in charged lepton and kaon identification between data and simulated events.
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_14
+Queries:
+  1. Differences between data and MC on fake rates in BABAR:
+  2. Fitting procedure and radiative events in form factor measurements:
+  3. Impact of radiative effects on form factor measurements:
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_15
+Queries:
+  1. What is the summary of the fits to the normalized q2 distributions based on different form factor parameterizations?
+  2. How does the ISGW2 model compare to data and what is the difference between the fitted and predicted values of the parameter 'I'?
+  3. How does the modified pole ansatz for the form factor compare to earlier measurements and lattice QCD calculations?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_16
+Queries:
+  1. What is the branching fraction for the two channels used in the simulation in the provided chunk?
+  2. What is the ratio of simulated and experimental events for the two channels in the provided chunk?
+  3. How are signal events selected for the D0Kee channel in the provided chunk?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_17
+Queries:
+  1. What is the range of D0 mass required to remove contributions from B B events?
+  2. What are the possible contributions from remaining D0 K K decays?
+  3. What is the global scaling factor for normalizing the background level?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_18
+Queries:
+  1. How are correlated systematic uncertainties evaluated for the q2 variation of f?
+  2. What are the common sources of systematic uncertainties listed in Table V?
+  3. How is the stability of the D0 K e e events selection examined as a function of the Fisher discriminant?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_19
+Queries:
+  1. What is the branching fraction of e E and how does it vary with D0 life time?
+  2. How does the pole mass and modified pole ansatze differ in their extrapolation results?
+  3. How does the present measurement of the q2 variation of f compare with LQCD computations and expectations?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_3
+Queries:
+  1. "Palombo Universit a di Milano, Dipartimento di Fisica" AND "INFN, I 20133 Milano, Italy"
+  2. "J. M. Bauer" AND "University of Mississippi"
+  3. "S. Brunet" AND "Universite de Montr eal"
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_4
+Queries:
+  1. "Hadronic form factor and BaBar experiment"
+  2. "D0 K e e and D + K ∗ μ ν decay channels comparison"
+  3. "Weak hadronic current conservation and QCD factorization test"
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_5
+Queries:
+  1. "D0 K e e decay measurements"
+  2. "D meson production at center of mass energy"
+  3. "Parameterizations of f q2 form factor"
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_6
+Queries:
+  1. Relation between f and f0 in the modified pole ansatz.
+  2. Physical interpretation of the effective pole mass in the simple pole ansatz.
+  3. Comparison of parameter values in lattice QCD computations and quark models.
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_7
+Queries:
+  1. What is the expected validity range for QCD sum rules and their extension on the light cone?
+  2. How do lattice QCD computations help in determining parameter f and its q2 dependence?
+  3. How are charged and neutral particles reconstructed and identified in the BABAR detector?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_8
+Queries:
+  1. What are the control samples used in adjusting the c quark fragmentation distribution and kinematic characteristics?
+  2. How is the D0 candidate selected in D0 K e e decays?
+  3. What is the significance of the mass difference m m D0 m D0 in the D0 candidate selection process?
+
+ Paper ID: 0704.0020v1
+ Chunk ID: 0704.0020v1_9
+Queries:
+  1. Simulated events in the academic chunk
+  2. Differences in event topology between B decays and c c fragmentation
+  3. Fisher discriminant and its use in background rejection in the context of the provided academic chunk
+
+ Paper ID: 0704.0021v2
+ Chunk ID: 0704.0021v2_1
+Queries:
+  1. "Allosteric enzyme synchronization and pattern formation in arrays"
+  2. "Hopf and wave bifurcations in enzymatic reaction systems"
+  3. "Product-activated enzyme networks and their impact on soft matter nanotechnology"
+
+ Paper ID: 0704.0021v2
+ Chunk ID: 0704.0021v2_2
+Queries:
+  1. What is the mechanism by which regulatory molecules can bind to enzyme only in its rest state in a reaction?
+  2. How does product molecules of the same reaction play the role of regulatory molecules in a reaction cycle?
+  3. What is the spatial distribution of the immobile enzymes in space with concentration c?
+
+ Paper ID: 0704.0021v2
+ Chunk ID: 0704.0021v2_3
+Queries:
+  1. How does bifurcation parameter selection affect the growth of q0 in an enzyme system?
+  2. What are the effects of allosteric activation on emergence of oscillations and wave patterns in enzyme systems?
+  3. What types of oscillatory solutions are possible in a system with delays in equations for enzyme systems?
+
+ Paper ID: 0704.0021v2
+ Chunk ID: 0704.0021v2_4
+Queries:
+  1. Define "spontaneous molecular synchronization" and show its relationship with mean field simulations and enzyme densities.
+  2. Explain the role of enzyme concentrations in synchronization patterns and the relationship between enzyme concentrations and stochastic simulations.
+  3. Comparison of mean field predictions with stochastic simulations for larger enzyme concentrations and its implications for three-dimensional systems.
+
+ Paper ID: 0704.0021v2
+ Chunk ID: 0704.0021v2_5
+Queries:
+  1. "Traveling waves in enzyme solutions"
+  2. "Metabolic waves and enzyme turnover cycles"
+  3. "Molecular synchronization waves and enzyme conformations"
+
+ Paper ID: 0704.0022v2
+ Chunk ID: 0704.0022v2_1
+Queries:
+  1. Lie group integrators for nonlinear stochastic differential equations
+  2. Stochastic Munthe Kaas methods and Lie group integration
+  3. Stochastic Lie group integration schemes based on Castell Gaines methods
+
+ Paper ID: 0704.0022v2
+ Chunk ID: 0704.0022v2_2
+Queries:
+  1. What are the structure constants of Lie group G and their relation to the Lie algebra g and the basis?
+  2. What is the role of the Lie group action y0 in generating the vector fields Vi on the Lie group G that govern the system of stochastic differential equations?
+  3. How is the exponential map exp from g to G used in generating the stochastic flow on G and its relation to the set of governing vector fields X i?
+
+ Paper ID: 0704.0022v2
+ Chunk ID: 0704.0022v2_3
+Queries:
+  1. Chordal areas in the driving path process.
+  2. L2 norm for a Wiener process.
+  3. Stochastic differential system on the Lie algebra.
+
+ Paper ID: 0704.0022v2
+ Chunk ID: 0704.0022v2_4
+Queries:
+  1. How can order 1 stochastic Taylor integrators stabilize for large step sizes?
+  2. What are the common issues faced with the approximation drift in order 1 stochastic Taylor integrators?
+  3. What are the necessary properties to uphold a required approximate flow on the manifold of the exact dynamics in financial systems?
+
+ Paper ID: 0704.0023v1
+ Chunk ID: 0704.0023v1_1
+Queries:
+  1. How does the potential of chromospheric observa tions at millimeter wavelengths aid in resolving the long standing problem of understanding the solar chromosphere?
+  2. What dynamic signatures are expected to be found in the range of 0.8 5.0 mm wavelength?
+  3. How does ALMA's high resolution provide unique properties to observations at mm wavelengths in the solar chromosphere?
+
+ Paper ID: 0704.0023v1
+ Chunk ID: 0704.0023v1_2
+Queries:
+  1. Chromospheric observations at 3.5 mm with BIMA
+  2. Spatial and temporal resolution requirements for mm observations
+  3. Prospects for chromospheric studies with ALMA
+
+ Paper ID: 0704.0023v1
+ Chunk ID: 0704.0023v1_3
+Queries:
+  1. Compare the advantages of mm wavelength radiation with CO lines and atomic lines in detecting cool and hot gas temperatures.
+  2. Analyze the time dependence of brightness temperatures at various millimeter wavelengths.
+  3. Examine the range of mm wavelengths where dynamic effects can be identified most clearly.
+
+ Paper ID: 0704.0023v1
+ Chunk ID: 0704.0023v1_4
+Queries:
+  1. How can simultaneous mm submm observations be used in solar atmosphere tomography?
+  2. What are the requirements for uncovering the nature of the solar chromosphere using multiband observations in mm submm domain?
+  3. How does the technical specification of ALMA observations compare to existing instruments operating at mm submm wavelengths?
+
+ Paper ID: 0704.0024v1
+ Chunk ID: 0704.0024v1_2
+Queries:
+  1. What is the main difference between linear spin wave packet and nonlinear pulse?
+  2. How does the intensity of linear packet and nonlinear pulse change over time?
+  3. What role does nonlinear instability play in bullet formation?
+
+ Paper ID: 0704.0024v1
+ Chunk ID: 0704.0024v1_3
+Queries:
+  1. What factors determine the efficiency of parametric and tri-linear nonlinear interaction mechanisms?
+  2. How does group velocity difference of modes and the initial length of the nonlinear pulse impact soliton amplitude levels?
+  3. How do the widths of stripes influence the formation of bullet-like waveforms and the amplitudes of higher order modes?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_1
+Queries:
+  1. Polarons in strongly correlated systems: exact diagrammatic Monte Carlo method.
+  2. Interaction of quasiparticles with bosonic excitations in correlated systems.
+  3. Momentum and internal states of quasiparticles in polarons.
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_10
+Queries:
+  1. What is the role of short range interaction in the Fr ohlich model with 0.05 a?
+  2. In the Fr ohlich model, how does the energy of the polaron ground state peak change as the interaction constant increases?
+  3. How does the low energy part of the Fr ohlich LF compare with the perturbation theory expression?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_11
+Queries:
+  1. How does the ratio mp/ic affect spectroscopic response in mixed valence systems?
+  2. What is the difference between fast and slow photoemission and Mossbauer experiments in terms of spectroscopic properties?
+  3. How does the time mp and the adjustment time ic in the measurement process of OC of the Fr ohlich polaron vary with the system?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_12
+Queries:
+  1. "2 and 3 phonon thresholds of emission" along with "optical conductivity" in DMC method
+  2. Differences in optical conductivity calculation using DMC method, extended MFF and SCE dotted line for different values of
+  3. "Dramatic change in optical conductivity" around critical coupling strength (~ 8.5) and its relation to FC (Frohlich-phonon induced) regime
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_13
+Queries:
+  1. How does the transition from AC to FC dominate in the presence of strong coupling?
+  2. What is the relationship between self trapping and the adiabatic disconnection of initial and final states?
+  3. What are the key features of the Rashba Pekar exciton polaron model?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_14
+Queries:
+  1. What is the role of polar electron-phonon interaction (EPI) in the three-dimensional continuous Rasba Pekar exciton polaron system with ST phenomena?
+  2. How does the ground state energy, effective mass and average number of phonons change with the coupling constant in the ST phenomena?
+  3. What is the relationship between F and T state energy levels in the weak and strong coupling regimes?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_15
+Queries:
+  1. Determine the role of effective mass in strong coupling regime for T and F states in degeneracy driven self-trapping.
+  2. Explain difference between ST phenomenon in single band vs. multi band cases.
+  3. Investigate the mechanism of quasi-degenerate self trapping in Anthracene PMDA using Monte Carlo Exact approach.
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_16
+Queries:
+  1. Wannier limit and perturbation theory in derivatives at the ends of an academic chunk.
+  2. Spectroscopic Properties of Polarons by Exact Monte Carlo 25 at zero momentum.
+  3. Conditions necessary for formation of charge transfer exciton in three dimensional systems.
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_17
+Queries:
+  1. What role does EPI play in the physics of cuprates?
+  2. How can neutron and Raman scattering experiments be used to study phonon behavior in cuprates?
+  3. What evidence suggests a strong coupling between EPI and oxygen-related phonon modes in cuprates?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_18
+Queries:
+  1. "t-J model and Holstein model interaction with magnons and phonons"
+  2. "Exact diagonalization of t-J Holstein model and Non-crossing approximation"
+  3. "Dynamical mean-field theory for t-J Holstein model"
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_19
+Queries:
+  1. NCA for qualitative description of t-J Holstein model
+  2. Self Consistent Born Approximation (SCBA) in spectroscopic properties of polarons
+  3. Monte Carlo simulation in t-J Holstein model analysis
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_2
+Queries:
+  1. Explain the interaction of quasiparticles with the lattice degrees of freedom in high-temperature semiconductors and mixed-valent materials.
+  2. Discuss the role of auxiliary broadening in the decay of quasiparticles and phonons in realistic cases.
+  3. Describe the Diagrammatic Monte Carlo DMC method for numerically exact computation of Green functions and correlation functions in imaginary time for few polarons in a macroscopic system.
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_20
+Queries:
+  1. Effect of EPI on adiabatic potential in t J Holstein model
+  2. Role of hole interaction in enhancing EPI for single hole in underdoped cuprates
+  3. Experimental confirmation of chemical potential in relation to Z factor in heavily underdoped cuprates
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_21
+Queries:
+  1. What is the role of the Fermi energy and the isotope effect IE in distinguishing between the two theories relating to ARPES?
+  2. How did Gweon et al. contribute to the understanding of the isotope effect in Bi2212, and what were their findings?
+  3. What is the current status of the isotope effect in optimal Bi2212, and what further research is needed?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_22
+Queries:
+  1. What is the connection between compound dotted line and antiisotope substituted compound dashed line in the context of nodal a, c, e and antinodal g, i, l points?
+  2. How does the properties of the Poisson distribution explain features of the IE on LF7?
+  3. How do the IOM estimates agree with DMC data for the energy of the zero phonon line?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_23
+Queries:
+  1. Importance of intermediate coupling regime in enhancing gle holes
+  2. Comparison of FCP top and height change in intermediate coupling regime to simple independent oscillators model in strong coupling regime
+  3. Relationship between self trapping occurrence and applicability to other compounds with strong EPI
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_3
+Queries:
+  1. What is the relationship between dispersion relation, Lehmann Function, and Quasiparticle?
+  2. How are exciton, bipolaron, and exciton polaron described by different Hamiltonians?
+  3. What are the limitations of analytic methods in the problem of polarons?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_4
+Queries:
+  1. How does the Heisenberg uncertainty principle relate to the inverse time requirement for lattice readaptation in phonon processes?
+  2. What is the impact of many phonon processes on the optical conductivity of polarons?
+  3. How does the introduction of sum rules into a variational model improve the description of peak position and width in exact DMC simulations of optical conductivity?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_5
+Queries:
+  1. What is the Lehmann function LF in representation of Gk at zero temperature?
+  2. How can one obtain detailed information about the lowest state from the GFs Gk n?
+  3. How does the simplest case of the Structureless Polaron relate to the DMC algorithm?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_6
+Queries:
+  1. Explain the Vick theorem and its relation to matrix elements of time-ordered operators in infinite series of integrals.
+  2. Discuss the DMC method and its distinction from other exact numerical approaches, especially in regard to the inclusion of renormalized GFs.
+  3. Describe the process of evaluating a specific term Dm m x 1, ..., x m within the DMC method, including the Metropolis principle and the update of parameters.
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_7
+Queries:
+  1. What is the significance of ergodicity property in the Monte Carlo method for obtaining convergence to an exact answer?
+  2. How can the ratio M be formulated in a Monte Carlo simulation for updating x old and x new values?
+  3. What are the two complementary updates needed for sampling over Feynman Diagrams (FDs) of all orders and topologies?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_8
+Queries:
+  1. What is the origin of saw tooth noise suppression methods in the 60s and how do they relate to Tikhonov regularization?
+  2. How does the Maximal Entropy Method compare to other regularization methods in terms of effectiveness and limitations?
+  3. What are the advantages of using the Stochastic Optimization (SO) method compared to traditional regularization methods for addressing saw tooth noise instability?
+
+ Paper ID: 0704.0025v1
+ Chunk ID: 0704.0025v1_9
+Queries:
+  1. Effective variational exact translation methods and their limitation for long range interaction and dispersive phonons.
+  2. Dynamical Mean Field Theory and its limitations in providing exact solutions for macroscopic systems.
+  3. Traditional density matrix renormalization group method and its effectiveness mostly on one-dimensional systems.
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_1
+Queries:
+  1. Cayley Dickson Process and zero divisors
+  2. Box Kites and fractals
+  3. Fractal genus transformation and Wolfram's Class 4 complexity
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_10
+Queries:
+  1. Translate the academic chunk into plain English.
+  2. Explain the rules mentioned in the academic chunk.
+  3. How does Lemma 9 relate to Theorem 9?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_11
+Queries:
+  1. What is the relationship between z, g, z S, g z S in the product expression?
+  2. How do the CPO expressions and Rule 1 and Rule 2 affect the multiplicands z, S, z S, G, g, z S, g z S?
+  3. How does the binary variable sg influence the overall argument in the CDP generation?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_12
+Queries:
+  1. What is the relationship between associative triplets and combinatoric formula in a given generation of 2N ions?
+  2. How does the concept of DMZs connect to candidate Box Kites in the context of Trip Count Two Step?
+  3. Can you explain the construction of Pathion trip systems with examples of Sedenions and Octonions?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_13
+Queries:
+  1. Explain how the rule 2 twice and the reversal of upper dyad's inner sign affects the overall sign structure.
+  2. How does the existence of a constructive mechanism demonstrate the proof for large N values?
+  3. What is the significance of the name given to the 16 value in the PSL 2,7 triangle? #########
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_14
+Queries:
+  1. TripN 2 Box Kites in Zigzag L index
+  2. powers of 2 and singleton 1 bits in binary bitstrings in ZD number theory
+  3. integer triples and XOR triplets in CDP generations
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_15
+Queries:
+  1. Explain the relationship between Type II box kites and 3 x 7 flip book denizens of immediate interest.
+  2. What are the S values of Type II box kites and how does it affect their qualification as candidates?
+  3. How can we prove the validity of the signed version of the First Vizier in the given case?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_16
+Queries:
+  1. What is the significance of Zigzag s 4 triplets in modeling?
+  2. How do the dynamics of the Z trips affect the similarity of orientation among the triplets?
+  3. How does the breaking of trip sync between Z trips and Trefoil compatriots impact the toy model used in this theory?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_2
+Queries:
+  1. How can we reprise the results from Part I of this monograph for the proof exposition of the iconic narration?
+  2. What are the three simple things that we need to grasp for understanding zero division phenomenology?
+  3. How do the Box Kite representation and the PSL 2,7 triangle simplify the explanation of zero division?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_3
+Queries:
+  1. How is the Riemann sphere represented on a flat tabletop surface?
+  2. What is the meaning of the points S and N in the Riemann sphere representation?
+  3. How are the seven lines in the PSL 2,7 triangle related to the Octonions?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_4
+Queries:
+  1. What are the three triplets generated by Rule 2?
+  2. How does Rule 2 transform an associative index triplet?
+  3. What is the relation between the indices at the nodes of PSL 2,7 and the 16D Sedenion framework?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_5
+Queries:
+  1. What is the connection between Box Kite's and the underwriting method in the academic chunk?
+  2. What two simple insights help to find the high-index term of any vertex s dyad?
+  3. How does the paper explain the interactions of Vent and Zigzag dyads sharing a strut in Sedenions?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_6
+Queries:
+  1. What is the role of Zigzag dyads in the octahedral grid and their correlation to the ZD products?
+  2. How do emanation tables and the concept of emanation arise from the Sail trajectories in a graph-theoretic context?
+  3. What are the implications and effects of ZD interactions and their visualization through emanation tables, particularly in terms of preserving order within the graph?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_7
+Queries:
+  1. Define "Assessor-representing cells" in terms of uniquely fixed R and C values.
+  2. Elaborate on "recipes" and "fractals" in the context of NKS.
+  3. Explain how the process of labeling the lowest L index is related to strut opposites and reversal.
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_8
+Queries:
+  1. What are red-edged Zigzags and how do they provide a stable basis for Box Kite structure?
+  2. How are the six blue edges bounding the hexagonal view of the Box Kite interpreted in relation to ET entries?
+  3. What is the significance of the Strut Constant 2 6 in encoding a single Box Kite?
+
+ Paper ID: 0704.0026v3
+ Chunk ID: 0704.0026v3_9
+Queries:
+  1. What is the relationship between the DMZ and the 3 Assessor system of a Sail?
+  2. How is the existence of a fixed G and fixed S connected to the DMZ in this context?
+  3. What is the significance of the ET in determining the existence of fixed S and fixed G?
+
+ Paper ID: 0704.0027v4
+ Chunk ID: 0704.0027v4_1
+Queries:
+  1. Graphene magnetophonon resonance filling factor
+  2. Graphene in-plane optical phonon energy and Landau level transitions
+  3. Electron-phonon coupling in graphene and its detection through circularly polarized lattice vibrations
+
+ Paper ID: 0704.0027v4
+ Chunk ID: 0704.0027v4_2
+Queries:
+  1. Unit cell structures and electron phonon coupling.
+  2. Optical phonons in honeycomb crystals and Pauli matrices.
+  3. Magnetoexciton resonance in graphene and angular momentum.
+
+ Paper ID: 0704.0027v4
+ Chunk ID: 0704.0027v4_3
+Queries:
+  1. What is the difference between photon coupling to valley symmetric mode A,s n A n, K A n, K 2 and electron phonon interaction involving valley antisymmetric magnetoexciton A,as n A n, K A n, K 2?
+  2. How is the electron phonon Hamiltonian in graphene bosonized, and what is the omission in this Hamiltonian?
+  3. What are the consequences of the interband magnetoexciton sum and intraband magnetoexciton correction in the Hamiltonian of graphene?
+
+ Paper ID: 0704.0027v4
+ Chunk ID: 0704.0027v4_4
+Queries:
+  1. What is the significance of magnetophonon resonance in magnetoexciton based materials?
+  2. How does the magnetic field range influence the phonon line and its accompanying satellite in magnetoexciton based materials?
+  3. How does the filling factor affect the coupling and splitting of polarized modes in magnetoexciton based materials?

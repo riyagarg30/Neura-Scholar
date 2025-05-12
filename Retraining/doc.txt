@@ -1,0 +1,11 @@
+
+
+Ray used
+code->retrain_with_ray.py
+version '2' of model 'final'
+experiment->final
+run->gentle-mule-713
+
+
+Triggered by argo workflow 
+
