@@ -1,6 +1,6 @@
 numpy
 pandas
-faiss
+faiss-gpu
 mlflow
 onnxruntime-gpu
 transformers
