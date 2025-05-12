@@ -1,0 +1,24 @@
+name: production-staging-test-queries
+
+volumes:
+  raw-data:
+
+services:
+  load-prod-staging-data:
+    container_name: load_prod_staging_data
+    image: python-gsutil:3.11
+    user: root
+    volumes:
+      - raw-data:/data
+      - ./:/dir_data
+      - /mnt/object/testing-queries:/data-obj
+    working_dir: /data
+    command:
+      - bash
+      - -c
+      - |
+        set -e
+        cd /dir_data
+        cp -r /data-obj/queries.txt .
+        python3 generate_staging_prod_queries.py
+
