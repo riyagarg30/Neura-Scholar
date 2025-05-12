@@ -27,6 +27,29 @@ log = logging.getLogger(__name__)
 # ─────────────── env / config ───────────────
 PORT = int(os.getenv("PORT", 8000))
 
+MODEL_DETAILS = [
+    {
+        "column": "chunk_embedding_768",
+        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert.onnx",
+    },
+    {
+        "column": "chunk_embedding_768_dyn",
+        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_dyn.onnx",
+    },
+    {
+        "column": "chunk_embedding_768_graph",
+        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_opt.onnx",
+    },
+    {
+        "column": "chunk_embedding_768_static_h",
+        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_heavy.onnx",
+    },
+    {
+        "column": "chunk_embedding_768_static_m",
+        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_moderate.onnx",
+    },
+]
+
 os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
 os.environ["MLFLOW_TRACKING_USERNAME"] = "admin"
 os.environ["MLFLOW_TRACKING_PASSWORD"] = "password"
@@ -37,7 +60,7 @@ EMBED_URI   = os.getenv("EMBEDDING_MODEL_URI",
 SUMM_URI    = os.getenv("SUMMARIZATION_MODEL_URI",
                         "models:/facebook-bart-large/1")
 LOCAL_EMBED = os.getenv("EMBEDDING_MODEL_PATH",
-                        "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_graph_opt.onnx")
+                        f"{MODEL_DETAILS[3]["model_path"]}")
 LOCAL_SUMM  = os.getenv("SUMMARIZATION_MODEL_PATH",
                         "/home/pb/projects/course/sem2/mlops/project/mlops/models/bart_summarize.onnx")
 USE_MLFLOW_EMBED  = os.getenv("USE_MLFLOW_EMBED", "false").lower() in ("1","true","yes")
@@ -47,12 +70,13 @@ USE_MLFLOW_SUMM  = os.getenv("USE_MLFLOW_SUMM", "false").lower() in ("1","true",
 # ─────────────── load ONNX models ───────────────
 try:
     embed_path = mlflow.onnx.load_model(EMBED_URI) if USE_MLFLOW_EMBED else LOCAL_EMBED
+    logging.info("Loaded embedding model from MLflow: %s", embed_path)
 except:
     log.warning("Failed to load embedding model from MLflow, using local path")
     embed_path = LOCAL_EMBED
 summ_path  = mlflow.onnx.load_model(SUMM_URI) if USE_MLFLOW_SUMM else LOCAL_SUMM
 
-providers = ["CUDAExecutionProvider", "CPUExecutionProvider"]
+providers = ["CUDAExecutionProvider"]
 embed_sess = ort.InferenceSession(embed_path, providers=providers)
 summ_sess  = ort.InferenceSession(summ_path,  providers=providers)
 
