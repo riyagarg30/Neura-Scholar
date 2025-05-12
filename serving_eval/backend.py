@@ -40,14 +40,14 @@ MODEL_DETAILS = [
         "column": "chunk_embedding_768_graph",
         "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_opt.onnx",
     },
-    {
-        "column": "chunk_embedding_768_static_h",
-        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_heavy.onnx",
-    },
-    {
-        "column": "chunk_embedding_768_static_m",
-        "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_moderate.onnx",
-    },
+    # {
+    #     "column": "chunk_embedding_768_static_h",
+    #     "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_heavy.onnx",
+    # },
+    # {
+    #     "column": "chunk_embedding_768_static_m",
+    #     "model_path": "/home/pb/projects/course/sem2/mlops/project/mlops/models/distilbert_static_moderate.onnx",
+    # },
 ]
 
 os.environ["MLFLOW_TRACKING_URI"] = "http://129.114.27.112:8000"
@@ -60,7 +60,7 @@ EMBED_URI   = os.getenv("EMBEDDING_MODEL_URI",
 SUMM_URI    = os.getenv("SUMMARIZATION_MODEL_URI",
                         "models:/facebook-bart-large/1")
 LOCAL_EMBED = os.getenv("EMBEDDING_MODEL_PATH",
-                        f"{MODEL_DETAILS[3]["model_path"]}")
+                        f"{MODEL_DETAILS[0]["model_path"]}")
 LOCAL_SUMM  = os.getenv("SUMMARIZATION_MODEL_PATH",
                         "/home/pb/projects/course/sem2/mlops/project/mlops/models/bart_summarize.onnx")
 USE_MLFLOW_EMBED  = os.getenv("USE_MLFLOW_EMBED", "false").lower() in ("1","true","yes")
