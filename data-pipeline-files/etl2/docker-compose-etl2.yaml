@@ -27,7 +27,7 @@ services:
         rm -rf $${FILE_URL}.tar
 
   transform-data:
-    container_name: etl_2_transform_data
+    container_name: etl_transform_data
     environment:
       - FILE_URL=${FILE_URL:-unset}
       - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
@@ -50,7 +50,7 @@ services:
         rm -rf text_$${FILE_URL}
 
   load-data:
-    container_name: etl_2_load_data
+    container_name: etl_load_data
     environment:
       - FILE_URL=${FILE_URL:-unset}
       - DATA_DIRECTORY=${DATA_DIRECTORY:-unset}
