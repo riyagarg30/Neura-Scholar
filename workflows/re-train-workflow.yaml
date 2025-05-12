@@ -7,7 +7,7 @@ spec:
   arguments:
     parameters:
       - name: SCRIPT_NAME
-        value: "/Retraining/retrain_with_ray.py"
+        value: "retrain_with_ray.py"
 
   templates:
     - name: ray-job
@@ -34,9 +34,9 @@ spec:
         args:
           - |
             git clone https://github.com/Yugesh1620/Neura-Scholar.git /tmp/repo
-            cd /tmp/repo/
+            cd /tmp/repo/Retraining
             ray job submit \
-              --address http://ray-head:8265 \
+              --address http://ray-head.mlflow.svc.cluster.local:8265 \
               --working-dir . \
               --runtime-env-json '{
                 "pip": [
