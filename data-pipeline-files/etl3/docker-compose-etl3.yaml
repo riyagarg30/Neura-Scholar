@@ -34,7 +34,7 @@ services:
       - |
         set -e
 
-        python3 ../dir_data/clean_meta_data.py
+        python3 ../dir_data/clean_metadata.py
 
   load-data:
     container_name: etl_3_load_data

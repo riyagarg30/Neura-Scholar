@@ -3,4 +3,6 @@ find /mnt/object/text-files-data/ -name "*.tar" | \
 
 docker compose -f docker-compose-etl3.yaml up extract-data
 docker compose -f docker-compose-etl3.yaml up transform-data
+# docker compose -f docker-compose-etl3.yaml up load-data
+DATA_DIRECTORY="text-files-data" \
 docker compose -f docker-compose-etl3.yaml up load-data
