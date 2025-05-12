@@ -1,0 +1,1487 @@
+{
+  "0704.0001v2_10": [
+    "qt distributions production",
+    "initial state radiation",
+    "final state singularities"
+  ],
+  "0704.0001v2_11": [
+    "hadron jets enhancing",
+    "comparison cross sections",
+    "isolation fragmentation contributions"
+  ],
+  "0704.0001v2_12": [
+    "regulator approach simulate",
+    "maintain collinear finiteness",
+    "fragmentation rate region"
+  ],
+  "0704.0001v2_13": [
+    "resummation schemes academic",
+    "alleviation academic chunk",
+    "production processes mentioned"
+  ],
+  "0704.0001v2_14": [
+    "radiation subtracted nlo",
+    "isolation inside photon",
+    "tevatron lhc predictions"
+  ],
+  "0704.0001v2_15": [
+    "constraints tevatron run",
+    "effect tevatron run",
+    "event distributions tevatron"
+  ],
+  "0704.0001v2_16": [
+    "photon pairs ura",
+    "distributions photon pairs",
+    "momentum distributions photon"
+  ],
+  "0704.0001v2_17": [
+    "prediction dashed asymptotic",
+    "final state fractions",
+    "angle distribution photons"
+  ],
+  "0704.0001v2_18": [
+    "radiative contributions fragmentation",
+    "isolation fragmentation photons",
+    "fragmentation theoretical uncertainties"
+  ],
+  "0704.0001v2_19": [
+    "diphoton fragmentation function",
+    "cdf data invarian",
+    "photon fragmentation function"
+  ],
+  "0704.0001v2_2": [
+    "qcd contributions diphoton",
+    "momentum distribution diphotons",
+    "predictions fermilab tevatron"
+  ],
+  "0704.0001v2_20": [
+    "pp collisions",
+    "resummation formalism effect",
+    "shoulder regions qt"
+  ],
+  "0704.0001v2_21": [
+    "dqt larger qt",
+    "shift peak data",
+    "sudakov broadening qt"
+  ],
+  "0704.0001v2_22": [
+    "affect higgs boson",
+    "detection higgs boson",
+    "stability perturbative qcd"
+  ],
+  "0704.0001v2_23": [
+    "fragmentation omp arison",
+    "distributions qg hannel",
+    "pred ic tions"
+  ],
+  "0704.0001v2_24": [
+    "differential distributions diphox",
+    "integrated rate diphox",
+    "transverse momentum qt"
+  ],
+  "0704.0001v2_25": [
+    "photon fragmentation contribution",
+    "energy tevevron affect",
+    "qt photon fragmentation"
+  ],
+  "0704.0001v2_26": [
+    "higgs boson production",
+    "higgs boson signal",
+    "branching ratio higgs"
+  ],
+  "0704.0001v2_27": [
+    "background signal events",
+    "angle distribution photons",
+    "rapidities signal background"
+  ],
+  "0704.0001v2_28": [
+    "discriminators higgs boson",
+    "production hadron collisions",
+    "onium diphoton production"
+  ],
+  "0704.0001v2_29": [
+    "varying eiso dipho",
+    "affect photon fragmentation",
+    "photon agree experimental"
+  ],
+  "0704.0001v2_3": [
+    "perturbative qcd explanation",
+    "longitudinal factorization perturbative",
+    "transverse momentum qt"
+  ],
+  "0704.0001v2_30": [
+    "qt shoulder region",
+    "diphoton data analysis",
+    "logarithmic singularities fragmentations"
+  ],
+  "0704.0001v2_31": [
+    "expressions anonymals terms",
+    "expressions f_n f_n",
+    "euler constant splitting"
+  ],
+  "0704.0001v2_32": [
+    "qt approximations",
+    "helicity amplitude formalism",
+    "polarizations cdf collaboration"
+  ],
+  "0704.0001v2_34": [
+    "kosowsky work fields",
+    "volumes nuclear physics",
+    "journals nuclear physics"
+  ],
+  "0704.0001v2_4": [
+    "fragmentation radiation context",
+    "eiso affect fragmentation",
+    "photon fragmentation function"
+  ],
+  "0704.0001v2_5": [
+    "summarize orders resummation",
+    "physical qcd distributions",
+    "results compare diphoton"
+  ],
+  "0704.0001v2_6": [
+    "qg asymptotic cross",
+    "polar angle gg",
+    "parton distribution extraction"
+  ],
+  "0704.0001v2_7": [
+    "angle distribution photons",
+    "qt representations eqs",
+    "qt distribution approximated"
+  ],
+  "0704.0001v2_8": [
+    "calculated orders nnll",
+    "contribution nonperturbative region",
+    "ansatz factorization scale"
+  ],
+  "0704.0001v2_9": [
+    "cross section qt",
+    "hard vertex contribution",
+    "nlo css resummation"
+  ],
+  "0704.0002v2_1": [
+    "pebbles related sparse",
+    "pebble game colors",
+    "pebble game algorithms"
+  ],
+  "0704.0002v2_10": [
+    "pebble game graphs"
+  ],
+  "0704.0002v2_11": [
+    "complexity algorithm 17",
+    "pebble game construction",
+    "main result shown"
+  ],
+  "0704.0002v2_12": [
+    "pebble games colors",
+    "decompositions sparse graphs",
+    "pebble game colors"
+  ],
+  "0704.0002v2_13": [
+    "pebble game constructions",
+    "game l1 pebble",
+    "pebble game algorithm"
+  ],
+  "0704.0002v2_2": [
+    "sparse graph concepts",
+    "subgraphs sparse graphs"
+  ],
+  "0704.0002v2_3": [
+    "terminology sparse graphs",
+    "theorems tight graphs",
+    "equivalence maps trees"
+  ],
+  "0704.0002v2_4": [
+    "pebble game initialization",
+    "moves pebble game",
+    "example output pebble"
+  ],
+  "0704.0002v2_5": [
+    "define pebble game",
+    "pebble game decomposition",
+    "pebble game constructions"
+  ],
+  "0704.0002v2_6": [
+    "methods certifying sparsity",
+    "ltk graphs pebble",
+    "improvements pebble game"
+  ],
+  "0704.0002v2_7": [
+    "define pebble game",
+    "pebble game graphs",
+    "decompositions context pebble"
+  ],
+  "0704.0002v2_8": [
+    "game decomposition laman",
+    "number monochromatic cycles",
+    "differences canonical pebble"
+  ],
+  "0704.0002v2_9": [
+    "pebble game construction",
+    "canonical pebble slide",
+    "collect pebbles ends"
+  ],
+  "0704.0003v3_1": [
+    "explain earth moon",
+    "moon closest distance",
+    "fluid model martian"
+  ],
+  "0704.0003v3_2": [
+    "tidal friction evolution",
+    "does dark matter",
+    "dark matter field"
+  ],
+  "0704.0003v3_3": [
+    "fluid baryonic matter",
+    "force dark matter",
+    "force exerted sphere"
+  ],
+  "0704.0003v3_4": [
+    "energy receding celestial",
+    "distance gravitational center",
+    "angular velocity celestial"
+  ],
+  "0704.0004v1_1": [
+    "source automata determinant",
+    "automata marked lattice",
+    "evaluation stirling cycle"
+  ],
+  "0704.0004v1_2": [
+    "acyclic automata size",
+    "saf automata characterized",
+    "set bk defined"
+  ],
+  "0704.0004v1_3": [
+    "unlabeled automaton identification",
+    "automaton bkn occurrences",
+    "subdiagonal path sets"
+  ],
+  "0704.0004v1_4": [
+    "bijection ck",
+    "construct line representation",
+    "blanks second row"
+  ],
+  "0704.0004v1_5": [
+    "weight lists permutations",
+    "weight reversing involution",
+    "surviving lists c1n"
+  ],
+  "0704.0004v1_6": [
+    "ii described permutation",
+    "transform case ii",
+    "cycles permutation does"
+  ],
+  "0704.0005v1_1": [
+    "dyadic grid method",
+    "space h1 haar",
+    "lipschitz classes approximation"
+  ],
+  "0704.0005v1_2": [
+    "define dyadic subcubes",
+    "polynomial splines l2",
+    "related l2 q0"
+  ],
+  "0704.0005v1_3": [
+    "space equivalence quasinorms",
+    "polynomial splines hp",
+    "hp atoms superposition"
+  ],
+  "0704.0005v1_4": [
+    "decomposition terms dyadic",
+    "information transmitted hp",
+    "relationship hp hp"
+  ],
+  "0704.0005v1_5": [
+    "operator quasinormed space",
+    "averaging process translates",
+    "shifted dyadic grid"
+  ],
+  "0704.0006v1_1": [
+    "feshbach resonance fermionic",
+    "bosonic character fermi",
+    "bosonic characters atomic"
+  ],
+  "0704.0006v1_2": [
+    "eigenvector particle density",
+    "pair wave function",
+    "bosonic mode fermi"
+  ],
+  "0704.0006v1_3": [
+    "cooper pair wave",
+    "pair wave functions",
+    "relate condensate fraction"
+  ],
+  "0704.0006v1_4": [
+    "orbits homogeneous bcs",
+    "length bcs gas",
+    "homogeneous bcs gas"
+  ],
+  "0704.0006v1_5": [
+    "definitions cooper pair",
+    "cooper pair bosonic",
+    "quantum statistics cooper"
+  ],
+  "0704.0006v1_6": [
+    "pn legendre function",
+    "x2dx connected ex",
+    "factors make integral"
+  ],
+  "0704.0007v2_1": [
+    "polymer quantum mechanics"
+  ],
+  "0704.0007v2_10": [
+    "hamiltonian polymer representation"
+  ],
+  "0704.0007v2_11": [
+    "kinetic term p2",
+    "approximating polynomial functions",
+    "p2 shift operator"
+  ],
+  "0704.0007v2_12": [
+    "functions preserve",
+    "inner product periodic",
+    "phase space variables"
+  ],
+  "0704.0007v2_13": [
+    "continuum limit polymeric",
+    "hamiltonian physical hilbert",
+    "relation schr\u00f6dinger state"
+  ],
+  "0704.0007v2_14": [
+    "recovery original function",
+    "polymer theory best",
+    "polymer represntation"
+  ],
+  "0704.0007v2_15": [
+    "coarse graining map",
+    "convergence renormalized theory",
+    "discrete spectra renormalization"
+  ],
+  "0704.0007v2_16": [
+    "continuum theory",
+    "physical hilbert space",
+    "determines continuum limit"
+  ],
+  "0704.0007v2_17": [
+    "harmonic oscillator sho",
+    "oscillating states pendulum",
+    "convergence eigenvalues eigenfunctions"
+  ],
+  "0704.0007v2_18": [
+    "polymer quantum cosmology",
+    "time dependent schr\u00f6dinger"
+  ],
+  "0704.0007v2_19": [
+    "choosing pa quantized",
+    "choice polarization opposite",
+    "adopted choice polarization"
+  ],
+  "0704.0007v2_2": [
+    "continuum polymer representation",
+    "spacing loop quantum",
+    "polymer standard schr\u00f6dinger"
+  ],
+  "0704.0007v2_20": [
+    "descriptions context quantum",
+    "limit constrained constraint",
+    "interpretation quantum constraint"
+  ],
+  "0704.0007v2_21": [
+    "schr\u00f6dinger representation",
+    "polymer description schr\u00f6dinger",
+    "polymer regularization different"
+  ],
+  "0704.0007v2_3": [
+    "correlation kinematics quantum",
+    "weyl algebra approach",
+    "schr\u00f6dinger representation alternatively"
+  ],
+  "0704.0007v2_4": [
+    "complex coordinates phase",
+    "measure schr\u00f6dinger representation",
+    "standard schr\u00f6dinger representation"
+  ],
+  "0704.0007v2_5": [
+    "gns hilbert space",
+    "limiting cases parameter",
+    "polymer representation schr\u00f6dinger"
+  ],
+  "0704.0007v2_6": [
+    "relation gns construction",
+    "inner product state",
+    "role half densities"
+  ],
+  "0704.0007v2_7": [
+    "define polymer representations",
+    "significance discrete counting",
+    "significance choosing polymer"
+  ],
+  "0704.0007v2_8": [
+    "represented momentum polarization",
+    "operator abstract operator",
+    "momentum polarization"
+  ],
+  "0704.0007v2_9": [
+    "polymer representation polarization",
+    "wave functions polarization",
+    "type polymer representation"
+  ],
+  "0704.0008v3_1": [
+    "formulation developed arxiv",
+    "0008v3 calculating shock",
+    "material dynamics experiments"
+  ],
+  "0704.0008v3_10": [
+    "does plastic shock",
+    "plastic shock compare",
+    "plastic flow temperature"
+  ],
+  "0704.0008v3_11": [
+    "wave interactions materials",
+    "projectile impact stationary",
+    "shock ramp compression"
+  ],
+  "0704.0008v3_12": [
+    "conditions hydrocode simulations",
+    "material properties software",
+    "national nuclear security"
+  ],
+  "0704.0008v3_2": [
+    "material property measurement",
+    "eos accuracy theoretical",
+    "heat conduction condensed"
+  ],
+  "0704.0008v3_3": [
+    "material properties modeling",
+    "dynamics simulations",
+    "polymorphism object oriented"
+  ],
+  "0704.0008v3_4": [
+    "ramp compression materials",
+    "shock ramp loading",
+    "evolution ramp compression"
+  ],
+  "0704.0008v3_5": [
+    "ramp compression material",
+    "shock compression differ",
+    "discontinuous shocks continuum"
+  ],
+  "0704.0008v3_6": [
+    "simulations thermodynamic space",
+    "rankine hugoniot equations",
+    "given shock compression"
+  ],
+  "0704.0008v3_7": [
+    "error bounds hugoniot",
+    "eos effect temperature",
+    "temperature scalar eos"
+  ],
+  "0704.0008v3_8": [
+    "temperature calculated compression",
+    "used augmented eos",
+    "considered eos calibration"
+  ],
+  "0704.0008v3_9": [
+    "hypoelastic hyperelastic calculations",
+    "hypoelastic hyperelastic models",
+    "plasticity beryllium steinberg"
+  ],
+  "0704.0009v1_1": [
+    "serpens yso population",
+    "young stellar object",
+    "young stellar objects"
+  ],
+  "0704.0009v1_10": [
+    "luminosity function serpens",
+    "hydrogen burning limit",
+    "luminosity distribution yso"
+  ],
+  "0704.0009v1_11": [
+    "function peak 10",
+    "excess sources luminosities",
+    "luminosity yso distributions"
+  ],
+  "0704.0009v1_12": [
+    "stellar object distributions",
+    "density young stellar",
+    "interstellar dust grains"
+  ],
+  "0704.0009v1_13": [
+    "color diagrams",
+    "spitzer observations circumstellar",
+    "models young stars"
+  ],
+  "0704.0009v1_14": [
+    "luminosity infrared excess",
+    "correlation luminosity ysos",
+    "sed stellar objects"
+  ],
+  "0704.0009v1_15": [
+    "flux band ldisk",
+    "disk emission statistics",
+    "terms disk evolution"
+  ],
+  "0704.0009v1_16": [
+    "stellar disk flux",
+    "type seds compare",
+    "circumstellar disks serpens"
+  ],
+  "0704.0009v1_17": [
+    "iii sources sample",
+    "coldest objects table",
+    "outflow sources table"
+  ],
+  "0704.0009v1_18": [
+    "ctts taurus debris",
+    "inner disk morphologies",
+    "infrared source serpens"
+  ],
+  "0704.0009v1_19": [
+    "iii objects serpens",
+    "stages star formation",
+    "luminosity range ysos"
+  ],
+  "0704.0009v1_2": [
+    "cloud star formation",
+    "spitzer sensitivity dust",
+    "cloud studies iras"
+  ],
+  "0704.0009v1_21": [
+    "average second column",
+    "sum column numbers",
+    "median 13th 14th"
+  ],
+  "0704.0009v1_22": [
+    "value academic chunk",
+    "median value academic",
+    "mode value academic"
+  ],
+  "0704.0009v1_24": [
+    "continued academic chunk",
+    "identify iras 18273",
+    "locate sstc2dj mjy"
+  ],
+  "0704.0009v1_25": [
+    "ec values 205",
+    "value near 18300047",
+    "percentage increase 11"
+  ],
+  "0704.0009v1_26": [
+    "iras 18251 observations",
+    "prev academic chunk",
+    "sstc2dj mjy mjy"
+  ],
+  "0704.0009v1_27": [
+    "points provided d019",
+    "median mode numbers",
+    "d022 d035 respectively"
+  ],
+  "0704.0009v1_28": [
+    "significance d064 code",
+    "values codes d074",
+    "calculate environmental impact"
+  ],
+  "0704.0009v1_29": [
+    "d100 academic performance",
+    "chunk analysis academic",
+    "academic performance d100"
+  ],
+  "0704.0009v1_3": [
+    "luminosity function serpens",
+    "star formation surveyed",
+    "coldest ysos disappearing"
+  ],
+  "0704.0009v1_30": [
+    "measurements"
+  ],
+  "0704.0009v1_31": [
+    "spitzer 24 70",
+    "18293561 0035038 30",
+    "d182 18293686"
+  ],
+  "0704.0009v1_32": [
+    "k250 values related",
+    "k258 values related",
+    "k252 values related"
+  ],
+  "0704.0009v1_34": [
+    "spitzer data academic",
+    "investigate findings scientific",
+    "explore results"
+  ],
+  "0704.0009v1_37": [
+    "velocity outflows serpens",
+    "matching names hh",
+    "jets directions smm"
+  ],
+  "0704.0009v1_4": [
+    "compare serpens swire",
+    "reddened stellar photospheres",
+    "band filling catalog"
+  ],
+  "0704.0009v1_5": [
+    "extinction profile serpens",
+    "reddened swire photometry",
+    "resampled swire catalog"
+  ],
+  "0704.0009v1_6": [
+    "classifying ysos extragalactic",
+    "color magnitude space",
+    "ysos extragalactic objects"
+  ],
+  "0704.0009v1_7": [
+    "discarded poor photometry",
+    "yso candidates contamination",
+    "number agb stars"
+  ],
+  "0704.0009v1_8": [
+    "serpens yso search",
+    "color diagrams serpens",
+    "background contamination ysos"
+  ],
+  "0704.0009v1_9": [
+    "yso classification percentages",
+    "irac data mips",
+    "variability micron bands"
+  ],
+  "0704.0010v1_1": [
+    "partial cubes field",
+    "study partial cubes",
+    "partial cubes existing"
+  ],
+  "0704.0010v1_10": [
+    "cubes graph dimensions",
+    "semicube graph sc",
+    "pasting graphs subgraphs"
+  ],
+  "0704.0010v1_11": [
+    "defining isomorphism h1",
+    "partial cubes g1",
+    "cubes partial cubes"
+  ],
+  "0704.0010v1_12": [
+    "connected graphs blocks",
+    "pasting partial cube",
+    "theorems partial cube"
+  ],
+  "0704.0010v1_13": [
+    "dimensions graph obtained",
+    "semicubes graph behave",
+    "djokovic relations e1"
+  ],
+  "0704.0010v1_14": [
+    "pasting partial cubes",
+    "relate partial cubes",
+    "matchings partial cubes"
+  ],
+  "0704.0010v1_15": [
+    "contracting partial cubes",
+    "lattice dimension star",
+    "graph dimensions components"
+  ],
+  "0704.0010v1_16": [
+    "inequality equation shortest",
+    "unique edge x1x2",
+    "processes connected graph"
+  ],
+  "0704.0010v1_17": [
+    "isometric expansion graph",
+    "finite partial cubes",
+    "proof corollary"
+  ],
+  "0704.0010v1_18": [
+    "using results lemma",
+    "bipartite graphs closed",
+    "contraction partial cubes"
+  ],
+  "0704.0010v1_19": [
+    "graded family finite",
+    "wqp partial cube",
+    "graph induced family"
+  ],
+  "0704.0010v1_2": [
+    "isometric subgraph definition",
+    "convex graph definition",
+    "hypercube definition set"
+  ],
+  "0704.0010v1_20": [
+    "partial cubes graph",
+    "cubes related hypercubes",
+    "theory partial cubes"
+  ],
+  "0704.0010v1_3": [
+    "sets lattices",
+    "sets betweenness relations",
+    "infinite partial cubes"
+  ],
+  "0704.0010v1_4": [
+    "semicubes bipartite graphs",
+    "characterization bipartite graphs",
+    "partitions bipartite graphs"
+  ],
+  "0704.0010v1_5": [
+    "semicubes bipartite graph",
+    "relation edges bipartite",
+    "lemma bipartite graph"
+  ],
+  "0704.0010v1_6": [
+    "theorem partial cubes",
+    "define partial cubes",
+    "partial cubes semicubes"
+  ],
+  "0704.0010v1_7": [
+    "wba partial cube",
+    "hyperplane separating half",
+    "hyperplane arrangements analogy"
+  ],
+  "0704.0010v1_8": [
+    "cube related hypercube",
+    "wg family finite",
+    "dimension partial cube"
+  ],
+  "0704.0010v1_9": [
+    "infinite partial cubes",
+    "dimension partial cube",
+    "cycle number vertices"
+  ],
+  "0704.0011v3_1": [
+    "genus hilbert siegel",
+    "hilbert siegel cusp",
+    "hilbert siegel modular"
+  ],
+  "0704.0011v3_2": [
+    "siegel modular forms",
+    "hilbert siegel modular"
+  ],
+  "0704.0011v3_3": [
+    "isomorphism gebz ok",
+    "splitting quaternion algebra",
+    "hilbert siegel modular"
+  ],
+  "0704.0011v3_4": [
+    "representation lk gsp4",
+    "hilbert siegel modular",
+    "hecke algebras tk"
+  ],
+  "0704.0011v3_5": [
+    "hecke modules mb",
+    "algorithm provided theorem",
+    "lagrange variety finite"
+  ],
+  "0704.0011v3_6": [
+    "subspace invariants explain",
+    "hecke operators ts",
+    "given chunk"
+  ],
+  "0704.0011v3_7": [
+    "eigenvalues hilbert siegel",
+    "computed hilbert siegel",
+    "determining hilbert cusp"
+  ],
+  "0704.0011v3_8": [
+    "siegel eigenforms weight",
+    "dimensions modular forms",
+    "values lift f1"
+  ],
+  "0704.0011v3_9": [
+    "hilbert eigenforms weight",
+    "congruence subgroups siegel",
+    "level structures klingen"
+  ],
+  "0704.0012v1_1": [
+    "rankin cohen bracket",
+    "moduli modulo primes",
+    "newman conjecture overpartitions"
+  ],
+  "0704.0012v1_2": [
+    "fourier coefficients modulo",
+    "factorization primes imaginary",
+    "primes distribution hurwitz"
+  ],
+  "0704.0012v1_3": [
+    "modulo odd primes",
+    "theorem understanding distribution",
+    "fourier coefficients modulo"
+  ],
+  "0704.0012v1_4": [
+    "lemma relation chapter",
+    "fourier coefficients hecke",
+    "theorem significance euler"
+  ],
+  "0704.0012v1_5": [
+    "proposition existence cusp",
+    "theorem proposition",
+    "f1 modular properties"
+  ],
+  "0704.0012v1_6": [
+    "f_p context holomorphic",
+    "f_p holomorphic modular",
+    "fourier coefficients w_z"
+  ],
+  "0704.0013v2_1": [
+    "fourier coefficients modular",
+    "half integral weight",
+    "choi paper"
+  ],
+  "0704.0013v2_10": [
+    "bernoulli numbers theorem",
+    "quadratic space fp",
+    "sp odd polynomial"
+  ],
+  "0704.0013v2_2": [
+    "integral modular forms",
+    "integer mod pj",
+    "proving congruences modular"
+  ],
+  "0704.0013v2_3": [
+    "quotients elliptic eisenstein",
+    "genus 2g weight",
+    "congruences fourier coefficients"
+  ],
+  "0704.0013v2_4": [
+    "fourier coefficients modular",
+    "orthogonal complement subspaces",
+    "groups genus zero"
+  ],
+  "0704.0013v2_5": [
+    "theorem proof",
+    "equation residue cusp",
+    "explain holomorphic function"
+  ],
+  "0704.0013v2_6": [
+    "modular functions pole",
+    "expansion j4n integral",
+    "m1204n chosen"
+  ],
+  "0704.0013v2_7": [
+    "weakly holomorphic modular",
+    "proposition proof theorem",
+    "etale quotients relation"
+  ],
+  "0704.0013v2_8": [
+    "positive integer modulo",
+    "theorem prove theorem",
+    "does residue theorem"
+  ],
+  "0704.0014v1_1": [
+    "chen iterated integrals",
+    "merkulov iterated integral",
+    "loop product definition"
+  ],
+  "0704.0014v1_2": [
+    "definition bar complex",
+    "coproduct bar complex",
+    "chen normalization cyclic"
+  ],
+  "0704.0014v1_3": [
+    "isomorphism established hom",
+    "proposition proving theorem",
+    "cup product hom"
+  ],
+  "0704.0014v1_4": [
+    "group smooth manifold",
+    "chen augmentation ideal",
+    "iterated integrals free"
+  ],
+  "0704.0014v1_5": [
+    "cases presented chunk",
+    "maps derived cases",
+    "does proof lemma"
+  ],
+  "0704.0014v1_6": [
+    "isomorphism goldman bracket",
+    "interact goldman bracket",
+    "relation bracket h0"
+  ],
+  "0704.0014v1_7": [
+    "bracket relation h0",
+    "cyclic group pz",
+    "commute diagram respect"
+  ],
+  "0704.0014v1_8": [
+    "isomorphism lie algebras",
+    "compact kahler manifolds",
+    "lemma qusi isomorphisms"
+  ],
+  "0704.0015v2_1": [
+    "spinor formalism superstring",
+    "schwarz rns formalisms",
+    "spinor formalism computing"
+  ],
+  "0704.0015v2_10": [
+    "superfields contribute fermionic",
+    "permutation operator 12",
+    "kinematic factor k4f"
+  ],
+  "0704.0015v2_11": [
+    "spinor formalism",
+    "spinor superspace integrals",
+    "spinor calculations computational"
+  ],
+  "0704.0015v2_12": [
+    "basis k4 terms",
+    "fierz identities dirac",
+    "index tensors relations"
+  ],
+  "0704.0015v2_13": [
+    "scalars polynomials spinor",
+    "spinors gamma matrix",
+    "bosons fermions representation"
+  ],
+  "0704.0015v2_2": [
+    "pure spinor formalism",
+    "pure superspace integrals",
+    "lorentz invariance tensor"
+  ],
+  "0704.0015v2_3": [
+    "spinor products representation",
+    "correlator uniquely characterised",
+    "derivation tensorial identities"
+  ],
+  "0704.0015v2_4": [
+    "fierz transformation relevant",
+    "5i correlator expression",
+    "gamma matrix tracelessness"
+  ],
+  "0704.0015v2_5": [
+    "zero mode integrals",
+    "decompose k4u1u2u3u4 scalars",
+    "determine complexity correlators"
+  ],
+  "0704.0015v2_6": [
+    "order shell identities",
+    "recursive relations fermionic",
+    "bosons kinematic factor"
+  ],
+  "0704.0015v2_7": [
+    "fermion kinematic factor",
+    "boson kinematic factor",
+    "permutations superfields bosons"
+  ],
+  "0704.0015v2_8": [
+    "spinor formalism",
+    "pure spinor formalism",
+    "massless states point"
+  ],
+  "0704.0016v1_1": [
+    "doubly charmed baryons",
+    "cabibbo suppressed diagrams",
+    "oscillator model hadronic"
+  ],
+  "0704.0016v1_2": [
+    "diquark picture compare",
+    "optical theorem calculating",
+    "harmonic oscillator model"
+  ],
+  "0704.0016v1_3": [
+    "hadrons charm quark",
+    "ccc baryon ground",
+    "contributions decays cc"
+  ],
+  "0704.0016v1_4": [
+    "quark non leptonic",
+    "decay charm quarks",
+    "non spectator diagrams"
+  ],
+  "0704.0016v1_5": [
+    "valence quark polarizations",
+    "charmed baryon decays",
+    "parameters decay amplitudes"
+  ],
+  "0704.0016v1_6": [
+    "non spectator effects",
+    "charmed baryons non",
+    "predicted lifetimes models"
+  ],
+  "0704.0016v1_7": [
+    "cdf collaboration abulencia",
+    "li wang phys",
+    "selex collaboration mattson"
+  ],
+  "0704.0017v1_10": [
+    "distance comparison siegel",
+    "emission region visibility",
+    "magnetic field accretion"
+  ],
+  "0704.0017v1_11": [
+    "rotating accretion funnel",
+    "significance corotation radius",
+    "keplerian motion significance"
+  ],
+  "0704.0017v1_12": [
+    "cancellation velocity near",
+    "spin varying emission",
+    "poles cancel velocities"
+  ],
+  "0704.0017v1_13": [
+    "simulations norton et",
+    "hya imply higher",
+    "dwarf ex"
+  ],
+  "0704.0017v1_2": [
+    "modeling accretion curtains",
+    "asynchronous polar accretion",
+    "stream ring accretion"
+  ],
+  "0704.0017v1_3": [
+    "orbital frequency harmonic",
+    "velocities determined emission",
+    "data prewhitened purpose"
+  ],
+  "0704.0017v1_4": [
+    "ephemeris mid eclipse",
+    "velocities spectroscopic phase",
+    "tomograms maximum entropy"
+  ],
+  "0704.0017v1_5": [
+    "emission features tomograms",
+    "overlap stream component",
+    "mem bpm reconstructing"
+  ],
+  "0704.0017v1_6": [
+    "hya optical emission",
+    "orbital period variations",
+    "variations removal spectroscopic"
+  ],
+  "0704.0017v1_7": [
+    "trailed spectra 2001",
+    "doppler effect manifested",
+    "emission near clock"
+  ],
+  "0704.0017v1_8": [
+    "spectroscopic study",
+    "vertically extended material",
+    "lobe accretion curtains"
+  ],
+  "0704.0017v1_9": [
+    "model intermediate polar",
+    "evidence overflow stream",
+    "observations accretion curtain"
+  ],
+  "0704.0018v2_1": [
+    "callias index theorem",
+    "dimension moduli space",
+    "problems dimensional spaces"
+  ],
+  "0704.0018v2_2": [
+    "callias index theorem",
+    "covariant derivatives dirac",
+    "dimensions callias index"
+  ],
+  "0704.0018v2_3": [
+    "total divergence eq",
+    "signs expressions ji"
+  ],
+  "0704.0018v2_4": [
+    "rotation dimensional regularization",
+    "convergence integrals using",
+    "bogomolnyi equation dimensions"
+  ],
+  "0704.0018v2_5": [
+    "distance charge monopole",
+    "su gauge group",
+    "integral comparison callias"
+  ],
+  "0704.0018v2_6": [
+    "bogomolnyi equation context",
+    "susy bogomolnyi equation",
+    "mills higgs model"
+  ],
+  "0704.0018v2_7": [
+    "fields infinitely",
+    "non local theories",
+    "bogomolnyi equation invariance"
+  ],
+  "0704.0018v2_8": [
+    "gauge variation background",
+    "constrain zero modes",
+    "orthogonality ais ais"
+  ],
+  "0704.0018v2_9": [
+    "equation effect chiral",
+    "magnetic charge s3",
+    "wick rotation principal"
+  ],
+  "0704.0019v2_1": [
+    "contact process approximation",
+    "probability dimensional contact",
+    "contact process extinction"
+  ],
+  "0704.0019v2_2": [
+    "approximation density",
+    "second approximation density",
+    "results approximation density"
+  ],
+  "0704.0020v1_1": [
+    "decays significance hadronic",
+    "babar experiment role",
+    "physics collaborations involved"
+  ],
+  "0704.0020v1_10": [
+    "study d0 production",
+    "fisher discriminant variable",
+    "peak distribution background"
+  ],
+  "0704.0020v1_12": [
+    "uncertainties fitted parameters",
+    "simulation standard babar",
+    "fisher discriminant applying"
+  ],
+  "0704.0020v1_13": [
+    "energy reconstruction data",
+    "q2 reconstruction accuracy",
+    "lepton kaon identification"
+  ],
+  "0704.0020v1_14": [
+    "fake rates babar",
+    "form factor measurements",
+    "radiative effects form"
+  ],
+  "0704.0020v1_15": [
+    "normalized q2 distributions",
+    "isgw2 model compare",
+    "ansatz form factor"
+  ],
+  "0704.0020v1_16": [
+    "branching fraction channels",
+    "experimental events channels",
+    "d0kee channel provided"
+  ],
+  "0704.0020v1_17": [
+    "required remove contributions",
+    "remaining d0 decays",
+    "normalizing background level"
+  ],
+  "0704.0020v1_18": [
+    "correlated systematic uncertainties",
+    "systematic uncertainties listed",
+    "function fisher discriminant"
+  ],
+  "0704.0020v1_19": [
+    "branching fraction does",
+    "pole ansatze differ",
+    "measurement q2 variation"
+  ],
+  "0704.0020v1_3": [
+    "di milano dipartimento",
+    "bauer university mississippi",
+    "brunet universite montr"
+  ],
+  "0704.0020v1_4": [
+    "hadronic form factor",
+    "decay channels comparison",
+    "current conservation qcd"
+  ],
+  "0704.0020v1_5": [
+    "d0 decay measurements",
+    "meson production",
+    "q2 form factor"
+  ],
+  "0704.0020v1_6": [
+    "modified pole ansatz",
+    "effective pole mass",
+    "qcd computations quark"
+  ],
+  "0704.0020v1_7": [
+    "qcd sum rules",
+    "lattice qcd computations",
+    "identified babar detector"
+  ],
+  "0704.0020v1_8": [
+    "adjusting quark fragmentation",
+    "selected d0 decays",
+    "mass difference d0"
+  ],
+  "0704.0020v1_9": [
+    "simulated events academic",
+    "event topology decays",
+    "fisher discriminant use"
+  ],
+  "0704.0021v2_1": [
+    "allosteric enzyme synchronization",
+    "bifurcations enzymatic reaction",
+    "soft matter nanotechnology"
+  ],
+  "0704.0021v2_2": [
+    "molecules bind enzyme",
+    "regulatory molecules reaction",
+    "enzymes space concentration"
+  ],
+  "0704.0021v2_3": [
+    "growth q0 enzyme",
+    "allosteric activation emergence",
+    "delays equations enzyme"
+  ],
+  "0704.0021v2_4": [
+    "spontaneous molecular synchronization",
+    "enzyme concentrations synchronization",
+    "simulations larger enzyme"
+  ],
+  "0704.0021v2_5": [
+    "traveling waves enzyme",
+    "metabolic waves enzyme",
+    "synchronization waves enzyme"
+  ],
+  "0704.0022v2_1": [
+    "group integrators nonlinear",
+    "stochastic munthe kaas",
+    "stochastic lie group"
+  ],
+  "0704.0022v2_2": [
+    "constants lie group",
+    "role lie group",
+    "exponential map exp"
+  ],
+  "0704.0022v2_3": [
+    "chordal areas driving",
+    "l2 norm wiener",
+    "stochastic differential lie"
+  ],
+  "0704.0022v2_4": [
+    "stochastic taylor integrators",
+    "exact dynamics financial"
+  ],
+  "0704.0023v1_1": [
+    "chromospheric observa tions",
+    "range mm wavelength",
+    "mm wavelengths solar"
+  ],
+  "0704.0023v1_2": [
+    "chromospheric observations mm",
+    "spatial temporal resolution",
+    "chromospheric studies alma"
+  ],
+  "0704.0023v1_3": [
+    "hot gas temperatures",
+    "brightness temperatures various",
+    "wavelengths dynamic effects"
+  ],
+  "0704.0023v1_4": [
+    "mm submm observations",
+    "solar chromosphere using",
+    "specification alma observations"
+  ],
+  "0704.0024v1_2": [
+    "packet nonlinear pulse",
+    "instability play bullet"
+  ],
+  "0704.0024v1_3": [
+    "nonlinear interaction mechanisms",
+    "impact soliton amplitude",
+    "bullet like waveforms"
+  ],
+  "0704.0025v1_1": [
+    "polarons strongly correlated",
+    "quasiparticles bosonic excitations",
+    "states quasiparticles polarons"
+  ],
+  "0704.0025v1_10": [
+    "ohlich model 05",
+    "energy polaron ground",
+    "energy fr ohlich"
+  ],
+  "0704.0025v1_11": [
+    "mixed valence systems",
+    "photoemission mossbauer experiments",
+    "time ic measurement"
+  ],
+  "0704.0025v1_12": [
+    "phonon thresholds emission",
+    "optical conductivity calculation",
+    "optical conductivity critical"
+  ],
+  "0704.0025v1_13": [
+    "transition ac fc",
+    "trapping adiabatic disconnection",
+    "pekar exciton polaron"
+  ],
+  "0704.0025v1_14": [
+    "pekar exciton polaron",
+    "phonons change coupling",
+    "relationship state energy"
+  ],
+  "0704.0025v1_15": [
+    "mass strong coupling",
+    "phenomenon single band",
+    "trapping anthracene pmda"
+  ],
+  "0704.0025v1_16": [
+    "theory derivatives ends",
+    "spectroscopic properties polarons",
+    "charge transfer exciton"
+  ],
+  "0704.0025v1_17": [
+    "epi play physics",
+    "raman scattering experiments",
+    "phonon modes cuprates"
+  ],
+  "0704.0025v1_18": [
+    "holstein model interaction",
+    "diagonalization holstein model",
+    "theory holstein model"
+  ],
+  "0704.0025v1_19": [
+    "qualitative description holstein",
+    "spectroscopic properties polarons",
+    "simulation holstein model"
+  ],
+  "0704.0025v1_2": [
+    "quasiparticles lattice degrees",
+    "decay quasiparticles phonons",
+    "polarons macroscopic"
+  ],
+  "0704.0025v1_20": [
+    "adiabatic potential holstein",
+    "hole underdoped cuprates",
+    "heavily underdoped cuprates"
+  ],
+  "0704.0025v1_21": [
+    "fermi energy isotope",
+    "isotope effect bi2212",
+    "status isotope effect"
+  ],
+  "0704.0025v1_22": [
+    "dotted line antiisotope",
+    "properties poisson distribution",
+    "energy zero phonon"
+  ],
+  "0704.0025v1_23": [
+    "enhancing gle holes",
+    "intermediate coupling regime",
+    "compounds strong epi"
+  ],
+  "0704.0025v1_3": [
+    "dispersion relation lehmann",
+    "bipolaron exciton polaron",
+    "methods problem polarons"
+  ],
+  "0704.0025v1_4": [
+    "lattice readaptation phonon",
+    "optical conductivity polarons",
+    "dmc simulations optical"
+  ],
+  "0704.0025v1_5": [
+    "lehmann function lf",
+    "lowest state gfs",
+    "polaron relate dmc"
+  ],
+  "0704.0025v1_6": [
+    "infinite series integrals",
+    "discuss dmc method",
+    "dm dmc method"
+  ],
+  "0704.0025v1_7": [
+    "ergodicity property monte",
+    "carlo simulation updating",
+    "sampling feynman diagrams"
+  ],
+  "0704.0025v1_8": [
+    "saw tooth noise",
+    "entropy method compare"
+  ],
+  "0704.0025v1_9": [
+    "interaction dispersive phonons",
+    "dynamical mean field",
+    "density matrix renormalization"
+  ],
+  "0704.0026v3_1": [
+    "dickson process zero",
+    "box kites fractals",
+    "fractal genus transformation"
+  ],
+  "0704.0026v3_10": [
+    "translate academic chunk",
+    "mentioned academic chunk",
+    "lemma relate theorem"
+  ],
+  "0704.0026v3_11": [
+    "product expression",
+    "rule affect multiplicands",
+    "argument cdp generation"
+  ],
+  "0704.0026v3_12": [
+    "triplets combinatoric formula",
+    "candidate box kites",
+    "pathion trip systems"
+  ],
+  "0704.0026v3_13": [
+    "dyad inner sign",
+    "constructive mechanism demonstrate",
+    "value psl triangle"
+  ],
+  "0704.0026v3_14": [
+    "kites zigzag index",
+    "binary bitstrings zd",
+    "triplets cdp generations"
+  ],
+  "0704.0026v3_15": [
+    "kites flip book",
+    "ii box kites",
+    "signed version vizier"
+  ],
+  "0704.0026v3_16": [
+    "significance zigzag triplets",
+    "orientation triplets",
+    "impact toy model"
+  ],
+  "0704.0026v3_2": [
+    "exposition iconic narration",
+    "zero division phenomenology",
+    "kite representation psl"
+  ],
+  "0704.0026v3_3": [
+    "riemann sphere represented",
+    "points riemann sphere",
+    "triangle related octonions"
+  ],
+  "0704.0026v3_4": [
+    "triplets generated rule",
+    "associative index triplet",
+    "indices nodes psl"
+  ],
+  "0704.0026v3_5": [
+    "underwriting method academic",
+    "term vertex dyad",
+    "interactions vent zigzag"
+  ],
+  "0704.0026v3_6": [
+    "zigzag dyads octahedral",
+    "emanation tables concept",
+    "zd interactions visualization"
+  ],
+  "0704.0026v3_7": [
+    "assessor representing cells",
+    "fractals context nks",
+    "labeling lowest index"
+  ],
+  "0704.0026v3_8": [
+    "red edged zigzags",
+    "edges bounding hexagonal",
+    "significance strut constant"
+  ],
+  "0704.0026v3_9": [
+    "dmz assessor sail",
+    "fixed connected dmz",
+    "determining existence fixed"
+  ],
+  "0704.0027v4_1": [
+    "graphene magnetophonon resonance",
+    "graphene plane optical",
+    "phonon coupling graphene"
+  ],
+  "0704.0027v4_2": [
+    "electron phonon coupling",
+    "optical phonons honeycomb",
+    "magnetoexciton resonance graphene"
+  ],
+  "0704.0027v4_3": [
+    "photon coupling valley",
+    "phonon hamiltonian graphene",
+    "consequences interband magnetoexciton"
+  ],
+  "0704.0027v4_4": [
+    "magnetophonon resonance magnetoexciton",
+    "magnetoexciton based materials",
+    "polarized modes magnetoexciton"
+  ]
+}

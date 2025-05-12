@@ -1,0 +1,40 @@
+longformer_8 , longformer_9 and longformer_10:
+https://mlflow.org/docs/latest/tracking/tracking-api
+https://mlflow.org/docs/latest/llms/sentence-transformers/guide/index.html
+https://mlflow.org/docs/latest/python_api/mlflow.sentence_transformers.html
+https://mlflow.org/docs/latest/llms/sentence-transformers/tutorials/quickstart/sentence-transformers-quickstart.html
+https://sbert.net/
+https://sbert.net/docs/sentence_transformer/training_overview.html
+https://sbert.net/docs/package_reference/sentence_transformer/losses.html
+https://github.com/UKPLab/sentence-transformers
+https://docs.ray.io/en/latest/train/api/doc/ray.train.torch.TorchTrainer.html
+https://docs.ray.io/en/latest/ray-core/api/doc/ray.init.html
+https://docs.ray.io/en/latest/train/overview.html
+https://docs.sqlalchemy.org/
+https://docs.sqlalchemy.org/en/latest/core/engines.html
+https://docs.sqlalchemy.org/en/latest/core/sqlelement.html
+torch.utils.data.DataLoader Documentation:
+https://pytorch.org/docs/stable/data.html
+https://www.pinecone.io/learn/series/nlp/fine-tune-sentence-transformers-mnr/
+https://stackoverflow.com/questions/75762852/training-sentence-transformers-with-multiplenegativesrankingloss
+https://huggingface.co/blog/train-sentence-transformers
+https://medium.com/@mahedi.hrasel/how-to-fine-tune-an-embedding-model-with-sentence-transformers-ab53800d8389
+https://www.youtube.com/watch?v=b_2v9Hpfnbw
+
+
+
+run_ray_longformer_experiment:
+https://docs.ray.io/en/latest/cluster/running-applications/job-submission/index.html
+https://docs.ray.io/en/latest/train/getting-started-transformers.html
+
+particularly for getting version dependencies correct for environment
+https://pytorch.org/
+https://www.sbert.net/
+https://huggingface.co/docs/transformers/index
+https://huggingface.co/docs/huggingface_hub/index
+https://huggingface.co/docs/accelerate/index
+https://mlflow.org/
+https://huggingface.co/docs/datasets/index
+https://pandas.pydata.org/
+https://www.sqlalchemy.org/
+https://pypi.org/project/psycopg2-binary/

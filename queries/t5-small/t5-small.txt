@@ -1,0 +1,7035 @@
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_3
+Queries:
+  1. Haken
+  2. Haken 3
+  3. Haken
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_4
+Queries:
+  1. reticular structures
+  2. Gabai, Scharlemann
+  3. foliations
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_9
+Queries:
+  1. J = 0
+  2. number 1
+  3. qbu 1b
+
+ Paper ID: 0904.0208v1
+ Chunk ID: 0904.0208v1_4
+Queries:
+  1. GBose lc
+  2. GBose lc
+  3. GBose lc
+
+ Paper ID: 0904.0164v1
+ Chunk ID: 0904.0164v1_1
+Queries:
+  1. astro ph.SR
+  2. astro ph.SR 1 Apr 2009 astro ph.SR
+  3. co v2.2
+
+ Paper ID: 0904.0208v1
+ Chunk ID: 0904.0208v1_6
+Queries:
+  1. GBose lc
+  2. GBose lc
+  3. GBose lc:
+
+ Paper ID: 0904.0208v1
+ Chunk ID: 0904.0208v1_7
+Queries:
+  1. formalism
+  2. Lie algebra R
+  3. S1 P2
+
+ Paper ID: 0904.0208v1
+ Chunk ID: 0904.0208v1_8
+Queries:
+  1. kappa
+  2. Poisson brackets
+  3. kappa supersymmetry
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_2
+Queries:
+  1. KKLT, in which case, SUSY breaks
+  2. KKLT
+  3. LARGE Volume Scenarios
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_3
+Queries:
+  1. the T variable is a measure of the finite heat possible
+  2. DESCRIPTIONT
+  3. Tmax, m3 3 2MP
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_4
+Queries:
+  1. MSM particles, the energy density of the Universe is at least equal to that of the SSM particles.
+  2. FAR energy, the molecules in the medium are characterized by the heaviest moduli of LVS decay.
+  3. MOD, it is quite effective to observe that the small cycles can be in thermal equilibrium with MSM particles
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_8
+Queries:
+  1. CY 1
+  2. K3 fibred CY
+  3. A Swiss cheese
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_9
+Queries:
+  1. 1013S, V 1014S, m3, g1 2-S, V 10TeV
+  2. Xn r = i1+ Y
+  3. lv, m3, g1 2 s eKcs 2W0mp 8 V 10TeV
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_13
+Queries:
+  1. K ahler moduli io and z1
+  2. K ahler moduli i as for as s = 2 1 0 0 2 2m2 2 0 * b
+  3. K Ahlers moduli kinetic terms as for as s
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_19
+Queries:
+  1. Licensing
+  2. scfF
+  3. List of types of mass of Planck mass
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_20
+Queries:
+  1. A.B.B.C.1 , A.D.C.3 and C.C.A.4
+  2. one large cycle and several small ones
+  3. arbitrary h1, 1
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_30
+Queries:
+  1. Fork
+  2. q M2 P
+  3. N, p, t.P
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_33
+Queries:
+  1. X rays
+  2. 0 1010 GeV
+  3. NUM/NMR
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_34
+Queries:
+  1. gT 2
+  2. static inflation with VEV
+  3. VTT 2m2 T 2 d2V d 2
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_35
+Queries:
+  1. question
+  2. material that is strong but lacks a particle.
+  3. What is the name of the particle being measured for the field, without assuming it is the target particle?
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_36
+Queries:
+  1. N.A.
+  2. FG02 84 ER40153
+  3. FG02 84 ER40153
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_37
+Queries:
+  1. M s b P i H d
+  2. What is the relation between the measurements of the moduli-couplings and the inverse - a mN measurement range
+  3. MMOs L X, Hd
+
+ Paper ID: 0904.0044v1
+ Chunk ID: 0904.0044v1_1
+Queries:
+  1. Current induced microwave generation
+  2. microwave electron generation, a domain wall is a potential source of microwave oscillation415
+  3. current induced microwave generation
+
+ Paper ID: 0904.0044v1
+ Chunk ID: 0904.0044v1_5
+Queries:
+  1. ginolytic current str
+  2. n° o
+  3. the eq obviously
+
+ Paper ID: 0904.0127v1
+ Chunk ID: 0904.0127v1_1
+Queries:
+  1. ITER
+  2. arXiv
+  3. beryllium
+
+ Paper ID: 0904.0127v1
+ Chunk ID: 0904.0127v1_2
+Queries:
+  1. Potential energy curves
+  2. mri-fiktys
+  3. Are the energy curves for interisonus
+
+ Paper ID: 0904.0127v1
+ Chunk ID: 0904.0127v1_9
+Queries:
+  1. M. L.
+  2. IAEA
+  3. nDS 0491, IAEA
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_13
+Queries:
+  1. numbing histograms
+  2. tacking in 24 m bins
+  3. ovlution
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_6
+Queries:
+  1. cf. Kriek et al. 2006 Cimatti et al. 2008
+  2. READ
+  3. photometric redshifts
+
+ Paper ID: 0904.0083v1
+ Chunk ID: 0904.0083v1_1
+Queries:
+  1. two decades
+  2. molecular simulation
+  3. various combinations
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_2
+Queries:
+  1. subdoped regime
+  2. Emotive response
+  3. D wave SC
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_4
+Queries:
+  1. ion wave of charge carriers in t J model
+  2. d wave symmetry
+  3. A charge carrier gap function is tested
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_5
+Queries:
+  1. gq, hl, hl, A, i, j, p
+  2. gc/n
+  3. 2 X l h l h l h
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_7
+Queries:
+  1. ay q
+  2. kB neb
+  3. q netic field profile
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_8
+Queries:
+  1. YBa2Cu3O7 y
+  2. formula_s
+  3. YBa2Cu3O7 y in set 3 6 7 1 2 0 m 2 1 2 m 2 5 6 7 1- a linear ef fect
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_9
+Queries:
+  1. the Ginzburg Loid
+  2. Ginzburg Landau parameters 0 180
+  3. unanswerable
+
+ Paper ID: 0904.0106v1
+ Chunk ID: 0904.0106v1_1
+Queries:
+  1. RM model
+  2. dnr, tin #1015, tu
+  3. t , t t
+
+ Paper ID: 0904.0106v1
+ Chunk ID: 0904.0106v1_8
+Queries:
+  1. i.d. observations
+  2. z k 1
+  3. uncontaminated process
+
+ Paper ID: 0904.0154v3
+ Chunk ID: 0904.0154v3_11
+Queries:
+  1. orient n to the detection plane we can orient the particles in one shot.
+  2. eute spectra and verithe the data on the sample, we are presented with an approximate probability if there are a few infinitions.
+  3. emitted a craig the sample, emitted in a random sequence the sample
+
+ Paper ID: 0904.0154v3
+ Chunk ID: 0904.0154v3_12
+Queries:
+  1. Ill Posed Problems Using Laser
+  2. for an unknown support cardinality (N)
+  3. a red ultrasonic laser of wavelength 0.6328 m and distance of , and for the dictionaries : condition of proposition 5.5
+
+ Paper ID: 0904.0110v1
+ Chunk ID: 0904.0110v1_1
+Queries:
+  1. n.m.1683 hotmail.com
+  2. : dnm_cosm_parietal_parietal = sadcrof_int/dnm_comed_t> dnm_cosman_sindy = nadcrof_cosm_cosm_cosm_cosm_cosm_cosm_cosm_cosm_cos
+  3. unanswerable
+
+ Paper ID: 0904.0109v1
+ Chunk ID: 0904.0109v1_1
+Queries:
+  1. False, inductive, and infinite
+  2. , optimal authentication codes
+  3. exchange secrets for the use of arithmetic generators
+
+ Paper ID: 0904.0109v1
+ Chunk ID: 0904.0109v1_2
+Queries:
+  1. pS s
+  2. spoofing attack
+  3. s , v
+
+ Paper ID: 0904.0081v1
+ Chunk ID: 0904.0081v1_1
+Queries:
+  1. social networks
+  2. society
+  3. social networks
+
+ Paper ID: 0904.0228v1
+ Chunk ID: 0904.0228v1_1
+Queries:
+  1. "a hasChilld", "A is a person which is in a hasChild relationship with at most two parents"
+  2. “Speaker” with the word “speaker”, “speaker” with the word “speaker”
+  3. If someone n's Hillary hasChild
+
+ Paper ID: 0904.0228v1
+ Chunk ID: 0904.0228v1_8
+Queries:
+  1. incoming and outgoing edges
+  2. incoming edges
+  3. incoming
+
+ Paper ID: 0904.0115v3
+ Chunk ID: 0904.0115v3_1
+Queries:
+  1. KZM at finite temperature
+  2. KZM at finite temperature
+  3. KZM at finite temperature
+
+ Paper ID: 0904.0131v1
+ Chunk ID: 0904.0131v1_1
+Queries:
+  1. Observations longward of 100 m which may illuminate the character of their formation and evolution
+  2. The observations of planetary systems from birth to maturity may illuminate the character of their formation and evolution.
+  3. observations of planetary systems from birth to maturity
+
+ Paper ID: 0904.0131v1
+ Chunk ID: 0904.0131v1_2
+Queries:
+  1. treme adaptive optics systems
+  2. low mass stars
+  3. repulsion
+
+ Paper ID: 0904.0131v1
+ Chunk ID: 0904.0131v1_5
+Queries:
+  1. Hipparcos
+  2. Hipparcos
+  3. Hipparcos
+
+ Paper ID: 0904.0227v4
+ Chunk ID: 0904.0227v4_1
+Queries:
+  1. re-indexed, if etale
+  2. if etale
+  3. local quotient stack
+
+ Paper ID: 0904.0213v4
+ Chunk ID: 0904.0213v4_1
+Queries:
+  1. luminosity
+  2. star formation rates TIME-dependent
+  3. H2 HI
+
+ Paper ID: 0904.0213v4
+ Chunk ID: 0904.0213v4_2
+Queries:
+  1. Rc mol/rdisk / A.
+  2. i. an exponential scale radius and a physical model for H2 HI ratios,
+  3. Rgalaxy
+
+ Paper ID: 0904.0184v1
+ Chunk ID: 0904.0184v1_11
+Queries:
+  1. khonomy flux algebra
+  2. kinematically
+  3. kinematical
+
+ Paper ID: 0904.0184v1
+ Chunk ID: 0904.0184v1_13
+Queries:
+  1. Algometry, Quantum Gravity
+  2. A. Ashtekar and J. Lewandowski, Quantization of diffeo morphism
+  3. C. Rovelli, Quantum Gravity
+
+ Paper ID: 0904.0184v1
+ Chunk ID: 0904.0184v1_8
+Queries:
+  1. spectra
+  2. C. Weyl algebra
+  3. A. Ridley
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_3
+Queries:
+  1. Newtonian
+  2. N image
+  3. BILDER and RINE
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_4
+Queries:
+  1. eI t, x, y , axay k, x, y axay B
+  2. oth Msi
+  3. k L2 dxdy N
+
+ Paper ID: 0904.0001v1
+ Chunk ID: 0904.0001v1_1
+Queries:
+  1. eigenstates in terms of bosonic modes
+  2. ik I.
+  3. Lattice vs. continuum theory of the periodic Heisenberg chain
+
+ Paper ID: 0904.0001v1
+ Chunk ID: 0904.0001v1_2
+Queries:
+  1. we apply probability theory to the varying eigenenergies
+  2. We first explore parameters with real BA quasimomenta
+  3. low lying N levels
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_15
+Queries:
+  1. ich k t g ch k ikt
+  2. ich k, ch k and sh k
+  3. ich k t ged ch k ch k ikt xk l
+
+ Paper ID: 0904.0046v1
+ Chunk ID: 0904.0046v1_1
+Queries:
+  1. be compared with a classical spacetime to achieve massless convergence
+  2. the classical concept of smooth spacetime
+  3. stutter and move, then
+
+ Paper ID: 0904.0046v1
+ Chunk ID: 0904.0046v1_2
+Queries:
+  1. How is the tensor model built?
+  2. What is the symmetry of the orthogonal group O N
+  3. l=n=0 and/or>symmetries==0
+
+ Paper ID: 0904.0060v1
+ Chunk ID: 0904.0060v1_1
+Queries:
+  1. if possible to predict the corresponding change in a spin-so-spin interaction
+  2. frequency variation dynamics and analytic expressions
+  3. the effect of charge noise on a pair of spins coupled via the exchange interaction can be calculated by modelling charge fluctuations
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_10
+Queries:
+  1. MCBP theory
+  2. MCBP theory
+  3. MCBP theory
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_12
+Queries:
+  1. P,lo T
+  2. D, P,Lo T
+  3. DR plasma rate coefficients
+
+ Paper ID: 0904.0071v5
+ Chunk ID: 0904.0071v5_1
+Queries:
+  1. Kripke models
+  2. Kripke models in classical logic
+  3. Kripke models for classical logic
+
+ Paper ID: 0904.0071v5
+ Chunk ID: 0904.0071v5_9
+Queries:
+  1. None
+  2. proof
+  3. None
+
+ Paper ID: 0904.0116v1
+ Chunk ID: 0904.0116v1_1
+Queries:
+  1. electron nucleus hyperfine interaction
+  2. nuclei
+  3. Quantitative
+
+ Paper ID: 0904.0225v2
+ Chunk ID: 0904.0225v2_2
+Queries:
+  1. STIRAP
+  2. STIRAP must be
+  3. opti mally or shaped
+
+ Paper ID: 0904.0234v1
+ Chunk ID: 0904.0234v1_1
+Queries:
+  1. data
+  2. atom wall interaction
+  3. PACS
+
+ Paper ID: 0904.0234v1
+ Chunk ID: 0904.0234v1_5
+Queries:
+  1. frequency dependent c l n n pb st q
+  2. F A F A F A
+  3. C l , i
+
+ Paper ID: 0904.0019v1
+ Chunk ID: 0904.0019v1_6
+Queries:
+  1. BMORsc
+  2. BMOrsc and BMOrsc.
+  3. BMORsc
+
+ Paper ID: 0904.0169v4
+ Chunk ID: 0904.0169v4_2
+Queries:
+  1. i p2 i 2m X i Qa iQb jX i Vcore i 1 x i x j Vcore i q, q,g
+  2. cQGPs
+  3. chromomagnetic interaction
+
+ Paper ID: 0904.0169v4
+ Chunk ID: 0904.0169v4_5
+Queries:
+  1. debi
+  2. E F, e Q, F, J
+  3. eng, fl, ms, rs, rs
+
+ Paper ID: 0904.0169v4
+ Chunk ID: 0904.0169v4_6
+Queries:
+  1. kinetic, casimir, k, q
+  2. kinetic data are accurately obtained and
+  3. electron n was
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_1
+Queries:
+  1. unanswerable
+  2. unanswerable
+  3. latitude
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_8
+Queries:
+  1. m 1 period m primitives
+  2. m is not used for formula 2 or formula 1
+  3. mN sink type quiver
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_24
+Queries:
+  1. a family of periodicity
+  2. Quivers
+  3. r quivers
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_25
+Queries:
+  1. cluster indices
+  2. A peri odicity in cluster algebras
+  3. A, C, and D
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_4
+Queries:
+  1. holographic
+  2. scalar
+  3. holographic
+
+ Paper ID: 0904.0137v1
+ Chunk ID: 0904.0137v1_1
+Queries:
+  1. the resonator noise
+  2. sensitivity to the drive level, temperature operating point and the tuning capacitor
+  3. CNS 77.65.Fs INTRODUCTION X. Vachereta, E. Rubiolaa
+
+ Paper ID: 0904.0086v1
+ Chunk ID: 0904.0086v1_9
+Queries:
+  1. non-ferromagnetic BECs
+  2. polar condensates
+  3. a and b
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_10
+Queries:
+  1. sparrow galaxies
+  2. CDM model VFF
+  3. small haloes
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_13
+Queries:
+  1. Ntot dN dz
+  2. Ntot dN dz
+  3. CMC haloes
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_5
+Queries:
+  1. dark matter halos interact with its host dark matter halos
+  2. Hubble Space Telescope observations simulated the galaxies as they were measured on the local volume.
+  3. random glaiform matter halos are related to the host dark matter halos.
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_7
+Queries:
+  1. void finders
+  2. void finders
+  3. voids
+
+ Paper ID: 0904.0193v1
+ Chunk ID: 0904.0193v1_1
+Queries:
+  1. D RR & A & B
+  2. variation in polymorphoses
+  3. D RR
+
+ Paper ID: 0904.0193v1
+ Chunk ID: 0904.0193v1_7
+Queries:
+  1. simplify dex
+  2. n x and n n x
+  3. ad1,a1,b1
+
+ Paper ID: 0904.0193v1
+ Chunk ID: 0904.0193v1_13
+Queries:
+  1. asymmetric theory
+  2. naive possibility of using our strategy
+  3. QCD is used to limit the divergence of a quantum field.
+
+ Paper ID: 0904.0160v1
+ Chunk ID: 0904.0160v1_7
+Queries:
+  1. False results
+  2. 1.826e 009
+  3. graph
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_4
+Queries:
+  1. Debian
+  2. Simplify.
+  3. Debian distribution
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_8
+Queries:
+  1. deprecating afferent links : an eigenvector .
+  2. afferent and efferent links
+  3. distribution of afferent AND efferent links for dependency graphs
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_9
+Queries:
+  1. lacks stability
+  2. is running
+  3. is not operating in the project
+
+ Paper ID: 0904.0107v1
+ Chunk ID: 0904.0107v1_1
+Queries:
+  1. interactions
+  2. real-time and mathematical models
+  3. molecules
+
+ Paper ID: 0904.0107v1
+ Chunk ID: 0904.0107v1_3
+Queries:
+  1. Asymptotic dynamics
+  2. asymptotic dynamics of n
+  3. the spatial space of attractors A is determined completely by the set of unitary operators u
+
+ Paper ID: 0904.0007v1
+ Chunk ID: 0904.0007v1_1
+Queries:
+  1. helical flux rope formation
+  2. surface formation and evolution process
+  3. helical flux rope
+
+ Paper ID: 0904.0227v4
+ Chunk ID: 0904.0227v4_3
+Queries:
+  1. d evissage method
+  2. Theorems A and D
+  3. X and S
+
+ Paper ID: 0904.0186v3
+ Chunk ID: 0904.0186v3_8
+Queries:
+  1. convergent
+  2. a null vector for K X, Y, g
+  3. a null vector
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_6
+Queries:
+  1. scalars I pPI I z I sI
+  2. scalars
+  3. scalars are given.
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_10
+Queries:
+  1. A. H. Guth
+  2. A. H. Guth
+  3. A. H. Guth
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_8
+Queries:
+  1. L3 X I a3 2cs5 I cs2 I a2 I I 2
+  2. M3 X I 3 I cs2 I a2 I
+  3. mid-distance spectros
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_9
+Queries:
+  1. the light field 2
+  2. sub-divided
+  3. the heavy field 2
+
+ Paper ID: 0904.0100v1
+ Chunk ID: 0904.0100v1_3
+Queries:
+  1. dFT MD
+  2. fv q
+  3. ion ion structure factor
+
+ Paper ID: 0904.0045v3
+ Chunk ID: 0904.0045v3_2
+Queries:
+  1. c, k, m, p
+  2. matter
+  3. a natu ral
+
+ Paper ID: 0904.0045v3
+ Chunk ID: 0904.0045v3_5
+Queries:
+  1. n = "" for an electron the black point = "" ...
+  2. m0e 3x
+  3. , we discover an equation of state parameter
+
+ Paper ID: 0904.0045v3
+ Chunk ID: 0904.0045v3_6
+Queries:
+  1. Afficial Research and Technology
+  2. Chen Ging
+  3. Zitter
+
+ Paper ID: 0904.0212v1
+ Chunk ID: 0904.0212v1_16
+Queries:
+  1. C. Herring, M. Falicov, Solid State Physics, Halt, Chisey
+  2. Phys. R. Kubo, Phys. Cons. 96 , 280, J. M. Falicov, Solid State Physics
+  3. N. R. K., R. J. Elliott, Phys. Rev. 96, 280, .
+
+ Paper ID: 0904.0166v1
+ Chunk ID: 0904.0166v1_4
+Queries:
+  1. software
+  2. fcgce0.shef.ac.uk lcgce0.shef.ac.uk lcgce0.shef.ac.uk
+  3. lcgce0.shef.ac.uk Opteron 2200 1896 306
+
+ Paper ID: 0904.0020v1
+ Chunk ID: 0904.0020v1_2
+Queries:
+  1. a sds
+  2. a billiard
+  3. transfer
+
+ Paper ID: 0904.0020v1
+ Chunk ID: 0904.0020v1_3
+Queries:
+  1. unrelated energy
+  2. scatterers
+  3. static state
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_3
+Queries:
+  1. do osculation data on the boundary of X
+  2. osculate 2 D
+  3. osculing divisor E
+
+ Paper ID: 0904.0105v1
+ Chunk ID: 0904.0105v1_1
+Queries:
+  1. astro ph.SR
+  2. A and F type stars
+  3. astro ph.SR
+
+ Paper ID: 0904.0029v1
+ Chunk ID: 0904.0029v1_6
+Queries:
+  1. Minisat DS
+  2. data
+  3. Minisat DS
+
+ Paper ID: 0904.0121v1
+ Chunk ID: 0904.0121v1_1
+Queries:
+  1. phosphate-producing magnetism
+  2. phosphorylation
+  3. chromagnetism
+
+ Paper ID: 0904.0121v1
+ Chunk ID: 0904.0121v1_10
+Queries:
+  1. O.K. Andersen
+  2. J. Okabayashi, K. Ono, M. Mizuguchi, M. Oshima, S.S. Gupta, D.D. Sarma, T. Mizokawa, A. Fujimori, C.T. Chen et al, J. Appl. Phys. 95, 3573 .
+  3. V. I. Chaplygin, J. Solid State Chem. 176, 482 .
+
+ Paper ID: 0904.0121v1
+ Chunk ID: 0904.0121v1_2
+Queries:
+  1. wurtzite ZnO Co
+  2. ZnO Co
+  3. ZnO Co
+
+ Paper ID: 0904.0121v1
+ Chunk ID: 0904.0121v1_8
+Queries:
+  1. ZnSe Mn
+  2. x-N, znTe Mn
+  3. LSDA U
+
+ Paper ID: 0904.0041v2
+ Chunk ID: 0904.0041v2_1
+Queries:
+  1. Lie algebras
+  2. Fernando Futorny
+  3. A. Flograd
+
+ Paper ID: 0904.0041v2
+ Chunk ID: 0904.0041v2_2
+Queries:
+  1. Vp N
+  2. A parabolic subalgebra or something similar
+  3. Parabolic subalgebra
+
+ Paper ID: 0904.0041v2
+ Chunk ID: 0904.0041v2_4
+Queries:
+  1. Lie superalgebras
+  2. Lie superalgebras
+  3. Lie superalgebras
+
+ Paper ID: 0904.0041v2
+ Chunk ID: 0904.0041v2_9
+Queries:
+  1. sys tem of s, y
+  2. Lie superalgebras
+  3. based on presumptive Lie algebras
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_10
+Queries:
+  1. A.i. circuit, C.i. circuit, and n.z. circuits
+  2. an appropriate interrupt schedule
+  3. The method for calculating a predicted time shift schedule is BS9 architecture, is described in Section 5, and is shown in Figs. 2, 3, and 4.
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_6
+Queries:
+  1. BS 9, in addition to it
+  2. type of qubit in BS9
+  3. BS 9
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_7
+Queries:
+  1. DQD Ancilla
+  2. DQD Data DQD Ancilla DQD
+  3. DQD Ancilla
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_9
+Queries:
+  1. DQDs
+  2. a reduction
+  3. limited
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_2
+Queries:
+  1. Robertson Kravtsov
+  2. iruel
+  3. Robertson Kravtsov
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_9
+Queries:
+  1. star formation rates
+  2. J-shaped kpc g g
+  3. Fifty-less pairs of pair
+
+ Paper ID: 0904.0174v2
+ Chunk ID: 0904.0174v2_1
+Queries:
+  1. Riemannian metrics
+  2. PINDICATE
+  3. Riemannian metric on Fr echet manifold
+
+ Paper ID: 0904.0174v2
+ Chunk ID: 0904.0174v2_2
+Queries:
+  1. , and D (n dimensional C M)
+  2. a fixed closed, orientable, n dimensional C manifold
+  3. Riemannian Mestrics
+
+ Paper ID: 0904.0174v2
+ Chunk ID: 0904.0174v2_4
+Queries:
+  1. Riemannian
+  2. Riemannian metric
+  3. weak Riemannian metric
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_3
+Queries:
+  1. variations around the average
+  2. differences that may be independent.
+  3. variations around the average
+
+ Paper ID: 0904.0194v1
+ Chunk ID: 0904.0194v1_1
+Queries:
+  1. Multiplication of distributions in any dimension applications to function and its derivatives
+  2. Multiplication of distributions in any dimension applications to function and its derivatives
+  3. Multiplication
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_4
+Queries:
+  1. square
+  2. 3 or 4
+  3. A triangle
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_20
+Queries:
+  1. all vanish
+  2. all vanish
+  3. all vanish
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_22
+Queries:
+  1. isOmorphic to D4 Z2
+  2. NK ZD5 LO3 KB ZD5 LO3 Bass Nil group GKR
+  3. solved by Weibel We
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_23
+Queries:
+  1. D2 Z
+  2. G, h
+  3. D2 Z
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_25
+Queries:
+  1. Coxeter presentation
+  2. Coxeter presentation of the group
+  3. Coxeter presentation appears in Figure 1.
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_26
+Queries:
+  1. n o n 2 n
+  2. x1x2 i , x1x2 n 3 2 n o n 2 n the Whitehead group
+  3. the Whitehead group
+
+ Paper ID: 0904.0025v2
+ Chunk ID: 0904.0025v2_1
+Queries:
+  1. light infrared dust
+  2. AGB stars
+  3. surface: AGB stars
+
+ Paper ID: 0904.0025v2
+ Chunk ID: 0904.0025v2_2
+Queries:
+  1. AGB star-gazers.
+  2. carbon rich high-quality AGB stars .
+  3. carbon rich AGB stars
+
+ Paper ID: 0904.0025v2
+ Chunk ID: 0904.0025v2_3
+Queries:
+  1. C rich?
+  2. carbon
+  3. The rock of SNe
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_1
+Queries:
+  1. lanch ester Equations
+  2. PDE model
+  3. G.S.
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_10
+Queries:
+  1. ISAAC
+  2. models
+  3. MANA
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_12
+Queries:
+  1. rtol 10 3 10 3 1
+  2. rtol 10 3 10 3 10 3 10 3 10 0
+  3. 10 Three 10 3 10 3 10 3 10
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_2
+Queries:
+  1. ISAAC
+  2. ISAAC
+  3. A PDE model can perform the combat modelling tasks.
+
+ Paper ID: 0904.0145v1
+ Chunk ID: 0904.0145v1_1
+Queries:
+  1. kinesthetic and dynamic
+  2. C and  C &  D
+  3. d i gm sphe rique d
+
+ Paper ID: 0904.0145v1
+ Chunk ID: 0904.0145v1_2
+Queries:
+  1. 3 dof parallel kinematics machine
+  2. 3 Dof spherical
+  3. Orthoglide 5 axis and 2 dof spherical wrist
+
+ Paper ID: 0904.0006v1
+ Chunk ID: 0904.0006v1_8
+Queries:
+  1. a large range of parameters
+  2. Bruzual, Bruzual, and Charlot
+  3. Bruzual and Charlot 28
+
+ Paper ID: 0904.0120v2
+ Chunk ID: 0904.0120v2_12
+Queries:
+  1. Bergman fan B M
+  2. Bergman fan B M
+  3. Bergman fan B M
+
+ Paper ID: 0904.0215v1
+ Chunk ID: 0904.0215v1_7
+Queries:
+  1. expressions for S and E
+  2. LL horizons
+  3. spherically symmetric spacetimes
+
+ Paper ID: 0904.0215v1
+ Chunk ID: 0904.0215v1_8
+Queries:
+  1. dE , yy namic
+  2. to describe the gravitational dy namics
+  3. the local thermodynamic rela tion T
+
+ Paper ID: 0904.0215v1
+ Chunk ID: 0904.0215v1_9
+Queries:
+  1. 0 R t R t R C B KADKBC B KAB C A2
+  2. koD KABK
+  3. ## ## K на    &nbsp; ##  B-    &nbsp; ##  &nbsp; ##
+
+ Paper ID: 0904.0104v2
+ Chunk ID: 0904.0104v2_9
+Queries:
+  1. n4 x2
+  2. n x2 n2 x2 4 5 2 n 3 n 4
+  3. n x2 cnt 3 n 2 2332 4 n 7601 n 2245 n 2 n2 15 n 4 2 n 2 n 5 n 2 n 2
+
+ Paper ID: 0904.0010v2
+ Chunk ID: 0904.0010v2_1
+Queries:
+  1. black holes
+  2. binary systems and galactic centers may be useful
+  3. black holes
+
+ Paper ID: 0904.0010v2
+ Chunk ID: 0904.0010v2_3
+Queries:
+  1. Anatomy
+  2. close form solutions
+  3. scat tering
+
+ Paper ID: 0904.0010v2
+ Chunk ID: 0904.0010v2_4
+Queries:
+  1. test the validity of approxima tion
+  2. show the validity of approxima tolerance
+  3. try to solve the exact cross section via partial wave series.
+
+ Paper ID: 0904.0010v2
+ Chunk ID: 0904.0010v2_5
+Queries:
+  1. Z 0 r2j2 l r U r
+  2. lc bc
+  3. l x 2l
+
+ Paper ID: 0904.0223v4
+ Chunk ID: 0904.0223v4_1
+Queries:
+  1. AB neural-state graph model
+  2. AB model
+  3. Bernoulli percolation model
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_6
+Queries:
+  1. electron target
+  2. electron target
+  3. DSS particle
+
+ Paper ID: 0904.0165v1
+ Chunk ID: 0904.0165v1_3
+Queries:
+  1. plasma
+  2. plasma cavity
+  3. neutron
+
+ Paper ID: 0904.0165v1
+ Chunk ID: 0904.0165v1_4
+Queries:
+  1. the hydrodynamic jet and the plasma ablated from the foil.
+  2. the hydrodynamic jet and plasma ablated from the foil with the background gas
+  3. Jet and space flow
+
+ Paper ID: 0904.0022v1
+ Chunk ID: 0904.0022v1_10
+Queries:
+  1. f 2 dm E measurable U
+  2. C n 0
+  3. do f
+
+ Paper ID: 0904.0139v2
+ Chunk ID: 0904.0139v2_1
+Queries:
+  1. Flavor physics
+  2. Fermion flavor mixing
+  3. nucleus
+
+ Paper ID: 0904.0139v2
+ Chunk ID: 0904.0139v2_2
+Queries:
+  1. the A.F.W.B.
+  2. The dynamics of dynamical EWSB
+  3. dynamical EWSB dynamics
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_19
+Queries:
+  1. I.R. Gatland, I.R. Roy and G. Vemuri
+  2. E. Wolf, Optical coherence and quantum optics
+  3. L. Mandel and E. Wolf, Optical coherence and quantum optics
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_8
+Queries:
+  1. Quadratures
+  2. quadrature X
+  3. random
+
+ Paper ID: 0904.0099v2
+ Chunk ID: 0904.0099v2_4
+Queries:
+  1. space time
+  2. Earth time
+  3. space time
+
+ Paper ID: 0904.0030v2
+ Chunk ID: 0904.0030v2_1
+Queries:
+  1. quark
+  2. quark
+  3. the excited light meson spectrum
+
+ Paper ID: 0904.0030v2
+ Chunk ID: 0904.0030v2_3
+Queries:
+  1. ion dynamics
+  2. b of relativistic and spinless quarks
+  3. None
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_2
+Queries:
+  1. p 1Fp
+  2. p 1Fp
+  3. The S 1 F1 S 1
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_7
+Queries:
+  1. more complicated the analysis of the algebraic formulas
+  2. expressible
+  3. return to z
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_19
+Queries:
+  1. generalized hypergeometric functions 1, p 1F
+  2. I1 B. I2
+  3. In the final step of this paper we found a phenomenologically interesting class of Feynman di agrams
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_20
+Queries:
+  1. A Sets of basis functions for the Laurent ex
+  2. A Sets of basis functions for the Laurent
+  3. A Sets of basis functions for the Laurent ex
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_8
+Queries:
+  1. X divisors
+  2. affine coordinates
+  3. heorem
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_9
+Queries:
+  1. 1 Z yi p 1 Z xi o
+  2. dyi yi p
+  3. g i t
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_14
+Queries:
+  1. adequat, adequat and adequat
+  2. a decomposition of nf
+  3. - d - d - c  - p ' s - c -
+
+ Paper ID: 0904.0150v3
+ Chunk ID: 0904.0150v3_8
+Queries:
+  1. XZ, XXXG
+  2. atomic beams
+  3. uni versal frequency
+
+ Paper ID: 0904.0211v2
+ Chunk ID: 0904.0211v2_4
+Queries:
+  1. n, i, k, d, g, i
+  2. q1, t1, p0, p0, i, data
+  3. qx, t, p, qk
+
+ Paper ID: 0904.0053v1
+ Chunk ID: 0904.0053v1_2
+Queries:
+  1. doping function
+  2. pt X
+  3. mass
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_2
+Queries:
+  1. first or second order effect
+  2. I believe there is no second order effect
+  3. a flaw
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_4
+Queries:
+  1. Earth magnetic field
+  2. He Ne
+  3. Earth magnetic field
+
+ Paper ID: 0904.0079v1
+ Chunk ID: 0904.0079v1_5
+Queries:
+  1. Theorem
+  2. Theorem 8
+  3. A123 t
+
+ Paper ID: 0904.0098v1
+ Chunk ID: 0904.0098v1_11
+Queries:
+  1. Q uo
+  2. Q q dx
+  3. z, t, o
+
+ Paper ID: 0904.0183v2
+ Chunk ID: 0904.0183v2_2
+Queries:
+  1. a zero
+  2. the answer to Question 1 is no
+  3. no answers
+
+ Paper ID: 0904.0176v1
+ Chunk ID: 0904.0176v1_1
+Queries:
+  1. NP mediated domain separation
+  2. A cell dynamics method CDM represents the main physico chemical mechanisms of domain separation of DBCP
+  3. DNA interconnection and microphase formation
+
+ Paper ID: 0904.0176v1
+ Chunk ID: 0904.0176v1_6
+Queries:
+  1. PE morphology
+  2. NPs, solvent evaporation, solvent-induced NPs
+  3. PS P2VP
+
+ Paper ID: 0904.0176v1
+ Chunk ID: 0904.0176v1_7
+Queries:
+  1. model for DBCP domain separation
+  2. NP distributions
+  3. NP formation shapes
+
+ Paper ID: 0904.0176v1
+ Chunk ID: 0904.0176v1_8
+Queries:
+  1. C. J. Kramer, E. J.
+  2. J. Hong, C. J. Kramer, E. J. Kramer, E. J. Pine, D. J. J. Am. Chem. Soc. 2005, 127, 5036. Chiu
+  3. B. J. Kim, C. J. Kramer, E. J. Pine, D. J. J. Am. Chem. Soc. 2005, 128, 516-014
+
+ Paper ID: 0904.0080v1
+ Chunk ID: 0904.0080v1_1
+Queries:
+  1. Uncertain bias in a syndromatic qualitative inference approach
+  2. responses are censored by fixed values
+  3. sexually
+
+ Paper ID: 0904.0080v1
+ Chunk ID: 0904.0080v1_6
+Queries:
+  1. if a n = 0 . s from a yij or a xij for a n = 0 , the q = 0 .
+  2. q bootstrap method
+  3. infeased bootstrap method
+
+ Paper ID: 0904.0080v1
+ Chunk ID: 0904.0080v1_9
+Queries:
+  1. HIV RNA
+  2. AIDS
+  3. HIV RNA
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_2
+Queries:
+  1. c and b quark quark quenching
+  2. The basic concept of the ADP is to combine the elements of the i-phase, as well as the pCD.
+  3. We introduce the first possible practical method of re-sequencing the magnetic sandboxing-structured magnetizing equation
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_5
+Queries:
+  1. PHENIX
+  2. Dh q,g z, fr 4
+  3. Ef , PHENIX
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_13
+Queries:
+  1. QCD matter
+  2. timescales
+  3. QCD matter dynamics
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_15
+Queries:
+  1. STAR data
+  2. D- and B-meson attenuation
+  3. RAA pT-D
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_4
+Queries:
+  1. X B Y D
+  2. Xi B Y D
+  3. X B Y D
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_20
+Queries:
+  1. p1 p2 i pb pq
+  2. n, k2, p, g
+  3. dx1d2k1 x1, k1 2 32 p x1 1 x1 dx2d2k2 x2, k2 2 32 p x2 1 x2 M
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_1
+Queries:
+  1. one is a function to be encoded by a new signal.
+  2. network can describe a network containing a function of the original message, and transmit such communications into that message.
+  3. data is obtained
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_3
+Queries:
+  1. 0 n c31X1 n c63X1 n Z2 n N0 ood n c3X1 n c32X2 n N + n * n c32X2 n Z2 n c31X1 n c31X1 n c31
+  2. n c31X1 n c32X2 n Z3 n Y 3 n c31X1 n c32X2 n c32X2 n Z3 dn c31X1 n c3X
+  3. network N
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_4
+Queries:
+  1. polar angle
+  2. intensity
+  3. polar angle
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_5
+Queries:
+  1. Carlton Caves proposed the idea of using non classical states of light the so called squeezed states to improve the sensitivity of optic interferometers to even below the shot noise limit
+  2. Carlton Caves' approach to optical interference
+  3. Carlton Caves wrote a line from Carlton Caves who proposed squeezed states to improve the sensitivity of optical interferometers to even below the shot noise limit
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_6
+Queries:
+  1. let the solider come to A
+  2. We can de facto solve the defect
+  3. simplify the conceptual model
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_8
+Queries:
+  1. squeezing
+  2. a medium
+  3. squeezing
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_12
+Queries:
+  1. I , there is zero d
+  2. I turn off and finish, I'll take a break
+  3. I, I might find the answer to this question:
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_15
+Queries:
+  1. an analyzome of quantum optics
+  2. CZI can overcome the Heisenberg limit
+  3. sensitivity is a problem cited in the passage
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_17
+Queries:
+  1. a provost
+  2. entangled photons are asymmetric, preferably a pair of lenses
+  3. Quantum imaging uses bright N photons.
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_19
+Queries:
+  1. NCSM
+  2. sample.
+  3. photon
+
+ Paper ID: 0904.0163v1
+ Chunk ID: 0904.0163v1_20
+Queries:
+  1. Photons
+  2. I would like to acknowledge Pieter Kok and Hwang Lee
+  3. Pieter Kok and Hwang Lee
+
+ Paper ID: 0904.0231v1
+ Chunk ID: 0904.0231v1_1
+Queries:
+  1. electron
+  2. TLUSTY model
+  3. TLUSTY model atmospheres
+
+ Paper ID: 0904.0231v1
+ Chunk ID: 0904.0231v1_8
+Queries:
+  1. m 2.5 log H Si, Fe Href
+  2. Predicted light curves are calculated from the surface abundance maps from Lehmann et al
+  3. Predicted light curves
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_1
+Queries:
+  1. neutrino-refraction
+  2. nucleotides
+  3. Z-chronized refraction
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_2
+Queries:
+  1. We develop the Liouville equation of neutrino and study a series of moment equations
+  2. We develop a moment of neutrino density matrix and use a series of moment equations
+  3. detail equations of neutrino flavor transformation
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_10
+Queries:
+  1. Moments of density matrix of neutrino
+  2. truncated moments
+  3. Moment equations simplify numerical analysis
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_9
+Queries:
+  1. equations
+  2. equations of the pendulum motion of neutrinos
+  3. equations for describing the pendulum motion of neutrinos
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_1
+Queries:
+  1. astronomical sites
+  2. astro ph.im
+  3. astro ph.IM
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_10
+Queries:
+  1. probabilities of occurrence
+  2. Euratomi
+  3. probability of occurrence in the next 50 years
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_4
+Queries:
+  1. seismo
+  2. seismik hazard
+  3. ground shaking
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_5
+Queries:
+  1. 'Caque de los Mucha'
+  2. Roque de los Mucha
+  3. Roque de los Mucha
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_6
+Queries:
+  1. SiO2
+  2. the sum of silica silica
+  3. ashfalls and lava flows
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_7
+Queries:
+  1. lava flow hazard
+  2. None
+  3. lava flow hazard
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_8
+Queries:
+  1. Volcanic Explosivity Index
+  2. volcano eruptions Romero Rui
+  3. eruptions with VEI larger than 4
+
+ Paper ID: 0904.0232v1
+ Chunk ID: 0904.0232v1_6
+Queries:
+  1. M. W.
+  2. M. W.
+  3. M. W.
+
+ Paper ID: 0904.0162v2
+ Chunk ID: 0904.0162v2_1
+Queries:
+  1. None
+  2. CORMICAL N theorem
+  3. a self bound system
+
+ Paper ID: 0904.0162v2
+ Chunk ID: 0904.0162v2_5
+Queries:
+  1. HK theorem
+  2. Envy(Funny)
+  3. R and A, the internal DFT scheme is valid only for potentials that lead to bound internal ground states int.
+
+ Paper ID: 0904.0162v2
+ Chunk ID: 0904.0162v2_7
+Queries:
+  1. W. Kohn
+  2. W. Kohn, Phys. Rev. 136, 864
+  3. W. Kohn, Rev. Mod. Phys. 71. 1253
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_10
+Queries:
+  1. "S"-a-stitch "4" ""s""high rate""" high interest""""""""""","greater interest""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+  2. NUMBER
+  3. S and r values for stories promoted or not
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_11
+Queries:
+  1. Digg results in a tifly model of user choices
+  2. Digg is provided
+  3. Digg s user-generated content rating could be assessed from underlying user-generated content
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_7
+Queries:
+  1. Users arriving at Digg are given the chance to participate in the conversation and to take turns using their time zones
+  2. a story promotion threshold.
+  3. visitor
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_9
+Queries:
+  1. word by comparison
+  2. story
+  3. r values lisassimme r
+
+ Paper ID: 0904.0096v1
+ Chunk ID: 0904.0096v1_1
+Queries:
+  1. PIC simulations
+  2. O.W., Hededal et al., 2005, 2006, 2008, 2009
+  3. U.S., Yukon, China, Italy, United States, China, Mexico, China, Mauritania, Switzerland, South Korea, Turkey, United States, Japan,
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_1
+Queries:
+  1. A Divide The image of a proper generic immersion of a finite number of intervals and circles into the unit 2 disc D2 of R2 with a split, one can associate a strongly invertible link in the 3 sphere.
+  2. an invariant for strong equivalence of strongly invertible links
+  3. This can be generalized to signed divides divided with or act assignment to each crossing point
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_3
+Queries:
+  1. in Figure 1.1
+  2. p x q
+  3. equivalence
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_16
+Queries:
+  1. pc1 pp1 pp2 pc2 pc2 pc5 pc2 pc2 mp3
+  2. Proposal 4.11.
+  3. p, p 1, q, q, ndp, u, v, nh, p, p, r, ind, q, t, summa, 2nd, q, r, p, l, a, b, q, r, c, p, q, s, v, f, r, r,
+
+ Paper ID: 0904.0085v1
+ Chunk ID: 0904.0085v1_1
+Queries:
+  1. the BTZ black hole
+  2. The Battle of the AdS3 black hole th 01 Feb 2009
+  3. In the Einstein Hilbert action with a cosmological constant, there is no propagating degrees of freedom in the bulk even though there is a asymptotically AdS3 black hole solution called the Bandos Teitelboim Zanelli BTZ black hole
+
+ Paper ID: 0904.0168v1
+ Chunk ID: 0904.0168v1_1
+Queries:
+  1. a series
+  2. light curves
+  3. the time period covered by our observations
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_1
+Queries:
+  1. disseminating noise function F
+  2. qita
+  3. the X in c, the ad n in c, and the d, m in d and n in d
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_9
+Queries:
+  1. A1, a-2, a-3, b-1, c, a b-2, c-3, a, f
+  2. N,Gg 1 8 * g0 * G
+  3. dx , z
+
+ Paper ID: 0904.0142v1
+ Chunk ID: 0904.0142v1_1
+Queries:
+  1. solar radiation
+  2. Adaptive Optics Parameters
+  3. presence of optical turbulence
+
+ Paper ID: 0904.0142v1
+ Chunk ID: 0904.0142v1_2
+Queries:
+  1. Italy
+  2. astronomical sites
+  3. high altitude
+
+ Paper ID: 0904.0142v1
+ Chunk ID: 0904.0142v1_3
+Queries:
+  1. turbulence structure
+  2. turbulence structure
+  3. The site of the turbulence layer is based on the G scopus data of the date of the date of the observations .
+
+ Paper ID: 0904.0142v1
+ Chunk ID: 0904.0142v1_4
+Queries:
+  1. turbulence model
+  2. turbulence and wind
+  3. urgence
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_1
+Queries:
+  1. overlap
+  2. novel manipulations.
+  3. Parallel manipulators
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_2
+Queries:
+  1. FEGA
+  2. Mathematical Analysis
+  3. finite elements analysis FEA
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_3
+Queries:
+  1. dof parallel manipulation as examples for use in applications to non overconstrained mechanisms.
+  2. design, data and methods of modifying the structure of a dof parallel manipulator
+  3. a disambiguation of the model
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_6
+Queries:
+  1. The analogous vector on V
+  2. 0 0 0 0 0 1 0 0 1 0 0 0 0 0 x R V
+  3. do ij j iy j q J
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_7
+Queries:
+  1. i i q
+  2. i , q
+  3. i q q
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_15
+Queries:
+  1. F.Majou
+  2. F.Majou et al.
+  3. F.Majou et al.
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_9
+Queries:
+  1. applicability to overconstrained mechanisms
+  2. Appendix C, where solution is solved for the general case, independent of a relevant manipulator posture singular or non singular
+  3. One-separate process
+
+ Paper ID: 0904.0172v1
+ Chunk ID: 0904.0172v1_1
+Queries:
+  1. PHYSICAL_DOSTED_BY ANNECUTION
+  2. A Loschmidt echo L, fidelity
+  3. Loschmidt echo LE
+
+ Paper ID: 0904.0172v1
+ Chunk ID: 0904.0172v1_3
+Queries:
+  1. M 4 D Z dQ Z dQ C Z dQ Z dQ X dQ X C B A Q dQ I q z of 1 2 h p o 2 p i p0 2i .
+  2. The Hamiltonian
+  3. trajectories t
+
+ Paper ID: 0904.0172v1
+ Chunk ID: 0904.0172v1_6
+Queries:
+  1. A. Peres, Phys.
+  2. E024629
+  3. A. Peres, Phys. J. A 40, 1610
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_2
+Queries:
+  1. confinement
+  2. el ementary excitation
+  3. (A) observable
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_10
+Queries:
+  1. B. NMR
+  2. spin-resolved scanning
+  3. t.b.
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_11
+Queries:
+  1. occult
+  2. Amir
+  3. asymmetry induced vacancy induced moments
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_18
+Queries:
+  1. D. Poilblanc, M. Mambrini, F. Mila, and J. Phys. Conds. Matter
+  2. D. Poilblanc, M. Mambrini, F. Mila, J. Phys. Conds. Matter
+  3. P. A
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_9
+Queries:
+  1. gimp
+  2. 1 2 mag
+  3. spinnor
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_3
+Queries:
+  1. ML63
+  2. ml63
+  3. ML63
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_7
+Queries:
+  1. t1, t2, t3 t1 t2 t3 t3 t3 t3 t3
+  2. t1, t2, t3 t1 t1 t2 t3
+  3. t1, t2, t3 t1 t2 t3 t4
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_15
+Queries:
+  1. for our sample
+  2. in Figure 14 a
+  3. the light scattering
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_22
+Queries:
+  1. BLac
+  2. Jets from narrow in the space of space
+  3. BLac blazar
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_23
+Queries:
+  1. spherical accretion
+  2. two stars of the light-year periodic sun
+  3. The features of high and low power AGN
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_11
+Queries:
+  1. are in the setting of first order term rewriting
+  2. rewriting two theory
+  3. do not impose the standard congruence
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_9
+Queries:
+  1. the 4 common terms
+  2. two different methods of visualise Lawvere 2 theories
+  3. Lawvere 2 theory
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_16
+Queries:
+  1. commutative bifunctors
+  2. commutative bifunctors
+  3. associative and commutative bifunctors.
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_18
+Queries:
+  1. s,t,tb
+  2. , s1, t1, s2,t2
+  3. The structure monoid of a equational theory
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_21
+Queries:
+  1. a b a
+  2. a b b a
+  3. a b a
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_22
+Queries:
+  1. "Confluence axioms."
+  2. eliquor
+  3. rewriting theory
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_25
+Queries:
+  1. L 'e
+  2. S and u1 are rewriting 2 theory, it implies that one is ' monic.
+  3. 2 , ' a b , a e d , a s , an s
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_27
+Queries:
+  1. CI f.c. 2.
+  2. Question
+  3. Theorem 4.3.3
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_36
+Queries:
+  1. SS Cn Gn,1.
+  2. a regular CNN or a regular rewriting systems
+  3. BFSV03
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_40
+Queries:
+  1. a rewriting 2 theory
+  2. Red R s, t
+  3. Red R s, t
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_48
+Queries:
+  1. a balancing of each critical span
+  2. chapter 3
+  3. Coherence theorem
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_51
+Queries:
+  1. Solimate systèmes
+  2. BIBLIOGRAPHY 86 ML
+  3. J. Pure Appl. Algebra
+
+ Paper ID: 0904.0135v1
+ Chunk ID: 0904.0135v1_1
+Queries:
+  1. material
+  2. surface
+  3. stress
+
+ Paper ID: 0904.0135v1
+ Chunk ID: 0904.0135v1_4
+Queries:
+  1. hard waves
+  2. shock wave to porous metal
+  3. shock wave to porous material
+
+ Paper ID: 0904.0187v5
+ Chunk ID: 0904.0187v5_2
+Queries:
+  1. S x R f x dx
+  2. entropy S
+  3. hanks have larger entropy
+
+ Paper ID: 0904.0220v1
+ Chunk ID: 0904.0220v1_4
+Queries:
+  1. calc 0
+  2. r200c
+  3. a c3 ln 1
+
+ Paper ID: 0904.0220v1
+ Chunk ID: 0904.0220v1_5
+Queries:
+  1. Crushed
+  2. h 1 70M
+  3. 27.82 2 detection
+
+ Paper ID: 0904.0179v2
+ Chunk ID: 0904.0179v2_1
+Queries:
+  1. hardy s inequality
+  2. Hardy s inequality
+  3. On the case where the Dirichlet form under consideration is strongly local, extending therefore some known results in the Euclidean case. Key words Hardy s inequality, Dirichlet form, energy measure. 1 Introduction By Hardy s inequality we mean an inequality of the type Z f 2 d CE f , f D E , where E is a Dirichlet form and a positive measure charging no set having zero capacity
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_10
+Queries:
+  1. mc1 MC
+  2. MC3 MC1
+  3. MC1 MC2 MC1 MC3 MC2
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_12
+Queries:
+  1. MC1 MC2 OC
+  2. A.J. MC1 MC2
+  3. MC1 MC2
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_8
+Queries:
+  1. MC2 driven shock
+  2. MC1 s tail Figures 6b and 7c
+  3. MC1 s tail
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_9
+Queries:
+  1. MC1 area amc1 is smaller
+  2. MC2 area Amc1
+  3. MC1 area Amc1
+
+ Paper ID: 0904.0057v1
+ Chunk ID: 0904.0057v1_1
+Queries:
+  1. diffraction
+  2. 3D light-enhanced 3D far field optical imaging
+  3. 3D far field imaging. 5
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_2
+Queries:
+  1. horizon of a black hole
+  2. GWP configuration
+  3. horizon
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_11
+Queries:
+  1. r1,2 1 48 3 A2 A1 2 2A3 A1 e 2 t C O rr1,2
+  2. r 1,2 1 48 3 r r1,2 2 2A03 3 A1 e 2 3 t C O
+  3. Dyn U
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_13
+Queries:
+  1. superluminal warp drive
+  2. is mulated and is in space
+  3. is almost infinitely short
+
+ Paper ID: 0904.0065v2
+ Chunk ID: 0904.0065v2_2
+Queries:
+  1. b2e2az
+  2. n dimensional solution
+  3. for n3 dimensional solution of Einstein field equation
+
+ Paper ID: 0904.0157v3
+ Chunk ID: 0904.0157v3_3
+Queries:
+  1. general result
+  2. re sult
+  3. complex effect
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_2
+Queries:
+  1. search and capture
+  2. search algorithm
+  3. the search time
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_3
+Queries:
+  1. A microtubule
+  2. microtubules
+  3. a microtubule
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_8
+Queries:
+  1. term "ptd 1"
+  2. low-price domains
+  3. R, T
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_9
+Queries:
+  1. in an individual experiment, T recalcifies the d time for m and m.
+  2. Mitosis
+  3. Xenopus extracts
+
+ Paper ID: 0904.0074v2
+ Chunk ID: 0904.0074v2_3
+Queries:
+  1. IMCE is 5.
+  2. la1 xCaxMnO3, La0.125Ca0.875MnO3
+  3. IMCE
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_1
+Queries:
+  1. ILC polarization for beams
+  2. International Linear Collider ILC
+  3. ILC interface components
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_2
+Queries:
+  1. The ILC e BDS 500 GeV IP
+  2. A polarimeter polarimeter CAR/SCR polarimeter A polarimeter CAR/SCR polarimeter FAR/ETE
+  3. polarimeters and energy spectrometers
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_3
+Queries:
+  1. e beam Laser Room
+  2. Compton
+  3. e beam Laser Room
+
+ Paper ID: 0904.0138v3
+ Chunk ID: 0904.0138v3_2
+Queries:
+  1. neutrino
+  2. neutrino
+  3. mass
+
+ Paper ID: 0904.0138v3
+ Chunk ID: 0904.0138v3_9
+Queries:
+  1. , the activation neutrino oscillation process e .
+  2. charge neutral fireball
+  3. charged neutrino
+
+ Paper ID: 0904.0119v2
+ Chunk ID: 0904.0119v2_1
+Queries:
+  1. SN 2007rt
+  2. Osservatorio Astronomico di Padova
+  3. SN 2007rt
+
+ Paper ID: 0904.0119v2
+ Chunk ID: 0904.0119v2_4
+Queries:
+  1. DATE Phase days U J
+  2. B Berr
+  3. Avr.
+
+ Paper ID: 0904.0118v1
+ Chunk ID: 0904.0118v1_2
+Queries:
+  1. X ray
+  2. X ray flares
+  3. X ray flares
+
+ Paper ID: 0904.0118v1
+ Chunk ID: 0904.0118v1_5
+Queries:
+  1. X rays
+  2. X rays
+  3. Plasma
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_11
+Queries:
+  1. NNNN
+  2. LOCAL, ORIGINAL, TEXOT
+  3. color
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_8
+Queries:
+  1. fBHB
+  2. fBHB
+  3. fBHB
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_5
+Queries:
+  1. val ues
+  2. val ues in Bell de Jong
+  3. linear equations for brightness of a star
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_2
+Queries:
+  1. dark matter
+  2. X ray and strong lens map
+  3. X ray
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_20
+Queries:
+  1. AC 114
+  2. CO 1
+  3. AC 114, a dynamically active cluster
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_21
+Queries:
+  1. AC 114
+  2. AC 114
+  3. AC 114
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_23
+Queries:
+  1. plotters
+  2. F3D lP, pi 2 d , C.1
+  3. stars
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_7
+Queries:
+  1. tenth asteroid
+  2. cD galaxy
+  3. density
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_9
+Queries:
+  1. dd dds
+  2. Navarro Fre
+  3. CDO component
+
+ Paper ID: 0904.0167v1
+ Chunk ID: 0904.0167v1_1
+Queries:
+  1. A Hamiltonian Hsys
+  2. A dual dot ISET
+  3. magnet
+
+ Paper ID: 0904.0167v1
+ Chunk ID: 0904.0167v1_5
+Queries:
+  1. A., A., D.
+  2. C60, S. A. et al.
+  3. The power of charge and charge of a single electron transistor
+
+ Paper ID: 0904.0015v2
+ Chunk ID: 0904.0015v2_5
+Queries:
+  1. J.S. Miller, A.J. Epstein, MRS Bull
+  2. J.S. Miller, angew Chem. internat. edit. 33, 385
+  3. J.S. Miller, Adv. Mat. 14, 1051 . Y. Liao
+
+ Paper ID: 0904.0147v1
+ Chunk ID: 0904.0147v1_7
+Queries:
+  1. ab sence
+  2. n° rsc
+  3. galaxies
+
+ Paper ID: 0904.0147v1
+ Chunk ID: 0904.0147v1_8
+Queries:
+  1. microscopical equation
+  2. density, and photometric properties of galax ice
+  3. density
+
+ Paper ID: 0904.0130v1
+ Chunk ID: 0904.0130v1_1
+Queries:
+  1. U.S. state variable and temperature
+  2. i, i, j, r, t, m, n, o, k
+  3. aimk
+
+ Paper ID: 0904.0130v1
+ Chunk ID: 0904.0130v1_2
+Queries:
+  1. d dimensional convex set
+  2. Minkowski functionals
+  3. Minkowski functionals
+
+ Paper ID: 0904.0130v1
+ Chunk ID: 0904.0130v1_6
+Queries:
+  1. The white area A decreases
+  2. DT increases
+  3. the white area A increases above 310 K
+
+ Paper ID: 0904.0129v2
+ Chunk ID: 0904.0129v2_1
+Queries:
+  1. dissipative pump
+  2. MFPR
+  3. active microwave system of paramagnetic quantum amplifiers
+
+ Paper ID: 0904.0129v2
+ Chunk ID: 0904.0129v2_2
+Queries:
+  1. control parameters
+  2. total parameters
+  3. parameters
+
+ Paper ID: 0904.0129v2
+ Chunk ID: 0904.0129v2_3
+Queries:
+  1. MFPR
+  2. D d d d d 2
+  3. 3 RCS equations of motions D B MSME, IMM, MOD, RCS
+
+ Paper ID: 0904.0129v2
+ Chunk ID: 0904.0129v2_6
+Queries:
+  1. a p c 1
+  2. inversion
+  3. Nonequilibrium
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_2
+Queries:
+  1. redder hosts
+  2. Spectralization
+  3. redder hosts
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_5
+Queries:
+  1. SMBH masses
+  2. magnitude M 108 109M
+  3. the average concentration parameter
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_8
+Queries:
+  1. SMBH
+  2. density
+  3. are involved with the mass of the host galaxy
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_9
+Queries:
+  1. mass
+  2. mass
+  3. mass
+
+ Paper ID: 0904.0014v1
+ Chunk ID: 0904.0014v1_3
+Queries:
+  1. K 1 to K 2
+  2. n, t2 n, s1, possibilites
+  3. t1 n1, t2 n1, t2 n2, t1 n1 T1 n2 n2 n3 n3 N2 n2
+
+ Paper ID: 0904.0064v1
+ Chunk ID: 0904.0064v1_2
+Queries:
+  1. frequency
+  2. A continuous line of high-frequency noise
+  3. SSB phase noise floor of a 9GHz measurement system
+
+ Paper ID: 0904.0035v1
+ Chunk ID: 0904.0035v1_1
+Queries:
+  1. Fast Monte Carlo MC simulations
+  2. Stability and equilibrium dynamics
+  3. Fast lattice Monte Carlo Simulations and Corresponding Lattice Self Consistent Field Calculations
+
+ Paper ID: 0904.0035v1
+ Chunk ID: 0904.0035v1_2
+Queries:
+  1. the random selector k = 0 l = 0.025 ap p = 0.45
+  2. are measured on a simple cubic lattice of , on a simple cubic lattice of , where , and depending on the finite size effects is the number of lattice sites in both the y and z directions.
+  3. A kink jump , reptation , and bond rotation
+
+ Paper ID: 0904.0035v1
+ Chunk ID: 0904.0035v1_3
+Queries:
+  1. LSCF
+  2. LSCF
+  3. LSCF
+
+ Paper ID: 0904.0035v1
+ Chunk ID: 0904.0035v1_4
+Queries:
+  1. unanswerable
+  2. FLMC
+  3. FLMC stochastic model with multiple occupancy of lattice sites and Kronecker function interactions
+
+ Paper ID: 0904.0189v4
+ Chunk ID: 0904.0189v4_1
+Queries:
+  1. Electromagnetic Mass Model
+  2. electron
+  3. Electromagnetic masses
+
+ Paper ID: 0904.0128v2
+ Chunk ID: 0904.0128v2_1
+Queries:
+  1. lagrangian
+  2. LHC inverse problem
+  3. LHC inverse problem
+
+ Paper ID: 0904.0128v2
+ Chunk ID: 0904.0128v2_3
+Queries:
+  1. two examples of two methods to deal with the inverse problem
+  2. Observable
+  3. Observables
+
+ Paper ID: 0904.0128v2
+ Chunk ID: 0904.0128v2_4
+Queries:
+  1. ISAJET 7.71
+  2. ISAJET
+  3. ISAJET 7.71
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_13
+Queries:
+  1. numbers
+  2. blue stars
+  3. D1-D2
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_7
+Queries:
+  1. Girardi et al.
+  2. Isochrones
+  3. M81 disk
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_8
+Queries:
+  1. Sncl, NGC 2403
+  2. .0119 isochrones
+  3. major stars
+
+ Paper ID: 0904.0143v1
+ Chunk ID: 0904.0143v1_4
+Queries:
+  1. i qbn fn lh
+  2. We find no question of izjuj i
+  3. ii ui
+
+ Paper ID: 0904.0185v1
+ Chunk ID: 0904.0185v1_6
+Queries:
+  1. a.s. Proof
+  2. 0 a.s. Proof Apply Theorem 4.2, 1 log log n log n Log log n log n log log n .
+  3. a 'spinning '
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_3
+Queries:
+  1. discover the transcendental lattice of a generic fiber.
+  2. find unique fibers of K3 surfaces.
+  3. find the symplectic action of S5 extending that of A5.
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_4
+Queries:
+  1. automorphises
+  2. The homotrophic linear matrix
+  3. H2 X
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_6
+Queries:
+  1. a negative definite Niemeier lattice
+  2. n, k3
+  3. True
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_16
+Queries:
+  1. yp, 0 P1, c
+  2. , 4, X, 0
+  3. A modified p X of the family p X around 0 by the base change z 7
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_25
+Queries:
+  1. Cl T
+  2. v, v, w, y, v
+  3. Cl T
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_2
+Queries:
+  1. Detection of random scattering media
+  2. random scattering media
+  3. random scattering media
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_3
+Queries:
+  1. discrete
+  2. num and num
+  3. multi-fold analysis (n-ar)
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_4
+Queries:
+  1. A scattering sample
+  2. scattering of masses has been detected in a scattering band
+  3. scattering for the distribution of the time period (ii/m/n, n, i)
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_6
+Queries:
+  1. M , I , j , f , k
+  2. not a reference point
+  3. unanswerable
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_8
+Queries:
+  1. coefficient m
+  2. data
+  3. R , but nippers of P
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_3
+Queries:
+  1. XIE JANVRESSE, STEVE KALIKOW, THIERRY DE LA RUE 2.2
+  2. ELISE JANVRESSE
+  3. INTERESSE, STEVE KALIKOW, THIERRY DE LA RUE 2.2
+
+ Paper ID: 0904.0097v1
+ Chunk ID: 0904.0097v1_3
+Queries:
+  1. weight loss
+  2. flat band
+  3. reversal jumps at t
+
+ Paper ID: 0904.0097v1
+ Chunk ID: 0904.0097v1_5
+Queries:
+  1. higher than N
+  2. create new energy units
+  3. increased both the width and the width of ribbon
+
+ Paper ID: 0904.0097v1
+ Chunk ID: 0904.0097v1_6
+Queries:
+  1. C. Zhang
+  2. K. S. Novoselov, C. N. Zheng
+  3. K. S. Novoselov, A.K. Geim, S.V. Morozov, V. I. Katsnelson, V. I. Katsnelson, C. Naud, C. Naud, C. Naud, C. Naud, D. Mayou, T. Li, J. Hass, A. N. Marchenkov, E. H. Conrad, P.
+
+ Paper ID: 0904.0222v2
+ Chunk ID: 0904.0222v2_1
+Queries:
+  1. Specimen
+  2. D'après guillemin '' '' Guillemin ''' '''''"']''"Nice '''''''"'"'"""""*"3.99 """""""""""""""("Summier s cpt.univ mrs.fr. 1")
+  3. In addition, we show this new physicist's theory of noncommutative residue with a chiral boundary condition
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_15
+Queries:
+  1. irradiation
+  2. fluctuations in a phantom field have a negative energy
+  3. A hyglyceride
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_17
+Queries:
+  1. density, pG
+  2. Slide-Saturated Light Defined Components
+  3. graphite
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_23
+Queries:
+  1. CDM model
+  2. CDM model
+  3. CDM model
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_24
+Queries:
+  1. physics
+  2. models of modified gravity
+  3. FRW line element 1 2 x, t dt2, t d x2, t d x2
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_28
+Queries:
+  1. Observables
+  2. get observables
+  3. compare experiments and combinations
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_29
+Queries:
+  1. , I have no idea
+  2. a kinetic Sunyaev Zel dovich effect
+  3. A: LOCATION, LOCATION AND CMB
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_9
+Queries:
+  1. abbreviation for a cosmic baryon fraction of more than 1
+  2. cosmic shear data set
+  3. mass
+
+ Paper ID: 0904.0205v1
+ Chunk ID: 0904.0205v1_2
+Queries:
+  1. The microdynamics
+  2. particle mass
+  3. microdisappearance
+
+ Paper ID: 0904.0159v1
+ Chunk ID: 0904.0159v1_2
+Queries:
+  1. Theorem
+  2. Riemannian distance function d
+  3. Riemannian distance function
+
+ Paper ID: 0904.0132v1
+ Chunk ID: 0904.0132v1_6
+Queries:
+  1. AMRI domain
+  2. PI domain
+  3. AMRI
+
+ Paper ID: 0904.0132v1
+ Chunk ID: 0904.0132v1_9
+Queries:
+  1. eddy viscosity
+  2. REDVISISOTION
+  3. Eddy viscosity
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_1
+Queries:
+  1. natural representations
+  2. functional representations
+  3. Unitary
+
+ Paper ID: 0904.0196v1
+ Chunk ID: 0904.0196v1_1
+Queries:
+  1. age identification
+  2. astro ph.SR
+  3. astro ph.SR No 2
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_5
+Queries:
+  1. absolute
+  2. B-grade of the GALEX images
+  3. GRAPHIC STRANG
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_6
+Queries:
+  1. dMe star is brighter than the UV variable,
+  2. potential variable sources
+  3. S N 1
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_7
+Queries:
+  1. E B V 0.38 and the period luminosity relationship of Sollim
+  2. E B V 0.38 and ob jects
+  3. et al. 2005
+
+ Paper ID: 0904.0006v1
+ Chunk ID: 0904.0006v1_9
+Queries:
+  1. GQ, if possible, we could find out whether a chromosome is correlated with a stellar population model.
+  2. 0 to 0
+  3. small stars in early form
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_1
+Queries:
+  1. an alternative large Nc limit
+  2. an alternative large Nc limit of QCD, more commonly known as the t Hooft or the Veneziano limits
+  3. baryons are usually described as heavy solitonic objects with mass of order Nc
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_2
+Queries:
+  1. light baryons
+  2. orientifold baryons
+  3. light baryons
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_2
+Queries:
+  1. Marants and Cen
+  2. XS rays demonstrate, are not available into the telescope
+  3. X ray observations were in the early 90s
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_3
+Queries:
+  1. the subgroup of the large Nc theory corresponds to the vector U that rotates the antisymmetric fermion and to an anomaly free combination of the axial U symmetries that rotates fundamental and antisymmetric flavors
+  2. Aq, ei R, orientifold
+  3. orientifold
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_6
+Queries:
+  1. Orientifolds
+  2. D5 brane configuration
+  3. density
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_7
+Queries:
+  1. symmetric hypermultiplets
+  2. jR, jL 1 2, 0
+  3. , ii, jL 1, 2, 0
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_4
+Queries:
+  1. Hyad
+  2. Hyades A and Hyades B
+  3. Hyades A and Hades B
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_5
+Queries:
+  1. spin chain26 and ladder systems
+  2. tuminism
+  3. micro-diverse spectral imaging
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_12
+Queries:
+  1. K. Brzozowski
+  2. G. Szabo
+  3. M. Brzozowski and G. Szabo
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_2
+Queries:
+  1. a user participatory web site
+  2. model
+  3. models
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_1
+Queries:
+  1. Minimal surfaces and hyperbolic geometry of 3 manifolds
+  2. Minimal surfaces and hyperbolic geometry of 3 manifolds
+  3. focuses on the hyperbolic geometry of 3 manifolds
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_2
+Queries:
+  1. possible
+  2. a hyperbolic 3 manifold
+  3. minimal surfaces
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_5
+Queries:
+  1. four
+  2. 3 Manifolds
+  3. if W1, W2 are Haken 4 manifolds and there is a homotopy equivalence between W1 and W2, then W1 and W2 are homeomorphic
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_6
+Queries:
+  1. is of the Heegaard surface
+  2. isotopy
+  3. is a loosed
+
+ Paper ID: 0904.0061v1
+ Chunk ID: 0904.0061v1_10
+Queries:
+  1. A. R. Riemann
+  2. Hs H 0
+  3. Riemann
+
+ Paper ID: 0904.0017v1
+ Chunk ID: 0904.0017v1_7
+Queries:
+  1. It is supported by the Australian Research Council
+  2. Acknowledgement
+  3. Acknowledgement
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_1
+Queries:
+  1. mirrors X ray observations
+  2. astro ph.CO
+  3. astro ph.CO
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_10
+Queries:
+  1. stargazes
+  2. galaxies
+  3. I am interested in the matter
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_15
+Queries:
+  1. A1, A2, isothermal profile
+  2. BCG image model
+  3. A.P.A. DM halo
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_16
+Queries:
+  1. a high amplitude of the inner regions of AC
+  2. the primary two factors associated with the central radial caustic
+  3. a model comparison between isothermal and NFW
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_17
+Queries:
+  1. DM halo
+  2. BM s light matter halo
+  3. mass
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_18
+Queries:
+  1. a mass profile mass profile
+  2. a mass model mass profile, a mass profile mass profile
+  3. mass model
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_19
+Queries:
+  1. NFW profiles
+  2. - ef- fects
+  3. kNFW
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_24
+Queries:
+  1. q, c = 1000 c
+  2. M. Sereno et al. Multi wavelength lensing in AC 114
+  3. s1,2,3,4
+
+ Paper ID: 0904.0018v2
+ Chunk ID: 0904.0018v2_4
+Queries:
+  1. Galaxy distribution
+  2. appendix A
+  3. The spatial distribution
+
+ Paper ID: 0904.0019v1
+ Chunk ID: 0904.0019v1_1
+Queries:
+  1. choosing a new car
+  2. a lust for expensive car
+  3. you have made a clear hierarchy
+
+ Paper ID: 0904.0019v1
+ Chunk ID: 0904.0019v1_2
+Queries:
+  1. a scalable and efficient method
+  2. software engineering problem
+  3. unsatisfying solution
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_4
+Queries:
+  1. possibly
+  2. find energy density
+  3. a constant spacetime, the cosmological constant is equivalent to vacuum energy
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_5
+Queries:
+  1. High Z Supernova
+  2. SNeIa peak luminosities
+  3. SNeIA are luminosities
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_1
+Queries:
+  1. H i ph.GA
+  2. red supergiant RSG locus
+  3. The Stellar Disk of M811 T. J. Davidge Herzberg Institute of Astrophysics, National Research Council of Canada, 5071 West Saanich Road, Victoria, BC Canada V9E 2E7 email tim.davidge nrc.ca
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_10
+Queries:
+  1. imagers may be limited
+  2. C star
+  3. images may prove useful for stars
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_11
+Queries:
+  1. appear in blue star maps or black clouds
+  2. D kpc
+  3. bright blue stars
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_14
+Queries:
+  1. young SFs are not uniformly mixed throughout the M81 disk
+  2. SFs of blue star and RSGs climb
+  3. appear in larger numbers as radius increases
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_15
+Queries:
+  1. M81 is larger than NGC 2403 during the past 60 am and M81 is smaller than NGC 2403
+  2. SFR of M81 and NGC 2403 differ by a few tenths to 1 dex
+  3. SSFR of M81 represents a number of smaller galaxies than NGC 2403.
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_3
+Queries:
+  1. RSG sequence
+  2. star formation during the past 100 Myr
+  3. star formation history at mid-tolate range
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_5
+Queries:
+  1. CCHT
+  2. J K 0.01 0.06
+  3. Dgital Sky Survey SDSS Data Release 7 Adelman McCarthy et al. 2009, 3
+
+ Paper ID: 0904.0036v2
+ Chunk ID: 0904.0036v2_6
+Queries:
+  1. J.J. Bollinger
+  2. D. Press, T. Ladd, B. Zhang, and Y. Yamamoto, Nature 406, 286, 2412
+  3. Duan, C. Monroe
+
+ Paper ID: 0904.0043v2
+ Chunk ID: 0904.0043v2_1
+Queries:
+  1. 1. Introduction 2. Optimistics 3. Tame 4. Weight cycling 5. Numbness 6. Local lifts 7. : the main theorems 20
+  2. 1. Introduction 2. Notation and assumptions 3. Tame lifts 4. Weight Cycling 5. Necessary conditions 6. Locals 7. The main theorems
+  3. 1. Introduction 2. List of possible Weights 3. Tame lifts 6 4. Weight cycling 8 5. No problems XP. 6. Local lifts 3. Tame lifts 4
+
+ Paper ID: 0904.0053v1
+ Chunk ID: 0904.0053v1_7
+Queries:
+  1. J. E. Thomas, J. Kinast, J. Kinast, A. Turlapov
+  2. C. Lobo, S. Giorgini, and S. Stringari, Phys. Rev. Lett. 95, 120402
+  3. C. Lobo, C. Calamelli and A. C. Hall, Phys. Rev. Lett. 97, 200403 , V. Murthy, M. V. N. Murthy, and M. Brack, J. Phys. Rev. Lett. 96, 160402
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_1
+Queries:
+  1. Lie group O 3, 1 Isom H3 , and hyperbolic 3 simplex reflection groups
+  2. decomposition and computation to the K theory for P H3
+  3. Lie groups O 3, 1 Isom H3
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_8
+Queries:
+  1. T2 Aq pA b T1 q pA b T1 qT2 q pA b T3 q pA b T3
+  2. T1 1 1 T1 T2 T3 T3 T1 2 C C P
+  3. T1 pT1 b T2 q
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_1
+Queries:
+  1. A mathematical notion with untested n is a common probability algorithm for predicting how many transpositions the winner or a recipient of an odd prize might be.
+  2. key concept
+  3. play based on the central notion of pivot
+
+ Paper ID: 0904.0074v2
+ Chunk ID: 0904.0074v2_1
+Queries:
+  1. magnetized by magnetization
+  2. inverse magnetocaloric effect for mag netic field
+  3. , inverse magnetocaloric effect IMCE
+
+ Paper ID: 0904.0082v2
+ Chunk ID: 0904.0082v2_4
+Queries:
+  1. No. 10, 493 522 11
+  2. Annali Scuola Normale Superiore de Pisa, Classe di Scienze, 1983, No. 10, 493 522 11
+  3. Annali Scuola Normale Superiore de Pisa, Classe di Scienze
+
+ Paper ID: 0904.0113v1
+ Chunk ID: 0904.0113v1_1
+Queries:
+  1. Souslin algebra, Souslin tree, diamond principle, Baire category
+  2. etiologically
+  3. Souslin algebra, Baire
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_1
+Queries:
+  1. uncertainties in galaxies
+  2. CIGISOLOGICAL JOURNAL Preprint typeset using LATEX style emulateapj v. 08 22 09 THE PROPAGATION OF UNCERTAINTIES IN STELLAR POPULATION SYNTHESIS MODELING II THE CHALLENGE OF COMPARING GALAXY EVOLUTION MODELS TO OBSERVATIONS CHARLIE CONROY1, MARTIN WHITE2,
+  3. ABSTRACT Models
+
+ Paper ID: 0904.0001v1
+ Chunk ID: 0904.0001v1_3
+Queries:
+  1. arrows denote potential changes in the position of the phases in order to create excitations
+  2. range from zero to positive to negative
+  3. arrows indicate possible shifts in the position of the phases to create excitations.
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_5
+Queries:
+  1. Simplified Tibete Simplified
+  2. frequencies of S-band spins
+  3. frequency variable
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_3
+Queries:
+  1. SPS uncertainties
+  2. astronomical metric analysis
+  3. data
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_8
+Queries:
+  1. MCOS DQDs
+  2. MACX/CREATOR=500000100000000000000000001
+  3. a random DC-state DQD n and a random CMC-level CMOS block MUX for speed in DQDs
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_13
+Queries:
+  1. 20 000A
+  2. 5000A
+  3. 5000A , the SISS is sensitive to stars at a particular mass
+
+ Paper ID: 0904.0004v2
+ Chunk ID: 0904.0004v2_2
+Queries:
+  1. Sunnes et al. 2005 , 2006a
+  2. SMGs
+  3. chemo
+
+ Paper ID: 0904.0005v2
+ Chunk ID: 0904.0005v2_1
+Queries:
+  1. LHS102BC
+  2. astro ph.SR
+  3. R. Zippopatero Osorio2, C. A. L. Bailer Jones1, V. J. S. B ejar 2, J. A. Caballero3, and Th. Henning1
+
+ Paper ID: 0904.0005v2
+ Chunk ID: 0904.0005v2_2
+Queries:
+  1. the polarisation of rotationally flattened Ultra cool dwarfs
+  2. polarisation
+  3. large scale
+
+ Paper ID: 0904.0005v2
+ Chunk ID: 0904.0005v2_3
+Queries:
+  1. show them as polarimetric images
+  2. were observed in visitor and service mode
+  3. are provided for information about the optical aspectol features
+
+ Paper ID: 0904.0001v1
+ Chunk ID: 0904.0001v1_4
+Queries:
+  1. mL n
+  2. Sz, mL, mL n, mR n 3 are
+  3. NL excitations
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_12
+Queries:
+  1. clump
+  2. starfilight
+  3. color
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_16
+Queries:
+  1. resonant scatter theory
+  2. evaluations of color for color
+  3. binary results
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_17
+Queries:
+  1. , SPS technique to estimate the basic physical properties of observed galaxies
+  2. SPS technique
+  3. AGB's stellar evolution model
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_18
+Queries:
+  1. TGAA, SPS, and EVOLUTION MODELS TO OBSERVATIONS
+  2. IMF-dependent measurements of galaxies
+  3. FOSS
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_2
+Queries:
+  1. A physical dust model would perform the least efficient attenuation of starlight
+  2. a physical dust model employs radiative transfer to simple phe nomenological prescriptions
+  3. physical dust model
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_6
+Queries:
+  1. pri marily true absorption and geometric effects
+  2. in the Milky Way and Magellanic Clouds
+  3. a one parameter family Cardelli et al. 1989 Fitzpatrick 1999
+
+ Paper ID: 0904.0002v2
+ Chunk ID: 0904.0002v2_7
+Queries:
+  1. clumpy ISM appears to show.
+  2. The parameters 2 take on a somewhat different meaning
+  3. clumpy ISM will be applied to particles in the galaxy
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_1
+Queries:
+  1. We analyze logical qubit memory and the resulting QIP analysiss
+  2. logical qubit
+  3. sandia.gov
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_12
+Queries:
+  1. error threshold
+  2. We want the error threshold for a DPN model
+  3. error probability
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_14
+Queries:
+  1. Our architecture achieves error thresholds of 0.7% (10 5 for a Depolarized noise model) and a 4.0 10 5.
+  2. For example, to avoid error correction on computers, the optimal algorithms do not provide sufficient output.
+  3. a self-correcting algorithm
+
+ Paper ID: 0904.0003v1
+ Chunk ID: 0904.0003v1_3
+Queries:
+  1. Si DQDs
+  2. A gate set for the DQDs
+  3. the non-depletion gates
+
+ Paper ID: 0904.0005v2
+ Chunk ID: 0904.0005v2_4
+Queries:
+  1. polarization
+  2. sparse mass stars
+  3. polarization
+
+ Paper ID: 0904.0006v1
+ Chunk ID: 0904.0006v1_2
+Queries:
+  1. an average stellar mass of 8.86 1.73 1011 M s.e.m.
+  2. Gong
+  3. haloes from
+
+ Paper ID: 0904.0006v1
+ Chunk ID: 0904.0006v1_4
+Queries:
+  1. XCS survey
+  2. Opinion
+  3. XCS datasets
+
+ Paper ID: 0904.0006v1
+ Chunk ID: 0904.0006v1_5
+Queries:
+  1. , 0.05 (0.8 m), 0.15 (0.8 m), 0.8 (0.8 m)
+  2. A generalizing of stellar ages
+  3. binary stellar predictions
+
+ Paper ID: 0904.0006v1
+ Chunk ID: 0904.0006v1_7
+Queries:
+  1. use the bolometric X ray luminosity of each system LX 11,12,34,35 as this can be used to determine cluster mass from power law scaling relations 36,37
+  2. adequinate X ray luminosity from LX
+  3. compared the mass magnitude of each of our ensemble clusters with each model.
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_8
+Queries:
+  1. a field for a theory
+  2. BABA
+  3. LS2G
+
+ Paper ID: 0904.0008v2
+ Chunk ID: 0904.0008v2_9
+Queries:
+  1. baryon and mesons
+  2. light mesons, baryons, mesons
+  3. light mesons and baryons
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_1
+Queries:
+  1. star formation in galaxies, we observed an improvement in the turbulence and mass dynamics of star formation.
+  2. non-observable volumes, it will provide much favourable coverage
+  3. subliminal measurements for each spherical factor, the accuracy was limited.
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_10
+Queries:
+  1. nuclear mass
+  2. THINGS
+  3. THINGS
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_11
+Queries:
+  1. Gmecn
+  2. Paul Bigiel
+  3. FAMILY.
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_3
+Queries:
+  1. The mass per free fall time
+  2. gfH2
+  3. fH2, tff, and SFRff
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_5
+Queries:
+  1. BILTER
+  2. o core
+  3. a GMC yo
+
+ Paper ID: 0904.0009v3
+ Chunk ID: 0904.0009v3_6
+Queries:
+  1. GMC surface density
+  2. macro-algorithmization
+  3. g, g, and f
+
+ Paper ID: 0904.0010v2
+ Chunk ID: 0904.0010v2_9
+Queries:
+  1. W. A. Hughes, M. N.
+  2. Futterman, F. A. Handler, R. A. Matzner, H. Futterman, F. A. Handler, D. E. R. Matzner
+  3. M. Visser, John N. J. Winterstein, C. E. A. Matzner, C. B. Crispino, B. Nelson, F. A. Baker, R. A. Matzner
+
+ Paper ID: 0904.0011v2
+ Chunk ID: 0904.0011v2_3
+Queries:
+  1. p, t, hl
+  2. a0 n, t b0 n
+  3. t, j, t, N0
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_10
+Queries:
+  1. Fano type bounds
+  2. Fano
+  3. Fano type labels
+
+ Paper ID: 0904.0011v2
+ Chunk ID: 0904.0011v2_4
+Queries:
+  1. ii, t = 0, 0, 0 n = 0 , k
+  2. k 1 hr 1 n0k 1 n0 k 1 h0,r 1 n0 k 1 g0 1000 ni szg h 0, r 1 t1 n, t0, t0, t1 mr, t0 n0, t1 mr, t0
+  3. Ablowitz Ladik
+
+ Paper ID: 0904.0012v2
+ Chunk ID: 0904.0012v2_11
+Queries:
+  1. dZ1 dZ2 dZ3
+  2. K ahler form
+  3. dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dZ: dz: dZ
+
+ Paper ID: 0904.0012v2
+ Chunk ID: 0904.0012v2_14
+Queries:
+  1. Mathematica
+  2. mathematica
+  3. Mathematica together with the package scalarEDCcode for handling forms http library.wolfram.com infocenter
+
+ Paper ID: 0904.0012v2
+ Chunk ID: 0904.0012v2_6
+Queries:
+  1. d 2 sin
+  2. d 1, m2
+  3. d 1 sin 2 1 sin2 1 d 2 sin2 d 2 seg2 2 d 1 dos
+
+ Paper ID: 0904.0040v1
+ Chunk ID: 0904.0040v1_1
+Queries:
+  1. electric charge is injected into the system in the form of charge 2e skyrmions.
+  2. unanswerable
+  3. Solar-coated interplay
+
+ Paper ID: 0904.0040v1
+ Chunk ID: 0904.0040v1_4
+Queries:
+  1. e # 0
+  2. e skyrmion
+  3. e i O
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_1
+Queries:
+  1. low-level UV activity, may result in a loss of UV energy.
+  2. light radiating from the Hyades and Pleiades stars.
+  3. UV energy inflections, may be associated with dMe stars
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_10
+Queries:
+  1. com plex
+  2. The most complex of all of the flares...
+  3. complex
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_12
+Queries:
+  1. the sun, spectral type and distance
+  2. Slavic stars
+  3. None
+
+ Paper ID: 0904.0012v2
+ Chunk ID: 0904.0012v2_9
+Queries:
+  1. for general 1 2 2 3
+  2. are sorted by order
+  3. solved
+
+ Paper ID: 0904.0013v1
+ Chunk ID: 0904.0013v1_1
+Queries:
+  1. exospheres
+  2. helium
+  3. The GMCs do not have any characteristics of the same or identical structures but have been compared to the different structures
+
+ Paper ID: 0904.0014v1
+ Chunk ID: 0904.0014v1_1
+Queries:
+  1. K and K2
+  2. Heegaard splittings
+  3. K1-k2 or K1-k2
+
+ Paper ID: 0904.0014v1
+ Chunk ID: 0904.0014v1_4
+Queries:
+  1. find knot
+  2. find knot
+  3. find knot
+
+ Paper ID: 0904.0015v2
+ Chunk ID: 0904.0015v2_1
+Queries:
+  1. J.K.
+  2. : "Try a bit of it in this molecule"
+  3. hysteresis
+
+ Paper ID: 0904.0015v2
+ Chunk ID: 0904.0015v2_2
+Queries:
+  1. spins must lie the yz, xz, or xy planes
+  2. Cr spin pairs
+  3. C spins have small, but nonzero components in the classically forbidden direc tions
+
+ Paper ID: 0904.0016v1
+ Chunk ID: 0904.0016v1_1
+Queries:
+  1. computing
+  2. Users participate websites
+  3. user contributory web sites
+
+ Paper ID: 0904.0019v1
+ Chunk ID: 0904.0019v1_4
+Queries:
+  1. solves BMO problems for BMO
+  2. Boolean
+  3. n , boolean
+
+ Paper ID: 0904.0019v1
+ Chunk ID: 0904.0019v1_5
+Queries:
+  1. for large clause weights
+  2. solve a sequence of PB problems.
+  3. X Ci
+
+ Paper ID: 0904.0020v1
+ Chunk ID: 0904.0020v1_13
+Queries:
+  1. v1 v2 1 v2 2 v2 2 v2 1
+  2. R2 v1 v2 1 2 v2 2 v2 1 ex v1 o v2
+  3. R2 v1 2 v2 v2 v2 o v2
+
+ Paper ID: 0904.0020v1
+ Chunk ID: 0904.0020v1_15
+Queries:
+  1. qn,t,pn,t
+  2. n, k = [pn, n, = [pn, +0]] pn = [pn, 0] R = qt, pt = [pn, pn, 0] Sn,k = [pn, 0] and [pn, 0] = [pn, 0] if qn == 0 , qn == 0
+  3. qn, pn
+
+ Paper ID: 0904.0020v1
+ Chunk ID: 0904.0020v1_17
+Queries:
+  1. Markov
+  2. Markov renewal processes
+  3. Markov generating function.
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_4
+Queries:
+  1. w1, 0
+  2. agent
+  3. plots in ISAAC or ad
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_5
+Queries:
+  1. INFs
+  2. ISAAC Randomness
+  3. randomness of the ISAACAs
+
+ Paper ID: 0904.0021v1
+ Chunk ID: 0904.0021v1_6
+Queries:
+  1. Precious precession
+  2. a high frequency of precession observed
+  3. ISAAC results
+
+ Paper ID: 0904.0022v1
+ Chunk ID: 0904.0022v1_2
+Queries:
+  1. a holomorphic mapping
+  2. a hyperbolic automorphism of a domain in the complex plane
+  3. heteromorphic
+
+ Paper ID: 0904.0022v1
+ Chunk ID: 0904.0022v1_4
+Queries:
+  1. inverse
+  2. values
+  3. mercenaries
+
+ Paper ID: 0904.0022v1
+ Chunk ID: 0904.0022v1_5
+Queries:
+  1. p, B
+  2. p C Df
+  3. p C Df
+
+ Paper ID: 0904.0022v1
+ Chunk ID: 0904.0022v1_8
+Queries:
+  1. annulus A
+  2. annulus A
+  3. annulus A
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_1
+Queries:
+  1. analysis of the universe and its underlying universe
+  2. theories
+  3. predictions
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_10
+Queries:
+  1. Adolf Hitler, Einstein in a denial of cosmic acceleration
+  2. Einstein, at the time of the start of the first three phases, they emigrated into orbit and landed on surfaces that would have been filled with normal matter.
+  3. Einstein, these phenomena were referred to as the "cosmological consequences"
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_11
+Queries:
+  1. M a3
+  2. matter domination
+  3. M obs vac 10
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_12
+Queries:
+  1. the SUSY breaking scale
+  2. quantum symmetry
+  3. neuro, magnolia, neutron, and spectral
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_18
+Queries:
+  1. GR, Y, Y
+  2. models that modify GR without introducing new degrees
+  3. some
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_25
+Queries:
+  1. examples of scalar perturbations in Newtonian gauge
+  2. non-determinant perturbations
+  3. density perturbations on sub horizon scales
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_27
+Queries:
+  1. model
+  2. modified gravitational and modified gravitational modalities
+  3. DM, modified ISW signal, weak lensing shear WL
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_30
+Queries:
+  1. cosmological constants
+  2. dark energy model
+  3. Unmet science
+
+ Paper ID: 0904.0024v2
+ Chunk ID: 0904.0024v2_31
+Queries:
+  1. Applications to Co
+  2. Perspectives to Understanding Co
+  3. Appearances to Understanding Co
+
+ Paper ID: 0904.0026v1
+ Chunk ID: 0904.0026v1_6
+Queries:
+  1. blue
+  2. redder
+  3. reder
+
+ Paper ID: 0904.0027v1
+ Chunk ID: 0904.0027v1_1
+Queries:
+  1. relationships
+  2. life
+  3. eudaemony
+
+ Paper ID: 0904.0027v1
+ Chunk ID: 0904.0027v1_2
+Queries:
+  1. eudaemonic systems
+  2. The objective of a eudaemonic system is to produce societies in which the indi viduals experience satisfaction through a deep engagement in the world
+  3. eudaemonic systems
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_1
+Queries:
+  1. Kvega 20, BzK, E
+  2. Kvega 20, BzK, E
+  3. tgreve mpia hd.mpg.de
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_11
+Queries:
+  1. dRGs
+  2. DRGs
+  3. DRGs Uncor rected for an average gravitational lens amplifi
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_14
+Queries:
+  1. S24 m
+  2. pBzK galaxies
+  3. spectral app
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_15
+Queries:
+  1. the sBzK and pBzK criteria
+  2. S29 Jy 50 350 Jy
+  3. sBzK
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_16
+Queries:
+  1. submm signal
+  2. stacked 870 m signal
+  3. ctr.9 submm signal
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_17
+Queries:
+  1. Stacking
+  2. an otometer
+  3. stacked
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_18
+Queries:
+  1. Crysta
+  2. BzKs
+  3. z K AB 0.5 B z AB 3.4 19 z AB 3.4 19 z pBzK signal
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_2
+Queries:
+  1. 4Purple Mountain Observatory
+  2. 4Purple Mountain Observatory
+  3. X-rays
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_8
+Queries:
+  1. A 2 2, IA 2 2 2. IC 3 M5 gc 2 A 2 2 r2
+  2. I and F are the measured and deblended fluxes and therefore are the distances between the sources
+  3. does not accurately explains the results of the stacking analysis.
+
+ Paper ID: 0904.0028v1
+ Chunk ID: 0904.0028v1_9
+Queries:
+  1. S N values at the near IR source positions have a continuous mea sured signal.
+  2. density
+  3. RMS-based statistics show that the sampling distributions are identical
+
+ Paper ID: 0904.0029v1
+ Chunk ID: 0904.0029v1_2
+Queries:
+  1. CNF formula F
+  2. CNF formula F
+  3. A model of a formula F
+
+ Paper ID: 0904.0042v1
+ Chunk ID: 0904.0042v1_14
+Queries:
+  1. NASA GALEX guest investigator program
+  2. NASA GALEX guest investigator
+  3. data product
+
+ Paper ID: 0904.0029v1
+ Chunk ID: 0904.0029v1_5
+Queries:
+  1. A) resolvent i
+  2. List 3 short search phrases
+  3. subsumption
+
+ Paper ID: 0904.0029v1
+ Chunk ID: 0904.0029v1_7
+Queries:
+  1. Rsat DS Minisat Minisat DS Maxisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS Minisat DS VMs VMs
+  2. Rsat DS Minisat Minisat DS Minisat DS
+  3. Rsat DS Minisat Minisat Minisat DS
+
+ Paper ID: 0904.0029v1
+ Chunk ID: 0904.0029v1_8
+Queries:
+  1. covariate resolving clauses is done using good condition, we conclude that we want to analyze a new subsumption technique for a new term term for the subsumption free CNF clause database
+  2. CNF-complexation algorithm reveals a large number of changes to subsumption, it is needed to provide a mechanism for subsumption.
+  3. ibm 2004 to be subsumption free, we have to decide to return to use of subsumption
+
+ Paper ID: 0904.0031v2
+ Chunk ID: 0904.0031v2_1
+Queries:
+  1. inflating modules from S5 to S5 reveal the possible difference in deformation ring
+  2. Diffusion rings of S5 to S5
+  3. ring S5, V, and R
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_16
+Queries:
+  1. D and B mesons
+  2. PIPE A for pT10 GeV, RIPIPP 10 GeV, RIPIPP 10 GVT
+  3. C tron inelastic breakup processes
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_17
+Queries:
+  1. apsu p
+  2. apsu p
+  3. u, s v, s v
+
+ Paper ID: 0904.0032v2
+ Chunk ID: 0904.0032v2_6
+Queries:
+  1. P, xiP, qj
+  2. P J a h
+  3. Observations of heavy quark fragmentation and dissociation
+
+ Paper ID: 0904.0035v1
+ Chunk ID: 0904.0035v1_5
+Queries:
+  1. G. J. Fleer et al
+  2. G. J. Fleer et al., Polymers at Interfaces, Chapman Hall London, 1993. Chapter 9.7 in W. H. Press et al., Numerical Recipes in C the Art of Scientific Computing
+  3. G. J. Fleer et al., Polymers at Interfaces, Chapman Hall London, 1993. Chapter 9.7 in W. H. Press et al., Numerical Recipes in C the Art of Scientific Computing,
+
+ Paper ID: 0904.0036v2
+ Chunk ID: 0904.0036v2_1
+Queries:
+  1. The Uhrig dynamical decoupling UDD sequence had an impact on a signal processor.
+  2. decoupling
+  3. maximizing noise filtration
+
+ Paper ID: 0904.0036v2
+ Chunk ID: 0904.0036v2_3
+Queries:
+  1. a sharp cutoff
+  2. A disarming and retraining noise performance
+  3. i and b
+
+ Paper ID: 0904.0036v2
+ Chunk ID: 0904.0036v2_5
+Queries:
+  1. a high frequency cutoff of a loudness measurement
+  2. A dynamically-based decou pling technique that works for precise sound filtration
+  3. time of the calibration algorithm
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_5
+Queries:
+  1. Xi B
+  2. N1i 2var [Petra = 0] Xi B , NP c1i 2var [0] , 2 [1] , 2 [1] , 3 [0] , 3 [1] , 3 [2] , 3 [ 5]
+  3. c1,i2 and c3
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_6
+Queries:
+  1. I W2 I W2 Y 3 n X W2 m 1 n X Y2 m W2 Y 3 m 1
+  2. X Y2 m W2, Y 3 m 1 n
+  3. n X Y 2 m
+
+ Paper ID: 0904.0037v1
+ Chunk ID: 0904.0037v1_8
+Queries:
+  1. c212 2 lim B var X11 B var X11 B var X12 B var X11 B var X11 B U2 B N0 c211 2 lim B var X11 B var X11 B var X11 B U2 B N0 c212 2 lim B var X11 B var X12 B var X11 B var
+  2. c212 2 lim B var X11
+  3. c212
+
+ Paper ID: 0904.0038v2
+ Chunk ID: 0904.0038v2_3
+Queries:
+  1. E0 P h2 h 2mR 1 PR N h
+  2. ideal Bose gas
+  3. ideal Bose gas
+
+ Paper ID: 0904.0039v1
+ Chunk ID: 0904.0039v1_3
+Queries:
+  1. Jd C Jd C
+  2. Jd C
+  3. Jd C
+
+ Paper ID: 0904.0044v1
+ Chunk ID: 0904.0044v1_2
+Queries:
+  1. polar angle configuration is degenerate
+  2. the azimuthal angle
+  3. orientation vectors
+
+ Paper ID: 0904.0044v1
+ Chunk ID: 0904.0044v1_6
+Queries:
+  1. J. C. Slonczewski, J. Magn. Magn. Mater. 159, 159 .
+  2. R. Rajaraman, Solitons and Instantons North Holland, 1982 .
+  3. J. C. Slonczewski, J. Magn. Magn. Mater. 159, 159 .
+
+ Paper ID: 0904.0045v3
+ Chunk ID: 0904.0045v3_8
+Queries:
+  1. X. M. Zhang and H. Liu, W. H. Kinney, JCAP 0803, 002 arXiv astro ph 0405353 J. Zhang, X. M. Zhang and H. Liu, Eur. Phys. J. C 52, 451 arXiv 0708.3121
+  2. J. Zhang, X.
+  3. X. M. Zhang and Y. Z. Zhang, Phys. Lett. B
+
+ Paper ID: 0904.0046v1
+ Chunk ID: 0904.0046v1_6
+Queries:
+  1. spectra
+  2. linear momentum, q2
+  3. spectra
+
+ Paper ID: 0904.0046v1
+ Chunk ID: 0904.0046v1_7
+Queries:
+  1. Gaussian backgrounds
+  2. Gaussian models
+  3. BRS gauge fixing
+
+ Paper ID: 0904.0047v1
+ Chunk ID: 0904.0047v1_2
+Queries:
+  1. 1. Self similar groups 2. no
+  2. 1. Self Similarity 2. Infinitum 3. "Infinitum", "Infinitum," "Infinitum", "Infinitum", and "A".
+  3. 1. self similar groups 2.
+
+ Paper ID: 0904.0047v1
+ Chunk ID: 0904.0047v1_3
+Queries:
+  1. automorphism
+  2. GC/TE
+  3. automorphic
+
+ Paper ID: 0904.0047v1
+ Chunk ID: 0904.0047v1_4
+Queries:
+  1. the expression of a name
+  2. a list of automorphisms G
+  3. digits i
+
+ Paper ID: 0904.0047v1
+ Chunk ID: 0904.0047v1_5
+Queries:
+  1. SELF SIMILARITY AND RANDOM
+  2. SELF SIMILARITY AND RANDOM
+  3. SELF SIMILARITY AND RANDOM
+
+ Paper ID: 0904.0048v1
+ Chunk ID: 0904.0048v1_4
+Queries:
+  1. max reso
+  2. t-0.259
+  3. A series of overlapping curves of the distance of a zoo and the jet
+
+ Paper ID: 0904.0048v1
+ Chunk ID: 0904.0048v1_5
+Queries:
+  1. A. Quarteroni, Spectral methods in fluid dynamics, Springer, new york, Berlin, 1987. Z. Yin, L. Yuan T. Tang, A new parallel strategy for two dimensional incompressible flow simulations using pseudo spectral methods, J. Comput. Sci. 210325 .
+  2. Z. Yin, L. Yuan T. Tang, Spectral methods in fluid dynamics
+  3. J. Comput. Phys. 210325
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_10
+Queries:
+  1. quadrature X 01 of a fixed H01 r mode
+  2. a local oscilla tor
+  3. Grange
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_12
+Queries:
+  1. b 0 b 0 b 0 g 0 0 0 0
+  2. a b , b 1 , b , 0 , 0 1 0
+  3. b0 b
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_13
+Queries:
+  1. elem
+  2. phe nomenon
+  3. low speed
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_14
+Queries:
+  1. doping
+  2. DASH
+  3. density
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_15
+Queries:
+  1. x1, x2
+  2. zolen kobe
+  3. x1, x2, x2, y1, y2, x2, x1, y2, y1, y2, x2, y2, y1, y2, y1, y1, y2, y1, y2, y2, y2, y1, y2, y3, y3, y23, y2, y3, y35, y3, y45,
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_2
+Queries:
+  1. spontaneous symmetry breaks
+  2. spontaneous
+  3. random symmetry break
+
+ Paper ID: 0904.0049v2
+ Chunk ID: 0904.0049v2_3
+Queries:
+  1. TEM10
+  2. the DDOPO
+  3. the DOPO
+
+ Paper ID: 0904.0050v2
+ Chunk ID: 0904.0050v2_2
+Queries:
+  1. Frequency
+  2. question
+  3. For example, Arnold and Moore
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_12
+Queries:
+  1. information
+  2. ID e m T
+  3. A inverse decay, ID , or C ,
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_14
+Queries:
+  1. styrical
+  2. cyclic
+  3. unresolved
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_17
+Queries:
+  1. modulini t1 but the K ahler and the I2M scalar metric
+  2. K ahler Modi: kinetic Lagrangian
+  3. SCM , the canonical normalisation of the modulini takes exactly the same form as the K ahler metric
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_18
+Queries:
+  1. modulini
+  2. Modino gaugino gauge boson coupling
+  3. modulino gaugino gauge boson coupling
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_11
+Queries:
+  1. conjugacy classes of elements of order one
+  2. formulas
+  3. F3 conjugacy classes
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_24
+Queries:
+  1. A1A1
+  2. avius p1A1
+  3. v0 V0 T 2 24 m2 m2 gseKcsM4 P 8 p1A1 v0 s e 2as s V p2A2
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_28
+Queries:
+  1. Recall
+  2. an inflaton
+  3. energy density 2 XXM2
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_31
+Queries:
+  1. In addition, we learn that lower bounds will apply to the T 4 max, which implies that they are based on a multi-phase process
+  2. generalising
+  3. vb T
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_32
+Queries:
+  1. mollusks
+  2. tinsul
+  3. Ms suppressed
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_38
+Queries:
+  1. Hd Hd Hd Hc Hc Hc m2 Hc Hc Hc Hc m2 Hc Hc Hc Hc A.26 1 2 1 3 s b Hc Hc m2 H Hc Hc 3 b m2 H HcHc
+  2. Hc Hc Hc m2 Hc Hc m2 Hc Hc
+  3. Moduli couplings
+
+ Paper ID: 0904.0057v1
+ Chunk ID: 0904.0057v1_4
+Queries:
+  1. FWHM
+  2. Microscope Images
+  3. A short search for this work
+
+ Paper ID: 0904.0058v1
+ Chunk ID: 0904.0058v1_1
+Queries:
+  1. model for 3-phase planar parallel robot
+  2. Clavel Tsai and Stamper Staicu
+  3. novel robots
+
+ Paper ID: 0904.0051v2
+ Chunk ID: 0904.0051v2_39
+Queries:
+  1. Higgs
+  2. SUSY Scalars
+  3. A.38
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_13
+Queries:
+  1. q c J
+  2. q d RL LC J 0 0 0
+  3. d , d , r
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_16
+Queries:
+  1. A. Pashkevich, D. Chablat, P. Wenger Stiffness Analysis of Overconstrained Parallel Manipulators 21 Acknowledgments
+  2. A. Pashkevich, D. Chablat, P. Wenger Stiffness Analysis of Overconstrained Parallel Manipulators 21 Acknowledgments
+  3. I.H. Chiblat
+
+ Paper ID: 0904.0052v1
+ Chunk ID: 0904.0052v1_4
+Queries:
+  1. Reversing the Reversing Model for Parallelograms
+  2. R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R
+  3. Graphite, bending, compression
+
+ Paper ID: 0904.0053v1
+ Chunk ID: 0904.0053v1_3
+Queries:
+  1. the unflocked formalism
+  2. gamma function
+  3. aeff mm
+
+ Paper ID: 0904.0053v1
+ Chunk ID: 0904.0053v1_6
+Queries:
+  1. Fermi gas
+  2. Fermi gas
+  3. Non interacting fermion gas
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_15
+Queries:
+  1. Atiyah Hirzebruch isomorphic to the stability of the edge that is being truncated
+  2. cells In X P.
+  3. H n X
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_16
+Queries:
+  1. A5 Z2
+  2. S4 Z2, Z2, a5, Z8
+  3. spherical triangle groups
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_18
+Queries:
+  1. K group contains stabilizers that have vanishing
+  2. C has stabilizer A5 Z2
+  3. E2 , v, w, w
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_19
+Queries:
+  1. vertices
+  2. vertices
+  3. vertices
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_27
+Queries:
+  1. a repulsion , a repulsion from a negative or a negative return from a negative, a negative return from an negative or a positive return from a negative return from an positive recovery, or a negative return from an positive recovery, to an positive recovery for the negative return if I continue to use this loss in the future
+  2. EFIN n
+  3. EFIN n KZ
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_5
+Queries:
+  1. Lattices
+  2. HV n EFIN V
+  3. the homology group
+
+ Paper ID: 0904.0054v1
+ Chunk ID: 0904.0054v1_9
+Queries:
+  1. dividing G 2n, we see that X p 2n rQp rFp X p 2n p n o n o .
+  2. dividing G 2n
+  3. separating G 2n
+
+ Paper ID: 0904.0055v2
+ Chunk ID: 0904.0055v2_1
+Queries:
+  1. klystron resonant cavity
+  2. Casimir force, elastic force, weight
+  3. klystron resonant cavity
+
+ Paper ID: 0904.0056v2
+ Chunk ID: 0904.0056v2_1
+Queries:
+  1. QQ communication of two bits of classical information with the transmission of a qubit
+  2. quantum teleportation
+  3. quantum teleportation
+
+ Paper ID: 0904.0056v2
+ Chunk ID: 0904.0056v2_3
+Queries:
+  1. 0 A 0L B 1 A 0A 1L B 1 A 0L B 2 0A 4 A 0L B
+  2. a logical qubit
+  3. Alice and Bob
+
+ Paper ID: 0904.0056v2
+ Chunk ID: 0904.0056v2_5
+Queries:
+  1. noise
+  2. data
+  3. 0 cos 0 sin
+
+ Paper ID: 0904.0056v2
+ Chunk ID: 0904.0056v2_7
+Queries:
+  1. P. G. Kwiat, H. Weinfurter, Phys. Rev. Lett. A 58 R2623
+  2. J. G. Kwiat and H. Weinfurter, Science Rev. A 64 02306.
+  3. F. G. Deng, Y. S. Li, X. S. Liu and G. L. Long, Phys. Rev. A 61 044305.
+
+ Paper ID: 0904.0057v1
+ Chunk ID: 0904.0057v1_3
+Queries:
+  1. D A N N
+  2. D A N, A D F k k k 211
+  3. D I N N k I
+
+ Paper ID: 0904.0058v1
+ Chunk ID: 0904.0058v1_2
+Queries:
+  1. a k o
+  2. 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 k z y x 0 0 0 0 0 0 0
+  3. 0 0 A , K k and the rotation angle 1 , K k and the rotation angle 1
+
+ Paper ID: 0904.0058v1
+ Chunk ID: 0904.0058v1_3
+Queries:
+  1. i k u a m k q q a b d
+  2. A, B
+  3. a PRP planar parallel robot
+
+ Paper ID: 0904.0059v1
+ Chunk ID: 0904.0059v1_2
+Queries:
+  1. F, a
+  2. The chiral susceptibility measures the response of chiral condensate
+  3. chiral susceptibility
+
+ Paper ID: 0904.0060v1
+ Chunk ID: 0904.0060v1_2
+Queries:
+  1. ti t t
+  2. V t t
+  3. trajecto ries k
+
+ Paper ID: 0904.0060v1
+ Chunk ID: 0904.0060v1_6
+Queries:
+  1. eq. 13
+  2. question
+  3. None
+
+ Paper ID: 0904.0061v1
+ Chunk ID: 0904.0061v1_4
+Queries:
+  1. i and k n i
+  2. axis
+  3. elliptically elliptical
+
+ Paper ID: 0904.0061v1
+ Chunk ID: 0904.0061v1_5
+Queries:
+  1. n 1 ; n I a K a K a 0 ; n Z a 0 ; n z b h W z b a K a K a K a h z b w z 0 ; n z b h z 0 ; n Z I b h z 3 ; n z b
+  2. pcnt
+  3. aC = constants > n = 1
+
+ Paper ID: 0904.0061v1
+ Chunk ID: 0904.0061v1_7
+Queries:
+  1. F0,n,n
+  2. a, j, t, a, m
+  3. F0, N, N
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_1
+Queries:
+  1. scalar inflation model
+  2. double scalar inflation model .
+  3. scalar
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_11
+Queries:
+  1. a. Damour
+  2. Jaffe Xue
+  3. R. Brandenberger, G. Geshnizjani and S. Watson, Phys. Rev. D 67, 123510
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_13
+Queries:
+  1. astro ph
+  2. C. F. Qiao, Phys. Rev. D 738, 275 arXiv iii 0810.2540 hep th
+  3. W. e. Olsson, JCAP 0704, 019 arXiv 0704.331 hep th .
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_2
+Queries:
+  1. EXCEPT the scenario of cascade inflation with one scalar
+  2. two scalars
+  3. the scalars work cooperatively too
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_4
+Queries:
+  1. nI a2, nI a2, i i y
+  2. Curvature perturbations
+  3. Cs S
+
+ Paper ID: 0904.0062v1
+ Chunk ID: 0904.0062v1_5
+Queries:
+  1. do not use the scalar of the branes
+  2. for the branes
+  3. scalar I
+
+ Paper ID: 0904.0063v2
+ Chunk ID: 0904.0063v2_5
+Queries:
+  1. scalar
+  2. metric
+  3. scalar
+
+ Paper ID: 0904.0063v2
+ Chunk ID: 0904.0063v2_6
+Queries:
+  1. W. Rindler
+  2. G. Noh
+  3. A.H. Taub, Ann.Math. 5472. A.D. Dolgov, A.D. Dolgov, E. Herlt, M. A MacCallum, Exact Solutions of Einstein s Field Equations
+
+ Paper ID: 0904.0064v1
+ Chunk ID: 0904.0064v1_3
+Queries:
+  1. Frequency sensitivity
+  2. frequency sensitivity
+  3. f de d du d, d de d g rr
+
+ Paper ID: 0904.0064v1
+ Chunk ID: 0904.0064v1_4
+Queries:
+  1. a pulsation noise (noise signal)
+  2. isotropic Lorentz violation
+  3. a narrow band interferometer
+
+ Paper ID: 0904.0064v1
+ Chunk ID: 0904.0064v1_5
+Queries:
+  1. A. Dewler
+  2. M.E. Tobar, P. Wolf, et. al.
+  3. Phys.Rev.D 70, 025004
+
+ Paper ID: 0904.0065v2
+ Chunk ID: 0904.0065v2_3
+Queries:
+  1. saxometric equations z0 dze n 2
+  2. vary in energy
+  3. are observed on a, and in part in the n 0
+
+ Paper ID: 0904.0065v2
+ Chunk ID: 0904.0065v2_4
+Queries:
+  1. abbreviated js4-1
+  2. n 3 0 z0 n 2 2 2 p 2 n 2 2 2 1 if k == n % z0 az0
+  3. n 3 n 3 n 3 p 2 2 n 2 2 2 1 eaz0 n 3 n 1 2 az0 n 3 n 1 eaz0 n 3 n z 0.
+
+ Paper ID: 0904.0065v2
+ Chunk ID: 0904.0065v2_6
+Queries:
+  1. a ab, n 2 c
+  2. the R scalar R
+  3. a ab
+
+ Paper ID: 0904.0065v2
+ Chunk ID: 0904.0065v2_7
+Queries:
+  1. R.M. Phys.
+  2. C.B., J. Math., 26 , 2268.
+  3. A.F.F. Teixeira, I. Wolk and M
+
+ Paper ID: 0904.0066v3
+ Chunk ID: 0904.0066v3_1
+Queries:
+  1. SM materials
+  2. SM matter
+  3. symmetry of light matter, rods and clocks made of what do not exist
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_14
+Queries:
+  1. 4.2 and 4.3
+  2. equacy
+  3. rF id H1 rF rF rF rF rF rF rF
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_17
+Queries:
+  1. r r st6u
+  2. st5u N r r st5u
+  3. n r st4u
+
+ Paper ID: 0904.0069v1
+ Chunk ID: 0904.0069v1_18
+Queries:
+  1. r 0 1S s
+  2. ConepR1d
+  3. r 10
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_2
+Queries:
+  1. Pn == 0
+  2. pivot 0.5
+  3. pivot is smaller but the more elements in the first S block are equal, then the next player can control both what the parity is about to be and what the parity plus the number of elements of the end S block is about to be.
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_4
+Queries:
+  1. n, nk
+  2. We define n1, . . . , nk as the difference between the number of green odd ni s and the number of red odd ni s after we use the method mcpht t.
+  3. j vswa
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_5
+Queries:
+  1. Black s turn
+  2. Black s turn
+  3. Theorem 3.1. Assume D Z is infinite
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_6
+Queries:
+  1. black never wins it
+  2. Mandy never puts Black in a losing position.
+  3. m is the most common
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_7
+Queries:
+  1. 1st S block is
+  2. S block is
+  3. if there are a D block
+
+ Paper ID: 0904.0070v2
+ Chunk ID: 0904.0070v2_8
+Queries:
+  1. Lemma 4.1
+  2. black
+  3. l-n-1
+
+ Paper ID: 0904.0071v5
+ Chunk ID: 0904.0071v5_10
+Queries:
+  1. the Bizmann brothers
+  2. c A nf A nf A nf A
+  3. c A nf C A nf C
+
+ Paper ID: 0904.0071v5
+ Chunk ID: 0904.0071v5_5
+Queries:
+  1. break free
+  2. test
+  3. not for LK
+
+ Paper ID: 0904.0071v5
+ Chunk ID: 0904.0071v5_7
+Queries:
+  1. A1 A2
+  2. Theorem
+  3. Factor
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_1
+Queries:
+  1. A period map of a certain one parameter family of quartic K3 surfaces with an S5 action.
+  2. Period 4 ., Period 4 ., Period 4 ., Period 3 .
+  3. Exp 2
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_14
+Queries:
+  1. C X 2 1 0 1 0 0 1 0 1
+  2. H 2 1 1 1 0 1 1 0 0 1
+  3. [cf. Theorem 1.3]
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_21
+Queries:
+  1. Theorem 1.1
+  2. v L v v v v v I v v v n L
+  3. We have v mod L L Z v v v v v
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_35
+Queries:
+  1. X 15, 3
+  2. X 15, 2
+  3. 5X2, 5X2, 5X2, 2X 3, 5X2, 3X3
+
+ Paper ID: 0904.0072v1
+ Chunk ID: 0904.0072v1_7
+Queries:
+  1. A D E type orbit decomposition I 24A1 II 24A1 III 6D4
+  2. The case
+  3. The case
+
+ Paper ID: 0904.0073v1
+ Chunk ID: 0904.0073v1_5
+Queries:
+  1. Ucf. 11
+  2. Hoc-omomorphisms of groups Homeo L * Homeo L * Homeo L * Homeo L
+  3. Homeo Ln Homeo L n Host
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_3
+Queries:
+  1. dpi dt
+  2. dpi dpi
+  3. p, dd, p, d sin p
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_6
+Queries:
+  1. the direction of neutrino interaction in supernova
+  2. neutrino intensity
+  3. neutrino energy
+
+ Paper ID: 0904.0075v2
+ Chunk ID: 0904.0075v2_7
+Queries:
+  1. a model of neutrino emissions
+  2. neutrino g
+  3. kinetic energy
+
+ Paper ID: 0904.0076v1
+ Chunk ID: 0904.0076v1_1
+Queries:
+  1. X model
+  2. inverse regres sion dimension reduction system
+  3. X problem
+
+ Paper ID: 0904.0076v1
+ Chunk ID: 0904.0076v1_3
+Queries:
+  1. rKHS
+  2. RKHS
+  3. general definitions and common properties of RKHS
+
+ Paper ID: 0904.0077v1
+ Chunk ID: 0904.0077v1_1
+Queries:
+  1. Abel Grassmann s groupoid
+  2. Abel Grassmann s groupoid
+  3. Abel Grassmann 's groupoid
+
+ Paper ID: 0904.0077v1
+ Chunk ID: 0904.0077v1_3
+Queries:
+  1. GANS KHAN
+  2. MADAD KHAN AND M. NOUMAN
+  3. ASLAM KHAN
+
+ Paper ID: 0904.0079v1
+ Chunk ID: 0904.0079v1_1
+Queries:
+  1. a pattern with dashes between symbolism
+  2. sn and k n
+  3. the Sn 3 1 2 and Dyck n paths
+
+ Paper ID: 0904.0079v1
+ Chunk ID: 0904.0079v1_3
+Queries:
+  1. Sn-1 Sn-3 2 Sn-5 Sn-3 C2 C1 C3 C2 C3 C2 Sn-3 D2 C3 C2 C7 C10 C2 D2 C4 D2 C2 C1 C3 C4 C1 D3 C2 C3 C4 C4 C3 C2
+  2. A 3 1 2
+  3. k of m1 w1 m2 w2 mk fork z of sn
+
+ Paper ID: 0904.0079v1
+ Chunk ID: 0904.0079v1_4
+Queries:
+  1. 321 occurred by n, if 3.27 has at least one subword wj of length greater than one, then the pattern 321 goes for z 2. Note the occurrences of z 3.25
+  2. pattern 321
+  3. pattern 321
+
+ Paper ID: 0904.0079v1
+ Chunk ID: 0904.0079v1_7
+Queries:
+  1. occ321, occ121, occ213, occ233, occ213, occ213, occ33
+  2. ICT occ321, occ321, occ321, occ213, occ213 and occ123, occ123, occ213
+  3. occ321 2 - occ213 - occ213 CARNIST 3 1 2- occ321 yocc231 zocc213 CARNIST 3 1 2- occ321 yocc213 occ321 occ321 occ213
+
+ Paper ID: 0904.0080v1
+ Chunk ID: 0904.0080v1_2
+Queries:
+  1. random ef fects (skewed)
+  2. random random ef fects and random errors
+  3. censoring of the variables, inferences which are relatively low-invariable, or incompatible with normality.
+
+ Paper ID: 0904.0081v1
+ Chunk ID: 0904.0081v1_2
+Queries:
+  1. agent
+  2. in order to protect oneself from
+  3. In what kind of modeling does it take place
+
+ Paper ID: 0904.0081v1
+ Chunk ID: 0904.0081v1_3
+Queries:
+  1. i agents
+  2. critical concentration
+  3. metaphysical interactions
+
+ Paper ID: 0904.0082v2
+ Chunk ID: 0904.0082v2_1
+Queries:
+  1. asymmetric
+  2. x, y, z, x, y, x, y
+  3. X x 0 x x 0 y X x y y x
+
+ Paper ID: 0904.0083v1
+ Chunk ID: 0904.0083v1_2
+Queries:
+  1. starting redshift zi
+  2. no information is allowed for this research
+  3. zont factors
+
+ Paper ID: 0904.0084v2
+ Chunk ID: 0904.0084v2_1
+Queries:
+  1. MBCS MBCS
+  2. MBCS theory
+  3. experiment
+
+ Paper ID: 0904.0085v1
+ Chunk ID: 0904.0085v1_2
+Queries:
+  1. g l 3 0
+  2. ad scalar field
+  3. a l2 g l 3
+
+ Paper ID: 0904.0086v1
+ Chunk ID: 0904.0086v1_10
+Queries:
+  1. polar BEC
+  2. The ground state of a spin 1 BEC, the ground state of a sin n, and the ground state of a spin 1 BEC in the presence of a homogenous magnetic field
+  3. polar condensates
+
+ Paper ID: 0904.0086v1
+ Chunk ID: 0904.0086v1_2
+Queries:
+  1. Hamiltonian
+  2. Schirk
+  3. the Hamiltonian
+
+ Paper ID: 0904.0086v1
+ Chunk ID: 0904.0086v1_3
+Queries:
+  1. 2Mc0n V r
+  2. dormancy
+  3. [A*B*C*C1]
+
+ Paper ID: 0904.0086v1
+ Chunk ID: 0904.0086v1_6
+Queries:
+  1. equivalences and bifurcations be tween the various spin states in the following list
+  2. data from the DPC-E CFCC analysis.
+  3. degeneracies, bifurcations and ad netic condensates
+
+ Paper ID: 0904.0086v1
+ Chunk ID: 0904.0086v1_7
+Queries:
+  1. ferromagnetic condensates
+  2. n and m
+  3. ref.
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_1
+Queries:
+  1. a random 1 network from the loss of an arbitrary node
+  2. it might be Scale free
+  3. complexity
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_2
+Queries:
+  1. afferent and efferent degree distribution
+  2. dissenting opinions
+  3. efferent and efferent degree distribution
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_3
+Queries:
+  1. dependency graph
+  2. afferent and efferent links
+  3. Debian dependency graph
+
+ Paper ID: 0904.0087v3
+ Chunk ID: 0904.0087v3_6
+Queries:
+  1. n,m, dnm, dmn
+  2. N,M,L,dnm,Dnm,dmn
+  3. i = x =  or d = .
+
+ Paper ID: 0904.0090v4
+ Chunk ID: 0904.0090v4_1
+Queries:
+  1. the Yang Baxter equation
+  2. Yang Baxter
+  3. Xue et.al Xue
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_12
+Queries:
+  1. Ai G1 2 g2 x dGn x g2
+  2. x dGn x dGn x dGn x Z g g g g
+  3. c1 g g ln g g ln g Z g x dGn x Z g2 x dGn x
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_13
+Queries:
+  1. c k x0 x0 c x0 c o
+  2. the first term
+  3. k x 0 x0 c k x u f x0 c x0 c g x I 1 8 Z x0 x0 c k x u f x0 c x0 2 1 o
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_15
+Queries:
+  1. blx0
+  2. n 2 5
+  3. n, A: n n
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_2
+Queries:
+  1. naive estimators is proposed in the context of kernel and wavelet based estimation.
+  2. NN in pre-selected situations with pre-selected ids: North & South
+  3. i-maxx
+
+ Paper ID: 0904.0091v1
+ Chunk ID: 0904.0091v1_8
+Queries:
+  1. op sn x s0 2 x og nsod sn x s0 2 nsod sn x s0 2 og nsod sn x s0 2
+  2. ns0 s0 2 2 4sup s SZ s xk Z s x k Z s y l y x dy d Gn G0 x ns0 s0 2, tends to zero almost surely, as n
+  3. if sn s0 2 does not converge to s0 pointwisely , you should be able to find out
+
+ Paper ID: 0904.0092v2
+ Chunk ID: 0904.0092v2_1
+Queries:
+  1. a 9 9 Yang Baxter system
+  2. Berry phase
+  3. berry phase ev1
+
+ Paper ID: 0904.0092v2
+ Chunk ID: 0904.0092v2_5
+Queries:
+  1. n2 n1
+  2. q N n1 n2 n1 n2 - n1 n2 n1 sys-
+  3. n1 n2 n1 n2 n1 n2
+
+ Paper ID: 0904.0092v2
+ Chunk ID: 0904.0092v2_7
+Queries:
+  1. a r/
+  2. R, 1, 2
+  3. Yang Baxterization
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_1
+Queries:
+  1. substant decay
+  2. Electromagnetic response
+  3. meissner effect
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_10
+Queries:
+  1. a graph of the local charge conservation2,39
+  2. a Gauge invariant electromagnetic response
+  3. Gauge invariant electromagnetic response
+
+ Paper ID: 0904.0093v2
+ Chunk ID: 0904.0093v2_11
+Queries:
+  1. see a method of scalar product on the left hand side of Eq
+  2. find the GWI as a model
+  3. a pair of different types of flatteners
+
+ Paper ID: 0904.0094v1
+ Chunk ID: 0904.0094v1_1
+Queries:
+  1. see and
+  2. see and see
+  3. see and
+
+ Paper ID: 0904.0095v2
+ Chunk ID: 0904.0095v2_1
+Queries:
+  1. neutron diffraction experiments
+  2. nh 1 8, but on the other striped lan the magnetic order parameter is not field dependent
+  3. unanswerable
+
+ Paper ID: 0904.0095v2
+ Chunk ID: 0904.0095v2_2
+Queries:
+  1. IC AFM
+  2. a co doped single crystal with Sr content .09 .09 O
+  3. .79 .09 .09 O
+
+ Paper ID: 0904.0096v1
+ Chunk ID: 0904.0096v1_3
+Queries:
+  1. Weibel
+  2. collisionless
+  3. surface temperature
+
+ Paper ID: 0904.0150v3
+ Chunk ID: 0904.0150v3_11
+Queries:
+  1. P. B
+  2. C. J. Bord e, Phys. Rev. Lett. 71, 3271
+  3. P. Brody
+
+ Paper ID: 0904.0096v1
+ Chunk ID: 0904.0096v1_4
+Queries:
+  1. density jump
+  2. density
+  3. cdnsj na
+
+ Paper ID: 0904.0096v1
+ Chunk ID: 0904.0096v1_5
+Queries:
+  1. A shallow synth of noise that is observed.
+  2. High frequency shock
+  3. NNX08AG83G NNX08AGN83GE NNX08AL39G NNX08AL39G
+
+ Paper ID: 0904.0097v1
+ Chunk ID: 0904.0097v1_4
+Queries:
+  1. Hall
+  2. High energy
+  3. Hall
+
+ Paper ID: 0904.0098v1
+ Chunk ID: 0904.0098v1_10
+Queries:
+  1. o t q d x
+  2. possible W of an equation that contains mass constraint
+  3. , t q d x
+
+ Paper ID: 0904.0150v3
+ Chunk ID: 0904.0150v3_3
+Queries:
+  1. a longitudinal wave function
+  2. nonlinear optical and atom optical propagations
+  3. a longitudi nal potential U
+
+ Paper ID: 0904.0098v1
+ Chunk ID: 0904.0098v1_13
+Queries:
+  1. o 2 log o 2
+  2. f, and o
+  3. t p R02 2t
+
+ Paper ID: 0904.0099v2
+ Chunk ID: 0904.0099v2_1
+Queries:
+  1. naturalistic concepts
+  2. a scientific instrument
+  3. light source of the wormholes and the world's first
+
+ Paper ID: 0904.0099v2
+ Chunk ID: 0904.0099v2_2
+Queries:
+  1. 2external
+  2. 2exere3T
+  3. 2radie2T
+
+ Paper ID: 0904.0099v2
+ Chunk ID: 0904.0099v2_6
+Queries:
+  1. F. S. N. Lobo, Phys. Rev. D
+  2. F. S. N. Lobo, Phys. Rev. D
+  3. S. M. M. grate
+
+ Paper ID: 0904.0100v1
+ Chunk ID: 0904.0100v1_5
+Queries:
+  1. data
+  2. experimentation
+  3. dFT MD
+
+ Paper ID: 0904.0100v1
+ Chunk ID: 0904.0100v1_6
+Queries:
+  1. R. Arista and W. Brandt
+  2. S. Katzenstein, T. J. Smith and I. W. Brandt
+  3. E. Gullikson et al
+
+ Paper ID: 0904.0101v2
+ Chunk ID: 0904.0101v2_1
+Queries:
+  1. T Chamaeleontis
+  2. E. Schisano1,2, E. Covino1, J.M. Alcal, C. Esposito3, D. Gandolfi5, and E.W. Guenther4
+  3. variable of T Chamaeleontis, a transitional T Tauri star showing UX Ori type variability
+
+ Paper ID: 0904.0103v1
+ Chunk ID: 0904.0103v1_1
+Queries:
+  1. decomposable maps
+  2. decomposable and atomic projection maps: atomic
+  3. is constructed with continuous agrain
+
+ Paper ID: 0904.0104v2
+ Chunk ID: 0904.0104v2_10
+Queries:
+  1. Cn type .
+  2. K x2 is positive for 17 10 and n 5
+  3. n 5 3 Cn
+
+ Paper ID: 0904.0104v2
+ Chunk ID: 0904.0104v2_13
+Queries:
+  1. d3 4d4
+  2. d3 4
+  3. d3 4d4 1
+
+ Paper ID: 0904.0166v1
+ Chunk ID: 0904.0166v1_6
+Queries:
+  1. the EGEE grid infrastructure .
+  2. research grant EGEE III
+  3. phenogrid VO
+
+ Paper ID: 0904.0167v1
+ Chunk ID: 0904.0167v1_3
+Queries:
+  1. g l g
+  2. benzene ISET
+  3. e, b is the hopping parameter, and the speed .01b is the hopping parameter
+
+ Paper ID: 0904.0104v2
+ Chunk ID: 0904.0104v2_14
+Queries:
+  1. yequations
+  2. CANNOT match an equation
+  3. n-1-k
+
+ Paper ID: 0904.0106v1
+ Chunk ID: 0904.0106v1_12
+Queries:
+  1. Theorem 3.
+  2. R.R.
+  3. Theorem 4.
+
+ Paper ID: 0904.0106v1
+ Chunk ID: 0904.0106v1_13
+Queries:
+  1. a).s. v.
+  2. ae t
+  3. n X 2 2
+
+ Paper ID: 0904.0106v1
+ Chunk ID: 0904.0106v1_4
+Queries:
+  1. ARMA model
+  2. ARMA model
+  3. ARMA model
+
+ Paper ID: 0904.0116v1
+ Chunk ID: 0904.0116v1_6
+Queries:
+  1. C.P. Slichter, Principles of Magnetic Resonance
+  2. Cserti, J. C. Slichter, Principles of Magnetic Resonance
+  3. S. Novoselov, A. K. Geim, S. V. Morozov, D. Jiang, Y. Zhang, S. V. Dubonos, I. V. Grigorieva, and A. A. Firsov, Science 306, 666
+
+ Paper ID: 0904.0107v1
+ Chunk ID: 0904.0107v1_4
+Queries:
+  1. n n D
+  2. n - d
+  3. n , dishdot
+
+ Paper ID: 0904.0107v1
+ Chunk ID: 0904.0107v1_5
+Queries:
+  1. D. Wittenberg
+  2. D.W. Kribs, Proceedings of the Edinburgh Mathematical Soci et
+  3. D.W. Kribs, Proceedings of the Edinburgh Mathematical Soci & Society
+
+ Paper ID: 0904.0108v1
+ Chunk ID: 0904.0108v1_1
+Queries:
+  1. The He NH 3 collisions
+  2. Nikkei
+  3. The He CaH 2
+
+ Paper ID: 0904.0108v1
+ Chunk ID: 0904.0108v1_2
+Queries:
+  1. inference
+  2. A , B , F
+  3. m L, M L d R F E R L L
+
+ Paper ID: 0904.0108v1
+ Chunk ID: 0904.0108v1_3
+Queries:
+  1. energy
+  2. ZEFR
+  3. magnetic field
+
+ Paper ID: 0904.0117v1
+ Chunk ID: 0904.0117v1_1
+Queries:
+  1. H2S bb
+  2. a series of superconductivity materials
+  3. pnictide components
+
+ Paper ID: 0904.0117v1
+ Chunk ID: 0904.0117v1_2
+Queries:
+  1. Sr4ScTiFe2As2O6 phase
+  2. Sr4Sc2Fe
+  3. Specifies the occupy bands
+
+ Paper ID: 0904.0108v1
+ Chunk ID: 0904.0108v1_4
+Queries:
+  1. first excited level; then, first excited level; and then, second excited level; and finally, second excited level
+  2. ZEFR1 and ZEFR2
+  3. The positive eigenvalues of both ZEFR
+
+ Paper ID: 0904.0108v1
+ Chunk ID: 0904.0108v1_6
+Queries:
+  1. N., R., V., Krems
+  2. Phys. Rev. Lett. 97 0983201
+  3. R. V. Krems, G. F.A., S. R. P., and Y. J.
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_1
+Queries:
+  1. microtubule, chromosome capture, metaphase spindle, green functions I.
+  2. chromosome capture, metaphase spindle, Green s functions I.
+  3. chromosome capture, metaphase spindle, green s functions
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_10
+Queries:
+  1. provide general information about R A
+  2. give 0 D1 D2 D1 E1 C2 C1 G1D5 G2 D1 E2 B2
+  3. opine d
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_11
+Queries:
+  1. low-rescue frequency
+  2. search optimal
+  3. maximizing
+
+ Paper ID: 0904.0111v3
+ Chunk ID: 0904.0111v3_12
+Queries:
+  1. A large, but non zero r generates a less robust minimum with respect to change in c
+  2. nucleation and rescue
+  3. chromosomes
+
+ Paper ID: 0904.0112v1
+ Chunk ID: 0904.0112v1_1
+Queries:
+  1. O.T. Kosmasa
+  2. Ixaru et al. VanDaele and VandenBerghe
+  3. Ixaru et al. VanDaele and VandenBerghe and
+
+ Paper ID: 0904.0113v1
+ Chunk ID: 0904.0113v1_15
+Queries:
+  1. subalgbras
+  2. block
+  3. do not-count the lowest
+
+ Paper ID: 0904.0113v1
+ Chunk ID: 0904.0113v1_3
+Queries:
+  1. the element name
+  2. Nodes of limit height
+  3. T, T, ht
+
+ Paper ID: 0904.0114v4
+ Chunk ID: 0904.0114v4_2
+Queries:
+  1. d = 2 / 2, d = 4/ 4, w = 2 / 3, x a0 = 2 / 3, y = 2 / 2, a0 = 2 / 3, a0 = 2 / 3, a1 = 2 / 3, ej = 2 / 2, ej = 2 / 4, y = 2 / 4, a1 = 2 / 1, 4 / 1, 2, 4, y
+  2. k if m
+  3. a0 I
+
+ Paper ID: 0904.0114v4
+ Chunk ID: 0904.0114v4_6
+Queries:
+  1. Ax Bxy Cyz Dxw Eyo s, XVI Ax Bxy Cxz Dxw Eyo z
+  2. I Ax Bxy Cxz
+  3. Ax Bxy Cxz Dxw
+
+ Paper ID: 0904.0116v1
+ Chunk ID: 0904.0116v1_4
+Queries:
+  1. Co rringa relation for Nürk
+  2. Ko rringa
+  3. Ko lin
+
+ Paper ID: 0904.0116v1
+ Chunk ID: 0904.0116v1_5
+Queries:
+  1. 3 and T
+  2. EM spectrometer
+  3. KNFrel
+
+ Paper ID: 0904.0118v1
+ Chunk ID: 0904.0118v1_3
+Queries:
+  1. accretion rate, polar motions, and mass
+  2. accretion torus, polar
+  3. potential torus
+
+ Paper ID: 0904.0118v1
+ Chunk ID: 0904.0118v1_6
+Queries:
+  1. potential nonthermal emission
+  2. the Doppler effect
+  3. nonthermal emission
+
+ Paper ID: 0904.0120v2
+ Chunk ID: 0904.0120v2_11
+Queries:
+  1. g GLn K
+  2. K, s.
+  3. g GLn K
+
+ Paper ID: 0904.0120v2
+ Chunk ID: 0904.0120v2_3
+Queries:
+  1. 4 J T I
+  2. TIM R OMER AND KI
+  3. C F dn
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_10
+Queries:
+  1. support
+  2. data on power generation
+  3. polarization
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_4
+Queries:
+  1. polarimeters
+  2. A polarimeter upstream
+  3. polarimeters
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_6
+Queries:
+  1. SR collisions
+  2. interstitial beam
+  3. Spiral and/or RF interference
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_7
+Queries:
+  1. spectrometer
+  2. The ILC RDR
+  3. energy spectrometer
+
+ Paper ID: 0904.0122v3
+ Chunk ID: 0904.0122v3_8
+Queries:
+  1. JB XLF
+  2. light spectrometer
+  3. Electron energy
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_12
+Queries:
+  1. Jeffdecays
+  2. Jeffdecays
+  3. l x0 M, l x0
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_14
+Queries:
+  1. J1 J2 and J3 W
+  2. J1 J2 J3
+  3. density
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_16
+Queries:
+  1. small distances, symmetry, and rigidity
+  2. weakly confined param agnets
+  3. perturbation
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_17
+Queries:
+  1. j A1
+  2. h i, j, h i, j l 1, j, h i, j, A3 h i, j l, j
+  3. 2a, i, j1
+
+ Paper ID: 0904.0123v2
+ Chunk ID: 0904.0123v2_3
+Queries:
+  1. A. Z-raying: fluotable disambiguation
+  2. The J1 J2 model is well known and the excitation spectrum consists of .2411,15,16
+  3. A. ZOMFT J1 J2
+
+ Paper ID: 0904.0124v1
+ Chunk ID: 0904.0124v1_5
+Queries:
+  1. physics
+  2. limiting cases
+  3. T ' z x
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_14
+Queries:
+  1. rewrite formulas for R E and R E
+  2. Let E be a categorification of the equational theory E
+  3. let R E be a categorification of the equational theory E
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_17
+Queries:
+  1. FF V and an address A F
+  2. FF n F n
+  3. FF V and ef
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_2
+Queries:
+  1. word problems
+  2. coherence theorem is for code name problem
+  3. term problems
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_23
+Queries:
+  1. two reduction rules
+  2. CLASSICAL LEMMAS 35 Lemma 4.1.7.
+  3. a Lemma
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_52
+Queries:
+  1. vOdV03
+  2. vOdV03
+  3. vOdV03
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_28
+Queries:
+  1. equational varieties
+  2. equational varieties
+  3. numbers
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_29
+Queries:
+  1. T1, T2, T1, T2, T2
+  2. T1, T2,
+  3. T1, T2, T1, T2.
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_33
+Queries:
+  1. yn 1 2
+  2. yn 1.
+  3. y1, yn 1, y2m 1, n, Z X, y1, yn 1, y2n 1, n
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_34
+Queries:
+  1. SG Cn Fn,1
+  2. We present a coherent categorification of symmetric catalan categories (Symmetric categories and Gn, 1)
+  3. Cn examples
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_37
+Queries:
+  1. ["g][3]
+  2. In G t
+  3. rewriting 2 theory
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_38
+Queries:
+  1. S runs smoothly
+  2. F L is a subdivision of st graph
+  3. st graph has been set from s to t
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_4
+Queries:
+  1. confluent
+  2. Confluent and terminating
+  3. based on rewriting 2 theories by Dehornoy deh93, the two methods for rewriting 2 theories
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_44
+Queries:
+  1. No reductions, no reductions
+  2. Theorem 64.4.
+  3. None
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_47
+Queries:
+  1. a jb i j b i d je
+  2. abbreviation
+  3. a j b i c jd
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_49
+Queries:
+  1. assessing a line of rewriting theories
+  2. data for the rewriting theory
+  3. rewriting 2 theories
+
+ Paper ID: 0904.0125v1
+ Chunk ID: 0904.0125v1_50
+Queries:
+  1. Dyd77a Jerzy Dydak
+  2. Dyd77a Jerzy Dydak
+  3. 1 movable continua need not be pointed 1 movable
+
+ Paper ID: 0904.0127v1
+ Chunk ID: 0904.0127v1_4
+Queries:
+  1. ionic, j, arr, ion
+  2. the diabatic electronic states
+  3. , electronic coupling, tansh
+
+ Paper ID: 0904.0127v1
+ Chunk ID: 0904.0127v1_7
+Queries:
+  1. wave packets
+  2. reticulation state
+  3. electronic state
+
+ Paper ID: 0904.0127v1
+ Chunk ID: 0904.0127v1_8
+Queries:
+  1. cross section is calculated by means of combined and uncoupled potentials
+  2. the energy scale is shifted to account for the transformation in energy of the target ion
+  3. D. Effects of isotopic substitution
+
+ Paper ID: 0904.0129v2
+ Chunk ID: 0904.0129v2_5
+Queries:
+  1. spectra
+  2. spectra
+  3. spectra
+
+ Paper ID: 0904.0129v2
+ Chunk ID: 0904.0129v2_8
+Queries:
+  1. ['Better Than']
+  2. Phys. chem.
+  3. A.A.
+
+ Paper ID: 0904.0130v1
+ Chunk ID: 0904.0130v1_8
+Queries:
+  1. first two
+  2. high-pitched compression wave rates are lower than the defiant low-pitched parameters.
+  3. resulting motion
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_25
+Queries:
+  1. S, K
+  2. L slJ K
+  3. L slJ K , id k
+
+ Paper ID: 0904.0130v1
+ Chunk ID: 0904.0130v1_9
+Queries:
+  1. Minkowski
+  2. data
+  3. Mckowski
+
+ Paper ID: 0904.0131v1
+ Chunk ID: 0904.0131v1_3
+Queries:
+  1. nebular chemistry
+  2. natural gas-toxic ratio
+  3. microcirconduction
+
+ Paper ID: 0904.0131v1
+ Chunk ID: 0904.0131v1_4
+Queries:
+  1. the high resolution of the neutron
+  2. data
+  3. A particle
+
+ Paper ID: 0904.0131v1
+ Chunk ID: 0904.0131v1_6
+Queries:
+  1. Summary.
+  2. Summary
+  3. summary:
+
+ Paper ID: 0904.0132v1
+ Chunk ID: 0904.0132v1_1
+Queries:
+  1. The current driven magnetic instability is an important instability of toroidal fields
+  2. hypertonucleic stress
+  3. ii = 0
+
+ Paper ID: 0904.0132v1
+ Chunk ID: 0904.0132v1_10
+Queries:
+  1. as a direct correlation with the solid-gum collision
+  2. vs. Reynolds number Rm 4 Rm 7 Particles with elasticity (MHD) 4
+  3. kink type instability
+
+ Paper ID: 0904.0132v1
+ Chunk ID: 0904.0132v1_2
+Queries:
+  1. toroidal field component, the tangibility of the toroidal field
+  2. toroidal fields
+  3. toroidal field component
+
+ Paper ID: 0904.0132v1
+ Chunk ID: 0904.0132v1_8
+Queries:
+  1. F, the variable rota tion is varied between 0.3 and 1.5
+  2. F.R.
+  3. Said to take a deep swivel indefinitely, the surface of the Earth should be sceptical with its eddy viscosity
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_12
+Queries:
+  1. affine root system
+  2. the absolute isomorphism of affine root systems
+  3. isomorphism V1 V2 with R1 R2
+
+ Paper ID: 0904.0145v1
+ Chunk ID: 0904.0145v1_7
+Queries:
+  1. brake and dynamic performance of the spherical wrist
+  2. kinematics
+  3. kinematics and dynamics of the spherical wrist
+
+ Paper ID: 0904.0146v1
+ Chunk ID: 0904.0146v1_3
+Queries:
+  1. P , t
+  2. iqn, v, a, g, q
+  3. low f2
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_13
+Queries:
+  1. h1 h2 hens
+  2. g1, h1, 1, g2, h2, 2
+  3. A singular isomorphism F g1, g2, h2, 2
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_14
+Queries:
+  1. Lemma 1.12
+  2. Theorem 3.15 cf. also Lemma 1.12
+  3. Lemma
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_17
+Queries:
+  1. L , p , m
+  2. If z g, and W: z-g , W: e 0; H: g , e
+  3. a value of absolute stability
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_20
+Queries:
+  1. tq x
+  2. a constant
+  3. if and only if 2qz
+
+ Paper ID: 0904.0134v1
+ Chunk ID: 0904.0134v1_9
+Queries:
+  1. Locally affine Lie algebras
+  2. Locally affine Lie algebras
+  3. Lie algebra
+
+ Paper ID: 0904.0135v1
+ Chunk ID: 0904.0135v1_5
+Queries:
+  1. waves have been introduced to the surface
+  2. wave vectors are present in the aesthetic and aesthetic voids
+  3. data can be obtained
+
+ Paper ID: 0904.0135v1
+ Chunk ID: 0904.0135v1_6
+Queries:
+  1. amplitude of steady strain rate is very close to the rotation.
+  2. amplitude of steady strain rate is very close to that
+  3. amplitude of steady strain rate
+
+ Paper ID: 0904.0135v1
+ Chunk ID: 0904.0135v1_7
+Queries:
+  1. density, pressure, temperature and particle velocity with time are .
+  2. density, pressure, temperature and particle velocity at times , 1200ns or 1300ns
+  3. vary
+
+ Paper ID: 0904.0135v1
+ Chunk ID: 0904.0135v1_9
+Queries:
+  1. X. F. Pan, Aiguo Xu, Guangcai Zhang
+  2. X. F. Pan, AEJ M. Chow
+  3. (not questions)
+
+ Paper ID: 0904.0136v3
+ Chunk ID: 0904.0136v3_4
+Queries:
+  1. arXiv
+  2. hep ph
+  3. hep ph
+
+ Paper ID: 0904.0138v3
+ Chunk ID: 0904.0138v3_1
+Queries:
+  1. luminous
+  2. Gamma Ray Bursts
+  3. Gamma Ray Burst
+
+ Paper ID: 0904.0138v3
+ Chunk ID: 0904.0138v3_10
+Queries:
+  1. astro ph 0511579
+  2. E. M. Ruffert
+  3. 1075 arXiv astro ph 9810256
+
+ Paper ID: 0904.0138v3
+ Chunk ID: 0904.0138v3_5
+Queries:
+  1. neutrinos produced by fireball
+  2. neutrinos that generate pks
+  3. neutrinos of energy from the accretion torus
+
+ Paper ID: 0904.0138v3
+ Chunk ID: 0904.0138v3_7
+Queries:
+  1. 3 to 10 MeV
+  2. m2 and sin2 2
+  3. 3 to 10 MeV
+
+ Paper ID: 0904.0139v2
+ Chunk ID: 0904.0139v2_4
+Queries:
+  1. I have no experience
+  2. self energies
+  3. non-lemonical and experimental theories
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_11
+Queries:
+  1. Climate Diagnos tics Center , Boulder
+  2. data
+  3. Eff Darwich et al
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_2
+Queries:
+  1. Tenerife
+  2. Las nadas Edifice
+  3. Teide Pico Viejo
+
+ Paper ID: 0904.0140v1
+ Chunk ID: 0904.0140v1_9
+Queries:
+  1. lava activity is the result of at least 10 cm of ash fall.
+  2. explosion occurs in Tenerife
+  3. An area (the hazard) is covered by ash in a place with no tephra deposits in the Teide Pico Viejo complex (often called ashfall, is also covered by a flattened pile of ashes near the object, causing an earthquake in the area)
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_1
+Queries:
+  1. Semiclassical instability of dynamical warp drives
+  2. non-specific
+  3. dynamical warp drives
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_12
+Queries:
+  1. H C would be avoided if the superluminal warp drive did not
+  2. Drift may be the same as a gray hole spacetime
+  3. eter nal and dynamical warp drives
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_14
+Queries:
+  1. dy namical warp drive
+  2. model of dy namical warpdrive
+  3. dy namical warpdrive
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_17
+Queries:
+  1. q w q w c v r , p u q w q w q w q
+  2. A1 i e 3 ur O e u e 3, A2, A2, A3, A1 2 u O u
+  3. q w q w
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_18
+Queries:
+  1. C. Barcel o, S. Liberati, S. Sonego, and M. Visser, Physical Review Letters 97, 171301 , arXiv gr qc 0607008.
+  2. C. Barcel o, S. Liberati, S. Sonego, and M. Visser, Natural Publications
+  3. C. Barcel o, S. Liberati, S. Sonego, and M. Visser
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_3
+Queries:
+  1. the RSET
+  2. RSET
+  3. dy namic warp drive
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_6
+Queries:
+  1. H C and H R
+  2. horizons
+  3. horizons
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_7
+Queries:
+  1. t 1, r1,2
+  2. Eq. v r, t
+  3. continue to write the coordinate r on the horizons
+
+ Paper ID: 0904.0141v2
+ Chunk ID: 0904.0141v2_8
+Queries:
+  1. Hawking/Skype radiation
+  2. Hawking
+  3. Hawking
+
+ Paper ID: 0904.0143v1
+ Chunk ID: 0904.0143v1_1
+Queries:
+  1. the surface of the rings, and it is implied that the microstructure is irregular.
+  2. axisymmetric structure exhibited in Saturn s A and B rings
+  3. axial microstructure
+
+ Paper ID: 0904.0143v1
+ Chunk ID: 0904.0143v1_2
+Queries:
+  1. characterizations and defect
+  2. spectral characteristics
+  3. wavelengths
+
+ Paper ID: 0904.0143v1
+ Chunk ID: 0904.0143v1_3
+Queries:
+  1. wavetrains for axisymmetric, steady, nonlinear, and nonlinear waves in a viscously overstable disk
+  2. unanswerable
+  3. axisymmetric, steady, nonlinear, linear
+
+ Paper ID: 0904.0143v1
+ Chunk ID: 0904.0143v1_5
+Queries:
+  1. Schmidt et al. 2001
+  2. Schmidt et al. s
+  3. Schmidt et al. 2001, z 2 and 3.6
+
+ Paper ID: 0904.0143v1
+ Chunk ID: 0904.0143v1_7
+Queries:
+  1. None
+  2. Doelman et
+  3. perturbations of the overstability
+
+ Paper ID: 0904.0145v1
+ Chunk ID: 0904.0145v1_4
+Queries:
+  1. exchange rate values of joints rates, i.e. joints velocities and accelerations
+  2. each wrist component, are used to get the relations of actuators torques.
+  3. provide equations of actuators torques
+
+ Paper ID: 0904.0146v1
+ Chunk ID: 0904.0146v1_5
+Queries:
+  1. C. Santori et al
+  2. B. K. D. Martini
+  3. C. Santori et al., Phys. Rev. Lett. 3221 .
+
+ Paper ID: 0904.0147v1
+ Chunk ID: 0904.0147v1_1
+Queries:
+  1. astro ph.CO
+  2. intercluster populations
+  3. the cosmic microwave background
+
+ Paper ID: 0904.0147v1
+ Chunk ID: 0904.0147v1_2
+Queries:
+  1. Glyosa et al. decrement.
+  2. X ray signal in the ROSAT
+  3. decrement
+
+ Paper ID: 0904.0147v1
+ Chunk ID: 0904.0147v1_5
+Queries:
+  1. density
+  2. CO2 emissions
+  3. VSA hot spot
+
+ Paper ID: 0904.0147v1
+ Chunk ID: 0904.0147v1_9
+Queries:
+  1. galaxies
+  2. galaxies
+  3. galaxies
+
+ Paper ID: 0904.0149v2
+ Chunk ID: 0904.0149v2_1
+Queries:
+  1. The Josephson junction
+  2. superconductor F1
+  3. High JB and High JB supercurrents
+
+ Paper ID: 0904.0149v2
+ Chunk ID: 0904.0149v2_2
+Queries:
+  1. ppF1
+  2. Fermi momentum
+  3. pF1 d p 3 G
+
+ Paper ID: 0904.0149v2
+ Chunk ID: 0904.0149v2_6
+Queries:
+  1. M. Eschrig et al., R.S. Keizer et al., N.A. et al., Phys. Rev. Lett. 77, 104013 , C. J. Kompil et al., Phys. Rev. B, C. J. Fuosey et al., J. J. Kopu et al., Phy
+  2. V. V. Ryazanov et al., Phys. Rev. Lett. 85
+  3. a ferromagnet with a weak spin cell splitting
+
+ Paper ID: 0904.0150v3
+ Chunk ID: 0904.0150v3_10
+Queries:
+  1. C. J. Bord e, Phys. Lett. A
+  2. M. Holland, H. L.
+  3. F. H, K. Burnett
+
+ Paper ID: 0904.0150v3
+ Chunk ID: 0904.0150v3_9
+Queries:
+  1. ABCD
+  2. ABCD
+  3. ABCD
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_1
+Queries:
+  1. helical ct=3
+  2. Electron ion recombination
+  3. Electron ion recombination of Fe X
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_14
+Queries:
+  1. D. V.
+  2. unresolved transition array 29, unresolved transition array
+  3. MCBP
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_2
+Queries:
+  1. Netzer et al., K, R
+  2. Kashi et al. 2002
+  3. agenda nGC 3783 , agenda nGC 3783
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_3
+Queries:
+  1. Chakravorty et al.
+  2. Chakravorty et al. for predicting the range in parameter space over which photoionized gas is predicted to be thermally unstable
+  3. Chakravorty et al
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_5
+Queries:
+  1. RM data
+  2. RR measurements were performed utilizing the heavy ion storage ring TSR
+  3. GORGEXI GORGEXI
+
+ Paper ID: 0904.0151v1
+ Chunk ID: 0904.0151v1_7
+Queries:
+  1. ion beam
+  2. MCBP PRRC
+  3. MCBP PRRC
+
+ Paper ID: 0904.0152v1
+ Chunk ID: 0904.0152v1_1
+Queries:
+  1. dust emissions at cosmological distances
+  2. the second Gyr of the universe, new star formation features, supercomputers
+  3. astro ph.CO 1 Apr 2009 FULL TITLE ASP Conference Series, Vol. VOLUME
+
+ Paper ID: 0904.0152v1
+ Chunk ID: 0904.0152v1_2
+Queries:
+  1. Arora
+  2. L - L - L - L - L - L - L - T - L
+  3. MAMBO star
+
+ Paper ID: 0904.0152v1
+ Chunk ID: 0904.0152v1_3
+Queries:
+  1. a GREA-based optical system
+  2. the brightest submillimeter emission showed no obvious counterpart in deep HST imaging
+  3. SCUBA JCMT jm5 bolometers Smail et al. MAMBO IRAM 30m bolometers Smail et al. 2002 Ivison et al. 2002, Ivison et al. 2002, and Dannerbauer et al. 2002
+
+ Paper ID: 0904.0152v1
+ Chunk ID: 0904.0152v1_4
+Queries:
+  1. GN10
+  2. color
+  3. Bure interferometer
+
+ Paper ID: 0904.0152v1
+ Chunk ID: 0904.0152v1_7
+Queries:
+  1. LFIR
+  2. X-ray optical luminosity
+  3. LFIR
+
+ Paper ID: 0904.0152v1
+ Chunk ID: 0904.0152v1_8
+Queries:
+  1. molecular gas and PAHs
+  2. G1 Z
+  3. large redshift quasars
+
+ Paper ID: 0904.0153v1
+ Chunk ID: 0904.0153v1_1
+Queries:
+  1. light scattering by small particles is one of the fun damental problems, which found a broad application in various fields such as meteorology, biology and medicine
+  2. Obtained by Lorenz Mie solution
+  3. stoichios
+
+ Paper ID: 0904.0154v3
+ Chunk ID: 0904.0154v3_10
+Queries:
+  1. hz r J1 S J1 S d z
+  2. k: z, b: z, z-d: z, r: z, z-s, k: z
+  3. R SJ0 S d
+
+ Paper ID: 0904.0154v3
+ Chunk ID: 0904.0154v3_13
+Queries:
+  1. Dirk Lorenz
+  2. Dirk Lorenz
+  3. BMBF project
+
+ Paper ID: 0904.0154v3
+ Chunk ID: 0904.0154v3_7
+Queries:
+  1. atoms d i , d j , and d j , it is not monotonically decreasing in the distance i j and it obviously depends on the kernel.
+  2. autocorrelation of two atoms , one could replace the finite sums by infinite sums
+  3. atoms d i , a div would be an appendix of the deconvolution problem
+
+ Paper ID: 0904.0154v3
+ Chunk ID: 0904.0154v3_8
+Queries:
+  1. Greedy solution of ill posed
+  2. Greedy
+  3. Cluedy
+
+ Paper ID: 0904.0155v1
+ Chunk ID: 0904.0155v1_1
+Queries:
+  1. Effects of interactions on the diffusive expansion of a Bose Einstein condensate in a three dimensional random potential
+  2. BECs
+  3. BECs in random potentials
+
+ Paper ID: 0904.0155v1
+ Chunk ID: 0904.0155v1_8
+Queries:
+  1. S.E. Skipetrov, A. Min
+  2. C. Fuguscio
+  3. F.W. Anderson, Phys. Rev. Lett. 98
+
+ Paper ID: 0904.0156v1
+ Chunk ID: 0904.0156v1_1
+Queries:
+  1. deveast
+  2. The Annals of Statistics 2009, Vol. 37, No. 2, 905 938 DOI 10.1214 07 AOS587 c Institute of Mathematical Statistics, 2009 THE FORMAL DEFINITION OF REFERENCE PRIORS By James O. Berger,1 Jos e M. Bernardo2 and Dongchu Sun3 Duke University, Universitat de Val encia and University of Missouri Columbia Reference analysis produces objective Bay
+  3. 4.3, 4.4, 4.1, 4.5, 4.5 and 5.8
+
+ Paper ID: 0904.0157v3
+ Chunk ID: 0904.0157v3_1
+Queries:
+  1. Cohesion dynamics
+  2. F1 X2-1 - i ' - i ' - t - i ' - h ' - n - k - n - t - t - i ' - v - i ' - v - i ' - l - n - ch - c - -
+  3. In recent years there has been an extensive study of conditions satisfied by functions
+
+ Paper ID: 0904.0157v3
+ Chunk ID: 0904.0157v3_6
+Queries:
+  1. f, fk
+  2. f, g , d
+  3. , fk
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_1
+Queries:
+  1. . K-T-W-M-M-D-O-O-K-M-M-G-O
+  2. The second author is grateful to Zhang Xie for recent discussion about the physics of the Boson system
+  3. The third author is grateful to Tai Tsun Wu for useful discussions about the physics of the Boson system
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_11
+Queries:
+  1. dwq sewt
+  2. eBQ x0y0Qx0y0
+  3. eBQ x0y0Qx0y0
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_12
+Queries:
+  1. N, Q
+  2. chb k y0, x1 shb k x2, x0 shb k y0, y0 dx1 dx0 dy0, y2 v x0 y0 dx1 dx0 dy0
+  3. dx1 dx0 dy0
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_14
+Queries:
+  1. x1 x0
+  2. x1, x2, y0
+  3. - '(cnd) dx '(cnd) dx.
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_5
+Queries:
+  1. od u t, x, y t, n
+  2. y t, x, y t
+  3. k dot, x, y t, y
+
+ Paper ID: 0904.0158v2
+ Chunk ID: 0904.0158v2_7
+Queries:
+  1. symplectic matrices
+  2. GrallAKIS
+  3. dT, x, y
+
+ Paper ID: 0904.0159v1
+ Chunk ID: 0904.0159v1_1
+Queries:
+  1. Riemannian Metrics
+  2. Riemannian Imesis
+  3. a monetary manifold
+
+ Paper ID: 0904.0159v1
+ Chunk ID: 0904.0159v1_4
+Queries:
+  1. Weil Petersson metric
+  2. Weil Petersson
+  3. weil poller space
+
+ Paper ID: 0904.0160v1
+ Chunk ID: 0904.0160v1_4
+Queries:
+  1. c1 exp A
+  2. c1 exp A ctn
+  3. ui s , ui z
+
+ Paper ID: 0904.0160v1
+ Chunk ID: 0904.0160v1_5
+Queries:
+  1. tn R tn 1
+  2. The composition of this article has been made public by researchers in the field of physics.
+  3. look for 3- iterative steps
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_1
+Queries:
+  1. c Taylor and Francis
+  2. singular value distribution of the propagation matrix in random scattering media
+  3. unanswerable
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_11
+Queries:
+  1. None
+  2. IMF, symmetric, deterministic, random,
+  3. random matrix
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_12
+Queries:
+  1. KCR T, f
+  2. see that the probability density function for the singular values of KR, f is R 1 (a random matrix)
+  3. discover the probability density function of the singular values of a random matrix
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_14
+Queries:
+  1. array response matrix K
+  2. arankel
+  3. multiplication matrix, hypersunburst
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_15
+Queries:
+  1. Short search for the following
+  2. C. Prada, J. C. Prada, D. Cassereau, C. Prada, D. Cassereau
+  3. C. Prada, C. Prada, J. Fink, Time Reversal Imaging of an elastic target
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_16
+Queries:
+  1. R. Maynard, Structuring scatterer interference by disordered media
+  2. A. Derode, A. M. Fink, A. Derode, P. Roux, B.A. van Tiggelen, R. Maynard, Reflectance from a dense distribution of spherical particles, J. Opt. Soc. Am. A. 1 , p. 1633
+  3. A. Derode, A. Derode, E. P. Roux, M. Fink, R. Maynard, Coherent Backscattering of Light by Disordered Media, Phys. Rev. Lett. 55 , pp. 3737 3740
+
+ Paper ID: 0904.0161v3
+ Chunk ID: 0904.0161v3_18
+Queries:
+  1. A, B and K
+  2. A and R
+  3. a random matrix R of dimension N N. Predicting the factual existence of this random matrix R the eigenvalues distribution of the autocorrelation matrix
+
+ Paper ID: 0904.0162v2
+ Chunk ID: 0904.0162v2_4
+Queries:
+  1. c.m. and arbi trary K
+  2. a. N. A self bound system, int is a bound, thus normalizable state
+  3. c.m. position E
+
+ Paper ID: 0904.0164v1
+ Chunk ID: 0904.0164v1_3
+Queries:
+  1. data from the O8V Mass M 30 22 Radius R 10 8.5 N1
+  2. A companion star influences the wind driving and mass loss
+  3. a companion star at a rapid deformity
+
+ Paper ID: 0904.0164v1
+ Chunk ID: 0904.0164v1_4
+Queries:
+  1. Coshock nuclearization
+  2. Postshock equilibration
+  3. Postshock equilibration
+
+ Paper ID: 0904.0164v1
+ Chunk ID: 0904.0164v1_5
+Queries:
+  1. value of cor
+  2. models cwb3
+  3. values indicate more effective radiative inhibition
+
+ Paper ID: 0904.0164v1
+ Chunk ID: 0904.0164v1_6
+Queries:
+  1. s1 and s2
+  2. A tan 1 , v8
+  3. v4 8d12 M7
+
+ Paper ID: 0904.0165v1
+ Chunk ID: 0904.0165v1_5
+Queries:
+  1. a large scale optical study
+  2. reconnection - mass accretion
+  3. Pynting flux
+
+ Paper ID: 0904.0166v1
+ Chunk ID: 0904.0166v1_1
+Queries:
+  1. The International Linear Collider IILC is an electron positron accelerator planned to supersede the Large Hadron Collider LHC and lead the high energy physics research in the nearby decades
+  2. Bhabha scattering
+  3. The International Linear Collider ILC is an electron positron accelerator planned to supersede the Large Hadron Collider LHC and lead the high energy physics research in the nearby decades
+
+ Paper ID: 0904.0166v1
+ Chunk ID: 0904.0166v1_5
+Queries:
+  1. j2 and j4
+  2. the electron transfer and the electron source s
+  3. o 10 3
+
+ Paper ID: 0904.0168v1
+ Chunk ID: 0904.0168v1_2
+Queries:
+  1. A7 type titan
+  2. accretion disk for the cnb color index
+  3. A7 r color index exceeds the A7 r color
+
+ Paper ID: 0904.0169v4
+ Chunk ID: 0904.0169v4_7
+Queries:
+  1. M. H. Thoma
+  2. M. H. Thoma, A. H. Mueller, S. Peigne and D. Schiff, Nucl. Phys. B 483, 291 arXiv hep ph 9607355
+  3. R. Baier
+
+ Paper ID: 0904.0169v4
+ Chunk ID: 0904.0169v4_8
+Queries:
+  1. J. D. Jackson, Classical Electrodynamics, Chapt.
+  2. F. Reif, Fundamentals of Statistical Physics, Sect. 15, McGraw Hill. S. M. owczy nski and M Thoma, nucl 0701002
+  3. C. nski, J. D. Jackson, Classical Electrodynamics, Chapt. 13, John Wiley Sons, Inc.
+
+ Paper ID: 0904.0170v1
+ Chunk ID: 0904.0170v1_1
+Queries:
+  1. superintegrable
+  2. universal
+  3. superintegrable
+
+ Paper ID: 0904.0185v1
+ Chunk ID: 0904.0185v1_13
+Queries:
+  1. nz m
+  2. m Xy iii
+  3. z, n
+
+ Paper ID: 0904.0171v1
+ Chunk ID: 0904.0171v1_7
+Queries:
+  1. subspace in N
+  2. if the function g 2F then rank A , Fg
+  3. E, C=10, M, N, T=0, z, z=1
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_13
+Queries:
+  1. anthropological
+  2. a memorandum of understanding
+  3. Amitava Bhattacharjee
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_3
+Queries:
+  1. [Table 1]
+  2. Xiong et al., 2004
+  3. Xiong D, XIONG
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_5
+Queries:
+  1. D, R, A, F T
+  2. X11 and geoeffectiveness of two typical cases of double MCs
+  3. X11 and geoeffectiveness of two typical cases of double MCs in section 3
+
+ Paper ID: 0904.0173v3
+ Chunk ID: 0904.0173v3_6
+Queries:
+  1. MC1 MC2 interaction
+  2. MC1 MC2 Interaction
+  3. MC1 MC2 Interaction
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_11
+Queries:
+  1. veloci ties of the CDM and WDM models, we find the results not too bad
+  2. CDM-WDM model
+  3. low mass galaxies, the local atmosphere is very stable and no difference is needed
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_14
+Queries:
+  1. pedm vs.wd model
+  2. CDM and WDM
+  3. CDM and WDM
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_15
+Queries:
+  1. Mini voids
+  2. small scale structure
+  3. sparsely
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_3
+Queries:
+  1. n, t1, b, s1, w1, z
+  2. WDM simulations are rated RMS in the first row
+  3. FAR_INNOVATIONS
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_4
+Queries:
+  1. Particles for CDM H.F.
+  2. haloes
+  3. Phospices halo
+
+ Paper ID: 0904.0175v2
+ Chunk ID: 0904.0175v2_9
+Queries:
+  1. The Local Volumes contain a large number of mini voids with radii Rv smaller than about 4 Mpc
+  2. vapor Rv
+  3. Local Volume V
+
+ Paper ID: 0904.0176v1
+ Chunk ID: 0904.0176v1_9
+Queries:
+  1. a DM2 NP
+  2. DM3 NP
+  3. b, d, DM5, c, .35, .04, , .07
+
+ Paper ID: 0904.0177v1
+ Chunk ID: 0904.0177v1_1
+Queries:
+  1. 2.1. The Manifold of Peripherals
+  2. 1 Acknowledgements 3 2. Preliminaries 3 2.1. The manifold of Metrics 3 2.2. Completions of Metric Spaces 5 2.3. Geometric Preliminaries 6 2.4. Notation and Conventions 7 3.2. Completion of U with Respect to d and g 10 4. Cauchy sequences and convergence 12 4.1. Convergence and the Concept of Volume 20 4.3. Cauchy sequences
+  3. BRIAN CLARKE
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_1
+Queries:
+  1. A new method to compute the irreducible absolute factorization of sparse bivariate polynomials defined over a number field K C
+  2. d g (as enigmatis) x (t1 t2) y s (k 3rd k) ch (d g) q e g (t1)
+  3. LR algorithms
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_13
+Queries:
+  1. ei 1, r X 1, ei 1
+  2. GQ A
+  3. a ea
+
+ Paper ID: 0904.0178v2
+ Chunk ID: 0904.0178v2_5
+Queries:
+  1. consorts
+  2. Z, H1, H7
+  3. Pic X, H1 X
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_1
+Queries:
+  1. Ringel Hall algebra
+  2. Ringel Hall algebra
+  3. Riedtmann and Schofield
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_12
+Queries:
+  1. Q r 1 aq 1 r X 1 aq r 1 u 1r e 1 u 1r hr
+  2. u a q r
+  3. q 1r X 1 aq 1 r X 1 aq r 2 u 1r aq r
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_13
+Queries:
+  1. q1 qs
+  2. Theorem
+  3. ring q,q 1 H1
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_14
+Queries:
+  1. hydric quivers
+  2. cyclic quivers
+  3. ringEL s
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_2
+Queries:
+  1. What type of algebras does this article draw on
+  2. ringel hall
+  3. question
+
+ Paper ID: 0904.0180v1
+ Chunk ID: 0904.0180v1_5
+Queries:
+  1. ringle hysteria
+  2. RANGEBRAS 9 RANGEBRAS CYCLIC QUIVERS 9
+  3. valent talades
+
+ Paper ID: 0904.0182v1
+ Chunk ID: 0904.0182v1_1
+Queries:
+  1. Waldhausen s Theorem
+  2. Waldheim s Theorem
+  3. Theorem
+
+ Paper ID: 0904.0184v1
+ Chunk ID: 0904.0184v1_3
+Queries:
+  1. find (
+  2. describe these polypropylases
+  3. A, B A, and E
+
+ Paper ID: 0904.0185v1
+ Chunk ID: 0904.0185v1_1
+Queries:
+  1. spectral theorem for the functional of Markov chains
+  2. spectral theorem and a combination of  spectral theorem and .
+  3. spectral theorem
+
+ Paper ID: 0904.0185v1
+ Chunk ID: 0904.0185v1_2
+Queries:
+  1. ii c
+  2. iv z
+  3. Formula
+
+ Paper ID: 0904.0185v1
+ Chunk ID: 0904.0185v1_4
+Queries:
+  1. converges in norm
+  2. a) b
+  3. P n 0 nT
+
+ Paper ID: 0904.0185v1
+ Chunk ID: 0904.0185v1_5
+Queries:
+  1. Theorem 4.1
+  2. Slu and T
+  3. For a perturbation of the denomination of the X, then X is not induced.
+
+ Paper ID: 0904.0186v3
+ Chunk ID: 0904.0186v3_11
+Queries:
+  1. R, X, D
+  2. n, j
+  3. A, B, C+C+D+B
+
+ Paper ID: 0904.0186v3
+ Chunk ID: 0904.0186v3_14
+Queries:
+  1. s t f M
+  2. a conjunction field
+  3. Y for all
+
+ Paper ID: 0904.0186v3
+ Chunk ID: 0904.0186v3_15
+Queries:
+  1. A3b 1 4.243q A3b 1 4 2 / 24 3A4q A3b 1 4 1 / 2 12 21 3A1A3 623A1A6 22 3A2b2 40A3bq 24 21 3A4q
+  2. the 1 2 2A5 1 4 Q4
+  3. A1 A3 y, B1 A3b k, B1 B1 A3b k, B2 B3b B3C k
+
+ Paper ID: 0904.0186v3
+ Chunk ID: 0904.0186v3_6
+Queries:
+  1. THOMAS LEISTNER AND PAWE L NUROWSKI
+  2. X, Y
+  3. tHOMAS LEISTNER AND PAWE L NUROWSKI
+
+ Paper ID: 0904.0187v5
+ Chunk ID: 0904.0187v5_4
+Queries:
+  1. R.D. Sorkin, R.M. Wald and Z.J. Zhang, Gen. Rel. Grav. 13, 1127 L. Susskind, J.M. Wald, J. Math. Phys. 36, 6377 J.D. Bekenstein, Lett. Nuovo Cim. 11, 467 F.W. Steutel and K. Van Harn, Ann. Probab. 7, 893 A.
+  2. phys. Lett. B
+  3. S.D.H. Hsu and D. Reeb, Phys. Lett. B 658, 244 R.D. Sorkin, R.M. Wald and Z.J. Zhang, Gen. Rel. Grav. 13, 1127 L. Susskind, J.M. Wald and Z.J. Zhang, Gen. Rel. Grav. 13, 1127
+
+ Paper ID: 0904.0188v2
+ Chunk ID: 0904.0188v2_1
+Queries:
+  1. spacetimes
+  2. supersym metry
+  3. supersymmetry and compactification
+
+ Paper ID: 0904.0188v2
+ Chunk ID: 0904.0188v2_13
+Queries:
+  1. R. Gregory and R. Laflamme, Nucl. Phys. B221
+  2. R. Gregory and R. Laflamme, Nucl. Phys.
+  3. R. Gregory and R. Laflamme, Nucl. Phys. B128, 399
+
+ Paper ID: 0904.0188v2
+ Chunk ID: 0904.0188v2_2
+Queries:
+  1. The energizing spacetimes
+  2. Refs. 3
+  3. unrelated patches
+
+ Paper ID: 0904.0188v2
+ Chunk ID: 0904.0188v2_5
+Queries:
+  1. two branches
+  2. possible reference query
+  3. small variety of coordinates for h
+
+ Paper ID: 0904.0188v2
+ Chunk ID: 0904.0188v2_7
+Queries:
+  1. v, v 1 1 C1 1 4 O
+  2. A (1 0 1 O 2) 0 1 C1 1 4
+  3. A 1 0 1 C1 C1 1 0 1 4 O
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_1
+Queries:
+  1. active galaxies
+  2. active galaxies
+  3. Active Galaxies in the Sloan Digital Sky Survey III, from quasars to radio galaxies
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_12
+Queries:
+  1. 89.37 0.03 for point like radio quasars and 108.34 0.06 M for point like radio quasars
+  2. radio quasars were powered by the same tip of black holes and the mass of SMBH
+  3. 107.37 0.03M for point like radio quasars and 108.34 0.06 M for FR II. We found that the SMBH mass is independent of the underlying orientations
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_14
+Queries:
+  1. M H 107.63 0.03
+  2. M H 107.63 0.03
+  3. mass remolar M 107.64 0.03
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_18
+Queries:
+  1. Neglecting relativistic correction
+  2. a zoocular emission from a region of volume V R3 0.1pc 3 may account for luminosities of quases 1048
+  3. the temperature
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_19
+Queries:
+  1. discussed The presence of dust in the warm absorber
+  2. The Sun-Cool collision a few thousand Kelvins
+  3. a specific light wavelength of helium
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_21
+Queries:
+  1. A layer of hot gas can be fixed in a non-combustible jet
+  2. a model that is centered on a jet with a dense interstellar medium
+  3. In the inner regions, high temperatures are sustained
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_24
+Queries:
+  1. Max Planck Institute for Astronomy, Max Planck Institute for Astrophysics
+  2. Max Planck Institute for Astronomy, Max Planck Institute for Astrophysics, New Mexico State University, Princeton University, The United States Naval Observatory
+  3. Project AWRF
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_3
+Queries:
+  1. FIR, X ray, spectroscopic and morphological information We present four radio AGN morphologies PINT sources, JETs, FR1s and FR2s, each class of radio AGN.
+  2. AGN morphology POINT (COMBI) morphology and mediating radio AGNs
+  3. FA-G
+
+ Paper ID: 0904.0190v1
+ Chunk ID: 0904.0190v1_6
+Queries:
+  1. AGN distribution
+  2. Anxiety, stroma
+  3. the distribution in luminosity of radio jets, direct correlation of the radio luminosity and the mass of the SMBH
+
+ Paper ID: 0904.0191v1
+ Chunk ID: 0904.0191v1_1
+Queries:
+  1. a modernized version
+  2. Hyperbolic volume, Heegaard genus and ranks of groups PETER B SHALEN
+  3. the Heegaard genus
+
+ Paper ID: 0904.0196v1
+ Chunk ID: 0904.0196v1_2
+Queries:
+  1. a few stars with high visual quality
+  2. D.L. opez Santiago et al.
+  3. ophiuchus
+
+ Paper ID: 0904.0197v1
+ Chunk ID: 0904.0197v1_11
+Queries:
+  1. ah0t
+  2. eiH0tHIeiH0t
+  3. eiH0tHI
+
+ Paper ID: 0904.0191v1
+ Chunk ID: 0904.0191v1_4
+Queries:
+  1. Heegaard is the same as eM
+  2. Hispes's genus g is positioned in a system of linear algebra
+  3. g 1 is natural in Conjecture 4.3
+
+ Paper ID: 0904.0191v1
+ Chunk ID: 0904.0191v1_8
+Queries:
+  1. Cs9 Theorem 9.13 , with Cs9 Cs9 Cs9 Cs2
+  2. the first four paragraphs
+  3. , M Z2 5
+
+ Paper ID: 0904.0192v1
+ Chunk ID: 0904.0192v1_1
+Queries:
+  1. The mul tiplication is defined by the formula for two functions of the dirac delta functions.
+  2. T = 0 A = 0 z = 0 i = T x x_T = 0
+  3. num tiplication
+
+ Paper ID: 0904.0192v1
+ Chunk ID: 0904.0192v1_3
+Queries:
+  1. Theorem 2
+  2. find in and some examples of analytic representation of distributions
+  3. n, n Z
+
+ Paper ID: 0904.0193v1
+ Chunk ID: 0904.0193v1_11
+Queries:
+  1. n x, t
+  2. x, t, x, dx
+  3. lim n lim n1, Z mn n lim n1, Z n avg ii, x dx 2
+
+ Paper ID: 0904.0197v1
+ Chunk ID: 0904.0197v1_2
+Queries:
+  1. x, y, z, and z
+  2. asymmetric spectroscopy in PGE
+  3. x, y, z
+
+ Paper ID: 0904.0193v1
+ Chunk ID: 0904.0193v1_12
+Queries:
+  1. rx ry n, kd
+  2. a k if k , l dk i k
+  3. n k D RR 2 1, k o
+
+ Paper ID: 0904.0193v1
+ Chunk ID: 0904.0193v1_5
+Queries:
+  1. S1 S2 S4 E2 H S1 S3 S2, and S3 S3 h S3 S3 S3
+  2. S1 S2
+  3. S1 S2 S3 S4 S4
+
+ Paper ID: 0904.0194v1
+ Chunk ID: 0904.0194v1_5
+Queries:
+  1. m , n2 Z
+  2. we have d , n
+  3. i , n
+
+ Paper ID: 0904.0195v1
+ Chunk ID: 0904.0195v1_1
+Queries:
+  1. biannually
+  2. data
+  3. [stochastic limit model] [Open BCS model]
+
+ Paper ID: 0904.0197v1
+ Chunk ID: 0904.0197v1_3
+Queries:
+  1. heliocentric
+  2. I= l= i= l= l= z
+  3. a Lrad
+
+ Paper ID: 0904.0198v1
+ Chunk ID: 0904.0198v1_1
+Queries:
+  1. A, n, c, n
+  2. H N c
+  3. The Hamiltonian for the quantum Hall effect. QHE
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_10
+Queries:
+  1. abbreviation
+  2. m1 m2
+  3. Q1 Q2 Q1 Q1 Q1 Q2 Q1 Q1 Q2 QA Q2 Q1 Q1 Q1 Q2 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q2 Q1 Q1 Q1 Q1 Q2 Q1 Q2 Q2 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q1 Q2 Q2 Q1 Q2 Q3 Q2 Q1
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_11
+Queries:
+  1. Q1 , Q2
+  2. Quivers with Mutation Periodicity 2
+  3. quarries with mutation
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_13
+Queries:
+  1. m1 0, m2
+  2. m1, m2, abs(min - a )
+  3. mN 2, m1
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_15
+Queries:
+  1. cluster variables m1, m2, N
+  2. a , a
+  3. Q = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted (w) = sorted
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_22
+Queries:
+  1. bN, i,
+  2. m1 m1 m2 m2, mr
+  3. m1 m1 m2 m2 mr
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_3
+Queries:
+  1. quries
+  2. arrows
+  3. quora Q
+
+ Paper ID: 0904.0200v5
+ Chunk ID: 0904.0200v5_6
+Queries:
+  1. 2 N, 2 N, 2
+  2. k,1 N
+  3. 1B k,1 N,2
+
+ Paper ID: 0904.0202v1
+ Chunk ID: 0904.0202v1_1
+Queries:
+  1. CMEs
+  2. ICMEs
+  3. 7 ICME
+
+ Paper ID: 0904.0203v1
+ Chunk ID: 0904.0203v1_1
+Queries:
+  1. h2 h1
+  2. particles vs. coherent states
+  3. Gazeau Klauder
+
+ Paper ID: 0904.0203v1
+ Chunk ID: 0904.0203v1_4
+Queries:
+  1. F F 1 is a B frame of H
+  2. F F 1 is a
+  3. for "frame of H"
+
+ Paper ID: 0904.0203v1
+ Chunk ID: 0904.0203v1_5
+Queries:
+  1. Option I
+  2. Option I
+  3. Option I
+
+ Paper ID: 0904.0203v1
+ Chunk ID: 0904.0203v1_8
+Queries:
+  1. doin pairs
+  2. eigenvalues of h1 and h2
+  3. x1 and y2
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_9
+Queries:
+  1. for I
+  2. dn k1
+  3. I1 n 2 I2 n 2 I3 z
+
+ Paper ID: 0904.0204v2
+ Chunk ID: 0904.0204v2_3
+Queries:
+  1. polarization sphere
+  2. polarization horizon value
+  3. polarization sphere
+
+ Paper ID: 0904.0204v2
+ Chunk ID: 0904.0204v2_5
+Queries:
+  1. non orthogonal polarizations
+  2. polarized light beams
+  3. polarizations
+
+ Paper ID: 0904.0204v2
+ Chunk ID: 0904.0204v2_6
+Queries:
+  1. F. Gori, Optical trap with spatially varying polarization
+  2. E. Collet
+  3. E. Collet, Interference patterns from circularly polarized light using a Michelson interferometer , Am. J. Phys. 39, 1483 1495 . 14 R. Mellen, Interference patterns from circularly polarized light using a Michelson interferometer , Am. J. Phys. 53, 1085 1088 . 14 H. R. Mellen, Interference patterns from circularly polarized
+
+ Paper ID: 0904.0204v2
+ Chunk ID: 0904.0204v2_7
+Queries:
+  1. Figure
+  2. Color online R L Configuration. Interference of beams with right and left circular polarizations, equal field amplitudes and initial phases
+  3. polarization
+
+ Paper ID: 0904.0205v1
+ Chunk ID: 0904.0205v1_1
+Queries:
+  1. The classic work of Hepp And Lieb HL on the theory of the Dicke laser model represents a landmark in the constructive quantum theory of phase transitions, far from equilibrium
+  2. the Dicke Hepp Lieb laser model
+  3. The classic work by Hepp and Lieb HL on the theory of the Dicke laser model represents a landmark in the constructive quantum theory of phase transitions, far from equilibrium, in open quantum systems
+
+ Paper ID: 0904.0205v1
+ Chunk ID: 0904.0205v1_11
+Queries:
+  1. Cannon
+  2. Explicit Asymptotic Form
+  3. t, minimises the entropy density of the matter
+
+ Paper ID: 0904.0205v1
+ Chunk ID: 0904.0205v1_5
+Queries:
+  1. l N s N l , p N l , N l N
+  2. A Lie algebra
+  3. , x N - x N
+
+ Paper ID: 0904.0205v1
+ Chunk ID: 0904.0205v1_7
+Queries:
+  1. i, x, y and x
+  2. , 0 y exp iy.x , i.e., x and therefore, 3.3 iii
+  3. 3) ii
+
+ Paper ID: 0904.0206v1
+ Chunk ID: 0904.0206v1_1
+Queries:
+  1. displacement
+  2. t and t
+  3. density, elasticity, and velocity
+
+ Paper ID: 0904.0206v1
+ Chunk ID: 0904.0206v1_6
+Queries:
+  1. S. R. Ahmad and S. Puri, Proceedings of the Molecular Sciences
+  2. C. Cattuto and U. Marconi, Phys. Rev. Lett. 92, 174502 S. K. Das and S. Puri
+  3. C. Cattuto and U. Marconi, Phys. Rev. Lett.
+
+ Paper ID: 0904.0208v1
+ Chunk ID: 0904.0208v1_10
+Queries:
+  1. a, 1 py
+  2. c b o c io
+  3. a, b
+
+ Paper ID: 0904.0211v2
+ Chunk ID: 0904.0211v2_13
+Queries:
+  1. op I a op I a op I a op
+  2. op I
+  3. op I a op I in Y
+
+ Paper ID: 0904.0211v2
+ Chunk ID: 0904.0211v2_14
+Queries:
+  1. lD , v
+  2. entropy
+  3. cl,l op I op1 S , g
+
+ Paper ID: 0904.0211v2
+ Chunk ID: 0904.0211v2_6
+Queries:
+  1. Proposition 6
+  2. p, p, p p, p
+  3. p, p, p, p
+
+ Paper ID: 0904.0211v2
+ Chunk ID: 0904.0211v2_7
+Queries:
+  1. OP I (SQ)
+  2. WPS 0
+  3. P q, p, R p P q I , Id sJ n z1 n
+
+ Paper ID: 0904.0212v1
+ Chunk ID: 0904.0212v1_1
+Queries:
+  1. electrical conductivity combines with the KGF
+  2. KGF is useful for an electrical conductivity application
+  3. KGF is a factor between the two single magnet states.
+
+ Paper ID: 0904.0212v1
+ Chunk ID: 0904.0212v1_13
+Queries:
+  1. ap t
+  2. ap t q
+  3. p, t
+
+ Paper ID: 0904.0212v1
+ Chunk ID: 0904.0212v1_14
+Queries:
+  1. 1st order wave function
+  2. p p P s p P s p s p
+  3. aq mj
+
+ Paper ID: 0904.0215v1
+ Chunk ID: 0904.0215v1_1
+Queries:
+  1. Xiv equa tions show that the near horizon is a relation of unstructured equa tions to the relational dynamics
+  2. equa tion may exist for the particular equlibrium model
+  3. equa tions of the field equations of gravity may also be evidence of future physical equilibrium.
+
+ Paper ID: 0904.0215v1
+ Chunk ID: 0904.0215v1_4
+Queries:
+  1. 4 R Gbn bn 1 R
+  2. n, y, H, AB
+  3. b c G
+
+ Paper ID: 0904.0216v2
+ Chunk ID: 0904.0216v2_1
+Queries:
+  1. magnets as a suit able strong field source
+  2. electromagnetic waves in parallel: a special test of magnet-coordinated field and electron-complex theory
+  3. cohesion, nonlinearity, light prop, high-frequency particle
+
+ Paper ID: 0904.0216v2
+ Chunk ID: 0904.0216v2_2
+Queries:
+  1. h tl L n ra tio x L n ra tio x L
+  2. h t l t x L 1 v t x L a
+  3. h t L
+
+ Paper ID: 0904.0212v1
+ Chunk ID: 0904.0212v1_9
+Queries:
+  1. valence state
+  2. valence state
+  3. valence state
+
+ Paper ID: 0904.0213v4
+ Chunk ID: 0904.0213v4_6
+Queries:
+  1. H2 HI ratio
+  2. H2 HI ratio
+  3. simulated H2 MF
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_10
+Queries:
+  1. n 2 q I2
+  2. 1 i 3 : 3 : 4 - k - min_c  2 - k - min_c  - k - min_c   - 1 : 5 - k - min_c   2 : 4 : 3 - k : 2 - k - min_c : 4 -
+  3. for -n/a
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_16
+Queries:
+  1. n 2 q one
+  2. n 2 s
+  3. n 2, k, k, n
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_17
+Queries:
+  1. n 2 q 2 n 2 q
+  2. i1 n 2 m2 M2 n 2 q 1 1 n 2 q a1 n 2 q 1 1 n 2 q 2 a12, n 2 q 1 1 d2 n 2 q 2 n 2 q n 2 q 1 n 1 2 nq  the q
+  3. n 2 q 1 , n 2 q 2 , n 2 q 1 , n 2 q1, n 2 q 1
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_18
+Queries:
+  1. I1 n 2 i2 n 2 meid 4M2 m2
+  2. The p2 4M1 1 2 2 i2 l
+  3. p2 3M 1 2 2
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_21
+Queries:
+  1. 3F2 1 a1, 1 a2, 1 3 2 f, 2 c1 z, 3F2 1 a1, a2 3 2 f, 2 c1 z, 3F2 1 a1, 1 a1, 1 a2, 1 a3 3 2 f, 4 a1
+  2. a1, a2a3
+  3. a1a2a3
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_22
+Queries:
+  1. a3 a1 a3 a4 a3 a3 a2 a4 3 2 f c1 c2 z a1a2a3a4 4 1 2f 1 c1 c2 5F4 1 a1 a2 a3 a3 c1 c2 z a1a2a3a4 4 1 2f 1 c1
+  2. a3 a1a2a3a4 4 1 2f 1 c1
+  3. a1a2a3a4 4 1 2f 1 c1
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_23
+Queries:
+  1. c1c2 4F3 1 a1, 1 a2, 1 a2, 2 a4 1 f, 1 c1, c2 z 1 a3 4F3 1 a1, 1 a2, 2 a4 1 f, 1 c1, c2 z 1 a3 4F3 1 a1, 1 a2, 2 a4 1 f, 1 c1, c2
+  2. c1 = 4/302 = 5/3 c1 = 4/313 = 4 a3, c1 = 4/32 = 8/262 = 1 a3, 2 a4, c1 = 8/302 = 2 a3 b1 = 4/302 = 5/13/252 = 4/302 = 5/13/252 = 4/302 = 3/33/252 = 4/302 =
+  3. c1, c2 z
+
+ Paper ID: 0904.0214v3
+ Chunk ID: 0904.0214v3_6
+Queries:
+  1. aj, bn, ap, bn, bn 1, bq z, m1 X mn
+  2. aj 1 bl 1 Qp 1 aj 1 p 1Fq 1 p 1q z 2 mn 1 zt b lnp 1 tp 1dt aj 10002 al bk
+  3. bn mn, lnp
+
+ Paper ID: 0904.0216v2
+ Chunk ID: 0904.0216v2_3
+Queries:
+  1. GANG
+  2. noise
+  3. time scale
+
+ Paper ID: 0904.0217v1
+ Chunk ID: 0904.0217v1_4
+Queries:
+  1. t1, t2)
+  2. t1 , t2 and one internal edge
+  3. a, b, o
+
+ Paper ID: 0904.0217v1
+ Chunk ID: 0904.0217v1_9
+Queries:
+  1. Igen topologies have at least two very distant weights
+  2. he considers to be a less efficient approach than Igen
+  3. kD and ECMP
+
+ Paper ID: 0904.0218v1
+ Chunk ID: 0904.0218v1_12
+Queries:
+  1. shape
+  2. stieltjes polynomials
+  3. surface
+
+ Paper ID: 0904.0218v1
+ Chunk ID: 0904.0218v1_4
+Queries:
+  1. Theorem 4
+  2. Some trivial
+  3. Theorem 4
+
+ Paper ID: 0904.0219v4
+ Chunk ID: 0904.0219v4_8
+Queries:
+  1. xhkpcL, MOND, KMOG/CD MOND
+  2. CMP, CDM, MOND and MOND
+  3. MOND, MOG, CDM
+
+ Paper ID: 0904.0219v4
+ Chunk ID: 0904.0219v4_9
+Queries:
+  1. MOND curves
+  2. Married to a friend
+  3. CDM and MOND
+
+ Paper ID: 0904.0238v3
+ Chunk ID: 0904.0238v3_7
+Queries:
+  1. None
+  2. NT, nK, to prevent the axial coherence
+  3. doom
+
+ Paper ID: 0904.0221v8
+ Chunk ID: 0904.0221v8_1
+Queries:
+  1. description of how the kinetics of a molecule are changed.
+  2. FHHS2
+  3. etymology
+
+ Paper ID: 0904.0222v2
+ Chunk ID: 0904.0222v2_13
+Queries:
+  1. ad D, c1
+  2. A1a2D
+  3. det x
+
+ Paper ID: 0904.0224v4
+ Chunk ID: 0904.0224v4_3
+Queries:
+  1. k 1, 2
+  2. question
+  3. question
+
+ Paper ID: 0904.0224v4
+ Chunk ID: 0904.0224v4_5
+Queries:
+  1. a = an arc of a length 0 of a  c = an arc of a  c = an arc of a length 0 of a  c = an arc of a length of a  c = an arc of a length a = a length of a  c = a length of a  c = a length of
+  2. The average width of the charred arcs of the brim
+  3. 5 c Two arcs are labelled with the most abdivision if the arcs are not parallel to each other. It would like to avoid a very difficult way to describe the curve diagram in a difference to a curve.
+
+ Paper ID: 0904.0225v2
+ Chunk ID: 0904.0225v2_1
+Queries:
+  1. physics.atom
+  2. techniques that directly cool preformed molecules to atomic degeneracy
+  3. atomic gases to quantum degeneracy and the resulting rich phenomenology have fueled efforts to cool molecular gases to similarly cold temperatures.
+
+ Paper ID: 0904.0226v2
+ Chunk ID: 0904.0226v2_1
+Queries:
+  1. re transmissions and a lower rate per packet
+  2. re transmissions
+  3. re transmissions
+
+ Paper ID: 0904.0228v1
+ Chunk ID: 0904.0228v1_3
+Queries:
+  1. testing an ontology for safeness
+  2. A subset, Q, Q
+  3. The basic problem of testing a part of ontology for safeness is closely related to that of determining its closure.
+
+ Paper ID: 0904.0228v1
+ Chunk ID: 0904.0228v1_4
+Queries:
+  1. common
+  2. A-J-A-A-A-A-A-B-A-A-B-A-A-A-A-B-A-A-A-A-B-A+A-B-A-A-B-A-A-B-A-B-A-B-B-A-B-A-A-A-B--A-B-B-A-A-A-A-B--
+  3. Fk U ei
+
+ Paper ID: 0904.0228v1
+ Chunk ID: 0904.0228v1_5
+Queries:
+  1. A. Lawler
+  2. definition of an alternating chain
+  3. A.C.
+
+ Paper ID: 0904.0228v1
+ Chunk ID: 0904.0228v1_7
+Queries:
+  1. solutions can be made of ej
+  2. options for a better solution is that they might lead to a better solution.
+  3. achieving the perfect solution
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_10
+Queries:
+  1. The phase differences
+  2. the Fourier transform of the phase
+  3. slags
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_11
+Queries:
+  1. generator
+  2. machine
+  3. test of the anisotropy
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_12
+Queries:
+  1. experiment
+  2. evaluation of the interferometer with the perpendicular arms
+  3. Mach Zehnder
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_3
+Queries:
+  1. interfere with output fibers and waste energy
+  2. directional cou pler
+  3. is determined
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_5
+Queries:
+  1. The second term is due to the dispersion of the refractive index of the fiber mate rial.
+  2. polari sation
+  3. are not dispersed
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_7
+Queries:
+  1. FC Split Rat
+  2. effect
+  3. FC Split Rat
+
+ Paper ID: 0904.0229v2
+ Chunk ID: 0904.0229v2_8
+Queries:
+  1. condensed air temperature
+  2. thermal conditions
+  3. temperature
+
+ Paper ID: 0904.0230v3
+ Chunk ID: 0904.0230v3_1
+Queries:
+  1. higgs production and decay
+  2. hep ph
+  3. Higgs Production and Decay from TeV Scale Black Holes at the LHC
+
+ Paper ID: 0904.0230v3
+ Chunk ID: 0904.0230v3_10
+Queries:
+  1. BH H X, H X SM
+  2. dpT pb GeV pp H X
+  3. H X polarity
+
+ Paper ID: 0904.0230v3
+ Chunk ID: 0904.0230v3_5
+Queries:
+  1. bottom quark production from black holes
+  2. bottom quark production from black holes via pQCD process
+  3. bottom quark and top quark
+
+ Paper ID: 0904.0230v3
+ Chunk ID: 0904.0230v3_6
+Queries:
+  1. A0 GeV
+  2. A0 pb GeV 2 5.425 10 2 pb GeV 3 5.786 10 7 1.819 10 1 1.358 10
+  3. pb GeV
+
+ Paper ID: 0904.0230v3
+ Chunk ID: 0904.0230v3_7
+Queries:
+  1. High Taquet and high Tiquet
+  2. high-energy mass energy
+  3. High-pitched black holes
+
+ Paper ID: 0904.0230v3
+ Chunk ID: 0904.0230v3_9
+Queries:
+  1. A. Ringwald and H. Tu
+  2. A. Ringwald, H. Tu
+  3. M. Cavaglia, Int. J. Mod. Phys. A
+
+ Paper ID: 0904.0231v1
+ Chunk ID: 0904.0231v1_12
+Queries:
+  1. iii light variability
+  2. data
+  3. icos
+
+ Paper ID: 0904.0231v1
+ Chunk ID: 0904.0231v1_2
+Queries:
+  1. HR 7224 HD 177410, HIP 93187, EE Dra
+  2. HR 7224
+  3. HR 7224 HD 177410, HIP 93187, EE Dra
+
+ Paper ID: 0904.0231v1
+ Chunk ID: 0904.0231v1_6
+Queries:
+  1. Lanz Hubeny
+  2. We used the program TLUSTY Hubeny 1988, Hubeny Lanz 1992, 1995, Lanz Hubeny 2003, and iteration of an atmo sphere model with an atomic number of N-H.
+  3. helium
+
+ Paper ID: 0904.0232v1
+ Chunk ID: 0904.0232v1_1
+Queries:
+  1. 2.1. Formalism for GRPIC
+  2. The equations which control the development of the particles and fields are given by the tensor form.
+  3. formalism for GRPIC
+
+ Paper ID: 0904.0232v1
+ Chunk ID: 0904.0232v1_3
+Queries:
+  1. j, k F n i, j, k F n i, j, k F n i, j
+  2. v, v1, v2, t1, mF, x1, x2, y1, x2, y2 or i3 u2 or n x2; a4
+  3. n a q mF u 4 i 7 u4 2, a4 j 2 u n 3 2 u 4 3 u 4 4
+
+ Paper ID: 0904.0233v1
+ Chunk ID: 0904.0233v1_1
+Queries:
+  1. a, hans
+  2. Magnetic
+  3. a, 74.30. h
+
+ Paper ID: 0904.0233v1
+ Chunk ID: 0904.0233v1_2
+Queries:
+  1. BS spectrometer
+  2. viii yy, xy, yy
+  3. A3 X-K (Raquels)
+
+ Paper ID: 0904.0233v1
+ Chunk ID: 0904.0233v1_4
+Queries:
+  1. an energetic instability
+  2. Eg electrons
+  3. 4kF A1g CDW instability
+
+ Paper ID: 0904.0235v2
+ Chunk ID: 0904.0235v2_3
+Queries:
+  1. Xsing X, the separation of P and Xsing graphs
+  2. Xsing X, IH X, IK
+  3. Vd Z X
+
+ Paper ID: 0904.0236v2
+ Chunk ID: 0904.0236v2_4
+Queries:
+  1. formula
+  2. test
+  3. C k z q dk dk d z F b m e e y x z h h
+
+ Paper ID: 0904.0236v2
+ Chunk ID: 0904.0236v2_5
+Queries:
+  1. a linear model
+  2. et. al.
+  3. the general relativistic problem in configuration 2
+
+ Paper ID: 0904.0237v1
+ Chunk ID: 0904.0237v1_1
+Queries:
+  1. if M has negative first Betti number see Otal for a 3 manifold M
+  2. Frayhead
+  3. a closed orientable 3 manifold M admits a hyperbolic metric
+
+ Paper ID: 0904.0237v1
+ Chunk ID: 0904.0237v1_2
+Queries:
+  1. a hyperbolic 3 manifold
+  2. hyperbolic metric
+  3. questions
+
+ Paper ID: 0904.0238v3
+ Chunk ID: 0904.0238v3_1
+Queries:
+  1. Polder interaction energy
+  2. polder interaction
+  3. Towards dispersive atom surface interactions
+
+ Paper ID: 0904.0238v3
+ Chunk ID: 0904.0238v3_3
+Queries:
+  1. r 8 r
+  2. The Casimir atom surface interaction affects the mean field dynamics of the condensate
+  3. C1bn
+
+ Paper ID: 0904.0238v3
+ Chunk ID: 0904.0238v3_5
+Queries:
+  1. kc1,2 Kc1,5 kc1,4 kc2
+  2. kc1,2[kc2&kc2]
+  3. Bragg spectroscopy
+
+ Paper ID: 0904.0238v3
+ Chunk ID: 0904.0238v3_6
+Queries:
+  1. Casimir Polder lateral potential UL
+  2. Casimir Polder and UL
+  3. BEC and UL
+
+ Paper ID: 0904.0238v3
+ Chunk ID: 0904.0238v3_8
+Queries:
+  1. DARD
+  2. DARD
+  3. DARD
