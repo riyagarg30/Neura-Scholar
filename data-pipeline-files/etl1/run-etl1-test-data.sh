@@ -21,8 +21,11 @@ while IFS= read -r line; do
   DATA_DIRECTORY=${data_dir} \
   docker compose -f docker-compose-etl1.yaml up load-data
 
+  docker rm etl_transform_data
+  docker rm etl_extract_data
+  docker rm etl_load_data
+
 #   #docker compose run --rm -e FILE_URL=$line extract-data #| echo "done"   # 2>&1 | tee "logs/$(basename "$line").log"
 done < ${filename}
 
-docker compose -f docker-compose-etl1.yaml rm -fs etl_extract_data etl_transform_data etl_load_data || true
 docker volume rm download-raw-data_raw-data
