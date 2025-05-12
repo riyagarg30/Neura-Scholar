@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: endpoint
+  namespace: staging
+  labels:
+    app: endpoint
+spec:
+  selector:
+    matchLabels:
+      app: endpoint
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: endpoint
+    spec:
+      containers:
+        - name: endpoint
+          image: "{{ .Values.global.kvm_tacc_IP }}:31251/serving:testing-1.0.0"
+          ports:
+            - containerPort: 8000
+          env:
+            - name: EMBEDDING_MODEL_PATH
+              value: "scratch/distilbert_opt.onnx"
+            - name: SUMMARIZATION_MODEL_PATH
+              value: "scratch/models/bart_summarize.onnx"
+            - name: KVM_TACC_ENDPOINT
+              value: {{ .Values.global.kvm_tacc_IP }}
+
+          command: ["/bin/bash", "-c"]
+          args:
+            - >
+              git clone https://github.com/Yugesh1620/Neura-Scholar.git &&
+              cd /root/Neura-Scholar/serving_eval/ &&
+              export PATH=/root/miniconda3/bin:$PATH &&
+              pip3 install -r requirements.txt &&
+              mc alias set local http://$KVM_TACC_ENDPOINT:9000 admin minioadmin@123 &&
+              mc cp local/$EMBEDDING_MODEL_PATH $EMBEDDING_MODEL_PATH &&
+              mc cp local/$SUMMARIZATION_MODEL_PATH $SUMMARIZATION_MODEL_PATH &&
+              uvicorn backend:app --host 0.0.0.0 --port 8000
+          resources:
+            limits:
+              nvidia.com/gpu : 1
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 480
+            periodSeconds: 10
+            failureThreshold: 3
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: endpoint
+  namespace: staging
+spec:
+  selector:
+    app: endpoint
+  ports:
+    - protocol: TCP
+      port: 8002
+      targetPort: 8000
+  externalIPs:
+    - {{ .Values.global.externalIP }}
