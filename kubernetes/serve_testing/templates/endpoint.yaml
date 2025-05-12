@@ -47,19 +47,19 @@ spec:
             - name: MLFLOW_TRACKING_PASSWORD
               value: "password"
             - name: EMBEDDING_MODEL_PATH
-              value: "scratch/distilbert_dyn.onnx"
+              value: "scratch/distilbert_opt.onnx"
             - name: SUMMARIZATION_MODEL_PATH
               value: "scratch/models/bart_summarize.onnx"
             - name: USE_MLFLOW_EMBED
-              value: "true"
+              value: "false"
             - name: USE_MLFLOW_SUMM
               value: "false"
             - name: EMBEDDING_MODEL_URI
-              value: "models:/distilbert-embedding-onnx-graph/1"
+              value: "models:/distilbert-embedding-onnx-graph-opt/1"
             - name: SUMMARIZATION_MODEL_URI
               value: ""
             - name: GIT_COMMIT_HASH
-              value: 6fa4424
+              value: 36f32eb
             - name: KVM_TACC_ENDPOINT
               value: {{ .Values.global.kvm_tacc_IP }}
 
@@ -90,7 +90,7 @@ spec:
             httpGet:
               path: /health
               port: 8000
-            initialDelaySeconds: 480
+            initialDelaySeconds: 300
             periodSeconds: 10
             failureThreshold: 3
           livenessProbe:

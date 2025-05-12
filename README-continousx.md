@@ -22,11 +22,29 @@
 
 # Kubernetes deployments
 
-- [mlflow helm chart](./kubernetes/mlflow)
+- [mlflow helm chart](./kubernetes/mlflow) serves the following apps:
+    - mlflow
+    - minio ( data persisted at chi_uc and chi_tacc object stores via csi drivers )
+    - postgres ( storing chunks and embeddings persisted at block store )
+    - labelstudio
+    - jupyter ( notebooks persisted at block store )
+    - prometheus ( logs persisted at block store )
+    - grafana ( dashboards persisted at block store )
 - [test model serving helm chart](./kubernetes/serve_testing)
+    - fastapi app with onnx backend serving 2 models ( summarization model and embedding model ) ( 1 GPU )
 - [staging helm chart](./kubernetes/serve_staging)
+    - fastapi app with onnx backend ( 1 GPU )
 - [canary helm chart](./kubernetes/serve_canary)
+    - fastapi app with onnx backend ( 1 GPU )
 - [production helm chart](./kubernetes/serve_prod)
+    - fastapi app with onnx backend ( 1 GPU )
+- [csi rclone drivers for kubernetes object storage class](./kubernetes/csi-rclone)
+    - csi-rclone kubernetes storage class for object store volumes
+- [gpu operator drivers for timeslicing gpu across pods](./kubernetes/gpu-operator)
+- [ray cluster, 1 head and 2 workers ( 1 gpu per worker )](./kubernetes/kube-ray)
+    - ray head node ( 4 cpus 8 GiB )
+    - ray worker 1 ( 1 GPU, 8 CPUs and 16 GiB )
+    - ray worker 2 ( 1 GPU, 8 CPUs and 16 GiB )
 
 
 
