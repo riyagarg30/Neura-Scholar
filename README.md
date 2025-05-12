@@ -129,13 +129,12 @@ References are stored in refrences.txt
 
 Ray used
 code->longformer_final_run.py
-jupyter notebook used to submit ray job->longformer_final_run
-version '1' of model 'final'
-experiment->final
-run->clumsy-yak-807
-
-outputs_screenshots has logs and screenshots of ray dashboard
-References are stored in refrences.txt
+-jupyter notebook used to submit ray job->longformer_final_run
+- version '1' of model 'final'
+- experiment->final
+- run->clumsy-yak-807
+- outputs_screenshots has logs and screenshots of ray dashboard
+- References are stored in refrences.txt
 
 
 #### Neura-Scholar/Training/experiments/:
@@ -145,29 +144,29 @@ References are stored in refrences.txt
 folder openchat3.5:
 In Neura-Scholar/Training/experiments/openchat3.5/mlflow/
 ###### 1)mlflow  without ray
-jupyter notebook ->Train_mlflow
-version '1' of model 'arxiv-bi-encoder-distilbert'
-experiment->arxiv-bi-encoder-distilbert
-run->carefree-wren-174
-Used distilbert-uncased model
-References are stored in refrences.txt
+- jupyter notebook ->Train_mlflow
+- version '1' of model 'arxiv-bi-encoder-distilbert'
+- experiment->arxiv-bi-encoder-distilbert
+- run->carefree-wren-174
+- Used distilbert-uncased model
+- References are stored in refrences.txt
 ###### 2)mlflow  without ray
 
 a)mlflow  without ray
-jupyter notebook ->Train_mlflow_2
-version '1' of model 'distilbert-arxiv-bi-encoder1'
-experiment->distilbert-arxiv-bi-encoder1
-run->carefree-wren-174
-Used distilbert-uncased model
+- jupyter notebook ->Train_mlflow_2
+- version '1' of model 'distilbert-arxiv-bi-encoder1'
+- experiment->distilbert-arxiv-bi-encoder1
+- run->carefree-wren-174
+- Used distilbert-uncased model
 
 b)mlflow  without ray
-jupyter notebook ->Train_mlflow_2
-version '2' of model 'distilbert-arxiv-bi-encoder1'
-experiment->distilbert-arxiv-bi-encoder1
-run->vaunted-shark-785
-Used distilbert-uncased model
-Outputs are in Training/experiments/openchat3.5/mlflow/output
-References are stored in refrences.txt
+- jupyter notebook ->Train_mlflow_2
+- version '2' of model 'distilbert-arxiv-bi-encoder1'
+- experiment->distilbert-arxiv-bi-encoder1
+- run->vaunted-shark-785
+- Used distilbert-uncased model
+- Outputs are in Training/experiments/openchat3.5/mlflow/output
+- References are stored in refrences.txt
 
 ##### folder2:
 ###### In Neura-Scholar/Training/experiments/openchat3.5/ray/
@@ -175,14 +174,14 @@ References are stored in refrences.txt
 In Training/experiments/openchat3.5/ray/1
 
 a)Ray used
-code->longformer_8.py
-jupyter notebook used to submit ray job->run_ray_longformer_experiment
+- code->longformer_8.py
+- jupyter notebook used to submit ray job->run_ray_longformer_experiment
 b)Ray used
-code->longformer_9.py
-jupyter notebook used to submit ray job->run_ray_longformer_experiment
+- code->longformer_9.py
+- jupyter notebook used to submit ray job->run_ray_longformer_experiment
 c)Ray used
-code->longformer_10.py
-jupyter notebook used to submit ray job->run_ray_longformer_experiment
+- code->longformer_10.py
+- jupyter notebook used to submit ray job->run_ray_longformer_experiment
 
 References are stored in refrences.txt
 
@@ -193,35 +192,35 @@ In Training/experiments/openchat3.5/ray/2
 a)Ray used
 
 code->check1.py
-jupyter notebook used to submit ray job->run_ray_longformer_experiment_2
+- jupyter notebook used to submit ray job->run_ray_longformer_experiment_2
 (small data to test code, it did not register properly as i was logging arttifacts twice)
-version '1' of model 'check'
-experiment->arxiv-bi-encoder-longformer-ray
-run->efficient-finch-1
-Used longformer-base-4096 model
+- version '1' of model 'check'
+- experiment->arxiv-bi-encoder-longformer-ray
+- run->efficient-finch-1
+- Used longformer-base-4096 model
 
 b)Ray used
-code->final.py
-jupyter notebook used to submit ray job->run_ray_longformer_experiment_2
-(complet data, 3 epochs but doubted it will register properly as i was logging arttifacts twice, so stopped midway)
-version '2' of model 'check'
-experiment->final
-run->amazing-sloth-18
-Used longformer-base-4096 model
-References are stored in refrences.txt
+- code->final.py
+- jupyter notebook used to submit ray job->run_ray_longformer_experiment_2
+- (complet data, 3 epochs but doubted it will register properly as i was logging arttifacts twice, so stopped midway)
+- version '2' of model 'check'
+- experiment->final
+- run->amazing-sloth-18
+- Used longformer-base-4096 model
+- References are stored in refrences.txt
 
 t5-small:
-data got deleted from mlflow
+data got deleted from mlflow but code is there 
 
 
 Ray_tune folder:
 
 Ray used
-code->train_tune_2.py
-jupyter notebook used to submit ray job->train_tune_2
-version '2' and '3' of model 'final'
-experiment->ray_tune
-run->enchanting-pug-21(lr=3e-05)('3)'   and  upbeat-boar-917(1e-05)('2') for different lr
+- code->train_tune_2.py
+- jupyter notebook used to submit ray job->train_tune_2
+- version '2' and '3' of model 'final'
+- experiment->ray_tune
+- run->enchanting-pug-21(lr=3e-05)('3)'   and  upbeat-boar-917(1e-05)('2') for different lr
 
 
 ### III)Retraining folder:
@@ -229,12 +228,12 @@ run->enchanting-pug-21(lr=3e-05)('3)'   and  upbeat-boar-917(1e-05)('2') for dif
 Ray job is being submited  ad ray train is being used is getting triggered by argo workflow 
 
 code->retrain_with_ray.py
-version '2' of model 'final'
-experiment->final
-run->gentle-mule-713
+- version '2' of model 'final'
+- experiment->final
+- run->gentle-mule-713
 
-Output folder has logs and screenshot so ray dashboard
-References are stored in refrences.txt
+- Output folder has logs and screenshot so ray dashboard
+- References are stored in refrences.txt
 
 
 #### Model serving and monitoring platforms
