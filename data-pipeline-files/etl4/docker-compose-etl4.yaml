@@ -23,12 +23,14 @@ services:
     container_name: etl_4_transform_data
     environment:
       - DATA_TO_PROCESS=${DATA_TO_PROCESS:-unset}
+      - META_DATA_TABLE=${META_DATA_TABLE:-unset}
+      - CHUNKS_DATA_TABLE=${CHUNKS_DATA_TABLE:-unset}
     image: python-gsutil:3.11
     volumes:
       - raw-data:/data
       - ./:/dir_data
       - /mnt/object/:/data-obj
-      - /mnt/object/$${DATA_TO_PROCESS}:/req-data
+      # - /mnt/object/$${DATA_TO_PROCESS}:/req-data
     working_dir: /data
     command:
       - bash
@@ -37,6 +39,10 @@ services:
         set -e
 
         ls ../dir_data
+        mkdir -p /req-data
+        cp -r /data-obj/$${DATA_TO_PROCESS}/* /req-data
+
         cd ../dir_data
-        python3 prepare_postgres_data.py
+        python3 prepare_postgres_data.py $${DATA_TO_PROCESS} $${CHUNKS_DATA_TABLE}
+        # python3 prepare_postgres_data.py
 
