@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RESERVATION="MLOps_late_reservation_project22"
+RESERVATION="MLOps_late_late_reservation_project22"
 
 
 function create_reservation() {

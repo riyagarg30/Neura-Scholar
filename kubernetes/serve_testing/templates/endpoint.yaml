@@ -1,3 +1,20 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: cache
+  namespace: testing
+  annotations:
+    csi-rclone/storage-path: modelcache
+    csi-rclone/umask: "022"
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 900Gi
+  storageClassName: rclone
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -21,24 +38,51 @@ spec:
           ports:
             - containerPort: 8000
           env:
+            - name: MLFLOW_TRACKING_INSECURE_TLS
+              value: "1"
+            - name: MLFLOW_TRACKING_URI
+              value: "{{ .Values.global.kvm_tacc_IP }}:8000"
+            - name: MLFLOW_TRACKING_USERNAME
+              value: "admin"
+            - name: MLFLOW_TRACKING_PASSWORD
+              value: "password"
             - name: EMBEDDING_MODEL_PATH
               value: "scratch/distilbert_dyn.onnx"
             - name: SUMMARIZATION_MODEL_PATH
               value: "scratch/models/bart_summarize.onnx"
+            - name: USE_MLFLOW_EMBED
+              value: "true"
+            - name: USE_MLFLOW_SUMM
+              value: "false"
+            - name: EMBEDDING_MODEL_URI
+              value: "models:/distilbert-embedding-onnx-graph/1"
+            - name: SUMMARIZATION_MODEL_URI
+              value: ""
+            - name: GIT_COMMIT_HASH
+              value: 6fa4424
             - name: KVM_TACC_ENDPOINT
               value: {{ .Values.global.kvm_tacc_IP }}
 
           command: ["/bin/bash", "-c"]
           args:
-            - >
-              git clone https://github.com/Yugesh1620/Neura-Scholar.git &&
-              cd /root/Neura-Scholar/serving_eval/ &&
-              export PATH=/root/miniconda3/bin:$PATH &&
-              pip3 install -r requirements.txt &&
-              mc alias set local http://$KVM_TACC_ENDPOINT:9000 admin minioadmin@123 &&
-              mc cp local/$EMBEDDING_MODEL_PATH $EMBEDDING_MODEL_PATH &&
-              mc cp local/$SUMMARIZATION_MODEL_PATH $SUMMARIZATION_MODEL_PATH &&
+            - |
+              git clone https://github.com/Yugesh1620/Neura-Scholar.git
+              cd ./Neura-Scholar/serving_eval/
+              git checkout $GIT_COMMIT_HASH
+              git branch
+              mc alias set local http://$KVM_TACC_ENDPOINT:9000 admin minioadmin@123
+              [ "$USE_MLFLOW_EMBED" = "false" ] && \
+              [ ! -f /mnt/$EMBEDDING_MODEL_PATH ] && \
+              mc cp local/$EMBEDDING_MODEL_PATH /mnt/$EMBEDDING_MODEL_PATH
+              [ "$USE_MLFLOW_SUMM" = "false" ] && \
+              [ ! -f /mnt/$SUMMARIZATION_MODEL_PATH ] && \
+              mc cp local/$SUMMARIZATION_MODEL_PATH /mnt/$SUMMARIZATION_MODEL_PATH
+              export EMBEDDING_MODEL_PATH=/mnt/$EMBEDDING_MODEL_PATH
+              export SUMMARIZATION_MODEL_PATH=/mnt/$SUMMARIZATION_MODEL_PATH
+              export PATH=/root/miniconda3/bin:$PATH
+              pip3 install --cache-dir /mnt -r requirements.txt
               uvicorn backend:app --host 0.0.0.0 --port 8000
+              sleep infinity
           resources:
             limits:
               nvidia.com/gpu : 1
@@ -49,6 +93,20 @@ spec:
             initialDelaySeconds: 480
             periodSeconds: 10
             failureThreshold: 3
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 480
+            periodSeconds: 10
+            failureThreshold: 5
+          volumeMounts:
+            - name: models-cache
+              mountPath: /mnt
+      volumes:
+        - name: models-cache
+          persistentVolumeClaim:
+            claimName: cache
 ---
 apiVersion: v1
 kind: Service
