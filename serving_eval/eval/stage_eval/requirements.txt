@@ -1,0 +1,7 @@
+numpy
+pandas as pd
+faiss
+mlflow
+onnxruntime-gpu
+transformers
+sqlalchemy

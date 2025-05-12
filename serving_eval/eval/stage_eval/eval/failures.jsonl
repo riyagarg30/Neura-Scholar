@@ -1,0 +1,31 @@
+{"query": "Purity fidelity quantum gate assessment", "correct_papers": ["0801.3136v1", "0705.4017v1", "0705.4018v1", "0710.1659v1", "0709.3608v1"]}
+{"query": "quantum kinetic equation", "correct_papers": ["0911.0133v1", "1005.3408v1", "1008.2258v1", "0903.5368v1", "0911.4788v1"]}
+{"query": "quantum rule weights", "correct_papers": ["0708.3948v1", "0705.1740v1", "0711.1366v1", "0805.3850v2", "0705.0975v2", "0902.1922v1"]}
+{"query": "positivity condition in quantum mechanics", "correct_papers": ["0709.1614v1", "0803.3105v1", "0802.3252v1", "0711.0812v1", "0710.2724v4", "0708.4047v1", "0710.3701v2"]}
+{"query": "perturbation renormalization quantum electrodynamics", "correct_papers": ["0905.0053v1", "0708.0435v2", "0704.1997v1", "0804.0267v1", "0807.0256v1", "0706.1280v1", "0810.0313v1"]}
+{"query": "revision of relativistic quantum theory", "correct_papers": ["1009.3584v1", "0910.2490v5", "0909.4025v1", "0908.3755v3", "1005.1101v1", "1005.2641v3"]}
+{"query": "nonlinear quantum metrology", "correct_papers": ["1006.1645v3", "1102.2318v1", "1011.2546v2", "1012.1123v4", "1003.4575v3"]}
+{"query": "noncommutativity in quantum mechanics", "correct_papers": ["0706.1415v2", "0802.4248v3", "0712.3653v3", "0802.4167v3", "0706.3532v2", "0805.1538v2"]}
+{"query": "quantum dispersion equation electron positron plasmas", "correct_papers": ["0911.0133v1", "1005.3408v1", "1008.2258v1", "0903.5368v1", "0911.4788v1"]}
+{"query": "quantum decision theory belief revision", "correct_papers": ["0711.0886v1", "0708.3948v1", "0708.2972v1", "0711.1366v1", "0801.4472v1"]}
+{"query": "quantum modeling scheme Hilbert space", "correct_papers": ["0708.3948v1", "0705.1740v1", "0711.1366v1", "0805.3850v2", "0705.0975v2", "0902.1922v1"]}
+{"query": "quantum pumping effects on spin torque", "correct_papers": ["0802.3754v1", "1010.0381v1", "0712.0055v1", "0803.2013v2", "0903.4387v4"]}
+{"query": "quantum game derivation", "correct_papers": ["0902.2196v2", "0808.1391v2", "0902.2889v2", "0808.1389v1", "0901.0063v1"]}
+{"query": "quantum control of molecular alignment", "correct_papers": ["0809.3249v2", "0802.1894v2", "0809.3537v1", "0809.0146v2", "0805.2619v2", "0705.3615v2", "0712.2556v1", "0711.3203v2"]}
+{"query": "local unitary operations on quantum coins", "correct_papers": ["1005.2135v5", "1004.5327v9", "1002.4294v6", "1104.0471v7", "1104.2479v2"]}
+{"query": "quantum mechanics textbooks", "correct_papers": ["0809.3249v2", "0802.1894v2", "0809.3537v1", "0809.0146v2", "0805.2619v2", "0712.2556v1", "0705.3615v2", "0711.3203v2"]}
+{"query": "quantum pumping spin torque", "correct_papers": ["0802.3754v1", "1010.0381v1", "0712.0055v1", "0803.2013v2", "0903.4387v4"]}
+{"query": "Klein Gordon theory quantum mechanics", "correct_papers": ["1004.1820v2", "0910.2490v5", "0909.4025v1", "0908.3755v3", "1005.2641v3"]}
+{"query": "quantum dynamical semigroups", "correct_papers": ["0906.4255v1", "0905.4418v1", "0907.0095v2", "0901.1422v3", "0812.0077v1"]}
+{"query": "quantum metrology advancements", "correct_papers": ["1006.1645v3", "1102.2318v1", "1011.2546v2", "1012.1123v4", "1003.4575v3"]}
+{"query": "Wigner Dirac quantum mechanics", "correct_papers": ["0708.2428v1", "0708.3194v1", "0803.1326v2", "0709.0661v1", "0801.0799v2", "0707.3421v4"]}
+{"query": "quantum decision model", "correct_papers": ["0708.3948v1", "0705.1740v1", "0711.1366v1", "0805.3850v2", "0705.0975v2", "0902.1922v1"]}
+{"query": "quantum membership weights", "correct_papers": ["0708.3948v1", "0705.1740v1", "0711.1366v1", "0805.3850v2", "0705.0975v2", "0902.1922v1"]}
+{"query": "anthropic principle quantum theory", "correct_papers": ["0905.0053v1", "0801.0326v1", "0708.0435v2", "0704.1997v1", "0807.0256v1", "0810.0313v1"]}
+{"query": "emergent states in quantum theory", "correct_papers": ["0708.3948v1", "0705.1740v1", "0711.1366v1", "0805.3850v2", "0705.0975v2", "0902.1922v1"]}
+{"query": "superposition principle quantum entanglement", "correct_papers": ["0708.0435v2", "0803.0087v1", "0904.0486v2", "0705.2908v3", "0810.0313v1"]}
+{"query": "energy relaxation in quantum wires", "correct_papers": ["1007.1152v1", "0911.1391v3", "0912.3530v1", "1002.1671v2", "1005.0154v2"]}
+{"query": "commutativity quantum Poisson bracket", "correct_papers": ["1008.3074v3", "1007.4121v4", "0901.0243v4", "0812.5055v2", "1008.0512v3"]}
+{"query": "quantum fluctuations stabilize uud state", "correct_papers": ["0812.3420v3", "0908.2881v1", "0902.4455v1", "0809.5249v2", "0812.2077v2"]}
+{"query": "ESS in Quantum Games", "correct_papers": ["0902.2196v2", "0808.1391v2", "0902.2889v2", "0808.1389v1", "0901.0063v1"]}
+{"query": "q Brownian Motion Quantum Mechanics", "correct_papers": ["0802.1240v2", "1105.1055v1", "0911.3533v1", "1001.3802v2", "0803.2656v1", "1001.4907v2", "1002.4546v1", "0711.2834v1"]}
