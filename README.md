@@ -26,6 +26,7 @@ propose a system for a science problem, for example.)
 
 ### Per Responsibility README Sections
 - [Model Serving, Monitoring & Eval README](serving_eval/README.md)
+- [Data Pipeline] (read-me-data-pipeline.md)
 
 ### System diagram
 
