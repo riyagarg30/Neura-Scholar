@@ -1,33 +1,44 @@
-# Dockerfile for RAG Pipeline API
-# Use official Python slim image
-FROM python:3.13-slim
+FROM nvidia/cuda:12.2.2-runtime-ubuntu22.04 
 
-# Default environment variables (override via `--env` or .env)
-ENV DEFAULT_EMBEDDING_MODEL=all-mpnet-base-v2
-ENV DEFAULT_SUMMARIZER_MODEL=facebook/bart-large-cnn
-ENV APP_HOST=0.0.0.0
-ENV APP_PORT=8000
-ENV LOG_LEVEL=info
+# ---------- system deps ------------------------------------------------------
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        python3 python3-pip python3-venv git curl && \
+    rm -rf /var/lib/apt/lists/*
 
-# Install system dependencies
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-    git \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
+# ---------- python deps ------------------------------------------------------
+# Pin wheels that have CUDA 12 builds
+RUN python3 -m pip install --no-cache-dir --upgrade pip
 
-# Set working directory
+# Core libs
+RUN pip install --no-cache-dir \
+        fastapi uvicorn[standard] \
+        tokenizers==0.19.* \
+        prometheus-client \
+        numpy==1.26.* \
+        torch==2.2.*+cu122 -f https://download.pytorch.org/whl/torch_stable.html \
+        onnxruntime-gpu==1.18.*                 \
+        mlflow==2.*                             \
+        rich
+
+# ---------- app code ---------------------------------------------------------
 WORKDIR /app
+COPY backend.py ./backend.py
 
-# Copy and install Python dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Optional: if you keep requirements.txt next to backend.py
+# COPY requirements.txt .
+# RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY . /app
+# ---------- runtime env ------------------------------------------------------
+# Expose the HTTP port FastAPI serves on
+ENV PORT=8000
+EXPOSE 8000
 
-# Expose application port
-EXPOSE ${APP_PORT}
+# You can set these via --env-file as shown above instead of baking creds
+# ENV MLFLOW_TRACKING_URI=http://your‑mlflow‑host:5000
+# ENV MLFLOW_TRACKING_USERNAME=…
+# ENV MLFLOW_TRACKING_PASSWORD=…
 
-# Launch the API with environment-driven configuration
-CMD uvicorn main:app --host $APP_HOST --port $APP_PORT --log-level $LOG_LEVEL
+# Default command
+CMD ["uvicorn", "backend:app", "--host", "0.0.0.0", "--port", "8000", "--log-level", "info"]

@@ -1,131 +1,119 @@
 ## Project: Semantic Search Evaluation & Serving
 
-This repository contains the end-to-end tooling and notebooks for building, optimizing, and evaluating a chunk-based semantic search system over an ArXiv corpus. Our goal is to return **top-K papers** in response to a user query by embedding chunks of paper text, indexing them, and collapsing chunk hits into paper-level candidates.
+This repository contains the end-to-end tooling, containers, and notebooks for building, serving, and rigorously evaluating a chunk-based semantic search system over the ArXiv corpus. We embed chunks of paper text, index them in FAISS, collapse chunk hits into paper-level scores, and continuously validate accuracy, robustness, and performance before promoting any model.
 
 ---
 
-## Serving and Evaluation Structure
+## Serving & Evaluation Structure
 
 .
-├── eval_data.ipynb # Pulls from Postgres → JSONL/NPZ eval datasets
-├── bm25_filter.py # BM25 index creation (prototype; not used)
-├── eval_gen.ipynb # Generates robustness & slice test cases
-├── onnx_model.ipynb # Converts PyTorch encoder → ONNX & quantizes
-├── generate-embeddings-new.ipynb # Batches chunk_data → embeddings via API
-└── README.md # This document
+├── Dockerfile # Root image: Python + CUDA + MLflow + evaluation
+├── backend.py # Entrypoint for the FastAPI embedding service
+├── app_backend/ # Service code
+│ ├── app_backend.py # • Defines /embed/text and /embed/batch endpoints
+│ └── requirements.txt # • Python deps for the service
+├── requirements.txt # Root Python deps (mlflow, onnxruntime, faiss, etc.)
+│
+├── eval/ # All evaluation data, scripts & notebooks
+│ ├── test_dataset_generator.ipynb # (was eval_data.ipynb) build JSONL/NPZ eval sets
+│ ├── chunk_query_generator.ipynb # generate per-chunk query testcases & slices
+│ ├── generate-embedding-new.ipynb # (was generate-embeddings-new.ipynb) batch embedding → FAISS
+│ ├── accuracy_benchmarks.ipynb # new: notebook to compute/visualize Recall/MRR, etc.
+│ ├── accuracy_benchmarks.py # new: same metrics in script form for CICD
+│ ├── performance_benchmark.ipynb # new: notebook to measure latency & throughput
+│ ├── bm25_filter.py # BM25 prototype (not used in current pipeline)
+│ ├── failures.jsonl # “hard” queries for failure-mode tests
+│ ├── heldout.jsonl # held-out retrieval test set
+│ ├── perturbations.jsonl # noisy/perturbed queries for robustness tests
+│ ├── slices.jsonl # grouped queries by category/year (“slices”)
+│ ├── drift_reference.npz # reference embeddings for drift monitoring
+│ └── model_comparison.jsonl # output from stage_eval/main.py
+│
+├── eval/stage_eval/ # Containerized staging‐eval harness
+│ ├── Dockerfile # image to run main.py with CUDA + MLflow
+│ ├── main.py # pulls model from MLflow, runs evaluation, writes JSONL
+│ └── requirements.txt # Python deps for the stage‐eval image
+│
+├── indexes/ # FAISS indexes & metadata for offline eval
+│ ├── chunk_embedding_768.index
+│ ├── ...
+│
+└── onnx_model.ipynb # export & quantize PyTorch bi-encoder → ONNX
 
 
 ---
 
 ## Artifact Summaries
 
-### 1. `eval_data.ipynb`  
-**What it does:**  
-- Connects to `arxiv_chunks_with_metadata` in Postgres.  
-- Parses the string columns:  
-  - `query` → list of queries per chunk  
-  - `paper_cited` → list of ground-truth paper IDs  
-  - `categories` → list of ArXiv category tags  
-- Flattens into one row per `(chunk, query)` pairing.  
-- Splits into:  
-  1. **Held-out** (10%) → `eval/heldout.jsonl` (for retrieval metrics).  
-  2. **Dev + slices** (10%) → `eval/slices.jsonl`, tagging by first category and year.  
-  3. **Perturbations** (~200 bases × 2 variants) → `eval/perturbations.jsonl`.  
-  4. **Failure modes** (~50 “hard” cases, e.g. contains “CRISPR”) → `eval/failures.jsonl`.  
-  5. **Drift reference** (2 000 random chunks) → `eval/drift_reference.npz`.  
+### 1. `test_dataset_generator.ipynb`  
+*(formerly `eval_data.ipynb`)*  
+Builds all of your evaluation datasets from Postgres and writes:  
+- **Held-out** retrieval cases → `heldout.jsonl`  
+- **Slice tests** (by category/year) → `slices.jsonl`  
+- **Perturbations** (noisy rephrasings) → `perturbations.jsonl`  
+- **Failure modes** (“hard” queries) → `failures.jsonl`  
+- **Drift reference** embeddings → `drift_reference.npz`  
 
-**Why:**  
-- Creates **versioned**, reproducible evaluation datasets.  
-- Separates concerns: retrieval (held-out), fairness/robustness (slices, perturbations), known failures, and data drift.
+### 2. `chunk_query_generator.ipynb`  
+Generates per-chunk queries for both held-out and slice evaluation, and tags each query with its slice key.  
 
----
-
-### 2. `bm25_filter.py` (Not Used)  
-**What it does:**  
-- Prototype code to build a Whoosh/BM25 index over chunks and pre-filter by text matching.
-
-**Why it exists:**  
-- Explored a classic IR baseline before moving fully to vector search.  
-- Ultimately superseded by embedding + FAISS pipeline, but kept for reference.
-
----
-
-### 3. `eval_gen.ipynb`  
-**What it does:**  
-- Generates the **pytest-style** test assertions for all the JSONL files created by `eval_data.ipynb`.  
-- Defines helper functions:  
-  - `retrieve_topk_papers(query, k)` collapsing chunk hits → paper scores.  
-  - `recall_at_k`, `mrr_at_k`, etc.  
-- Runs and logs per-slice Recall/MRR, asserts top-1 correctness on perturbations & failures.
-
-**Why:**  
-- Automates offline evaluation gating: any new model version must pass these tests before deployment.
-
----
+### 3. `generate-embedding-new.ipynb`  
+*(renamed from `generate-embeddings-new.ipynb`)*  
+Batches your `/embed/batch` FastAPI endpoint to compute all chunk embeddings, then writes:  
+- A FAISS index file (`.index`) under `indexes/`  
+- JSONL metadata mapping positions → `chunk_id`  
 
 ### 4. `onnx_model.ipynb`  
-**What it does:**  
-- Exports your fine-tuned PyTorch bi-encoder (e.g. DistilBERT) into ONNX (opset 17).  
-- Applies graph optimizations (ORT_ENABLE_EXTENDED).  
-- Performs dynamic and static INT8 quantization (using ONNX Runtime).  
-- Benchmarks each variant for size, single-sample latency, batch throughput on CPU.
+Exports your fine-tuned bi-encoder to ONNX, applies graph optimizations, and runs INT8 quantization. Benchmarks each variant for size, single-sample latency, and batch throughput on CPU.
 
-**Why:**  
-- Model-level optimizations reduce inference cost.  
-- Quantization unlocks CPU speedups and smaller footprints.  
-- Graph optimizations fuse operators for better performance.
+### 5. `accuracy_benchmarks.ipynb` & `accuracy_benchmarks.py`  
+**New!** Compute all retrieval metrics (Recall@K raw/adj, MRR@K, chunk recall), per-slice recalls, plus perturbation & failure-mode pass rates. Notebook for exploration; script for automated CICD gating.
 
----
+### 6. `performance_benchmark.ipynb`  
+**New!** Measures end-to-end query latency and throughput of your embedding service and/or in-process ONNX path, on both CPU and GPU.
 
-### 5. `generate-embeddings-new.ipynb`  
-**What it does:**  
-- Reads in your flattened `(chunk_id, chunk_data)` list from `eval_data.ipynb`.  
-- Batches requests to your FastAPI `/embed/batch` endpoint.  
-- Saves out:  
-  - A FAISS index of all chunk embeddings (`.index` file).  
-  - A `chunk_ids.json` mapping FAISS positions → `chunk_id`.  
+### 7. `stage_eval/`  
+Contains a minimal container that, on startup:  
+1. Pulls the correct ONNX model from MLflow (via `models:/…/<STAGE>`),  
+2. Builds/loads FAISS indexes,  
+3. Runs the full held-out, slice, perturbation, failure, and chunk-recall evaluations,  
+4. Emits `model_comparison.jsonl` under `/eval` for artifact collection.
 
-**Why:**  
-- Ensures your offline eval uses exactly the same embedding service you’ll deploy.  
-- Decouples embedding generation from in-process calls, so you can benchmark the API path under load.
+### 8. `backend.py` & `app_backend/`  
+Your production FastAPI service code to serve embeddings:  
+- `/embed/text` (single query)  
+- `/embed/batch` (batch queries)  
+Built on ONNXRuntime with CUDA for real-time throughput.
 
 ---
 
 ## How to Use
 
-1. **Configure** your Postgres connection in `eval_data.ipynb` (cell 1).  
-2. **Run** `eval_data.ipynb` end-to-end → produces `eval/*.jsonl` and `eval/drift_reference.npz`.  
-3. **Train / convert** your bi-encoder, then run `onnx_model.ipynb` to produce optimized ONNX files.  
-4. **Start** your FastAPI embedding service (with the ONNX model loaded).  
-5. **Run** `generate-embeddings-new.ipynb` to build your FAISS index under `eval/`.  
-6. **Open** `eval_gen.ipynb` and point it at:  
-   - `eval/heldout.jsonl`, `slices.jsonl`, etc.  
-   - `eval/chunks.index` + `chunk_ids.json`  
-   - Your embedding service client (or load ONNX in-process)  
-   Then execute all cells to compute metrics and test pass/fail.
+1. **Build/export** your bi-encoder → run `onnx_model.ipynb`.  
+2. **Start** the FastAPI embedding service:  
+```bash
+docker build -t embedding-service .
+docker run --gpus all -p 8000:8000 embedding-service
+```
+3. Generate embeddings for all chunks via generate-embedding-new.ipynb.
+4. Run chunk_query_generator.ipynb (or script) to prepare test queries.
+5. Local eval: interactively run accuracy_benchmarks.ipynb & performance_benchmark.ipynb.
+6. Staging eval:
+```bash
+cd eval/stage_eval
+docker build -t neura-scholar-eval:cuda .
+docker run --gpus all \
+  -e MLFLOW_TRACKING_URI="http://mlflow:5000" \
+  -e MLFLOW_MODEL_STAGE="Staging" \
+  neura-scholar-eval:cuda
+```
+→ writes output /eval/model_comparison.jsonl
+7. CI/CD: hook accuracy_benchmarks.py into your pipeline to fail on regression, and let Argo/Airflow run the stage_eval container on every new model promotion.
 
----
+Key Takeaways
 
-## Key Considerations & “Whys”
+-Data prep, model conversion, embedding gen, and evaluation are fully modular.
+-Robustness tests (slices, perturbations, failures) guard against regressions and bias.
+-Performance benchmarks ensure real-time viability on GPU/CPU.
+-Containerized gating with MLflow integration gives automated “staging” checks before production rollout.
 
-- **Paper-level retrieval**: chunks map to papers; we collapse chunk scores into per-paper scores via a max-score aggregator.  
-- **Reproducibility**: all random seeds fixed; JSONL + NPZ artifacts are versionable.  
-- **Modularity**: data prep, model conversion, embedding generation, and evaluation are separate notebooks––you can swap in alternative methods at each stage.  
-- **Performance**: ONNX + quantization reduce latency; FAISS FlatIP enables sub-millisecond similarity search on thousands of chunks.  
-- **Quality**: slice-based recall, perturbation stability, and known failure tests guard against regressions and biases.  
-- **Monitoring**: drift reference embeddings feed an MMD drift detector in production.
-
----
-
-## Other Parts
-
-- **Automate** this pipeline with Airflow or Argo:  
-  - Trigger on new MLflow model registration → run `onnx_model.ipynb` + `eval_gen.ipynb` → post metrics back to MLflow.  
-- **Deploy** a staging environment:  
-  - Host embedding & summarization APIs on Chameleon.  
-  - Run load tests (Locust) and system optimizations (dynamic batching, multi-instance).  
-- **Canary** traffic split:  
-  - Expose real user queries to the new model, gather click feedback → update slice- and drift-based dashboards.  
-- **Closing the loop**:  
-  - Persist mis-predicted examples in MinIO + Label Studio → human annotations → continuous retraining.
-\

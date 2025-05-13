@@ -1,0 +1,7 @@
+numpy<2.0
+pandas
+faiss-gpu
+mlflow
+onnxruntime-gpu
+transformers
+sqlalchemy
