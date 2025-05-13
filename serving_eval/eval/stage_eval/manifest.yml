@@ -1,0 +1,61 @@
+metadata:
+  name: stage-test
+  generateName: neura-scholar-eval-
+  namespace: argo
+  uid: ccc3c76d-9899-4357-82f7-26eaf9072987
+  resourceVersion: "51810"
+  generation: 4
+  creationTimestamp: "2025-05-12T23:29:42Z"
+  labels:
+    workflows.argoproj.io/creator: system-serviceaccount-argo-argo-server
+  managedFields:
+    - manager: argo
+      operation: Update
+      apiVersion: argoproj.io/v1alpha1
+      time: "2025-05-12T23:48:19Z"
+      fieldsType: FieldsV1
+      fieldsV1:
+        f:metadata:
+          f:generateName: {}
+          f:labels:
+            ".": {}
+            f:workflows.argoproj.io/creator: {}
+        f:spec: {}
+spec:
+  templates:
+    - name: eval-comparison
+      inputs: {}
+      outputs:
+        artifacts:
+          - name: model-comparison
+            path: /eval/model_comparison.jsonl
+      metadata: {}
+      container:
+        name: ""
+        image: 129.114.27.112:31251/cudastageeval:1.0.1
+        command:
+          - python
+          - main.py
+        env:
+          - name: MLFLOW_TRACKING_URI
+            value: "{{workflow.parameters.mlflow_url }}"
+          - name: MLFLOW_TRACKING_USERNAME
+            value: admin
+          - name: MLFLOW_TRACKING_PASSWORD
+            value: password
+          - name: MLFLOW_MODEL_STAGE
+            value: "{{ workflow.parameters.mlflow_stage }}"
+          - name: MLFLOW_MODEL_URI
+            value: "{{ workflow.parameters.mlflow_model_uri }}"
+          - name: EVAL_DIR
+            value: /eval
+        resources: {}
+  entrypoint: eval-comparison
+  arguments:
+    parameters:
+      - name: mlflow_url
+        value: 129.114.27.112:8000
+      - name: mlflow_model_uri
+        value: models:/distilbert-embedding-onnx-graph-opt/1
+      - name: mlflow_stage
+        value: Staging
